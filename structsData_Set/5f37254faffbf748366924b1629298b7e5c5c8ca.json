@@ -1,0 +1,1601 @@
+{
+    "paper_id": "5f37254faffbf748366924b1629298b7e5c5c8ca",
+    "metadata": {
+        "title": "",
+        "authors": []
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Bovine respiratory disease (BRD) is considered to be one of the most economically important diseases affecting feedlot cattle (Griffin, 2014) . Despite attempts to reduce the morbidity and mortality of the disease through management practices and vaccination programs, little progress has been made to lower the in- ABSTRACT: Bovine respiratory disease (BRD) is an economically important disease of feedlot cattle that is caused by viral and bacterial pathogen members of the BRD complex. Many cases of subclinical BRD go untreated and are not detected until slaughter, when lung lesions are identified. The objectives of this study were to identify which BRD pathogens were associated with the presence of lung lesions at harvest and to identify genomic loci that were associated with susceptibility to lung lesions as defined by consolidation of the lung and/or the presence of fibrin tissue. Steers from a Colorado feedlot (n = 920) were tested for the presence of viral and bacterial pathogens using deep pharyngeal and mid-nasal swabs collected on entry into the study. Pathogen profiles were compared between cattle with or without lung consolidation (LC), fibrin tissue in the lung (FT), a combination of LC and FT in the same lung (lung lesions [LL]), and hyperinflated lungs (HIF) at harvest. Genotyping was conducted using the Illumina BovineHD BeadChip. Genomewide association analyses (GWAA) were conducted using EMMAX (efficient mixed-model association eXpedited), and pseudoheritabilities were estimated. The pathogen profile comparisons revealed that LC (P = 0.01, odds ratio [OR] = 3.37) and LL cattle (P = 0.04, OR = 4.58) were more likely to be infected with bovine herpes virus-1 and that HIF cattle were more likely to be infected with Mycoplasma spp. (P = 0.04, OR = 4.33). Pseudoheritability estimates were 0.25 for LC, 0.00 for FT, 0.28 for LL, and 0.13 for HIF. Because pseudoheritability for FT was estimated to be 0, GWAA results for FT were not reported. There were 4 QTL that were moderately associated (P < 1 \u00d7 10 \u22125 ) with only LC, 2 that were associated with only LL, and 1 that was associated with LC and LL. Loci associated with HIF included 12 that were moderately associated and 3 that were strongly associated (uncorrected P < 5 \u00d7 10 \u22127 ). A 24-kb region surrounding significant lead SNP was investigated to identify positional candidate genes. Many positional candidate genes underlying or flanking the detected QTL have been associated with signal transduction, cell adhesion, or gap junctions, which have functional relevance to the maintenance of lung health. The identification of pathogens and QTL associated with the presence of lung abnormalities in cattle exhibiting subclinical BRD allows the identification of loci that may not be detected through manifestation of clinical disease alone. cidence of disease (USDA, 2005) . In U.S. feedlot cattle, the prevalence of clinical BRD has been shown to vary between 5 and 44% across a 15-yr period (Snowder et al., 2005) . This variability is potentially due to environmental factors such as stocking density and climate (Snowder et al., 2005) . Unlike clinical BRD, the prevalence of subclinical BRD has not been well documented. However, it has been suggested that subclinical BRD infection is common, primarily because the correlation of lung lesions in harvested cattle with cattle diagnosed with BRD is low (Griffin, 2014) . Common findings at harvest include lung consolidation, in which the lung alveoli are filled with fluid or tissue, and the presence of interstitial fibrinous connective tissue that can lead to fibrosis. These lesions can significantly impact cattle performance in the feedlot by lowering ADG, carcass quality, and HCW (Bryant et al., 1999) . Previous studies have identified loci associated with severe lung lesions and have investigated the effects of lung lesions on growth and carcass traits, but the impact of pathogens on the prevalence of lung lesions at slaughter has not been fully explored (Keele et al., 2015) . The objectives of this study were to identify host loci associated with the presence of lung consolidation and lung lesions (consolidation and fibrin) and to evaluate the relationship between BRD pathogens and lung lesion prevalence in feedlot cattle.",
+            "cite_spans": [
+                {
+                    "start": 126,
+                    "end": 141,
+                    "text": "(Griffin, 2014)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 2855,
+                    "end": 2867,
+                    "text": "(USDA, 2005)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 2988,
+                    "end": 3010,
+                    "text": "(Snowder et al., 2005)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 3111,
+                    "end": 3133,
+                    "text": "(Snowder et al., 2005)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 3402,
+                    "end": 3417,
+                    "text": "(Griffin, 2014)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 3737,
+                    "end": 3758,
+                    "text": "(Bryant et al., 1999)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 4018,
+                    "end": 4038,
+                    "text": "(Keele et al., 2015)",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "All animal care and sample collections were approved and performed in accordance with the Institutional Animal Care and Use Committee at Washington State University (04110).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MATERIALS AND METHODS"
+        },
+        {
+            "text": "The study population consisted of 999 steers from a commercial feedlot, with a 1-time capacity of 98,000 cattle, located in Kersey, CO. The commercial Bos taurus steers were enrolled in the study between August 2012 and May 2013 and had been identified as Angus (n = 909), Red Angus (n = 45), Hereford (n = 25), Charolais (n = 19), or crossbreeds (n = 1). Steers were vaccinated on entry into the feedlot but did not receive prophylactic antibiotics. Cattle were evaluated for signs of BRD (temperature, cough, nasal discharge, eye discharge, and ear tilt) and classified as cases or controls based on the McGuirk scoring system (McGuirk, 2008) . Cattle that died before harvest or that had no recorded lung score data (n = 79) were removed from the analysis.",
+            "cite_spans": [
+                {
+                    "start": 629,
+                    "end": 644,
+                    "text": "(McGuirk, 2008)",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Study Population"
+        },
+        {
+            "text": "Lung lesions were scored using a modified version of the Bryant et al. (1999) protocol described by Tennant et al. (2014) . Briefly, on evisceration, lungs were manually palpated and evaluated for presence and severity of lung lesions, and any additional abnormalities (hyperinflated lungs, missing lung lobes, etc.) were noted. Lungs were independently scored based on the amount of lung consolidation (LC) present (0 = <5% consolidation, n = 512; 1 = 5-15% consolidation, n = 165; 2 = 15-50% consolidation, n = 167; and 3 = >50% consolidation, n = 76) and the presence and severity of fibrin tissue in the lung (FT; NFT = normal or no fibrin tissue, n = 436; M = minor amounts of fibrin, n = 186; and E = extensive fibrin in the lungs, n = 298). Animals that had both LC and FT damage to their lungs were given a combined lung lesion (LL) score reflecting the scores for both LC and FT (i.e., 1E). This resulted in a combined phenotype: 0NFT (n = 290), 0M (n = 101), 0E (n = 121), 1NFT (n = 62), 1M (n = 43), 1E (n = 60), 2NFT (n = 55), 2M (n = 34), 2E (n = 78), 3NFT (n = 29), 3M (n = 8), and 3E (n = 39). We also determined whether a lung was hyperinflated (hyperinflated lungs [HIF] ; INF = inflated, n = 37) or not (NIF = normal; n = 892) at harvest.",
+            "cite_spans": [
+                {
+                    "start": 57,
+                    "end": 77,
+                    "text": "Bryant et al. (1999)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 100,
+                    "end": 121,
+                    "text": "Tennant et al. (2014)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1182,
+                    "end": 1187,
+                    "text": "[HIF]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Lung Scoring"
+        },
+        {
+            "text": "One deep pharyngeal and 1 mid-nasal swab were collected per animal for viral quantitative PCR (qPCR) detection, and a second deep pharyngeal swab was collected for the culturing of aerobic bacteria and mycoplasma (Neibergs et al., 2014) . Bacterial samples were submitted to the Washington Animal Disease Diagnostic Laboratory at Washington State University (Pullman, WA) and viral samples were submitted to the California Animal Health and Food Safety Lab System (Davis, CA). Trueperella pyogenes, Histophilus somni, Mannheimia haemolytica, Pasteurella multocida, and Mycoplasma species were detected by culture, and bovine corona virus, bovine viral diarrhea virus, bovine herpes virus type 1 (BHV-1), and bovine respiratory syncytial virus were detected by qPCR. The presence or absence of pathogens was evaluated with the presence (n = 408) or absence (n = 512) of LC, the presence (n = 484) or absence (n = 436) of FT, the presence (n = 630) or absence (n = 290) of LL, or the presence (n = 37) or absence (n = 883) of HIF at harvest.",
+            "cite_spans": [
+                {
+                    "start": 213,
+                    "end": 236,
+                    "text": "(Neibergs et al., 2014)",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Pathogen Profiles"
+        },
+        {
+            "text": "Bovine DNA was isolated from whole blood using a Puregene DNA extraction kit following the manufacturer's guidelines (Qiagen, Germantown, MD). Samples were quantified using a NanoDrop 1000 spectrophotometer (Thermo Fisher Scientific Inc., Wilmington, DE) and genotyped using the Illumina BovineHD BeadChip (Neogen Corp., Lincoln, NE; n = 777,962 SNP). The positions of the SNP within the bovine reference genome and their alleles were assigned using the forward strand of the UMD 3.1 reference genome (http://bovinegenome.org/?q=node/61; accessed 11 August 2016).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Quality Control"
+        },
+        {
+            "text": "Before genomewide association analysis (GWAA), samples were filtered by call rate (<0.90), which resulted in the removal of 59 samples. The SNP were also removed if marker call rate was <90% (n = 33,024), if the minor allele frequency was <1% (n = 27,380), or if they deviated from Hardy-Weinberg equilibrium (P < 10 \u221275 ; n = 28,631). After quality control filtering, 861 samples and 688,928 SNP remained for the GWAA.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Quality Control"
+        },
+        {
+            "text": "The estimated odds ratio (OR) and the 95% confidence interval were individually computed for each BRD pathogen tested by culture (Trueperella pyogenes, Histophilus somni, Mannheimia haemolytica, Pasteurella multocida, and Mycoplasma species) or by qPCR (bovine corona virus, bovine viral diarrhea virus, BHV-1, and bovine respiratory syncytial virus) and its association with LL, LC, FT, and HIF. A 2-tailed Fisher's exact test was used to determine if the OR was significant (P < 0.05) as previously described (Morris and Gardner, 1988) . The GWAA were performed using an efficient mixed-model association eXpedited with a genomic relationship matrix (EMMAX-GRM) additive genotypic model as part of the SNP and Variation Suite version 8 (SVS; Golden Helix, Inc., Bozeman, MT; http://goldenhelix.com). The general mixed model can be defined as yc = cX\u03b2 + cZuc + \u03f5, in which y is an nc \u00d7 c1 vector of the observed phenotypes, X is a nc \u00d7 cq incidence matrix relating observations to levels of fixed effects, \u03b2 is a qc \u00d7 c1 vector representing the levels of the fixed effects, and Z is a nc \u00d7 ct matrix relating the instances of the random effect to the observations. Residuals were estimated based on maximum likelihood parameters and are assumed to be independent and identically distributed (Kang et al., 2010) . In this study, we assumed that Var(u) = \u03c3 2 gK and Var(\u03f5) = \u03c3 2 e INF, such that Var(\u03b3) = \u03c3 2 g ZKZ\u2032 + \u03c3 2 e INF, in which K is the matrix of pairwise genomic relationships and Z is the identity matrix INF. Each GWAA included breed as a fixed effect. Using SVS, pseudoheritability estimates were calculated as h 2 = \u03c3 2 a /(\u03c3 2 a + \u03c3 2 e ) (Kang et al., 2010) . The Wellcome Trust Case Control Consortium (2007) thresholds for unadjusted P-values were used to determine if there was evidence of an association between the phenotype and each SNP.",
+            "cite_spans": [
+                {
+                    "start": 511,
+                    "end": 537,
+                    "text": "(Morris and Gardner, 1988)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1292,
+                    "end": 1311,
+                    "text": "(Kang et al., 2010)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1654,
+                    "end": 1673,
+                    "text": "(Kang et al., 2010)",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistical Analysis"
+        },
+        {
+            "text": "Using these thresholds, QTL were identified by SNP that were moderately (5 \u00d7 10 \u22127 > P < 1 \u00d7 10 \u22125 ) or strongly associated (P < 5 \u00d7 10 \u22127 ) with the phenotype. Any SNP in linkage disequilibrium (r 2 > 0.9) with the lead SNP was considered to constitute the same QTL as the lead SNP. A 24-kb region (12 kb 5\u2032 to 12 kb 3\u2032), based on the average haplotype block size (12,703 bp) for the cattle in the study, was investigated for each associated SNP to identify positional candidate genes. Haplotype blocks were estimated in SVS following the method described by Gabriel et al. (2002) using a SNP allele correlation of >0.9.",
+            "cite_spans": [
+                {
+                    "start": 560,
+                    "end": 581,
+                    "text": "Gabriel et al. (2002)",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistical Analysis"
+        },
+        {
+            "text": "Results of the LC, LL, and HIF pathogen profile comparisons are provided in Table 1 . Pathogen profiles did not vary in the FT comparison, so these data are not presented. Of the 9 tested pathogens, BHV-1, the causative agent for infectious bovine rhinotracheitis (Wentink et al., 1993) , was more common in cattle with LC (OR = 3.37, P = 0.012) and LL (OR = 4.58, P = 0.041). During a BHV-1 infection, lesions form along the respiratory tract extending from the nostrils to the bronchi (Yates et al., 1983) . Tracheitis associated with the infection can spread into the lungs causing epithelial cells to be shed into the airways leading to fibrinous exudate formation, which may explain its high frequency in LC and LL cattle (Yates et al., 1983) .",
+            "cite_spans": [
+                {
+                    "start": 264,
+                    "end": 286,
+                    "text": "(Wentink et al., 1993)",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 487,
+                    "end": 507,
+                    "text": "(Yates et al., 1983)",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 727,
+                    "end": 747,
+                    "text": "(Yates et al., 1983)",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 76,
+                    "end": 83,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "RESULTS AND DISCUSSION"
+        },
+        {
+            "text": "In cattle with HIF, of the tested BRD pathogens, Mycoplasma spp. was more commonly found (OR = 4.33, P = 0.045). Hyperinflated lungs have been reported in cattle that have previously experienced pulmonary damage caused by infections, especially from the BRD pathogens BHV-1, Pasteurella multocida, and Mycoplasma spp. (Mellau et al., 2010) . Mycoplasma spp. infections have been shown to cause lung abnormalities and permanent lung damage in the months to years following the resolution of the initial infection in humans (Waites and Talkington, 2004) . Similar results were observed in mice, where Mycoplasma pneumoniae-exposed mice had increased pulmonary inflammation and obstruction compared with control mice 530 d after infection (Hardy et al., 2002) .",
+            "cite_spans": [
+                {
+                    "start": 318,
+                    "end": 339,
+                    "text": "(Mellau et al., 2010)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 522,
+                    "end": 551,
+                    "text": "(Waites and Talkington, 2004)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 736,
+                    "end": 756,
+                    "text": "(Hardy et al., 2002)",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "RESULTS AND DISCUSSION"
+        },
+        {
+            "text": "Five QTL were identified as associated in the LC GWAA (Table 2 ). The most significant lead SNP (rs109299286) was located on a contig that has not been assigned to a bovine chromosome. Another QTL was located on BTA14 and was identified by a lead SNP (rs135662870) within an intron of neurocalcin delta (NCALD). A third QTL, located on BTA11, was identified by a lead SNP (rs134730725) located within an intron of mitogen-activated protein kinase associated protein 1 (MAPKAP1). The remain-ing 2 QTL were located within intergenic regions on BTA18 (rs136844537) and BTA20 (rs135580824). The pseudoheritability estimate for LC was 0.25. The pseudoheritability estimate for FT was 0.00, although when fibrin scores were combined with LC scores, the pseudoheritability estimate for LL was 0.28.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 54,
+                    "end": 62,
+                    "text": "(Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "RESULTS AND DISCUSSION"
+        },
+        {
+            "text": "There were 3 QTL associated with LL ( Table 2 ). The lead SNP (rs110429664) was located on BTA14, within the same region as the QTL within an intron of NCALD identified in the LC GWAA identified by the lead SNP rs135662870. The other 2 QTL were identified by SNP located within intergenic regions on BTA8 (rs134212138) and BTA28 (rs109312685).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 38,
+                    "end": 45,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "RESULTS AND DISCUSSION"
+        },
+        {
+            "text": "Fifteen QTL across 10 chromosomes were identified in the HIF GWAA (Table 2 ). The most significant QTL was identified by the lead SNP (rs43365726) located in an intergenic region on BTA3. Eight of the 12 HIF positional candidate genes had SNP located with their introns, whereas 4 had SNP located in the surrounding intergenic regions. The pseudoheritability estimate for HIF was 0.13. Several of the positional candidate genes associated with LC, LL, and HIF function in signal transduction. Six of the 15 genes (cAMP responsive element binding protein 3 like 2 [CREB3L2], inositol hexakisphosphate kinase [IP6K3], inositol 1,4,5-triphosphate receptor 3 [ITPR3], kinase insert domain receptor [KDR] , MAPKAP1, and NCALD) are involved in signal transduction pathways. The involvement of these genes in signal transduction pathways in cattle with BRD is consistent with pathways associated with respiratory disease in humans. Signal transduction pathways are known to have a role in the inflammatory response of respiratory cells of humans affected by bacterial infec-tions (Birukov et al., 2004) , and abnormalities in these pathways can lead to fibrotic disorders and excess inflammatory responses in the lung (Massagu\u00e9, 1998) . Mutations affecting signal transduction could trigger more adverse inflammatory reactions to infections, potentially leading to lung cell damage.",
+            "cite_spans": [
+                {
+                    "start": 694,
+                    "end": 699,
+                    "text": "[KDR]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1073,
+                    "end": 1095,
+                    "text": "(Birukov et al., 2004)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1211,
+                    "end": 1227,
+                    "text": "(Massagu\u00e9, 1998)",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 66,
+                    "end": 74,
+                    "text": "(Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "RESULTS AND DISCUSSION"
+        },
+        {
+            "text": "Seven genes associated with LC and HIF (amyloid \u03b2 precursor protein binding family B member 1 [APBB1], hemopexin [HPX], IP6K3, ITPR3, KDR, tubulin \u03b1 1a [TUBA1A], and tubulin \u03b1 1b [TUBA1B]) are involved in pathways related to adherens junctions and tight junctions through intermediate molecules including epidermal growth factor receptor, interleukin 6, and protein kinase C zeta. Adherens junctions and tight junctions of the respiratory epithelium contribute to the barrier between harmful environmental stimuli and the lung in most animal species including humans (Harris and Tepass, 2010) . Several families of viruses use cell adhesion components of both adherens junctions and tight junctions, such as E-cadherin, to gain entry into the epithelium (Mateo et al., 2015) . In humans, infection with respiratory syncytial virus has been linked to decreased expression of E-cadherin (Wang et al., 2000) . In respiratory cells, decreased expression of E-cadherin can lead to cells breaking away from the basal membrane and contributing to LC. Six genes associated with HIF (IP6K3, ITPR3, KDR, tripartite motif containing 3 [TRIM3], TUBA1A, and TUBA1B) are in gap junction pathways. Gap junctions are composed of proteins known as connexins, which form channels on the cell surface to allow communication between connected cells and contribute to surfactant secretion in the lung. Multiple connexins are known to be differentially expressed in response to pulmonary inflammatory diseases in humans including idiopathic pulmonary fibrosis and acute lung inflammation (Freund-Michel et al., 2016) . Additionally, connexins can be regulated by both adherens junction-and tight junction-associated proteins, and it has been suggested that connexin 40 and connexen 43 are required to work with tight junctions in the lung and brain to maintain the endothelial barrier (Nagasawa et al., 2006) . Any mutation affecting respiratory cell adhesion or gap junctions could alter lung permeability, allowing pathogens to more easily invade the tissue.",
+            "cite_spans": [
+                {
+                    "start": 567,
+                    "end": 592,
+                    "text": "(Harris and Tepass, 2010)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 754,
+                    "end": 774,
+                    "text": "(Mateo et al., 2015)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 885,
+                    "end": 904,
+                    "text": "(Wang et al., 2000)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1566,
+                    "end": 1594,
+                    "text": "(Freund-Michel et al., 2016)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1863,
+                    "end": 1886,
+                    "text": "(Nagasawa et al., 2006)",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "RESULTS AND DISCUSSION"
+        },
+        {
+            "text": "Cattle with subclinical BRD are not identified as ill and therefore not treated for disease. Failure to identify subclinical BRD in cattle is both an animal welfare issue and an economic issue. This study identified QTL associated with subclinical disease through the presence or absence of LC, LL, or HIF in cattle at harvest. There were no overlapping QTL between LC, LL, and HIF, but there was a single QTL on BTA14 that overlapped between LC and LL. Of the 646 (64.7%) cattle with lung abnormalities, only 319 (49.4%) had clinical signs of BRD. The remaining cattle were perceived as healthy, showing few clinical signs of disease. The proportion of the cattle with lung abnormalities was nearly as great in those that appeared to be healthy (69.0%) as in cattle treated for clinical BRD (71.5%). This illustrates the difficulty in accurately identifying cattle with subclinical BRD and the subsequent complexity of identifying QTL associated with enhanced resistance to the disease. This segment of the BRD-susceptible feedlot population has not been well investigated for the identification of QTL associated with the disease (Neibergs et al., 2014) . The identification of QTL associated with lung abnormalities can be included with QTL associated with clinical BRD to aid in the selection of cattle that are more resistant to both clinical and subclinical BRD. This will ultimately lower the prevalence of Table 2 . Quantitative trait loci identified in the genomewide association analyses for the presence or absence of lung consolidation (LC), lung lesions (LL), or hyperinflated lungs (HIF) in 920 Colorado feedlot steers ",
+            "cite_spans": [
+                {
+                    "start": 1132,
+                    "end": 1155,
+                    "text": "(Neibergs et al., 2014)",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1414,
+                    "end": 1421,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "RESULTS AND DISCUSSION"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "infection, improve animal welfare, and decrease economic losses caused by the disease. LITERATURE CITED",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Signal transduction pathways activated in human pulmonary endothelial cells by OxPAPC, a bioactive component of oxidized lipoprotein",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Birukov",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Leitinger",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Bochkov",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G N"
+                    ],
+                    "last": "Carcia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Microvasc. Res",
+            "volume": "67",
+            "issn": "1",
+            "pages": "18--28",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "A method for recording pulmonary lesions of beef calves at slaughter, and the association of lesions with average daily gain",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Bryant",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Perino",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Griffin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Doster",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Wittum",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Bovine Pract",
+            "volume": "33",
+            "issn": "",
+            "pages": "163--173",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Expression and role of connexin-based gap junctions in pulmonary inflammatory diseases",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Freund-Michel",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Muller",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Marthan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Savineau",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Guibert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Pharmacol. Ther",
+            "volume": "164",
+            "issn": "",
+            "pages": "105--119",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.pharmthera.2016.04.004"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "The structure of haplotype blocks in the human genome",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Gabriel",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Schaffner",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Nguyen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Moore",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Roy",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Blumenstiel",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Higgins",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Defelice",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lochner",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Faggart",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Liu-Cordero",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Rotimi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Adeyemo",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Cooper",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ward",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lander",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Daly",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Altshuler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Science",
+            "volume": "296",
+            "issn": "5576",
+            "pages": "2225--2229",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.1069424"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The monster we don't see: Subclinical BRD in beef cattle",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Griffin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Anim. Health Res. Rev",
+            "volume": "15",
+            "issn": "2",
+            "pages": "138--141",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Mycoplasma pneumoniae induces chronic respiratory infection, airway hyperreactivity, and pulmonary inflammation: A murine model of infection-associated chronic reactive airway disease",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Hardy",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Jafri",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Olsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hatfield",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Iglehart",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Rogers",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Patel",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Cassell",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Mccracken",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Ramilo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Infect. Immun",
+            "volume": "70",
+            "issn": "2",
+            "pages": "649--654",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Adherens junctions: From molecules to morphogenesis",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "J C"
+                    ],
+                    "last": "Harris",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Tepass",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Nat. Rev. Mol. Cell Biol",
+            "volume": "11",
+            "issn": "7",
+            "pages": "502--514",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nrm2927"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Variance component model to account for sample structure in genome-wide association studies",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Sul",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Service",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Zaitlen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Kong",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Freimer",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sabatti",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Eskin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Nat. Genet",
+            "volume": "42",
+            "issn": "",
+            "pages": "348--354",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/ng.548"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Genomewide association study of lung lesions in cattle using sample pooling",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Keele",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Kuehn",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Mcdaneld",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Tait",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "P L"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Shackelford",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "King",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wheeler",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lindholm-Perry",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Mcneel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J. Anim. Sci",
+            "volume": "93",
+            "issn": "3",
+            "pages": "956--964",
+            "other_ids": {
+                "DOI": [
+                    "10.2527/jas.2014-8492"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "TGF-\u03b2 signal transduction",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Massagu\u00e9",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Annu. Rev. Biochem",
+            "volume": "67",
+            "issn": "",
+            "pages": "753--791",
+            "other_ids": {
+                "DOI": [
+                    "10.1146/annurev.biochem.67.1.753"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Connections matter -How viruses use cell-cell adhesion components",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mateo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Generous",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Sinn",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Cattaneo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J. Cell Sci",
+            "volume": "128",
+            "issn": "",
+            "pages": "431--439",
+            "other_ids": {
+                "DOI": [
+                    "10.1242/jcs.159400"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Disease management of dairy calves and heifers",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcguirk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Vet. Clin. North Am. Food Anim. Pract",
+            "volume": "24",
+            "issn": "1",
+            "pages": "139--153",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cvfa.2007.10.003"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "A slaughterhouse survey of lung lesions in slaughtered stocks at Arusha, Tanzania",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "S B"
+                    ],
+                    "last": "Mellau",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Nonga",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Karimuribo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Prev. Vet. Med",
+            "volume": "97",
+            "issn": "2",
+            "pages": "77--82",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.prevet-med.2010.08.008"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Statistics in medicine: Calculating confidence intervals for relative risks (odds ratios) and standardised ratios and rates",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Morris",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Gardner",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "Br. Med. J. (Clin. Res. Ed.)",
+            "volume": "296",
+            "issn": "6632",
+            "pages": "1313--1316",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.296.6632.1313"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Possible involvement of gap junctions in the barrier function of tight junctions of brain and lung endothelial cells",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Nagasawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Chiba",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Fujita",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kojima",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Saito",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Endo",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Sawada",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J. Cell. Physiol",
+            "volume": "208",
+            "issn": "1",
+            "pages": "123--132",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jcp.20647"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Susceptibility loci revealed for bovine respiratory disease complex in pre-weaned Holstein calves",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Neibergs",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Seabury",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wojtowicz",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Scraggs",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Kiser",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Neupane",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Womack",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Van Eenennaam",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Hagevoort",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Lehenbauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Aly",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Davis",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Taylor",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "BMC Genomics",
+            "volume": "15",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/1471-2164-15-1164"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Influence of breed, heterozygosity, and disease incidence on estimates of variance components of respiratory disease in preweaned beef calves",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Snowder",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Van Vleck",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Cundiff",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Bennett",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J. Anim. Sci",
+            "volume": "83",
+            "issn": "6",
+            "pages": "1247--1261",
+            "other_ids": {
+                "DOI": [
+                    "10.2527/2005.8361247x"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Comparison of tulathromycin and tilmicosin on the prevalence and severity of bovine respiratory disease in feedlot cattle in association with feedlot performance, carcass characteristics, and economic factors",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Tennant",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Ives",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Harper",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Renter",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Lawrence",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J. Anim. Sci",
+            "volume": "92",
+            "issn": "11",
+            "pages": "5203--5213",
+            "other_ids": {
+                "DOI": [
+                    "10.2527/jas.2014-7814"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Number N462.0507. USDA, Animal and Plant Health Inspection Service, Veterinary Services",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Usda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Mycoplasma pneumoniae and its role as a human pathogen",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Waites",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Talkington",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Clin. Microbiol. Rev",
+            "volume": "17",
+            "issn": "4",
+            "pages": "697--728",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/CMR.17.4.697-728.2004"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Adhesion molecule expression on epithelial cells infected with respiratory syncytial virus",
+            "authors": [
+                {
+                    "first": "S.-Z",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Hallsworth",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Dowling",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Alpers",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Bowden",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Forsyth",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Eur. Respir. J",
+            "volume": "15",
+            "issn": "2",
+            "pages": "358--366",
+            "other_ids": {
+                "DOI": [
+                    "10.1034/j.1399-3003.2000.15b23.x"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Genome-wide association study of 14,000 cases of seven common diseases and 3000 shared controls",
+            "authors": [],
+            "year": 2007,
+            "venue": "Nature",
+            "volume": "447",
+            "issn": "",
+            "pages": "661--678",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/na-ture05911"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Risk of infection with bovine herpes virus 1 (BHV1): A review",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Wentink",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Van Oirschot",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Verhoeff",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "Vet. Q",
+            "volume": "15",
+            "issn": "1",
+            "pages": "30--33",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/01652176.1993.9694365"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Viral-bacterial pneumonia in calves: Duration of the interaction between bovine herpesvirus 1 and Pasteurella haemolytica",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Yates",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Babiuk",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Jericho",
+                    "suffix": ""
+                }
+            ],
+            "year": 1983,
+            "venue": "Can. J. Comp. Med",
+            "volume": "47",
+            "issn": "3",
+            "pages": "257--264",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "bovine respiratory disease -loci and pathogens associated with lung lesions in feedlot cattle 1 J. N. Kiser,* 2 T. E. Lawrence, \u2020 M. Neupane,* C. M. Seabury, \u2021 J. F. Taylor, \u00a7 J. E. Womack, \u2021 the Bovine Respiratory Disease Complex Coordinated Agricultural Project Research Team, \u2021 3 and H. L. Neibergs* *Department of Animal Sciences, Washington State University, Pullman 99164; \u2020Beef Carcass Research Center, West Texas A&M University, Canyon 79016; \u2021Department of Veterinary Pathobiology, College of Veterinary Medicine, Texas A&M University, College Station 77843; and \u00a7Division of Animal Sciences, University of Missouri, Columbia 65211",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Pathogens identified from deep pharyngeal and mid-nasal swabs in Colorado feedlot steers",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Chromosome (location in Mb) 1Lead SNP (no. SNP) 2 Phenotype P-value of lead SNP 3 Positional candidate genes 4",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "rs109312685 (1) LL 5.87 \u00d7 10 \u22126 -1 Chromosome location of the QTL followed by the location of SNP in megabases, in parentheses, as measured by numbered nucleotides in the UMD 3.1 reference genome assembly (http://bovinegenome.org/?q=node/61; accessed 11 August 2016).2 The most significant SNP tagging the QTL was identified by the rs number, which is a reference number assigned to markers submitted to the National Center for Biotechnology Information SNP database (https://www.ncbi.nlm.nih.gov/projects/SNP/; accessed 1 September 2016). The number of SNP associated with each QTL is listed in parentheses.3 Significance (P-value) for the SNP with the strongest evidence for an association (lead SNP) with LC, LL or HIF.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "annex"
+        }
+    ]
+}

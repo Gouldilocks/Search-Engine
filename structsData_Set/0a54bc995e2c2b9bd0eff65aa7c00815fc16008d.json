@@ -1,0 +1,874 @@
+{
+    "paper_id": "0a54bc995e2c2b9bd0eff65aa7c00815fc16008d",
+    "metadata": {
+        "title": "Capacities and predicted demands of Brazil's health system in view of the novel coronavirus disease outbreak",
+        "authors": [
+            {
+                "first": "D",
+                "middle": [
+                    "Sc Eric"
+                ],
+                "last": "Luis",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Barroso",
+                "middle": [],
+                "last": "Cavalcante",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Brazilian Federal Court of Accounts",
+                    "location": {
+                        "postCode": "70042-900",
+                        "settlement": "Bras\u00edlia",
+                        "region": "DF",
+                        "country": "Brazil"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "M",
+                "middle": [
+                    "D Juliana"
+                ],
+                "last": "Cristina",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Cardoso",
+                "middle": [],
+                "last": "Ferreira",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "DATASUS -Departamento de Informatica do Sistema \u00danico de Sa\u00fade) and the Brazilian Institute of Geography and Statistics (IBGE -Instituto Brasileiro de Geografia e Estat\u00edstica)",
+                    "institution": "Federal University of S\u00e3o Paulo",
+                    "location": {
+                        "postCode": "04021-001",
+                        "settlement": "S\u00e3o Paulo",
+                        "region": "SP",
+                        "country": "Brazil"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The aim of the present work is to estimate capacities of Brazil's health system and their demand as a result of predicted incoming severe cases of the novel coronavirus disease outbreak. Three incrementing levels of hospital equipment usage are considered:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "(1) in terms of available intensive care unit (ICU) beds; (2) available ICU beds and existing surgery operating rooms; and (3) available ICU beds and existing surgery operating rooms and respirators located in other hospital areas. The average available (adult) ICU beds in a hospital has been computed deducting from the number of existing beds the equivalent number of beds that has been demanded during 2019 on a monthly average. Based on a reference mean duration of hospitalization for the disease, it is computed the daily admission capacity of infected patients per state and of the entire country for each of the three referred levels of hospital equipment usage. Furthermore, an exponential regression model is fitted using the daily available data for the number of patients who have been documented as infected in Brazil. It can then be predicted the three dates at which the health system might begin to demonstrate stress for the maximum demand of the three incrementing groups of hospital equipments. The necessary public data are analyzed by means of the Python programming language and are made available on the internet by the",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Starting in the state capital of Wuhan, China, in December 2019, the novel coronavirus (SARS-COV-2) has been spreading rapidly all over the world and the World Health Organization (WHO) declared its disease, COVID-19, as a pandemic on 11th March 2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Three weeks later the number of confirmed infections neared the one million mark and reached 50000 deaths and almost every country and territory across the world, according to the Johns Hopkins University tracker (https://www.jhu.edu/).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Like the pandemic influenza in 1918, COVID-19 is associated with respiratory spread, an undetermined percentage of infected people with presymptomatic or asymptomatic cases transmitting infection to others, and a high fatality rate. 1 Ji et al, after performing analysis of 70641 confirmed cases and 1772 deaths due to COVID-19 and assuming that average levels of healthcare are similar throughout China, consider that higher numbers of infections in a given population can be considered an indirect indicator of a heavier healthcare burden. By plotting the mortality rate against the incidence of the disease (cumulative number of confirmed cases since the start of the outbreak, per 10000 population) they have found a significant positive correlation, suggesting that mortality is correlated with healthcare burden and, consequently, with healthcare resource availability.",
+            "cite_spans": [
+                {
+                    "start": 233,
+                    "end": 234,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In this fashion, the present work proposes to estimate capacities of Brazil's health system and their demand as a result of predicted incoming severe cases of the novel coronavirus disease outbreak. Three incrementing levels of hospital equipment usage are considered: (1) in terms of available intensive care unit (ICU) beds; (2) available ICU beds and existing surgery operating rooms; and (3) available ICU beds and existing surgery operating rooms and respirators located in other hospital areas. Using the daily available data for the number of patients who have been documented as infected in Brazil it is fitted an exponential regression model that predicts the number of new patients on the nth day from 26th February 2020. The combination of the daily admission capacity for each of the three incrementing groups of hospital equipments with the predictive model allows to estimate the date at which Brazil's health system might begin to demonstrate stress under each scenario.",
+            "cite_spans": [
+                {
+                    "start": 269,
+                    "end": 272,
+                    "text": "(1)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 327,
+                    "end": 330,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "To the best to the authors' knowledge it is the first public attempt to estimate (without mathematical simulation) the average availability of ICU beds in hospitals of the entire country deducting from the existing beds the equivalent number of beds that has been demanded during 2019 on a monthly average. 3, 4 Two even more recent studies, one reported . CC-BY-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 307,
+                    "end": 309,
+                    "text": "3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 310,
+                    "end": 311,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The main data sources for estimating hospital equipment capacities are two administrative health information systems: the National Registry of Health Facilities of Brazil (CNES -Cadastro Nacional de Estabelecimentos de Sa\u00fade) and the Hospital Information System of the Brazilian Public Health System (SIHSUS -Sistema de Informa\u00e7\u00f5es Hospitalares do Sistema \u00danico de Sa\u00fade). The CNES data, obtained per facility, concern: (1) the number of existing intensive care unit (ICU) beds dedicated to the Brazilian Public Health System (SUS -",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Modeling capacities"
+        },
+        {
+            "text": ") and the number of existing ICU beds private to the for-profit healthcare provider \u202b\u0754(\u202c ). The SIHSUS data, aggregated per facility, concern the number of ICU-days-per- ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Modeling capacities"
+        },
+        {
+            "text": ": monthly mean of existing public ICU beds;",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Modeling capacities"
+        },
+        {
+            "text": ": monthly mean of existing private ICU beds;",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Modeling capacities"
+        },
+        {
+            "text": ": monthly mean of existing surgery operating rooms;",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Modeling capacities"
+        },
+        {
+            "text": ": monthly mean of existing respirators;",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Modeling capacities"
+        },
+        {
+            "text": ": monthly mean of ICU-days-per-month of beds dedicated to SUS.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Modeling capacities"
+        },
+        {
+            "text": ". CC-BY-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Modeling capacities"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.04.02.20050351 doi: medRxiv preprint 4 First, it is computed the monthly mean of existing ICU beds (for each healthcare facility):",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Modeling capacities"
+        },
+        {
+            "text": "Therefore, one can also write the vector form of (1):",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Modeling capacities"
+        },
+        {
+            "text": "represents the vector of monthly mean existing ICU beds for the 1937 healthcare facilities that comply with the aforementioned criteria. In the sequel, the expression \"monthly mean\" is omitted from the term \"vector of monthly mean\".",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Modeling capacities"
+        },
+        {
+            "text": "To compute the vector of available public ICU beds the following expression is utilized:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Modeling capacities"
+        },
+        {
+            "text": "The vector of available private ICU beds is calculated considering the same proportion of public ICU bed usage:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Modeling capacities"
+        },
+        {
+            "text": "Now, one can compute the vector of available ICU beds:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Modeling capacities"
+        },
+        {
+            "text": "Also, the vector of respirators that surpass the existing ICU beds and surgery operating rooms is given by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Modeling capacities"
+        },
+        {
+            "text": "The daily number of documented COVID-19 infections in Brazil between 26th February 2020 and 1th April 2020 is available at https://covid.saude.gov.br/, and it has allowed to fit a fivedegree exponential regression model to represent this dataset comprised of 30 observations:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Modeling predictions"
+        },
+        {
+            "text": "CC-BY-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Modeling predictions"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.04.02.20050351 doi: medRxiv preprint 5 where n is the nth day since 26th February 2020 and y is the number of new COVID-19 cases on the nth day. Equation (8) represents the best fit among one to eight-degree exponential regression models and one to eight-degree polynomial regression models using the R 2 score as statistical measure. Each model has been trained on 75% of the randomly chosen observations and the test R 2 score is 0\u00b793 and it has been computed on the 25% remaining observations.",
+            "cite_spans": [
+                {
+                    "start": 261,
+                    "end": 264,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Modeling predictions"
+        },
+        {
+            "text": "The scatter plot of the daily new number of COVID-19 cases and the curve of the best model (8) are illustrated in Figure 1 . In an informative capacity, it is also shown the scatter plot of the cumulative number of COVID-19 cases against the date in Figure 2 .",
+            "cite_spans": [
+                {
+                    "start": 91,
+                    "end": 94,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 114,
+                    "end": 122,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 250,
+                    "end": 258,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Four vectors mentioned in the \"Modeling capacities\" section are vertically aligned and gathered as Table 1 , which contains, therefore, the monthly mean of available and existing (adult) ICU beds (excluding neonatal and pediatric units), the monthly mean of existing surgery operating rooms and the monthly mean of extra respirators per healthcare facility (listed only six). During the year of 2019, 9021 ICU beds were on average available out of 21908 that are appropriate for adult COVID-19 patients. It is as if at any given time 41% of the ICU beds in Brazil were available, indicating that this hospital equipment is not on average operating near or at capacity in terms of national numbers and it is worth mentioning that this ICU availability rate is 7\u00b76 percentage points larger than in the United States. 5 Table 2 aggregates the data of Table 1 per state (including the federal capital territory: Distrito Federal (DF)). Table 3 depicts the equivalent quantities of Table 2 in terms of 10000 inhabitants. The 2019 population data that allowed calculate these rates are provided by IBGE (https://www.ibge.gov.br/). Comparing Table 2 and Table 3 Table 4 , also constructed based on Table 2 , illustrates the available capacity of Brazil's health system to face severe COVID-19 cases considering three incrementing levels of . CC-BY-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 99,
+                    "end": 106,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 817,
+                    "end": 824,
+                    "text": "Table 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 848,
+                    "end": 855,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 932,
+                    "end": 939,
+                    "text": "Table 3",
+                    "ref_id": "TABREF7"
+                },
+                {
+                    "start": 977,
+                    "end": 984,
+                    "text": "Table 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 1135,
+                    "end": 1154,
+                    "text": "Table 2 and Table 3",
+                    "ref_id": "TABREF7"
+                },
+                {
+                    "start": 1155,
+                    "end": 1162,
+                    "text": "Table 4",
+                    "ref_id": "TABREF8"
+                },
+                {
+                    "start": 1191,
+                    "end": 1198,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint (7)) can be allocated to attend the severely infected by COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Assuming as true the mean duration of hospitalization as 12\u00b78 days, one can estimate the possible daily admission of patients with respiratory failure for each of the three incrementing groups of hospital equipments considered in Table 4 . 7 Such rates are shown in Table 5 Table 6 is constructed based on the fitted exponential regression model (8) and presents, in each row, the true number of new COVID-19 cases (if in the past), the predicted number and the 90% prediction interval for a given date. According to it these three numbers of new infected people (4620, 8287 e 14440) would be first reached on the 3th, 5th and 6th of April . CC-BY-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 240,
+                    "end": 241,
+                    "text": "7",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 346,
+                    "end": 349,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 230,
+                    "end": 237,
+                    "text": "Table 4",
+                    "ref_id": "TABREF8"
+                },
+                {
+                    "start": 266,
+                    "end": 273,
+                    "text": "Table 5",
+                    "ref_id": null
+                },
+                {
+                    "start": 274,
+                    "end": 281,
+                    "text": "Table 6",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.04.02.20050351 doi: medRxiv preprint 7 2020, respectively. On the other hand, the 90% prediction interval for these dates are [318, 17881] , [254, 86692] and [176, 712828] , which means that 90% of intervals of these forms will contain the true number of new COVID-19 cases for the respective dates. It can be noticed that the range of these 90% prediction intervals is quite significant, expressing one of the sources of uncertainty regarding the true number of new COVID-19 cases for a certain future date.",
+            "cite_spans": [
+                {
+                    "start": 233,
+                    "end": 238,
+                    "text": "[318,",
+                    "ref_id": null
+                },
+                {
+                    "start": 239,
+                    "end": 245,
+                    "text": "17881]",
+                    "ref_id": null
+                },
+                {
+                    "start": 248,
+                    "end": 253,
+                    "text": "[254,",
+                    "ref_id": null
+                },
+                {
+                    "start": 254,
+                    "end": 260,
+                    "text": "86692]",
+                    "ref_id": null
+                },
+                {
+                    "start": 265,
+                    "end": 270,
+                    "text": "[176,",
+                    "ref_id": null
+                },
+                {
+                    "start": 271,
+                    "end": 278,
+                    "text": "712828]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "In addition to the novelty of the COVID-19 disease and of its worldwide outbreak, the present work seems to be the first public attempt to estimate (without mathematical simulation) the average availability of ICU beds in hospitals of the entire country deducting from the number of existing beds the equivalent number of beds that has been demanded during 2019 on a monthly average. In this way, it has been estimated that 41% of the (adult) ICU beds in Brazil were available during 2019, indicating that this hospital equipment is not on average operating near or at capacity in terms of national numbers and it is worth mentioning that this ICU availability rate is 7\u00b76 percentage points larger than in the United States. 5 On the other hand, the Brazilian rate of existing (adult) ICU beds per 10000 (1\u00b704) is less than a third of the United States value in the year of 2009 (3\u00b747). 6 Moreover, there is a marked heterogeneity in the absolute and relative numbers of available and existing ICU beds and existing surgery operating rooms and extra respirators between the states of Brazil (including its federal capital territory). The remarkable differences between federated units reflect into the number of possible admissions per day of COVID-19 patients with respiratory failure for each of the three levels of hospital equipment usage, as shows Table 5 .",
+            "cite_spans": [
+                {
+                    "start": 725,
+                    "end": 726,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 887,
+                    "end": 888,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1353,
+                    "end": 1360,
+                    "text": "Table 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "Conclusions"
+        },
+        {
+            "text": "In national numbers, Brazil's health system is estimated to be capable of daily admitting at maximum 693, 1243 and 2166 patients with respiratory failure under the three studied scenarios and the fitted exponential growth model indicates that Brazil' health system might reach those limits on the first days of April 2020. The wide range of the 90% prediction intervals for future dates expresses a source of uncertainty of the model. This work concern data of 2019 and, consequently, takes into account only hospital equipments available previously to the COVID-19 disease outbreak. Additionally, it does not include hospitals that do not have at least one ICU bed dedicated to SUS.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": ". CC-BY-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . CC-BY-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.04.02.20050351 doi: medRxiv preprint ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Escaping Pandora's box -another novel coronavirus",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Morens",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Daszak",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Taubenberger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The New England Journal of Medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Potential association between COVID-19 mortality and health-care resource availability",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ji",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Peppelenbosch",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Global Health",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Modeling and simulation of public ICU bed usage in the state of Rio de Janeiro (in Portuguese)",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Moraes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Difficulties in access and estimates of public beds in intensive care units in the state of Rio de Janeiro",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Goldwasser",
+                    "suffix": ""
+                },
+                {
+                    "first": "Msc",
+                    "middle": [],
+                    "last": "Lobo",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Arruda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Rev Sa\u00fade P\u00fablica",
+            "volume": "50",
+            "issn": "",
+            "pages": "19--19",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "ICU resource availability for COVID-19",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Halpern",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ks",
+                    "middle": [
+                        "U S"
+                    ],
+                    "last": "Tan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Society of Critical Care Medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Critical care bed growth in the United States -A comparison of regional and national trends",
+            "authors": [
+                {
+                    "first": "D J",
+                    "middle": [],
+                    "last": "Wallace",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Angus",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Seymour",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Barnato",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kahn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "American Journal of Respiratory and Critical Care Medicine",
+            "volume": "191",
+            "issn": "4",
+            "pages": "410--416",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Clinical characteristics of coronavirus disease 2019 in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The New England Journal of Medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Italian Emigration to Brazil",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Rosoli",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "Center for Migration Studies",
+            "volume": "3",
+            "issn": "11",
+            "pages": "229--235",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Structural properties of the Brazilian air transportation network. Anais da Academia Brasileira de",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Couto",
+                    "suffix": ""
+                },
+                {
+                    "first": "Apc",
+                    "middle": [],
+                    "last": "Da Silva",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Ruiz",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Benevenuto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Ci\u00eancias",
+            "volume": "87",
+            "issn": "3",
+            "pages": "1653--1674",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Hospital capacity and operations in the coronavirus",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cavallo",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Donoho",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Forman",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "it can be seen that the Roraima state (RR) is the most precarious in terms of available and existing ICU beds and existing operating rooms (20; 40; 18), and the most precarious in terms of available ICU beds per 10000 inhabitants is the state of Mato Grosso do Sul (MS) with 0\u00b723. On the other hand, the S\u00e3o Paulo (SP) state has the largest absolute number of existing ICU beds (4838), but the state of Tocantins (TO) appears as the most equipped in terms of available ICU beds per 10000 (0\u00b765). The Brazilian national rate of existing (adult) ICU beds per 10000 (1\u00b704) is less than a third of the United States value in the year of 2009 (3\u00b747). 6",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Measured and predicted new number of documented COVID-19 infected patients in Brazil",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Measured cumulative number of documented COVID-19 infected patients in Brazil",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "by the Brazilian Federal Council of Medicine (https://portal.cfm.org.br/) and the other by the Department of Economics and Statistics of the Rio Grande do Sul (RS) state (https://planejamento.rs.gov.br/inicial), only take into account the existing ICU beds.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "These data are available in the File Transfer Protocol server's internet address of DATASUS (ftp://ftp.datasus.gov.br/) and haveThe types of ICU beds taken into account are the ones that are designed for adults, including the ones for burned, coronary and isolated patients and excluding the neonatal and pediatric beds. It has been taken into account only the healthcare facilities that have at least",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Amap\u00e1 (AP): 3 possible admissions per day. On the other extreme, it is the state of SP, which can daily admit the largest number of severe patients for all scenarios (130, 251, 544), but also is the most populated state, and has the biggest Italian community of Brazil, the most",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": ". https://doi.org/10.1101/2020.04.02.20050351 doi: medRxiv preprint disease 2019 (COVID-19) pandemic -planning for the nth patient. JAMA 2020; published online March 17.. CC-BY-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.04.02.20050351 doi: medRxiv preprint",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.04.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF7": {
+            "text": "Rate of available and existing ICU beds, existing surgery oper. rooms and extra respirators per state",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF8": {
+            "text": "Capacities of Brazil's health system to face severe COVID-19 cases per state",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": ". CC-BY-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.04.02.20050351 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "annex"
+        }
+    ]
+}

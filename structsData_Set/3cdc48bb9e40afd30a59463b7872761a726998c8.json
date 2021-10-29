@@ -1,0 +1,1240 @@
+{
+    "paper_id": "3cdc48bb9e40afd30a59463b7872761a726998c8",
+    "metadata": {
+        "title": "Experimental Evaluation of Musca domestica (Diptera: Muscidae) as a Vector of Newcastle Disease Virus",
+        "authors": [
+            {
+                "first": "D",
+                "middle": [
+                    "Wes"
+                ],
+                "last": "Watson",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "North Carolina State Univer-sity",
+                    "location": {
+                        "postCode": "27695",
+                        "settlement": "Raleigh",
+                        "region": "NC"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Elina",
+                "middle": [
+                    "L"
+                ],
+                "last": "Ni\u00f1 O",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "North Carolina State Univer-sity",
+                    "location": {
+                        "postCode": "27695",
+                        "settlement": "Raleigh",
+                        "region": "NC"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Kateryn",
+                "middle": [],
+                "last": "Rochon",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "North Carolina State Univer-sity",
+                    "location": {
+                        "postCode": "27695",
+                        "settlement": "Raleigh",
+                        "region": "NC"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Steve",
+                "middle": [],
+                "last": "Denning",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "North Carolina State Univer-sity",
+                    "location": {
+                        "postCode": "27695",
+                        "settlement": "Raleigh",
+                        "region": "NC"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Lynda",
+                "middle": [],
+                "last": "Smith",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "North Carolina State University",
+                    "location": {
+                        "postCode": "27695",
+                        "settlement": "Raleigh",
+                        "region": "NC"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "James",
+                "middle": [
+                    "S"
+                ],
+                "last": "Guy",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "North Carolina State University",
+                    "location": {
+                        "postCode": "27695",
+                        "settlement": "Raleigh",
+                        "region": "NC"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "J",
+                "middle": [],
+                "last": "Med",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Entomol",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "House \u00dfies, Musca domestica L. (Diptera: Muscidae), were examined for their ability to harbor and transmit Newcastle disease virus (family Paramyxoviridae, genus Avulavirus, NDV) by using a mesogenic NDV strain. Laboratory-reared \u00dfies were experimentally exposed to NDV (Roakin strain) by allowing \u00dfies to imbibe an inoculum consisting of chicken embryo-propagated virus. NDV was detected in dissected crops and intestinal tissues from exposed \u00dfies for up to 96 and 24 h postexposure, respectively; no virus was detected in crops and intestines of sham-exposed \u00dfies. The potential of the house \u00dfy to directly transmit NDV to live chickens was examined by placing 14-d-old chickens in contact with NDV-exposed house \u00dfies 2 h after \u00dfies consumed NDV inoculum. NDVexposed house \u00dfies contained \u03f710 4 50% infectious doses (ID 50 ) per \u00dfy, but no transmission of NDV was observed in chickens placed in contact with exposed \u00dfies at densities as high as 25 \u00dfies per bird. Subsequent dose\u00d0response studies demonstrated that oral exposure, the most likely route for \u00dfy-tochicken transmission, required an NDV (Roakin) dose \u054610 6 ID 50 . These results indicate that house \u00dfies are capable of harboring NDV (Roakin) but that they are poor vectors of the virus because they carry an insuf\u00decient virus titer to cause infection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Newcastle disease (ND) is an emerging disease affecting the poultry industry worldwide. The nature of the international poultry industry facilitates the movement of poultry products, equipment, and people and the subsequent spread of disease. To monitor outbreaks and its potential spread, ND is included on the A-list of reportable diseases maintained by the Of\u00dece International Epizooties (OIE 2006) . In 2006, 15 countries reported active or resolved outbreaks of ND within their borders (OIE 2006) . Recently, \u03fe117,000 chickens were destroyed on commercial broiler farms in Romania as a result of this disease (OIE 2006) . In North America, ND was discovered in a California backyard chicken \u00dfock in fall 2002 (APHIS 2003) . Within 2 mo, the disease had spread to area commercial poultry operations. Subsequently, Newcastle disease virus (family Paramyxoviridae, genus Avulavirus, NDV) showed up in Nevada, Arizona, New Mexico, and Texas. More \u03fe3 million birds were destroyed to keep the disease from spreading further with industry losses estimated at $5 billion (Anonymous 2003) .",
+            "cite_spans": [
+                {
+                    "start": 391,
+                    "end": 401,
+                    "text": "(OIE 2006)",
+                    "ref_id": null
+                },
+                {
+                    "start": 491,
+                    "end": 501,
+                    "text": "(OIE 2006)",
+                    "ref_id": null
+                },
+                {
+                    "start": 614,
+                    "end": 624,
+                    "text": "(OIE 2006)",
+                    "ref_id": null
+                },
+                {
+                    "start": 714,
+                    "end": 726,
+                    "text": "(APHIS 2003)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1068,
+                    "end": 1084,
+                    "text": "(Anonymous 2003)",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "ND is an enveloped, negative-stranded RNA viral infection caused by avian paramyxovirus. Infected birds exhibit a variety of symptoms, including respiratory discomfort, sneezing, nasal discharge, coughing; nervous depression, drooping wings, tremors, paralysis, and gastrointestinal pathology, including greenish watery diarrhea (Alexander 1991 , APHIS 2003 . Migrating and exotic birds may be asymptomatic carriers and pose a risk to commercial \u00dfocks. The highly contagious and fatal disease is spread through direct contact with infected birds, their feces, and secretions (Alexander 1991) . High virus titers in feces and secretions increase the potential of mechanical transmission of ND. Disease may be spread by exotic and feral birds, animals, poultry products, airborne, feed, water, and vaccines. Humans contribute significantly to the spread of ND, especially poultry workers, cleanout crews, rendering staff, feed delivery personnel, egg handlers, farmers, and vaccination crews (Alexander 1991) .",
+            "cite_spans": [
+                {
+                    "start": 329,
+                    "end": 344,
+                    "text": "(Alexander 1991",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 345,
+                    "end": 357,
+                    "text": ", APHIS 2003",
+                    "ref_id": null
+                },
+                {
+                    "start": 575,
+                    "end": 591,
+                    "text": "(Alexander 1991)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 990,
+                    "end": 1006,
+                    "text": "(Alexander 1991)",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The use of mesogenic and lentogenic live vaccines is common in vaccination programs (Alexander 1991) . Lentogenic vaccines are generally reserved as primary vaccines and more virulent mesogenic vaccines are used as a secondary vaccine. The \u00deeld-derived Roakin strain is a mesogenic vaccine. Roakin live vaccine may be administered by intramuscular or wing web inoculation (Alexander 1991) . Vaccinated birds are not fully protected by immunity to ND, but mortality rates are lower and birds do not experience severe consequences of disease in the absence of vaccines.",
+            "cite_spans": [
+                {
+                    "start": 84,
+                    "end": 100,
+                    "text": "(Alexander 1991)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 372,
+                    "end": 388,
+                    "text": "(Alexander 1991)",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Synanthropic \u00dfies are thought to have contributed to the transmission and maintenance of ND in California in the 1970s, and \u00dfy management was considered a factor in eradication (Bram et al. 1974) . The little house \u00dfy, Fannia canicularis (L.), was incriminated in the transmission of ND in the California outbreak (Rogoff et al. 1975) . Seven species of \u00dfies [Musca domestica L., F. canicularis, Fannia femoralis (Stein), Muscina stabulans (Fallen), Stomoxys calcitrans L., Ophyra (Hydrotaea) spp., and Phaenicia spp.] were captured on ND-positive farms. Collections were made \u03fd2 d and \u03fe2 d of depopulation. NDV was found in two pools of F. canicularis and one pool of F. femoralis (Rogoff et al. 1975) . Interestingly, house \u00dfy pools were negative for NDV in this study. F. canicularis was proven a vector of NDV in subsequent laboratory studies (Rogoff et al. 1977) . Unfortunately, the proposed evaluation of the house \u00dfy under similar laboratory conditions was never completed. The only report of the house \u00dfy being involved in the transmission of NDV was published in Russia (Milushev et al. 1977) . Under laboratory conditions, the house \u00dfy carried virus on the body and was capable of transmitting NDV virus up to 96 h.",
+            "cite_spans": [
+                {
+                    "start": 177,
+                    "end": 195,
+                    "text": "(Bram et al. 1974)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 314,
+                    "end": 334,
+                    "text": "(Rogoff et al. 1975)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 682,
+                    "end": 702,
+                    "text": "(Rogoff et al. 1975)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 847,
+                    "end": 867,
+                    "text": "(Rogoff et al. 1977)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1080,
+                    "end": 1102,
+                    "text": "(Milushev et al. 1977)",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The feeding habits of little house \u00dfy and house \u00dfy are similar. Adult house \u00dfies feed on semisolid and liquid diets, often in the form of manure and excreted bodily \u00dfuids. The adult \u00dfy, using sponging mouthparts, consumes these \u00dfuids that are stored temporally in the insect crop. The crop holds \u03f72.3 \u03ee 0.03 l of \u00dfuid (unpublished data). Generally, quantities of crop \u00dfuids are mixed with semisolid foods that pass into the insect midgut over 5 h for digestion (Hainsworth et al. 1990 ). The \u00dfy may use crop \u00dfuids to help liquefy food solids before ingestion and regurgitate crop contents onto foods and surfaces producing \"\u00dfy specks\" (West 1951) . Similarly, \u00dfies frequently defecate while feeding and resting on surfaces. As a result of such feeding habits, the house \u00dfy have been implicated in the transmission of \u03fe30 bacterial, protozoan, and viral diseases (Greenberg 1973 , Graczyk et al. 1999 , Gough and Jorgenson 1983 , Calibeo-Hayes et al. 2003 . With \u00dfights up to 12 km within 24 h (Greenberg 1973) , house \u00dfies are capable of disseminating pathogens within and between poultry houses (Lysyk and Axtell 1986) .",
+            "cite_spans": [
+                {
+                    "start": 461,
+                    "end": 484,
+                    "text": "(Hainsworth et al. 1990",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 635,
+                    "end": 646,
+                    "text": "(West 1951)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 862,
+                    "end": 877,
+                    "text": "(Greenberg 1973",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 878,
+                    "end": 899,
+                    "text": ", Graczyk et al. 1999",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 900,
+                    "end": 926,
+                    "text": ", Gough and Jorgenson 1983",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 927,
+                    "end": 954,
+                    "text": ", Calibeo-Hayes et al. 2003",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 993,
+                    "end": 1009,
+                    "text": "(Greenberg 1973)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1096,
+                    "end": 1119,
+                    "text": "(Lysyk and Axtell 1986)",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Our goal was to determine the potential role of the house \u00dfy as a vector of NDV by using the mesogenic Roakin strain of the virus. Speci\u00decally, our objectives were to 1) establish whether NDV (Roakin) survives in the crop and intestinal tract of the house \u00dfy through a series of time course experiments; 2) examine the longevity of NDV in \u00dfy tissues; 3) determine whether NDV replicated in these tissues, increasing the potential risk of \u00dfy transmission; and 4) determine whether NDV-exposed house \u00dfies were capable of transmitting disease to na\u1e4fve chicks.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "ND Virus Culture. NDV (Roakin strain) was obtained from Dr. D. J. King, Southeast Poultry Research Laboratory, Athens, GA. The virus was propagated by inoculation of 10-d-old embryonated chicken eggs by the allantoic route, 0.1 ml per egg (SPAFAS, Charles River Laboratories Inc., Wilmington, MA). Allantoic \u00dfuid was harvested from eggs that died 3\u00d0 4 d postinoculation. Titration of the virus was accomplished by preparation of 10-fold dilutions of allantoic \u00dfuid in Dulbecco\u00d5s minimal essential medium (DMEM) and inoculation of 0.2 ml of each dilution onto con\u00dfuent monolayers of chicken embryo \u00debroblast (CEF) cells in 48-well tissue culture plates, four wells per dilution. Five days after inoculation, contents of wells were decanted into a container containing sodium hypochlorite to inactivate live virus, and cells were stained with 0.1% crystal violet. Titer was determined by calculation of the 50% infectious doses (ID 50 ) as described by Reed and Muench (1938) . An inoculum was prepared to contain \u03f710 7 ID 50 /0.1 ml, and it was stored at \u03ea70\u040aC. NDV Serology. Serum samples were assayed for presence of NDV-speci\u00dec antibody by using a hemagglutination inhibition test as described previously (Beard 1989) .",
+            "cite_spans": [
+                {
+                    "start": 951,
+                    "end": 973,
+                    "text": "Reed and Muench (1938)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1207,
+                    "end": 1219,
+                    "text": "(Beard 1989)",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "House Fly Culture. House \u00dfies used in this study have been maintained in culture at North Carolina State University since 1997. The colony was established from wild-captured \u00dfies from a dairy. Collected house \u00dfy eggs were added to a prepared house \u00dfy larval medium. Fly larvae were reared in sweater boxes at constant temperature (27\u040aC) until pupation. The \u00dfy pupae were harvested by \u00dfotation 8 d after egg hatch. House \u00dfy pupae were stored at room temperature until adult emergence 3 d later. All \u00dfies emerging within a 24-h period represent day 0. Adult \u00dfies were provided food and water. Once the \u00dfies were 3\u00d05 d old, they were separated for use in these experiments.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "Chickens. Fertile speci\u00dec-pathogen-free (SPF) chicken eggs were obtained from SPAFAS, Charles River Laboratories, Inc. Eggs were incubated and hatched at North Carolina State University. One-dayold chickens were housed in electrically heated brooders in an isolation room until chickens were 2 wk of age. Chickens were provided nonmedicated game bird starter and water ad libitum.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "Experimental Design. Four experiments were conducted to examine the survival of NDV in the digestive tract tissues, crops, and intestines (mid-and hindgut) of \u00dfies after exposure to NDV (Roakin) and the ability of NDV-exposed \u00dfies to transmit the virus to susceptible chicks.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "Adult \u00dfies of mixed sex were separated into two groups of 350 \u00dfies each. Adult \u00dfies were held for 18 h at 22\u040aC in screened containers without food or water. Flies were anesthetized with cold by placement in a \u03ea20\u040aC freezer for 5 min. Small plastic reservoirs containing \u03f72,000 l of NDV (Roakin) inoculum was placed in each \u00dfy cage. The control group (n \u03ed 350) was administered DMEM without NDV. The \u00dfies were given 30 min to fully recover from the cold and to consume the treated and untreated medium.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "Experiment 1. Survival of NDV in the \u00dfy crop, a storage site for liquids before passage to the midgut, was evaluated. After ingestion of the medium, each treatment group was provided food and water and held at room temperature (\u03f722\u040aC). At 0.5, 1, 3, 6, 9, 12, 24, and 96 h postfeeding, the \u00dfies were temporarily chilled, and 40 \u00dfies were removed from each treatment group. These \u00dfies were placed in sterile petri dishes, the dish was labeled for treatment and time interval, and frozen at \u03ea70\u040aC.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "Frozen \u00dfies were surface sterilized by immersing the \u00dfies in 95% ethanol (EtOH), transferred to 10% bleach (NaOCl) a minimum of 3 min, and rinsed in distilled sterile water. Whole crops (n \u03ed 40) were aseptically removed from the \u00dfies, pooled, and placed in 2 ml of chilled DMEM plus 1% fetal bovine serum, 1% gentamicin, and amphotericin B. Dissection instruments were sterilized in dilute bleach and EtOH after each dissection. Pooled \u00dfy crops were frozen at \u03ea70\u040aC. The experiment was replicated three times.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "Pooled \u00dfy crops in DMEM with antibiotics were homogenized and clari\u00deed by centrifugation at 1500 \u03eb g for 20 min at 4\u040aC. Clari\u00deed homogenates were prepared as 10-fold dilutions and then assayed for NDV as described above. Presence of virus in samples was determined by titration in CEF cells as described above.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "Experiment 2. Survival of NDV in house \u00dfy intestines was evaluated. A time-delineated experiment was conducted to examine the presence of NDV in the digestive tract of the house \u00dfy. Flies were separated into two groups of 350 \u00dfies and administered NDV as described above. Groups of 40 \u00dfies were examined for the presence of virus at 0.5, 1, 3, 6, 9, 12, 24, and 96 h postfeeding. Target tissues for experiment 2 were \u00dfy mid-and hindgut. After surface sterilization, the terminal abdominal plate was excised and the intestinal tract was gently pulled through the opening. Separating at the proventriculus, the mid-and hindgut tissues remained intact. If gut or crop was compromised, the \u00dfy was rejected. Gut tissues were excised from \u00dfies (n \u03ed 40), pooled, and placed in 2 ml of chilled DMEM supplemented with antibiotics. Pooled \u00dfy gut tissues were stored frozen at \u03ea70\u040aC. Gut tissues were homogenized and assayed for the presence of virus as described above.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "For analysis, Mean NDV titers were calculated from each replicate time interval for crop and gut tissue. We used correlation to test the relationship between live virus titer and time. Regression analysis was used to plot the relationship of titer decay against time. The slope of the curve was calculated using a logarithmic regression model (Minitab, Inc. 1997) .",
+            "cite_spans": [
+                {
+                    "start": 343,
+                    "end": 363,
+                    "text": "(Minitab, Inc. 1997)",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "Experiment 3. The potential of the house \u00dfy to directly transmit NDV to live chicks was investigated. Fourteen-day-old chickens were divided into groups of 10 birds and placed in Horsfall isolation units with negative-pressure ventilation. Chicks were exposed to \u00dfy densities of 10, 100, and 250 house \u00dfies per isolation unit, and a no \u00dfy control for four treatments and replicated twice within experiment and the experiment was conducted twice.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "Approximately 800 adult house \u00dfies (3\u00d05 d old) were divided into three feeding chambers, each hold-ing \u03f7265 \u00dfies. Starved \u00dfies were provided NDV-inoculated medium in a reservoir as described above. After the inoculum was consumed, the \u00dfies were cold anesthetized and further sorted into two groups of 10 \u00dfies, two groups of 100 \u00dfies, and two groups of 250 \u00dfies. Two hours postfeeding, the \u00dfies were released in the isolation chambers, and the bird behavior was observed. One day after the \u00dfies were released in the brooders, the fresh air intake was sprayed with 0.30% pyrethrin insecticide synergized with 2.40% piperonyl butoxide (CB-38 ExtraTM, Waterbury Companies Inc., Waterbury, CT) to kill the \u00dfies. Dead \u00dfies were removed from the chambers.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "A portion of the NDV-exposed \u00dfies was held in reserve to determine NDV titers in whole \u00dfies. Immediately after placement of other NDV-exposed \u00dfies in Horsfal units, these \u00dfies were counted, pooled, homogenized, clari\u00deed by centrifugation, and NDV titers were determined as described above. Mean NDV titers per \u00dfy were determined by dividing the titer for pooled \u00dfies by total number of \u00dfies within the homogenate.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "The birds were observed daily for clinical signs of infection. At 3-d postexposure, tracheal swabs were collected from each of \u00deve birds in each group. Swabs were placed in 1 ml of DMEM, placed on ice, and stored at \u03ea70\u040aC. Presence of NDV in tracheal swabs was determined by inoculation of chicken embryo \u00debroblasts as described above. Chicks were bled for NDV serology on day 21 and euthanatized.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "Experiment 4. Dose\u00d0response study to evaluate effect of dose and inoculation site for NDV (Roakin) infectivity. Fourteen-day-old chickens were divided into eight groups of 10 birds each and placed in separate Horsfall isolation units. Chicks were intranasally inoculated by squirting 100 l containing a 10 2 , 10 3 , and 10 4 ID 50 of NDV (Roakin) into the left nasal passage. Chicks were inoculated orally by passing a no. 5 French catheter into the crop and delivering 1.0 ml containing the calculated dose of 10 4 , 10 6 , and 10 8 infectious units NDV (Roakin). Two control groups of 10 birds were sham inoculated. Birds were observed daily for clinical signs of disease. At day 21 postexposure, blood was collected from six birds in each group; all birds then were humanely euthanatized. Serum was evaluated by hemagglutination inhibition assays for presence of NDV-speci\u00dec antibodies. The experiment was conducted once.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "Experiment 1. Adult house \u00dfies harbored Newcastle Disease virus in both crop and gut tissues. Live NDV was detected in crops tissues of house \u00dfies for 96 h postfeeding in two of three replicated experiments (Table 1 ). In the one replicate, NDV was detectable at 24 h postexposure, but not at 96 h. Virus titers were greatest within 30 min of a single feeding of the \u00dfies. NDV titer decay was predictably time dependent from 0.5 to 24 h following the logistic model [y \u03ed \u03ea0.4306ln(x) \u03e9 2.0187; R 2 \u03ed 0.7329] (Fig.  1) . Virus titers would be expected to remain stable or increase if NDV survived or was replicated in the \u00dfy tissues. NDV was not detected in the tissues of shamexposed \u00dfies collected at the same time intervals. Experiment 2. NDV was detected in the gut tissues of the house \u00dfy for 24 h postfeeding (Table 2 .) Titration of NDV in gut tissues at the 30-min interval was greater than that found in the crop tissues. The 24-h rate of decay in virus titer was time dependent in the gut tissues [y \u03ed \u03ea1.2677ln(x) \u03e9 4.3786; R 2 \u03ed 0.914] (Fig. 1) . Little virus as detected 9 h after the initial exposure to NDV. Virus was not detected in the tissues of sham-exposed \u00dfies collected at the same time intervals.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 207,
+                    "end": 215,
+                    "text": "(Table 1",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 508,
+                    "end": 517,
+                    "text": "(Fig.  1)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 814,
+                    "end": 822,
+                    "text": "(Table 2",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 1047,
+                    "end": 1055,
+                    "text": "(Fig. 1)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Experiment 3. NDV-infected house \u00dfies were con-\u00dened to isolation units containing 2-wk-old chicks. Attracted by the movement of the \u00dfies within the units, chicks readily consumed all but a few house \u00dfies within 24 h.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "No virus was isolated from tracheal swabs collected at 3 d postexposure (\u00deve birds per group examined); and at day 21, no NDV-speci\u00dec antibodies were detected (six birds per group examined). NDV titer in pooled NDV-exposed \u00dfies was determined to be \u03f73 \u03eb 10 4 ID 50 per \u00dfy. Experiment 4. NDV Roakin was infectious to all chickens (100%) when introduced intranasally at doses \u03fe10 3 ID 50 (Table 3) . When NDV Roakin was administered to chickens by oral gavage, all chicks (100%) were seropositive when inoculated with 10 8 ID 50 of virus. No chicks became infected when orally inoculated with 10 4 ID 50 of virus.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 386,
+                    "end": 395,
+                    "text": "(Table 3)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The house \u00dfy satis\u00dees many requirements of an ef\u00decient vector: abundance, mobility, tendency to feed on manure, and ability to harbor pathogenic agents. The current study demonstrates the potential of the house \u00dfy to harbor NDV in the crop and gut tissues, and it con\u00derms the \u00dendings of Milushev et al. (1977) . Virus was detectible in the \u00dfy crop for 96 h after a single feeding event. Virus titers in pooled \u00dfy crops ranged from 10 3 ID 50 measured within 30 min of feeding on NDV inoculum to \u03fd10 1 ID 50 at 96 h. Although NDV titers in pooled mid-and hindgut tissues were higher (10 7 ID 50 /0.2 ml) immediately after a single feeding, live virus was only detectable for 24 h. The starting NDV dose was \u03f710 7 ID 50 for both experiment 1 and 2. It is interesting that the crop had much less virus at 30 min than the gut, suggesting that the \u00dfies directed a signi\u00decant portion of the virus containing medium directly to the gut in response to periods of food deprivation. In a previous study, we found turkey coronavirus (family Coronaviridae, genus Coronavirus, TCV) remained active in the crop of a NDV was not detected in the tissues of sham-exposed \u00dfies collected at the same time intervals.",
+            "cite_spans": [
+                {
+                    "start": 287,
+                    "end": 309,
+                    "text": "Milushev et al. (1977)",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "b Virus detected only after second passage in cell culture. c Virus not detected. a NDV was not detected in the tissues of sham-exposed \u00dfies collected at the same time intervals.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "b Virus detected only after second passage in cell culture. c Virus not detected.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Dose (ID 50 ) No. infected/no. tested Intranasal exposure a Sham 0/6 10 2 0/6 10 3 2/6 10 4 6/6 Oral exposure b Sham 0/6 10 4 0/6 10 6 3/6 10 8 6/6 a Chickens were intranasally inoculated by squirting 0.1 ml containing the calculated dose of NDV (Roakin) into the left nasal passage.",
+            "cite_spans": [
+                {
+                    "start": 5,
+                    "end": 13,
+                    "text": "(ID 50 )",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Table 3. Dose response of SPF chickens experimentally inoculated with NDV (Roakin) by intranasal and oral gavage routes"
+        },
+        {
+            "text": "b Orally inoculated by passing a no. 5 French catheter into the crop and delivering 1.0 ml containing the calculated dose of NDV (Roakin). the house \u00dfy for 9 h, but it was inactivated in the gut (Calibeo-Hayes et al. 2003) . It is likely that midgut proteolytic enzymes inactivate NDV within 24 h and similar enzymes are not present in the crop where the virus may be active longer. As with TCV, the current study indicates that the house \u00dfy is a mechanical vector of NDV. The decrease in virus titers indicates that the house \u00dfy is not a propagative vector of NDV.",
+            "cite_spans": [
+                {
+                    "start": 195,
+                    "end": 222,
+                    "text": "(Calibeo-Hayes et al. 2003)",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Table 3. Dose response of SPF chickens experimentally inoculated with NDV (Roakin) by intranasal and oral gavage routes"
+        },
+        {
+            "text": "Presumably, the potential of the house \u00dfy to transmit a disease agent is enhanced by the relative abundance of the vector. In our study, \u00dfies were released in isolation units at rates of 10, 100, and 250 \u00dfies per unit, simulating conditions that may be found in the \u00deeld. Although the chicks were observed eating \u00dfies that each carried \u03f73 \u03eb 10 4 ID 50 virus, none of the susceptible chicks became infected. These \u00dendings suggested a possible dose effect.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Table 3. Dose response of SPF chickens experimentally inoculated with NDV (Roakin) by intranasal and oral gavage routes"
+        },
+        {
+            "text": "Subsequent experimentation to establish an infectious dose necessary for oral exposure indicated that NDV Roakin, when administered by oral gavage at 10 4 ID 50 of virus, was insuf\u00decient to cause infection (Table  3) ; only those birds inoculated with a dose \u054610 6 ID 50 became infected. These \u00dendings suggest that NDV transmission, in the current study, failed because chicks failed to ingest an adequate quantity of virusladen \u00dfies; based on calculations chicks would have needed to consume \u03fe33 \u00dfies to reach a suf\u00decient dose for infection by the oral route. However, intranasal inoculation at 10 4 ID 50 infected 100% of the chicks. Although the house \u00dfy did not transmit NDV in our study, the potential to mechanically transmit NDV remains a possibility because NDV was detectable in both crop and gut tissues for up to 96 and 24 h, respectively, postfeeding (Tables 1 and 2) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 206,
+                    "end": 216,
+                    "text": "(Table  3)",
+                    "ref_id": null
+                },
+                {
+                    "start": 863,
+                    "end": 879,
+                    "text": "(Tables 1 and 2)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Table 3. Dose response of SPF chickens experimentally inoculated with NDV (Roakin) by intranasal and oral gavage routes"
+        },
+        {
+            "text": "Newcastle disease outbreaks vary signi\u00decantly in virulence, transmissibility, and persistence (Feener et al. 1993 , Kinde et al. 2004 . Velogenic forms of the virus are most virulent and cause the greatest mortality, whereas virulent mesogenic forms may cause mortality, and lentogenic forms are generally nonfatal. Live vaccines are usually developed from lentogenic and mesogenic strains and include Mukteswar (mesogenic), Roakin (mesogenic), and La Sota (lentogenic), among others (Alexander 1991) . Accordingly, lentogenic vaccines may be administered intranasally and mesogenic vaccines intramuscularly. As with \u00deeld strains of avian viruses, the virulence of NDV viruses may have bearing on vector competency studies, and virulent velogenic ND may be more amenable to \u00dfy transmission at lower doses.",
+            "cite_spans": [
+                {
+                    "start": 94,
+                    "end": 113,
+                    "text": "(Feener et al. 1993",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 114,
+                    "end": 133,
+                    "text": ", Kinde et al. 2004",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 484,
+                    "end": 500,
+                    "text": "(Alexander 1991)",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Table 3. Dose response of SPF chickens experimentally inoculated with NDV (Roakin) by intranasal and oral gavage routes"
+        },
+        {
+            "text": "In our study, NDV Roakin was infectious at a dose of 10 3 ID 50 after 100-l intranasal inoculation. Under epizootic conditions, NDV replicates in the upper respiratory and intestinal tract of the avian host (Feener et al. 1993) . Respiratory tract receptor sites may be the initial foci for NDV attachment and becoming systemic as virus spreads to other target organs. Respiratory tract inoculation by house \u00dfies is not likely to occur.",
+            "cite_spans": [
+                {
+                    "start": 207,
+                    "end": 227,
+                    "text": "(Feener et al. 1993)",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Table 3. Dose response of SPF chickens experimentally inoculated with NDV (Roakin) by intranasal and oral gavage routes"
+        },
+        {
+            "text": "In summary, after a single feeding, the house \u00dfy harbored live NDV Roakin in both crop and gut tissues 96 and 24 h, respectively. NDV did not replicate in \u00dfy crop or digestive tract tissues. Mechanical transmission of NDV by the house \u00dfy was not demonstrated in the current study. In controlled experiments, NDVexposed house \u00dfies did not transmit NDV even though each \u00dfy carried \u03f710 4 ID 50 of virus when placed in contact with susceptible chickens. This was unexpected, because NDV-exposed \u00dfies were eaten by contact chickens soon after placement in isolation units. However, subsequent experiments demonstrated a dose effect for NDV Roakin: an ID 50 \u054610 6 was required to infect chickens by the oral route, the likely route of transmission for NDV by \u00dfies. These studies indicate that at least for NDV Roakin, house \u00dfies did not carry suf\u00decient quantities of virus to infect chickens and are unlikely vectors. Additional studies using other NDV strains, particularly velogenic strains, are needed to de\u00denitively determine the role of house \u00dfies as vectors of NDV.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Table 3. Dose response of SPF chickens experimentally inoculated with NDV (Roakin) by intranasal and oral gavage routes"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Exotic Newcastle disease. USDA\u00d0APHIS, Veterinary Service",
+            "authors": [],
+            "year": 2003,
+            "venue": "APHIS",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Exotic Newcastle disease in California",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Anonymous",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Poultry Times",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Newcastle disease and other paramyxovirus infections, chapt. 19",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Alexander",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "Diseases of poultry",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Serological procedures, pp. 192\u00d0200. In A laboratory manual for isolation and identi\u00decation of avian pathogens",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Beard",
+                    "suffix": ""
+                }
+            ],
+            "year": 1989,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Fly control in support of the exotic Newcastle Disease eradication program in southern California",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bram",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Wilson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Sardesai",
+                    "suffix": ""
+                }
+            ],
+            "year": 1974,
+            "venue": "Bull. Entomol. Soc. Am",
+            "volume": "20",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Mechanical transmission of turkey coronavirus by domestic house \u00dfies (Musca domestica L.)",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Calibeo-Hayes",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Denning",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Stringham",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Guy",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Watson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Avian Dis",
+            "volume": "47",
+            "issn": "",
+            "pages": "149--153",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Veterinary virology",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Feener",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "P J"
+                    ],
+                    "last": "Gibbs",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Murphy",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Rott",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Studdert",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "White",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "",
+            "volume": "27",
+            "issn": "",
+            "pages": "471--488",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Flies and disease",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Greenberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 1973,
+            "venue": "",
+            "volume": "II",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Identi\u00decation of porcine transmissible gastroenteritis virus in house \u00dfies (Musca domestica L.)",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gough",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Jorgenson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1983,
+            "venue": "Am. J. Vet Res",
+            "volume": "44",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "House \u00dfies (Musca domestica) as transport hosts of Cryptosporidium parvum",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Graczyk",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Cranfield",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Fayer",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Bixler",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Am. J. Trop. Med",
+            "volume": "61",
+            "issn": "",
+            "pages": "500--504",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Rates of energy processing by blow\u00dees: the uses for a joule vary with food quality and quantity",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Hainsworth",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Fisher",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Precup",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "J. Exp. Biol",
+            "volume": "150",
+            "issn": "",
+            "pages": "257--268",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Survival of exotic Newcastle disease virus in commercial poultry environment following removal of infected chickens",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kinde",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Utterback",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Takeshita",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mcfarland",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Avian Dis",
+            "volume": "48",
+            "issn": "",
+            "pages": "669--674",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Movement and distribution of house \u00dfies (Diptera: Muscidae) between habitats in two livestock farms",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lysyk",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "J. Econ. Entomol",
+            "volume": "79",
+            "issn": "",
+            "pages": "993--998",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Role of house \u00dfies in the epizootiology of Newcastle disease",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Milushev",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Gerganov",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Shishkov",
+                    "suffix": ""
+                }
+            ],
+            "year": 1977,
+            "venue": "Vet. Med. Nauki",
+            "volume": "14",
+            "issn": "",
+            "pages": "97--100",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "MINITAB release 11",
+            "authors": [
+                {
+                    "first": "Inc",
+                    "middle": [],
+                    "last": "Minitab",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Newcastle disease reports. World Organization for Animal Health",
+            "authors": [],
+            "year": 2006,
+            "venue": "Office International Epizootie",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "A simple method for estimating \u00defty percent endpoints",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Reed",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Muench",
+                    "suffix": ""
+                }
+            ],
+            "year": 1938,
+            "venue": "Am. J. Hyg",
+            "volume": "27",
+            "issn": "",
+            "pages": "493--497",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Transmission of Newcastle disease virus by insects: detection in wild Fannia spp. (Diptera: Muscidae)",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rogoff",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Carbrey",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bram",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Clark",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Gretz",
+                    "suffix": ""
+                }
+            ],
+            "year": 1975,
+            "venue": "J. Med. Entomol",
+            "volume": "12",
+            "issn": "",
+            "pages": "225--227",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Laboratory transmission of exotic Newcastle disease virus by Fannia canicularis (Diptera: Muscidae)",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rogoff",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Gretz",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Clark",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mcdaniel",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Pearson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1977,
+            "venue": "J. Med. Entomol",
+            "volume": "13",
+            "issn": "",
+            "pages": "617--621",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "The house\u00dfy. Its natural history, medical importance and control",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "West",
+                    "suffix": ""
+                }
+            ],
+            "year": 1951,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Decrease in Newcastle disease virus titer (log 10 ID 50 /0.2 ml specimen) in house \u00dfy crop [y \u03ed \u03ea0.4306ln(x) \u03e9 2.0187; R 2 \u03ed 0.7329] and gut [y \u03ed \u03ea1.2677ln(x) \u03e9 4.3786; R 2 \u03ed 0.914] tissues 0.5\u00d024 h postfeeding. The 96-h observation is not shown.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "This project was funded by grant 525 from U.S. Poultry and Egg Association, Athens GA. This study was conducted under North Carolina State University Institutional Animal Care and Use Guidelines protocol 04-021A.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        }
+    ]
+}

@@ -1,0 +1,2394 @@
+{
+    "paper_id": "3a4d2dc11ce904d9bfede605190b152403fa2df1",
+    "metadata": {
+        "title": "Attractiveness of an Aggregation Pheromone Lure and Chicken Droppings to Adults and Larvae of Alphitobius diaperinus (Coleoptera: Tenebrionidae)",
+        "authors": [
+            {
+                "first": "N",
+                "middle": [],
+                "last": "Singh",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "D",
+                "middle": [
+                    "T"
+                ],
+                "last": "Johnson",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Arkansas",
+                    "location": {
+                        "postCode": "72701",
+                        "settlement": "Fayetteville",
+                        "region": "AR"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The chemical cues by which lesser mealworm, Alphitobius diaperinus (Panzer) (Coleoptera: Tenebrionidae) beetles \u00dend each other are still unknown. Laboratory two-choice pitfall bioassays were conducted to evaluate the attractiveness of synthetic aggregation pheromone lure to lesser mealworm adults and larvae. All components of this synthetic aggregation pheromone lure, including: (R)-(\u03e9)-limonene, (E)-\u2424-ocimene, (S)-(\u03e9)-linalool, (R)-(\u03e9)-daucene, and 2-nonanone were also tested singly. Chicken dropping volatile compounds and fresh chicken droppings (CD) were evaluated singly or in combination with the pheromone lure. In Arkansas, trapping experiments were conducted in different poultry houses with low, moderate, and high lesser mealworm populations to evaluate the attraction of pheromone lure. Laboratory two-choice pitfall bioassay was found to be a useful and convenient tool for evaluating the attractants before testing them in the poultry house. Greater attraction of adults and larvae to a dose of 20 \u00d030 g pheromone lure was identi\u00deed in laboratory two-choice pitfall bioassays. Adults and larvae were highly attractive to a combination of fresh CD and pheromone lure, whereas, a combination of chicken dropping volatile and pheromone lure was not signi\u00decantly attractive. The low attraction of limonene and linalool in the laboratory two-choice pitfall bioassays suggest that either they are nonattractive or attractive only at a narrow range of concentrations. Higher numbers of lesser mealworm adults and larvae were found in traps treated with pheromone lure as compared with untreated controls in \u00deeld experiments. Results indicate a potential for combining the pheromone lure with the attractive CD compounds to enhance trap ef\u00decacy.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The lesser mealworm, Alphitobius diaperinus (Panzer) (Coleoptera: Tenebrionidae), is a serious, cosmopolitan pest present in poultry production facilities, where it consumes poultry feed and litter, and causes decreased weight gains in broiler chicks that eat these beetles (Despins and Axtell 1995) . These beetles also transmit several disease agents such as avian in\u00dfuenza, Marek\u00d5s disease, Coronavirus, the Newcastle disease virus (De las Casas et al. 1973 , 1976 , Salmonella typhimurium (McAllister et al. 1994) , Campylobacter jejuni (Strother et al. 2005) , infectious bursal disease (McAllister et al. 1995) , and also cause damage to poultry insulation by tunneling (Despins et al. 1987) . Control of lesser mealworm adults and larvae is mainly through use of contact insecticides, which has resulted in insecticide-resistant strains (Lambkin 2005) . Because of environmental and resistance concerns related to the use of conventional insecticides, research needs to be focused toward other alternative tactics such as attractants, pheromones, kairomones, and other behavior-modifying chemicals.",
+            "cite_spans": [
+                {
+                    "start": 274,
+                    "end": 299,
+                    "text": "(Despins and Axtell 1995)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 435,
+                    "end": 460,
+                    "text": "(De las Casas et al. 1973",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 461,
+                    "end": 467,
+                    "text": ", 1976",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 493,
+                    "end": 517,
+                    "text": "(McAllister et al. 1994)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 541,
+                    "end": 563,
+                    "text": "(Strother et al. 2005)",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 592,
+                    "end": 616,
+                    "text": "(McAllister et al. 1995)",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 676,
+                    "end": 697,
+                    "text": "(Despins et al. 1987)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 844,
+                    "end": 858,
+                    "text": "(Lambkin 2005)",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Attraction of adults to pheromones is well documented in many tenebrionids including the red \u00dfour beetle, Tribolium castaneum Herbst (Rangaswamy and Sasikala 1991) , the yellow mealworm, Tenebrio molitor L. (Tanaka et al. 1986 ), the broad-horned \u00dfour beetle, Gnatocerus cornutus F. (Tebayashi et al. 1998 , Tashiro et al. 2004 , and the desert tenebrionid beetle Parastizopus transgariepinus Koch (Geiselhardt et al. 2008) . Volatile collections from lesser mealworm males and females revealed four male-speci\u00dec compounds, including: (R)-(\u03e9)-limonene, (E)-\u2424-ocimene, (S)-(\u03e9)-linalool, and (R)-(\u03e9)-daucene (Bartelt et al. 2009 ). A \u00defth compound, 2-nonanone was also iden-ti\u00deed from male, and in small amounts from female lesser mealworms. Synthetic lesser mealworm aggregation pheromone lure referred to hereafter as \"pheromone lure\" composed of these \u00deve compounds was attractive to both sexes in preliminary laboratory pitfall bioassays (Bartelt et al. 2009 ). However, the dosedependent response to pheromone lure, and the attractiveness of individual pheromone lure compo-nents have never been tested to adults and larvae in laboratory conditions. Adult and larval attraction to adult-produced pheromones have been described in codling moth, Cydia pomonella L. (Duthie et al. 2003) , and T. castaneum (Mondal and Port 1984) . Lesser mealworm adults and larvae are unevenly distributed in poultry houses in clumps or in aggregations (Falomo 1986 ). Adults and larvae placed in a petri dish with wood shavings form tight aggregations suggesting some sort of assembling scent present that leads to their aggregation behavior (Falomo 1986 ). These aggregations also suggest the existence of pheromonal communication among adults and larvae of lesser mealworm. The attractiveness of adult-produced pheromone lure to larvae of lesser mealworm needs to be explored in laboratory and \u00deeld conditions. Successful mass trapping using male-produced synthetic aggregation pheromones and plant co-attractants has been reported for bean weevil, Acanthoscelides obtectus (Say), pea leaf weevil, Sitona lineatus L. (Blight et al. 1984) , smaller European elm bark beetle, Scolytus multistriatus (Marsham) (Dickens et al. 1990 ), the coconut Rhinoceros beetle, Oryctes rhinoceros L. (Hallett et al. 1995) , and the red palm weevil, Rhynchophorus ferrugineus Olivier (Abraham et al. 2000) . Adults and larvae of lesser mealworm were observed to be attracted to fresh chicken droppings (CD) in a poultry house. Strother and Steelman (2001) reported higher number of lesser mealworm adults and larvae along feed and water lines. This also suggests that the beetles may be attracted to the chicken droppings left behind from feeding birds in addition to their attraction for water and feed. The chicken dropping volatiles (CDV) may act as an attractant to adult and larval lesser mealworm beetles. Studying the interactions between pheromone lure and CDV has an immediate practical signi\u00decance in designing more effective traps. These traps can be used to detect early infestations and to attract and kill lesser mealworm beetles in spot treatments rather than spraying the whole poultry house.",
+            "cite_spans": [
+                {
+                    "start": 133,
+                    "end": 163,
+                    "text": "(Rangaswamy and Sasikala 1991)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 207,
+                    "end": 226,
+                    "text": "(Tanaka et al. 1986",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 283,
+                    "end": 305,
+                    "text": "(Tebayashi et al. 1998",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 306,
+                    "end": 327,
+                    "text": ", Tashiro et al. 2004",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 398,
+                    "end": 423,
+                    "text": "(Geiselhardt et al. 2008)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 606,
+                    "end": 626,
+                    "text": "(Bartelt et al. 2009",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 940,
+                    "end": 960,
+                    "text": "(Bartelt et al. 2009",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1266,
+                    "end": 1286,
+                    "text": "(Duthie et al. 2003)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1306,
+                    "end": 1328,
+                    "text": "(Mondal and Port 1984)",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1437,
+                    "end": 1449,
+                    "text": "(Falomo 1986",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1627,
+                    "end": 1639,
+                    "text": "(Falomo 1986",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 2104,
+                    "end": 2124,
+                    "text": "(Blight et al. 1984)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 2194,
+                    "end": 2214,
+                    "text": "(Dickens et al. 1990",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 2271,
+                    "end": 2292,
+                    "text": "(Hallett et al. 1995)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 2354,
+                    "end": 2375,
+                    "text": "(Abraham et al. 2000)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 2497,
+                    "end": 2525,
+                    "text": "Strother and Steelman (2001)",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In this study, we \u00derst determined the attractiveness of pheromone lure, individual components of pheromone lure, CDV, and fresh CD to the lesser mealworm adults and larvae in laboratory pitfall bioassays. Field trials were then conducted to evaluate the attractiveness of pheromone lure to lesser mealworm adults and larvae.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Insect Rearing. Adult and larval lesser mealworms for all bioassays were collected from the Applied Broiler Research Unit, Savoy, AR. Beetles were extracted from litter or manure by sieving samples through 2.8 and 2.0 mm screens. They were transported to the laboratory and reared in covered plastic chambers (27.5 long \u03eb 17.5 wide \u03eb 17.5 cm deep, Penn Plax Large Animal Carrier, Garden City, NY) with wood shavings. The beetles were maintained at 28 \u03ee 1\u040aC under reverse L:D (14:10 h) photoperiod. Water and chick starter feed were provided, and rolled cardboard was added to serve as shelter and pupation sites. To get the uniform age seventh instar lesser mealworms for bioassays, \u03f35,000 sixth instars (7 mm in length, according to Wilson and Miner 1969) were separated from \u00deeld-collected beetles and placed in plastic chambers. Chick starter feed and water were provided weekly to these larvae. After 7 d, the chambers were checked regularly for cast skins to con\u00derm that larvae had molted to the seventh instar (8 mm in length, Wilson and Miner 1969) . The newly molted seventh instars (light colored exoskeleton) were removed for bioassays. For uniform aged adults, a piece of rolled corrugated cardboard (30 cm 2 ) was placed in each plastic rearing chamber that contained \u03f35,000 seventh instars. Chambers were checked weekly to con\u00derm molting, and pupae were collected and allowed to eclose into adults. The newly emerged adults were removed, and held in groups of 100 per petri dish (150 mm diameter). The adult exoskeleton was allowed to completely harden over a 5 d period (Hopkins et al. 1992) , during which these adults were provided feed (1 g \u00denely ground chicken feed) and water (daily moistened 2 cm 2 cotton ball).",
+            "cite_spans": [
+                {
+                    "start": 734,
+                    "end": 756,
+                    "text": "Wilson and Miner 1969)",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 1033,
+                    "end": 1055,
+                    "text": "Wilson and Miner 1969)",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 1584,
+                    "end": 1605,
+                    "text": "(Hopkins et al. 1992)",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "Volatile Collection and Gas Chromatography/Mass Spectrometery (GC/MS) Analysis. A 5 g fresh sample of CD was placed inside a glass headspace volatile collection chamber (5 cm diameter \u03eb 0.5 m long). Volatiles were collected for 4 h from a chamber containing CD and the blank collection chamber (control). Three replications were used for CD and one for control. Carbon-\u00deltered air \u00dfowing at the rate of 0.5 liter/min entered the glass chambers. Any CDV exiting the cylinders were adsorbed in a trap containing 30 mg SuperQ (Alltech Associates, Deer\u00deeld, IL). Each trap was eluted with 300 l methylene chloride in a glass vial to obtain a CDV sample. A 90 l aliquot from each CDV sample was then transferred to another vial and mixed with 10 l ethyl caprate solution (100 ng ethyl caprate per 1 l of methylene chloride, internal standard) to determine natural ratios of volatile components in each CDV sample. Samples were stored at \u03ea80\u040aC.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "A 1 l aliquot of each CDV sample was analyzed on a Varian 450 GC coupled with Varian 320 MS at Statewide Mass Spectrometry Facility, University of Arkansas, Fayetteville, AR. The GC is equipped with a factory four Capillary column of 0.25 \u03eb 0.25 mm ID \u03eb 30 m length (Varian Inc., Palo Alto, CA). Injector temperature was set at 270\u040aC in split mode (1:50) using helium as a carrier gas with a constant column \u00dfow of 1 ml/min. The oven was programmed to initially hold at 50\u040aC for 3 min, and then ramp at 5\u040aC/min to 120\u040aC and ramp at 10\u040aC/min to 270\u040aC with a \u00denal hold time of 5 min. Each GC peak produced an ion spectrum after entering the MS. To identify each peak, its MS ion pattern was compared with known ion patterns of compounds in the National Institute of Standards and Technology (NIST) mass spectral database.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "Four serial dilutions of ethyl caprate (99% pure) (Sigma\u00d0Aldrich Co., Milwaukee, WI) ranged from 1 ng to 1 g were made in methylene chloride. A 1 l aliquot of each dilution was injected into the GC/MS following the procedure described above. The area was calculated for each chromatogram peak for each dilution and was plotted against four concentrations to generate a calibration curve. The area under each GC peak for each volatile peak from an injected CDV sample was related to the area for ethyl caprate peak in the sample. The area under the ethyl caprate peak in each sample was adjusted with a calibration curve to quantify the natural ratios of compounds in each sample. Eight compounds were identi\u00deed from GC/MS analysis of CDV, including: 2-methyl-propanoic acid, 2, 3-butanediol, butanoic acid, 2-pentanone, 1-octen-3-ol, 2-chlorocyclohexanol, pentanoic acid, and dodecanal (Table 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 886,
+                    "end": 895,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "Laboratory Two-Choice Pitfall Bioassay. The pheromone lure consisted of \u00deve compounds: (R)-(\u03e9)-limonene (97%), (E)-\u2424-ocimene (98%), (S)-(\u03e9)-linalool (98%), (R)-(\u03e9)-daucene (98%), and 2-nonanone (99%) in a 9.6: 60.0: 9.6: 17.3: 3.5 ratios, respectively (Bartelt et al. 2009 ). The two commercial components, 2-nonanone and (R)-(\u03e9)-limonene were purchased from Aldrich, Milwaukee, WI. (E)-\u2424-ocimene, (S)-(\u03e9)-linalool, and (R)-(\u03e9)-daucene were prepared in the USDA\u00d0ARS laboratory at Peoria, IL, by the procedures described in Bartelt et al. (2009) . Pheromone lure doses ranging from 1 to 100 g were tested to determine responses of lesser mealworm adults and larvae. Because 20 g of pheromone lure was found to be more attractive in preliminary bioassays, this amount of pheromone lure, or individual components of pheromone lure was used in subsequent bioassays. Emission characteristics of the pheromone lure components placed on rubber septa were measured in the laboratory by the methods of Bartelt et al. (2009) .",
+            "cite_spans": [
+                {
+                    "start": 252,
+                    "end": 272,
+                    "text": "(Bartelt et al. 2009",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 523,
+                    "end": 544,
+                    "text": "Bartelt et al. (2009)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 993,
+                    "end": 1014,
+                    "text": "Bartelt et al. (2009)",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "Based on the total amount of all compounds present per microliter in CDV sample, the amount of CDV sample needed to get 10 g of total compounds was calculated (Table 1) . We decided to use 10 g based on preliminary bioassays results, where no signi\u00decant differences were found among 10, 20, and 30 g CDV. This crude solution containing 10 g CDV compounds was then tested alone or in combination with the 20 g pheromone lure. Two grams of fresh CD was also tested singly or in combination with the 20 g pher-omone lure. Red rubber septa (11 mm, Wheaton, Millville, NJ) were cleaned in advance by soaking them in methylene chloride overnight. Each of these four treatments: 1) pheromone lure, 2) individual pheromone lure components, 3) CDV, and 4) pheromone lure \u03e9 CDV were applied separately to the rubber septa followed by 300 l methylene chloride, which was allowed to soak in and then the methylene chloride was allowed to evaporate for 2 h. Untreated control septa received 300 l methylene chloride.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 159,
+                    "end": 168,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "Aluminum roasting pans (38 \u03eb 25 \u03eb 3.8 cm) were used as test arenas. Two 3.8 cm diameter circular holes were drilled directly opposite from each other on the \u00dfoor of the pans, 15 cm apart and 2.5 cm from the pan lip. The pans rested on two open 120 ml glass specimen cups directly below the holes and these cups had either an odor stimulus or no odor (control). Two additional 120 ml specimen cups were placed at the other end of the pan to keep it level. The test arena tops were 43-\u03eb 30-cm wide glass sheets. The glass sheets had two outlet holes 15 cm apart, parallel to holes on the pan \u00dfoor but on the opposite end. Charcoal \u00deltered air at 0.5 liter/min from the air delivery system (model no. OLFM-4C-ADS\u03e9V.1, ARS Inc., Gainsville, FL) was supplied separately through Teflon tubes (0.64 cm diameter, ARS Inc.) to the inlet ports of the 120 ml specimen cups containing an odor stimulus or no odor (control). The air then entered the test arenas and was exhausted from the outlet holes at a rate of 0.5 liter/min with a vacuum port of the air delivery system.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "Lesser mealworm beetles are nocturnal and inhabit a darkened or subdued light environment (Asaniyan et al. 2007 ). Thus, all bioassays were conducted during the day, but in reverse L:D (14:10 h) conditions (perceived as night by the beetles). An 8 h period was shown to allow optimal insect dispersal in preliminary bioassay tests. Bioassays were conducted for 8 h in complete darkness at 28\u040aC and 50 \u03ee 10% relative humidity (RH). One hundred and \u00defty test beetles were used in each replicate and four replicates were used for each treatment. Beetles were starved for 12 h before the bioassays. Beetles were placed under an inverted glass funnel (5 cm diameter at widest point) at the center of the arena for 8 h before release to allow for acclimation to the experimental conditions. These acclimated beetles were released at the down-wind end of the arena at 1 h after the dark cycle began, and their distribution recorded after 8 h. The treatment cup positions were reversed after each replicate to eliminate any positional cues. Two testing arenas 2.5 cm apart were used simultaneously. The beetles trapped in the odor or control cups and those made no choice were collected and counted. A new batch of beetles was tested in each replication. Each arena was washed with acetone and air-dried before any subsequent use.",
+            "cite_spans": [
+                {
+                    "start": 90,
+                    "end": 111,
+                    "text": "(Asaniyan et al. 2007",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "Pitfall Trap for Field Test. The trap type used for the \u00deeld study was a modi\u00deed pitfall trap to exploit the thigmotactic behavior of lesser mealworm adults and larvae (Bartelt et al. 2009 ). The trap base was a 5 mm thick, 20 cm square piece of plywood with a 5 cm circular hole in the center. A threaded metal canning ring, 7 cm in diameter, from a 250 ml canning jar, (Ball Inc., Muncie, IN) was attached, concentric to the hole, with three \u00dfat-head, machine screws, size 6 \u00d032 \u03eb 1.25 cm, and hex nuts. Holes were predrilled, spaced equally around the canning ring. The trap top was a 10 cm 2 , 5 mm thick piece of plywood. Three holes were drilled through the top and aligned with the machine screws protruding through the trap base. The ends of these screws served as \"pins\" to keep the trap top centered above the 5 cm hole, and the hex nuts provided a suitable separation between the trap top and base so that beetles could enter the trap. Trap assembly was completed by screwing the jar into the canning ring.",
+            "cite_spans": [
+                {
+                    "start": 168,
+                    "end": 188,
+                    "text": "(Bartelt et al. 2009",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "A pheromone lure consisting of the \u00deve synthetic components mentioned in the laboratory pitfall bioassays was applied to each rubber septum (100 g total, in 10 l methylene chloride), followed by 300 l methylene chloride. Untreated control septa received 300 l methylene chloride. The septa were loaded 2 h before use, stored in a tightly closed bottle and transported in an ice chest to the poultry house. The treated septa with control or pheromone lure were then dropped into the glass jar. A hole was made in the loose poultry house litter, and then the assembled trap was set in place, with the trap top slightly below the surface of the litter layer. Traps were cleaned with Alconox detergent, and dried at the end of the experiment.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "Field Test to Determine Pheromone Lure Attractiveness to Adults and Larvae. Trapping experiments were done in three different poultry houses located in Savoy and Tontitown, AR, to evaluate the attraction of the pheromone lure to lesser mealworm adults and larvae. After bird removal, all the houses remained vacant for 2 wk before a new \u00dfock of broilers was introduced. There were always high numbers of beetles in the poultry houses for two reasons: 1) beetleinfested litter is normally removed from the poultry houses to surrounding pasture \u00deelds during the summer when the outside temperatures are suitable for larval development, adult emergence and adult \u00dfight, and 2) poultry houses are only treated with insecticides during the \u00dfock-free period (2 wk) when the heat inside poultry house is turned off and majority of beetles are either hiding in building structures or hiding deep inside the litter layer. These beetles do not come in contact with insecticides. Savage (1992) speculated that if litter applied is 0.4 km from the poultry house, and the beetle dispersal is random, \u03f760,000 beetles for every one million applied to the \u00deeld would return to the poultry house. Litter was not removed from the house before our study.",
+            "cite_spans": [
+                {
+                    "start": 969,
+                    "end": 982,
+                    "text": "Savage (1992)",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "The \u00derst \u00deeld test was conducted in a broiler production house with a moderate lesser mealworm infestation (1,000 \u00d02,000 lesser mealworm adults per trap), at the Applied Broiler Research Unit in Savoy, AR. These numbers were based on a 1 d trap catch before starting the experiment. The building was 99 \u03eb 14 m wide with the long axis orientated east to west and was managed to produce six or 8 wk-old broiler chickens, but it did not contain birds at the start of this study. Two automatic feeder lines ran the length of the house, 2 m out from the wall. The \u00dfoor of the house was covered with used pine wood-shaving litter \u03f78 cm deep. Plastic trays (56 \u03eb 34 cm) containing chick feed were placed 2 d before chicks were introduced inside the house. They were used to supplement the automatic feeders so that newly hatched chicks had optimal feed access during the \u00derst 10 d of a production cycle. The trays were located in three parallel lines. One row of trays was located under feed spouts on either side of the permanent feeder pans. The remaining two rows were on either side of the feed line beneath each automatic feeder line and the tray spacing was 1 m. The beetle traps were placed parallel to the feeder lines or feeder pans and were spaced \u03f71 m apart. The experiment was a randomized complete block (RCB) design with four blocks: one and two on the north side of the house and three and four on the south side (Fig. 1) . Each block consisted of two treatments randomly assigned within each block: six traps with pheromone-treated septa; and six traps with untreated (control) septa. Trapping was conducted over three consecutive days from 20 to 23 August 2008. The house temperature was 28\u040aC when the traps were initially placed and baited in the afternoon. The beetles were collected from the traps after 24 h and trap baits were replaced. By then, propane heaters raised the house temperature to 34\u040aC (the rearing temperature of the young birds). After the second 24 h period, trapped beetles were again removed and baits replaced. At this time, 10,000 1-d-old chicks were released into the facility, and once again, beetles were collected from the traps after 24 h. Thus, the beetle response to the treated septa was monitored for 1 and 2 d before chick introduction and for 1 d afterward, and the time period of the study included a de\u00dened temperature change. Chicks were free to roam inside the poultry house. Chicken droppings had been observed all over on the \u00dfoor in poultry house. However, more droppings were present near feeder lines.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1421,
+                    "end": 1429,
+                    "text": "(Fig. 1)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "The second \u00deeld test was conducted from 15 to 19 September 2008 in a broiler production house with a low lesser mealworm infestation (\u03fd1,000 lesser mealworm adults per trap), in Tontitown, AR. The building had the same dimensions, feeder lines or pans and waterers set up as described in the \u00deeld test. The experiment was a RCB design as described in \u00deeld test. The house temperature was 28\u040aC when the traps were initially placed and baited the afternoon of 15 September 2008. The beetles were collected from the traps after 24 and 48 h, and the trap baits were replaced each time. Then, the house temperature was raised to 34\u040aC with propane heaters. At this time, the chicks were released free into the facility, and once again, beetles were collected from the traps after 24 and 48 h.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "The third \u00deeld test was conducted from 8 to 12 November 2008 in a broiler production house with a high lesser mealworm infestation (\u03fe2,000 lesser mealworm adults per trap), at the Applied Broiler Research Unit in Savoy, AR. The experimental set up, temperature change, introduction of chicks, collection schedule of beetles, and replacement of baits procedure was the same as in the second \u00deeld test. Trapped beetles were transported back to the laboratory and counted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "Statistical Analyses. Laboratory Two-Choice Pitfall Bioassay. Attractiveness or repellency of treatments was expressed as a response index (RI) shown by Suzuki and Sugawara (1979) . It was calculated as RI \u03ed (T \u03ea C/Tot)*100, where T is the number responding to the treatment, C is the number responding to control, and Tot is the number of adult/larvae released per replicate into the test arena. Positive RIs indicate attraction to the treatment and negative RIs indicate repellency; and the values range from \u03ea100 (complete repellency) to 100 (complete attraction). The mean RIs among the treatments were compared using the nonparametric Kruskal\u00d0Wallis test followed by Tukey Kramer honestly signi\u00decant difference (HSD) for multiple comparisons (P \u03ed 0.05) (JMP 2009).",
+            "cite_spans": [
+                {
+                    "start": 153,
+                    "end": 179,
+                    "text": "Suzuki and Sugawara (1979)",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "Field Test. The experiment had a randomized complete block design, with six traps for each pheromone and control within each of four blocks. Data for adults and larvae captured in traps were log (X \u03e9 1) transformed to meet assumptions of normality and homogeneity of variance (Zar 1999) . A multifactorial analysis of variance (ANOVA) was performed on transformed log (X \u03e9 1) trap catch data subjected to the SAS regression and general linear models proce-dures (SAS Institute 2004). Interactions among treatments (pheromone treated or untreated controls), blocks (space) and days (time) were determined. One way ANOVA was also performed to compare treatments within each day.",
+            "cite_spans": [
+                {
+                    "start": 276,
+                    "end": 286,
+                    "text": "(Zar 1999)",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "Laboratory Two-Choice Pitfall Bioassay. The treatments are abbreviated as follows: lesser mealworm pheromone lure (lesser mealworm lure); fresh chicken dropping volatiles collected on SuperQ adsorption powder trap (CDV); and freshly collected CD.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Adults. Signi\u00decant differences in the mean RI values revealed the variability among \u00defteen different treatments tested for attractiveness to lesser mealworm adults ( 2 \u03ed 58.30; df \u03ed 14; P \u03fd 0.0001; Kruskal\u00d0 Wallis Test). The mean percentage of adults trapped using the 30 g lesser mealworm lure (59.0%) was signi\u00decantly greater than the 1 g lesser mealworm lure (18.7%), 10 g lesser mealworm lure (34.5%), 50 g lesser mealworm lure (27.0%), and 100 g lesser mealworm lure (30.0%). In addition, 20 g (R)-(\u03e9)daucene (43.2%), and 20 g 2-nonanone (42.0%) were more effective in capturing adults than 20 g (E)-\u2424ocimene (22.2%), 20 g (S)-(\u03e9)-linalool (5.5%), and 20 g (R)-(\u03e9)-limonene (2.2%). The bait combination of 2 g CD \u03e9 20 g lesser mealworm lure attracted signi\u00decantly more adults than all other treatments. More adults responded to 2 g CD as compared with the other treatments except 2 g CD \u03e9 20 g lesser mealworm lure or 30 g lesser mealworm lure. The fresh 2 g CD was 3.3-fold more attractive than 10 g CDV. Similarly, a combination of fresh 2 g CD \u03e9 20 g lesser mealworm lure was three-fold more attractive than a combination of 10 g CDV \u03e9 20 g lesser mealworm lure (Fig. 2) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1170,
+                    "end": 1178,
+                    "text": "(Fig. 2)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Larvae. Signi\u00decant differences in the mean RI values were found among 15 different treatments exposed to lesser mealworm larvae ( 2 \u03ed 52.56; df \u03ed 14; P \u03ed 0.0001; Kruskal Wallis Test). A signi\u00decantly higher mean percentage of larvae were trapped in traps baited with the 10 g lesser mealworm lure (46.0%) than 1 g lesser mealworm lure (8.5%), 50 g lesser mealworm lure (12.0%), and 100 g lesser mealworm lure (17.0%). Percent larval captures in traps baited with 20 g 2-nonanone (33.0%) or 20 g (R)-(\u03e9)daucene (30.0%) were signi\u00decantly higher than 20 g (R)-(\u03e9)-limonene (0.2%) or (S)-(\u03e9)-linalool (1.3%). Larvae were most attracted to the 10 g lesser mealworm lure, and the attractiveness of the lesser mealworm lure to larvae decreased with the increased dose. The lure using 2 g CD alone (78.0%) or combined with 20 g lesser mealworm lure (76.0%) was statistically more attractive to larvae than all other treatments. The fresh 2 g CD was \u00deve-fold more attractive than 10 g CDV. Similarly, the fresh 2 g CD \u03e9 20 g lesser mealworm lure was four-fold more attractive than a combination of 10 g CDV \u03e9 20 g lesser mealworm lure (Fig. 3) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1125,
+                    "end": 1133,
+                    "text": "(Fig. 3)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Adults. The pheromone lure was signi\u00decantly attractive in the moderate lesser mealworm population house ( Table 2 ). The statistical analysis revealed the signi\u00decant effect of pheromone on total trap catch (F \u03ed 83.40; df \u03ed 1, 126; P \u03ed 0.0001). Overall, the pheromone-baited traps caught 3.3-fold more adults than untreated controls. Captures decreased \u03f710fold after the chicks were introduced (days 1 and 2 vs. day 3). Nevertheless, the factor difference between the pheromone and control was stable among the days (treatment-by-day interaction was not sig-ni\u00decant) (F \u03ed 0.84; df \u03ed 2, 126; P \u03ed 0.43). The signi\u00decant interaction between blocks and days suggested that the population distribution changed over time (F \u03ed 5.25; df \u03ed 6, 126; P \u03ed 0.0001). Importantly, though, no interactions involving blocks and treatments were signi\u00decant, indicating a consistent pheromone effect over space (F \u03ed 1.25; df \u03ed 3, 126; P \u03ed 0.30).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 106,
+                    "end": 113,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Field Test to Determine Pheromone Lure Attractiveness in Moderate Lesser Mealworm Population."
+        },
+        {
+            "text": "Larvae. The pheromone-baited traps caught twofold more larvae than untreated controls. The introduction of chicks decreased the captures by nine-fold (days 1 and 2 vs. day 3) ( Table 2 ). The pheromonebaited traps caught signi\u00decantly more larvae than the controls over time (treatment-by-day interaction was not signi\u00decant) (F \u03ed 0.46; df \u03ed 2, 126; P \u03ed 0.62). The distribution of the larval population changed somewhat over space and time as revealed from the significant interaction between blocks and days (F \u03ed 6.30; df \u03ed 6, 126; P \u03ed 0.0001). Interactions involving blocks and treatments were signi\u00decant, indicating an inconsistent pheromone effect over space (F \u03ed 3.9; df \u03ed 3, 126; P \u03ed 0.011).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 177,
+                    "end": 184,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Field Test to Determine Pheromone Lure Attractiveness in Moderate Lesser Mealworm Population."
+        },
+        {
+            "text": "Field Test to Determine Pheromone Lure Attractiveness in Low Lesser Mealworm Population. Adults. The trap catches of adults decreased six-fold with the introduction and presence of birds (days 1 and 2 vs. day 3 and 4). Signi\u00decant differences in adult numbers were found in traps treated with the pheromone lure as compared with untreated controls for all 4 d ( Table  3 ). The treatment-by-day interaction was not signi\u00decant, suggesting the stable effect of pheromone over time (F \u03ed 1.82; df \u03ed 3, 169; P \u03ed 0.14). The pheromone lure-baited traps caught 3.3-fold more adults than their corresponding controls for the combined 4 d. The signi\u00decant interaction between blocks and days suggested that the population distribution did change over space and time (F \u03ed 7.46; df \u03ed 9, 169; P \u03ed 0.0001). The inconsistent effect of pheromone over space in the poultry house was revealed by signi\u00decant interactions between treatment and blocks (F \u03ed 5.56; df \u03ed 3, 169; P \u03ed 0.001).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 361,
+                    "end": 369,
+                    "text": "Table  3",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Field Test to Determine Pheromone Lure Attractiveness in Moderate Lesser Mealworm Population."
+        },
+        {
+            "text": "Larvae. Signi\u00decant differences in larval numbers were found in traps treated with pheromone lure as compared with untreated controls for all 4 d (Table 3) . Overall, the baited traps caught three-fold more larvae than untreated controls. Trap catches only decreased two-fold with the introduction of chicks (days 1 and 2 vs. day 3 and 4). The treatment-by-day interaction was not signi\u00decant suggesting the stable effect of pher- Fig. 2 . Response of lesser mealworm adults to a range of pheromone lure (lesser mealworm lure) doses, 20 g each component of lesser mealworm lure, 10 g CDV, 2 g fresh CD, and a combination of 20 g lesser mealworm lure with 10 g CDV or 2 g CD in laboratory two-choice pitfall bioassays at air \u00dfow rate of 0.5 liter/min. Lesser mealworm lure contains: (R)-(\u03e9)-limonene, (E)-\u2424-ocimene, (S)-(\u03e9)-linalool, (R)-(\u03e9)-daucene, and 2-nonanone in 9.6: 60.0: 9.6: 17.3: 3.5 ratios, respectively. CDV contains: 2-methyl-propanoic acid, 2,3-butanediol, butanoic acid, 2-pentanone, 1-octen-3-ol, 2-chlorocyclohexanol, pentanoic acid, and dodecanal in 3.3: 27.9: 10.8: 5.4: 12.1: 17.3: 17.6: 5.6 ratios, respectively. Response Index \u03ed (T \u03ea C/Tot)*100, for which T is the number responding to the treatment, C is the number responding to the control, and Tot is the total number of adults released. Data are expressed as means \u03ee SE (N \u03ed 4). Bars with different letters are signi\u00decantly different (P \u03fd 0.05; Tukey Kramer HSD-test). omone over time (F \u03ed 1.80; df \u03ed 3, 169; P \u03ed 0.14). The larval population distribution did not change signi\u00decantly inside the poultry house over the space and time as evident from nonsigni\u00decant interactions between block and day (F \u03ed 1.73; df \u03ed 9, 169; P \u03ed 0.08). The treatment-by-block interaction was signi\u00decant suggesting the variable effect of pheromone over space (F \u03ed 7.30; df \u03ed 3, 169; P \u03ed 0.0001).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 145,
+                    "end": 154,
+                    "text": "(Table 3)",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 429,
+                    "end": 435,
+                    "text": "Fig. 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Field Test to Determine Pheromone Lure Attractiveness in Moderate Lesser Mealworm Population."
+        },
+        {
+            "text": "Field Test to Determine Pheromone Lure Attractiveness in High Lesser Mealworm Population. Adults. No signi\u00decant differences were found in dayby-treatment interaction suggesting the consistent ef-fect of pheromone over time (F \u03ed 2.20; df \u03ed 3, 169; P \u03ed 0.08). The signi\u00decant interaction among days and blocks revealed that population distribution inside the poultry house changed over space and time (F \u03ed 3.57; df \u03ed 9, 169; P \u03ed 0.0004). Interactions involving blocks and treatments were nonsigni\u00decant, indicating a consistent pheromone effect over space (F \u03ed 2.09; df \u03ed 3, 169; P \u03ed 0.10). A 30-fold reduction in adults trapped was observed after the introduction of chicks (days 1 and 2 vs. day 3 and 4). The pheromone-baited traps caught 2.6-fold more adults than untreated controls (Table 4 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 782,
+                    "end": 790,
+                    "text": "(Table 4",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Field Test to Determine Pheromone Lure Attractiveness in Moderate Lesser Mealworm Population."
+        },
+        {
+            "text": "Response of lesser mealworm larvae to a range of pheromone lure (lesser mealworm lure) doses, 20 g each component of lesser mealworm lure, 10 g CDV, 2 g fresh CD, and a combination of 20 g lesser mealworm lure with 10 g CDV or 2 g CD in laboratory two-choice pitfall bioassays at air \u00dfow rate of 0.5 liter/min. Lesser mealworm lure contains: (R)-(\u03e9)-limonene, (E)-\u2424-ocimene, (S)-(\u03e9)-linalool, (R)-(\u03e9)-daucene, and 2-nonanone in 9.6: 60.0: 9.6: 17.3: 3.5 ratios, respectively. CDV contains: 2-methyl-propanoic acid, 2,3-butanediol, butanoic acid, 2-pentanone, 1-octen-3-ol, 2-chlorocyclohexanol, pentanoic acid, and dodecanal in 3.3: 27.9: 10.8: 5.4: 12.1: 17.3: 17.6: 5.6 ratios, respectively. Response index \u03ed (T \u03ea C/Tot)*100, for which T is the number responding to the treatment, C is the number responding to the control, and Tot is the total number of larvae released. Data are expressed as means \u03ee SE (N \u03ed 4). Bars with different letters are signi\u00decantly different (P \u03fd 0.05; Tukey Kramer HSD-test). Experiment had a randomized complete block design, with six traps for each pheromone and control within each of four blocks, replicated on 3 d. Analysis was on log (X \u03e9 1) transformed data. Within a day, or for overall means, values followed by the different letter are signi\u00decantly different (P \u03fd 0.05; ANOVA).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Fig. 3."
+        },
+        {
+            "text": "Larvae. Captures decreased \u03f725-fold after the chicks were introduced (days 1 and 2 vs. day 3 and 4). Nonsigni\u00decant differences were found in day-bytreatment interaction suggesting the consistent effect of pheromone over time (F \u03ed 0.69; df \u03ed 3, 169; P \u03ed 0.55). The signi\u00decant interaction between days and blocks revealed the population distribution change over space and time (F \u03ed 3.23; df \u03ed 9, 169; P \u03ed 0.001). The pheromone effect was consistent over space (treatment-by-block interaction was not signi\u00decant) (F \u03ed 2.32; df \u03ed 3, 169; P \u03ed 0.06). Overall, the pheromone-baited traps caught 2.2-fold more larvae than did the untreated control (Table 4 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 640,
+                    "end": 648,
+                    "text": "(Table 4",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Fig. 3."
+        },
+        {
+            "text": "The laboratory two-choice pitfall bioassay was found to be a useful and convenient tool for evaluating the attractants for lesser mealworm adults and larvae before testing them in a poultry house. Similar studies were done to assess pheromone performance in laboratory pitfall bioassays for the rice weevil, Sitophilus oryzae (L.) (Phillips and Burkholder 1981) , the sawtoothed grain beetle, Oryzaephilus surinamensis (L.) (Mikolajczak et al. 1984) , the maize weevil, Sitophilus zeamais Motschulsky and the red \u00dfour beetle, Tribolium castaneum Herbst (Phillips et al. 1993 ). In the current study, adults and larvae were strongly attracted to a dose of 20 \u00d030 g synthetic lesser mealworm pheromone lure in laboratory pitfall bioassays. Lesser mealworm adults can perceive pheromones at lower doses, and were also more attracted than the larvae to higher doses of 50 and 100 g. Our laboratory and \u00deeld results con\u00derm the larval attraction to adult pheromones. It is not known whether larvae of lesser mealworm produce compounds similar to adult emit- Experiment had a randomized complete block design, with six traps for each pheromone and control within each of four blocks, replicated on 4 d. Analysis was on log (X \u03e9 1) transformed data. Within a day, or for overall means, values followed by the different letter are signi\u00decantly different (P \u03fd 0.05; ANOVA). Experiment had a randomized complete block design, with six traps for each pheromone and control within each of four blocks, replicated on 4 d. Analysis was on log (X \u03e9 1) transformed data. Within a day, or for overall means, values followed by the different letter are signi\u00decantly different (P \u03fd 0.05; ANOVA). ted volatile pro\u00deles or not. Both adults and larvae feed on chicken feed and poultry manure (Pfeiffer and Axtell 1980) . The larvae may have adapted and evolved the behavioral responses to male-produced aggregation pheromones for exploiting food resources and shelter occupied by adults.",
+            "cite_spans": [
+                {
+                    "start": 331,
+                    "end": 361,
+                    "text": "(Phillips and Burkholder 1981)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 424,
+                    "end": 449,
+                    "text": "(Mikolajczak et al. 1984)",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 553,
+                    "end": 574,
+                    "text": "(Phillips et al. 1993",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 1768,
+                    "end": 1794,
+                    "text": "(Pfeiffer and Axtell 1980)",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The mean percentage of lesser mealworm adults caught in pitfall traps baited with 20 g daucene (43.2%), or 20 g nonanone (42.0%) were higher than the other three components of pheromone lure: 20 g (E)-\u2424-ocimene (22.2%), 20 g (S)-(\u03e9)-linalool (5.5%), or 20 g (R)-(\u03e9)-limonene (2.2%). 2-Nonanone has been reported to be attractive to caddis\u00dfy, Molanna angustata Curtis (L\u00f6 fstedt et al. 2008), and olive bark beetle, Phloeotribus scarabaeoides Bernard (Szauman\u00d0Szumski et al. 1998 ). The very low attraction of limonene and linalool to lesser mealworm adults and larvae suggest that either they are nonattractive or attractive at a narrow range of concentrations in the laboratory two-choice pitfall bioassays. Limonene is a monoterpene that is found to be repellent against mealybugs and white\u00dfies (Hollingsworth 2005), and cattle tick, Rhipicephalus microplus (Canestrini) (Ferrarini et al. 2008) . Linalool repelled 93% more mosquitoes than the unprotected control (Muller et al. 2009 ). The attractiveness of limonene and linalool needs to be assessed in dose-dependent response of lesser mealworm in laboratory pitfall bioassays. These compounds should be excluded if found nonattractive or repellent.",
+            "cite_spans": [
+                {
+                    "start": 442,
+                    "end": 478,
+                    "text": "Bernard (Szauman\u00d0Szumski et al. 1998",
+                    "ref_id": null
+                },
+                {
+                    "start": 873,
+                    "end": 896,
+                    "text": "(Ferrarini et al. 2008)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 966,
+                    "end": 985,
+                    "text": "(Muller et al. 2009",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Chicken dropping volatiles (10 g CDV) extracted in methylene chloride were 3.6-fold less attractive than the fresh chicken droppings (2 g CD), whereas, the 2 g CD \u03e9 20 g pheromone lure was three-fold more attractive than a combination of 10 g CDV \u03e9 20 g pheromone lure. Pheromones are usually perceived at minute quantities and elicit strong behavioral and antennal responses. While multiple chemicals and correct blends can be critical for pheromone activity, kairomone activity in general is even more dependent on multiple compounds and correct ratios, and kairomones frequently require more material for activity (Witzgall et al. 2008 , Trona et al. 2010 . The concentration of CDV (kairomone) used was half that of the pheromone lure in the laboratory pitfall bioassays. Therefore, the low concentration of CDV might have accounted for the low attractiveness of CDV to adults and larvae as compared with fresh CD. The low concentration of CDV might not have released the correct natural ratios of different volatile components. Testing CDV at higher doses might have produced a more pronounced response. The fresh CD might have released the volatile pro\u00deles in ratios more similar to those released in the poultry house, and also the larvae and adults perceived the CD volatiles as they do in their natural habitat.",
+            "cite_spans": [
+                {
+                    "start": 617,
+                    "end": 638,
+                    "text": "(Witzgall et al. 2008",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 639,
+                    "end": 658,
+                    "text": ", Trona et al. 2010",
+                    "ref_id": "BIBREF41"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "A combination of fresh CD and pheromone lure was observed to be very attractive to adults and larvae in laboratory two-choice pitfall bioassays. Adults were more attracted to the combination of pheromone lure and fresh CD than the larvae, whereas, larvae were more attracted to fresh CD alone than adults.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "These results were in agreement with other pest insects that exhibit increased attraction to host volatiles. Human urine and chicken feces increased lure attraction to fruit \u00dfies (Anostrepha spp.) in a commercial mango orchard in Veracruz, Mexico (Pinero et al. 2003) . Scarab dung beetles were most attracted to swine and opossum feces in laboratory bioassays (Fincher et al. 1970) . Odors from fresh chicken feces in water elicited upwind \u00dfight of host-seeking female Culex quinquefasciatus Say mosquitoes in a two-choice olfactometer (Cooperband et al. 2008) .",
+            "cite_spans": [
+                {
+                    "start": 247,
+                    "end": 267,
+                    "text": "(Pinero et al. 2003)",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 361,
+                    "end": 382,
+                    "text": "(Fincher et al. 1970)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 537,
+                    "end": 561,
+                    "text": "(Cooperband et al. 2008)",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The CD left behind from previous \u00dfock might have some attractive volatiles that competed with the pheromone lure before introduction of chicks. The presence of chicks affected distribution of beetles, and their droppings strongly competed with the pheromone lure. Nevertheless, a consistent effect of the pheromone over time was observed in low, moderate, and high-infestation houses for adults and larvae. The pheromone effect was consistent over space in moderate and high lesser mealworm infestation houses for adults, and the high lesser mealworm infestation house for larvae. The low larval population or clumped aggregations in the house (Strother and Steelman 2001) might be the reason for the variable attractiveness of pheromone over space for adults in a low infestation house, and for larvae in low and moderate infestation houses.",
+            "cite_spans": [
+                {
+                    "start": 644,
+                    "end": 672,
+                    "text": "(Strother and Steelman 2001)",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our results generally indicate that there is a potential for combining the synthetic lesser mealworm pheromone lure with the attractive CD compounds to enhance trap ef\u00decacy. The combinations that attract more beetles can be used to monitor the lesser mealworm populations and also combined with insecticide baits(s) to manage lesser mealworm populations in poultry houses. Bray et al. (2010) demonstrated the practical application of pheromones in experimental chicken sheds, where the addition of the synthetic pheromone (\u03ee)-9-methylgermacrene-B resulted in greater numbers of male and female sand \u00dfy, Lutzomyia longipalpis Lutz & Neiva being caught and killed with sprayed insecticide, compared with pheromone-free controls.",
+            "cite_spans": [
+                {
+                    "start": 373,
+                    "end": 391,
+                    "text": "Bray et al. (2010)",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Further studies should be conducted to determine the dose-dependent attractiveness of identi\u00deed CDV compounds (Table 1) alone or in combinations with or without pheromone lure in laboratory two-choice pitfall bioassays. The most attractive combination of attractive CD compounds and the synthetic pheromone should be then evaluated in poultry houses. Different release rates of pheromone lure and attractive CD compounds also need to be evaluated, and these release rates need to be optimized in poultry house conditions. Special thanks to Tom Tabler, and Virgil Piazzi for helping in research experiments.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 110,
+                    "end": 119,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Discussion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A strategy to manage red palm weevil Rhynchophorus ferrugineus Oliv. On date palm Phoenix dactylifera L. Its successful implementation in Al-Hassa",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Abraham",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Faleiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Al-Shuaibi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Kumar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Kingdom of Saudi Arabia. Pestology",
+            "volume": "24",
+            "issn": "",
+            "pages": "23--30",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Prevalence of darkling beetles (Alphitobius diaperinus) and bacterial load in broiler litters",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Asaniyan",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A O"
+                    ],
+                    "last": "Laseinde",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Agbede",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Intl. J. Poult. Sci",
+            "volume": "6",
+            "issn": "",
+            "pages": "440--444",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Male-produced aggregation pheromone of the lesser mealworm beetle Alphitobius diaperinus (Coleoptera: Tenebrionidae)",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Bartelt",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Zilkowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Coss\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Steelman",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Singh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J. Chem. Ecol",
+            "volume": "35",
+            "issn": "",
+            "pages": "422--434",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "An aggregation pheromone of Sitona lineatus",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Blight",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Pickett",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wadhams",
+                    "suffix": ""
+                }
+            ],
+            "year": 1984,
+            "venue": "Naturwissenschaften",
+            "volume": "71",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Synthetic sex pheromone attracts the leishmaniasis vector Lutzomyia longipalpis to experimental chicken sheds treated with insecticide",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Bray",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Alves",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Dorval",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Brazil",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G C"
+                    ],
+                    "last": "Hamilton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Parasit. Vectors",
+            "volume": "3",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Attraction of Culex quinquefasciatus Say (Diptera: Culicidae) to odors from chicken feces",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Cooperband",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mcelfresh",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Millar",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Carde",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "J. Insect Physiol",
+            "volume": "53",
+            "issn": "",
+            "pages": "1184--1192",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The relationship between the lesser mealworm and avian viruses. I. Reovirus 24",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "De Las Casas",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Harein",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Deshmukh",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Pomeroy",
+                    "suffix": ""
+                }
+            ],
+            "year": 1973,
+            "venue": "Environ. Entomol",
+            "volume": "2",
+            "issn": "",
+            "pages": "1043--1047",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Relationship between the lesser mealworm, fowl pox, and Newcastle disease virus in poultry",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "De Las Casas",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Harein",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Deshmukh",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Pomeroy",
+                    "suffix": ""
+                }
+            ],
+            "year": 1976,
+            "venue": "J. Econ. Entomol",
+            "volume": "69",
+            "issn": "",
+            "pages": "775--779",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Construction pro\u00deles of high rise caged layer houses in association with insulation damage caused by the lesser mealworm, Alphitobius diaperinus (Panzer) in Virginia",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Despins",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Turner",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jr",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Ruszler",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "Poult. Sci",
+            "volume": "66",
+            "issn": "",
+            "pages": "243--250",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Feeding behavior and growth of broiler chicks fed larvae of the darkling beetle, Alphitobius diaperinus",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Despins",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Poult. Sci",
+            "volume": "74",
+            "issn": "",
+            "pages": "331--336",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Enhancement of insect pheromone responses by green leaf volatiles",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Dickens",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Jang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Light",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Alford",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "Naturwissenschaften",
+            "volume": "77",
+            "issn": "",
+            "pages": "29--31",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Does pheromone based aggregation of codling moth larvae help procure future mates?",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Duthie",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Gries",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gries",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Krupke",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Derksen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "J. Chem. Ecol",
+            "volume": "29",
+            "issn": "",
+            "pages": "425--436",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "The pheromone biology of the lesser mealworm, Alphitobius diaperinus (Panzer), (Coleoptera: Tenebrionidae)",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Falomo",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Acaricidal activity of limonene, limonene oxide and \u2424-amino alcohol derivatives on Rhipicephalus microplus",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Ferrarini",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Duarte",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Da Rosa",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Rolim",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Eifler-Lima",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "Von"
+                    ],
+                    "last": "Poser",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "L S"
+                    ],
+                    "last": "Ribeiro",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Vet. Parasitol",
+            "volume": "157",
+            "issn": "",
+            "pages": "149--153",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Attraction of coprophagous beetles to feces of various animals",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Fincher",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Stewart",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Davis",
+                    "suffix": ""
+                }
+            ],
+            "year": 1970,
+            "venue": "J. Parasitol",
+            "volume": "56",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "1-Tridecene: male-produced sex pheromone of the tenebrionid beetle Parastizopus transgariepinus",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Geiselhardt",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ockenfels",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Peschke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Naturwissenschaften",
+            "volume": "95",
+            "issn": "",
+            "pages": "247--251",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Aggregation pheromone of coconut rhinoceros beetle, Oryctes rhinoceros (L.) (Coleoptera: Scarabaeidae)",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Hallett",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Perez",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Gries",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gries",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Pierce",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yue",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Oehlschlager",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gonzalez",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Borden",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "J. Chem. Ecol",
+            "volume": "21",
+            "issn": "",
+            "pages": "1549--1570",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Limonene, a citrus extract, for control of mealybugs and scale insects",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Hollingsworth",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J. Econ. Entomol",
+            "volume": "98",
+            "issn": "",
+            "pages": "772--779",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Anatomy of the adult female lesser mealworm Alphitobius diaperinus (Coleoptera: Tenebrionidae) reproductive system",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Hopkins",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Steelman",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Carlton",
+                    "suffix": ""
+                }
+            ],
+            "year": 1992,
+            "venue": "J. Kansas Entomol. Soc",
+            "volume": "65",
+            "issn": "",
+            "pages": "299--307",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Baseline responses of adult Alphitobius diaperinus (Panzer) (Coleoptera: Tenebrionidae) to fenitrothion, and susceptibility status of populations in Queensland and New South Wales",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Sas Institute",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Cary",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lambkin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Australia. J. Econ. Entomol",
+            "volume": "98",
+            "issn": "",
+            "pages": "938--942",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Identi\u00decation of a sex pheromone produced by sternal glands in females of the caddis\u00dfy Molanna angustata Curtis",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "L\u00f6 Fstedt",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bergmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Francke",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Jirle",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hansson",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Ivanov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "J. Chem. Ecol",
+            "volume": "34",
+            "issn": "",
+            "pages": "220--228",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Reservoir competence of the lesser mealworm (Coleoptera: Tenebrionidae) for Salmonella typhimurium (Eubacteriales: Enterobacteriaceae)",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Mcallister",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Steelman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Skeeles",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "J. Med. Entomol",
+            "volume": "31",
+            "issn": "",
+            "pages": "369--372",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Isolation of infectious bursal disease virus from the lesser mealworm, Alphitobius diaperinus (Panzer)",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Mcallister",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Steelman",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Newberry",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Skeeles",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Poult. Sci",
+            "volume": "74",
+            "issn": "",
+            "pages": "45--49",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Volatile food attractants for Oryzaephilus surinamensis (L.) from oats",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mikolajczak",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Zilkowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jr",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Burkholder",
+                    "suffix": ""
+                }
+            ],
+            "year": 1984,
+            "venue": "J. Chem. Ecol",
+            "volume": "10",
+            "issn": "",
+            "pages": "301--309",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Response of Tribolium castaneum larvae to synthetic aggregation pheromone",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "A M S H"
+                    ],
+                    "last": "Mondal",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Port",
+                    "suffix": ""
+                }
+            ],
+            "year": 1984,
+            "venue": "Entomol. Exp. Appl",
+            "volume": "36",
+            "issn": "",
+            "pages": "43--46",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Ef\u00decacy of the botanical repellents geraniol, linalool, and citronella against mosquitoes",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Muller",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Junnila",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Butler",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Kravchenko",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Revay",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Weiss",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Schlein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J. Vector Ecol",
+            "volume": "34",
+            "issn": "",
+            "pages": "2--8",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Coleoptera of poultry manure in caged-layer houses in North Carolina",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Pfeiffer",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 1980,
+            "venue": "Environ. Entomol",
+            "volume": "9",
+            "issn": "",
+            "pages": "21--28",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Evidence for a male-produced aggregation pheromone in the rice weevil, Sitophilus oryzae (L.)",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Phillips",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Burkholder",
+                    "suffix": ""
+                }
+            ],
+            "year": 1981,
+            "venue": "J. Econ. Entomol",
+            "volume": "74",
+            "issn": "",
+            "pages": "539--542",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Behavioral responses to food volatiles by two species of stored-product Coleoptera, Sitophilus oryzae (Curculionidae) and Tribolium castaneum (Tenebrionidae)",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Phillips",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Burkholder",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Phillips",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Tran",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "J. Chem. Ecol",
+            "volume": "19",
+            "issn": "",
+            "pages": "723--734",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Human urine and chicken feces as fruit \u00dfy (Diptera: Tephritidae) attractants for resource-poor fruit growers",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Pinero",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Aluja",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vazquez",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Equihua",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Varon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "J. Econ. Entomol",
+            "volume": "96",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Sex pheromone properties of Z-2-nonenyl propionate isolated from virgin females of red \u00dfour beetle Tribolium castaneum (Coleoptera)",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Rangaswamy",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Sasikala",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "Indian J. Exp. Biol",
+            "volume": "29",
+            "issn": "",
+            "pages": "263--269",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "SAS online doc 9.1.2. SAS Institute",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Sas Institute",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Reducing darkling beetles",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Savage",
+                    "suffix": ""
+                }
+            ],
+            "year": 1992,
+            "venue": "Poult. Dig",
+            "volume": "51",
+            "issn": "",
+            "pages": "34--36",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Spatial analysis of Alphitobius diaperinus (Coleoptera: Tenebrionidae) in broiler production facilities",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Strother",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Steelman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Environ. Entomol",
+            "volume": "30",
+            "issn": "",
+            "pages": "556--561",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Reservoir competence of lesser mealworm (Coleoptera: Tenebrionidae) for Campylobacter jejuni (Campylobacterales: Campylobacteraceae)",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Strother",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Steelman",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Gbur",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J. Med. Entomol",
+            "volume": "42",
+            "issn": "",
+            "pages": "42--47",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Isolation of an aggregation pheromone from the \u00dfour beetles",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Suzuki",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sugawara",
+                    "suffix": ""
+                }
+            ],
+            "year": 1979,
+            "venue": "Tribolium castaneum and T. confusum (Coleoptera: Tenebrionidae)",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Identi\u00decation of chemicals attractive to the olive bark beetle, Phloeotribus scarabaeoides",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Szauman-Szumski",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pena",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Kelly",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Campos",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "laboratory bioassays",
+            "volume": "43",
+            "issn": "",
+            "pages": "345--355",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "A sex attractant of the yellow mealworm, Tenebrio molitor L., and its role in the mating behavior",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tanaka",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Honda",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Ohsawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Yamamoto",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "J. Pesticide Sci",
+            "volume": "11",
+            "issn": "",
+            "pages": "49--55",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Revision of the structure of the major aggregation pheromone of the broad-horned \u00dfour beetle (Gnatocerus cornutus) to (1S, 4R, 5R)-\u2423-acoradiene by its synthesis",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Tashiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kurosawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Mori",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Biosci. Biotechnol. Biochem",
+            "volume": "68",
+            "issn": "",
+            "pages": "663--670",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Identi\u00decation of (\u03e9)-acoradiene as an aggregation pheromone for Gnatocerus cornutus (F.) (Coleoptera: Tenebrionidae)",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tebayashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Hirai",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Suzuki",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Matsuyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Nakakita",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Nemoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Nakanishi",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "J. Stored Prod. Res",
+            "volume": "34",
+            "issn": "",
+            "pages": "99--106",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Coding and interaction of sex pheromone and plant volatile signals in the antennal lobe of the codling moth Cydia pomonella",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Trona",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Anfora",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bengtsson",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Witzgall",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ignell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J. Exp. Biol",
+            "volume": "213",
+            "issn": "",
+            "pages": "4291--4303",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "In\u00dfuence of temperature on development of the lesser mealworm, Alphitobius diaperinus (Coleoptera: Tenebrionidae)",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Wilson",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Miner",
+                    "suffix": ""
+                }
+            ],
+            "year": 1969,
+            "venue": "J. Kans. Entomol. Soc",
+            "volume": "42",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Codling moth management and chemical ecology",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Witzgall",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Stelinski",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gut",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Thomson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Annu. Rev. Entomol",
+            "volume": "53",
+            "issn": "",
+            "pages": "503--522",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Biostatistical analysis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Zar",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Schematic diagram of pitfall trap locations inside a broiler production house.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Gas chromatograph/mass spectrometer analysis (N \u202b\u060d\u202c 3) of fresh chicken dropping volatiles collected by SuperQ trap for 4 h Means in same column with different letters are signi\u00decantly different (P \u03fd 0.05; Tukey Kramer HSD-test).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Attractiveness of pheromone lure to lesser mealworm adults and larvae at a broiler production facility with moderate lesser mealworm infestation, Savoy, AR, from 20 to 23 Aug. 2008",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Attractiveness of pheromone lure to lesser mealworm adults and larvae at a broiler production facility with low lesser mealworm infestation, Tontitown, AR, from 15 to 19 Sept. 2008",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Attractiveness of pheromone lure to lesser mealworm adults and larvae at a broiler production facility with high lesser mealworm infestation, Savoy, AR, from 8 to 12 Nov. 2008",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank Dayton Steelman for contributing many valuable ideas in this research. We also thank Robert Bartelt for helping us in preparation of the aggregation pheromone lure and providing many suggestions for conducting experiments.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        }
+    ]
+}

@@ -1,0 +1,5314 @@
+{
+    "paper_id": "0db482d6db5922086afc2eca19d0104f96ed7c8b",
+    "metadata": {
+        "title": "A Meta-Analysis of Multiple Whole Blood Gene Expression Data Unveils a Diagnostic Host-Response Transcript Signature for Respiratory Syncytial Virus",
+        "authors": [
+            {
+                "first": "Ruth",
+                "middle": [],
+                "last": "Barral-Arca",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "GenPoB Research Group",
+                    "institution": "Hospital Cl\u00ednico Universitario de Santiago (SERGAS)",
+                    "location": {
+                        "postCode": "15706",
+                        "settlement": "Galicia",
+                        "country": "Spain"
+                    }
+                },
+                "email": "barralarcaruth@gmail.comr.b.-a."
+            },
+            {
+                "first": "Alberto",
+                "middle": [],
+                "last": "G\u00f3mez-Carballa",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "GenPoB Research Group",
+                    "institution": "Hospital Cl\u00ednico Universitario de Santiago (SERGAS)",
+                    "location": {
+                        "postCode": "15706",
+                        "settlement": "Galicia",
+                        "country": "Spain"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Miriam",
+                "middle": [],
+                "last": "Cebey-L\u00f3pez",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "GenPoB Research Group",
+                    "institution": "Hospital Cl\u00ednico Universitario de Santiago (SERGAS)",
+                    "location": {
+                        "postCode": "15706",
+                        "settlement": "Galicia",
+                        "country": "Spain"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xabier",
+                "middle": [],
+                "last": "Bello",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "GenPoB Research Group",
+                    "institution": "Hospital Cl\u00ednico Universitario de Santiago (SERGAS)",
+                    "location": {
+                        "postCode": "15706",
+                        "settlement": "Galicia",
+                        "country": "Spain"
+                    }
+                },
+                "email": "xbello@gmail.comx.b."
+            },
+            {
+                "first": "Federico",
+                "middle": [],
+                "last": "Martin\u00f3n-Torres",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Translational Pediatrics and Infectious Diseases",
+                    "institution": "Universitario de Santiago de Compostela",
+                    "location": {
+                        "postCode": "15706",
+                        "settlement": "Galicia",
+                        "country": "Spain"
+                    }
+                },
+                "email": "federico.martinon.torres@sergas.esf.m.-t."
+            },
+            {
+                "first": "Antonio",
+                "middle": [],
+                "last": "Salas",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "GenPoB Research Group",
+                    "institution": "Hospital Cl\u00ednico Universitario de Santiago (SERGAS)",
+                    "location": {
+                        "postCode": "15706",
+                        "settlement": "Galicia",
+                        "country": "Spain"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Respiratory syncytial virus (RSV) is one of the major causes of acute lower respiratory tract infection worldwide. The absence of a commercial vaccine and the limited success of current therapeutic strategies against RSV make further research necessary. We used a multi-cohort analysis approach to investigate host transcriptomic biomarkers and shed further light on the molecular mechanism underlying RSV-host interactions. We meta-analyzed seven transcriptome microarray studies from the public Gene Expression Omnibus (GEO) repository containing a total of 922 samples, including RSV, healthy controls, coronaviruses, enteroviruses, influenzas, rhinoviruses, and coinfections, from both adult and pediatric patients. We identified > 1500 genes differentially expressed when comparing the transcriptomes of RSV-infected patients against healthy controls. Functional enrichment analysis showed several pathways significantly altered, including immunologic response mediated by RSV infection, pattern recognition receptors, cell cycle, and olfactory signaling. In addition, we identified a minimal 17-transcript host signature specific for RSV infection by comparing transcriptomic profiles against other respiratory viruses. These multi-genic signatures might help to investigate future drug targets against RSV infection. remain unknown [10] . The notable impact of pediatric respiratory diseases produced by RSV in the health system raises the need for a more in-depth understanding of the molecular mechanism responsible for the host susceptibility to the infection. This would improve the development of new preventive, diagnostic, and therapeutic strategies, which could reduce the social, medical, and economic burden of the disease [11] .",
+            "cite_spans": [
+                {
+                    "start": 1339,
+                    "end": 1343,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1740,
+                    "end": 1744,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "In the era of personalized medicine and molecular diagnostics, the study of host transcriptomics during infection is becoming an important tool not only for the study of the host-pathogen interaction but also for the diagnosis and prognosis of diseases. In the last few years, some host expression signatures related to both infectious [12] [13] [14] [15] [16] and non-infectious diseases [17, 18] have been reported. However, most of the studies are focused only on particular cohorts from a certain ethnicity or population group and restricted geographic areas, from a specific age group and the same epidemic period. Moreover, these studies compare patients against healthy controls without investigating the impact of other respiratory pathogens on the host transcriptome.",
+            "cite_spans": [
+                {
+                    "start": 336,
+                    "end": 340,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 341,
+                    "end": 345,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 346,
+                    "end": 350,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 351,
+                    "end": 355,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 356,
+                    "end": 360,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 389,
+                    "end": 393,
+                    "text": "[17,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 394,
+                    "end": 397,
+                    "text": "18]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Moreover, the technical noise inherent to microarray data, together with the usually small (underpowered) cohorts analyzed in individual studies, often lead to unreliable, inconsistent and non-reproducible results, probably due to type I and type II errors [19, 20] . Instead, a multi-cohort study allows increasing sample size and statistical power, leading to more accurate and conclusive findings and, thus, facilitating the implementation of the results into a molecular test [21] [22] [23] [24] .",
+            "cite_spans": [
+                {
+                    "start": 257,
+                    "end": 261,
+                    "text": "[19,",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 262,
+                    "end": 265,
+                    "text": "20]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 480,
+                    "end": 484,
+                    "text": "[21]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 485,
+                    "end": 489,
+                    "text": "[22]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 490,
+                    "end": 494,
+                    "text": "[23]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 495,
+                    "end": 499,
+                    "text": "[24]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "By compiling different datasets from respiratory diseases-related host transcriptomic studies available in public resources we aimed at investigating specific expression signatures allowing to differentiate RSV respiratory infection from other viral respiratory infections and also healthy controls. We also explored the role of the differentially expressed genes (DEG) in RSV-infected patients and related pathways in the context of RSV infection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Respiratory syncytial virus (RSV) is the main cause of lower respiratory tract infections in early life [1] , and one of the major causes of morbidity and mortality, especially in children younger than six months [2] . Re-infections are also common in patients older than two years and adults, although usually less severe [3, 4] . Patients with premature birth, chronic lung disease, congenital heart disease, and immunodeficiency are more likely to suffer from severe forms of RSV and may require hospitalization [5] ; however, most of the children hospitalized with severe RSV disease lack known identifiable risk factors [6, 7] .",
+            "cite_spans": [
+                {
+                    "start": 104,
+                    "end": 107,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 213,
+                    "end": 216,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 323,
+                    "end": 326,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 327,
+                    "end": 329,
+                    "text": "4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 515,
+                    "end": 518,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 625,
+                    "end": 628,
+                    "text": "[6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 629,
+                    "end": 631,
+                    "text": "7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "It has been shown that host genetic susceptibility to the disease may play a key role in the different pathogenesis produced by RSV in children [8, 9] , but many aspects of the host-pathogen interaction",
+            "cite_spans": [
+                {
+                    "start": 144,
+                    "end": 147,
+                    "text": "[8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 148,
+                    "end": 150,
+                    "text": "9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "A principal component analysis (PCA ) of the combined data (RSV samples and healthy controls) was carried out to detect batch effects in the eight datasets analyzed. This analysis revealed that the transcriptomes of the RSV cases in the GSE80179 form a separate cluster when compared to the rest of the samples ( Figure S1 ). This anomalous pattern could be explained by different severities, strand or sampling time points with regard to the other samples, or undesirable batch effects. This dataset was therefore eliminated from further analysis.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 313,
+                    "end": 322,
+                    "text": "Figure S1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Differentially Expressed Transcripts between RSV and Healthy Controls"
+        },
+        {
+            "text": "Thus, the meta-analysis was finally conducted on a total of seven datasets containing transcriptomic data from 922 samples: 296 RSV, 4 coronaviruses, 4 enteroviruses, 188 influenzas, 71 rhinoviruses, 93 coinfections, and 266 healthy controls; from both adult and pediatric patients (Table S1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 282,
+                    "end": 292,
+                    "text": "(Table S1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Differentially Expressed Transcripts between RSV and Healthy Controls"
+        },
+        {
+            "text": "A new PCA was conducted with the remaining seven datasets and based on the 100 most DEG (Figure 1 ). The first principal component (PC1; accounting for~46% of the variation), in combination with PC2 (accounting for~19% of the variation), separates all the samples in two clusters according to their disease status. It is remarkable that, while the healthy controls appear more scattered in the plot, RSV patients are more tightly clustered, suggesting that the RSV alters the transcriptome in a more specific manner. It is also noteworthy that the 93 cases of co-infection included in the meta-analysis do not generate a pattern of sub-clustering in the PCA plot. By comparing the transcriptomes of RSV-infected patients to healthy controls, we identified 1,562 genes differentially expressed (678 over-expressed and 884 under-expressed; FDR of 5%; Table  S2 ). This differential gene expression pattern explains the clustering pattern observed in the PCA ( Figure 1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 88,
+                    "end": 97,
+                    "text": "(Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 849,
+                    "end": 858,
+                    "text": "Table  S2",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 958,
+                    "end": 966,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Differentially Expressed Transcripts between RSV and Healthy Controls"
+        },
+        {
+            "text": "Our functional enrichment study using Reactome showed that the DEG were enriched in the host cell-cycle pathway in RSV infected patients when compared to controls (R-HSA-69620, adjusted p-value = 1.16 \u00d7 10 \u22125 ; R-HSA-69278, adjusted p-value = 3.83 \u00d7 10 \u22125 ; R-HSA-1640170, adjusted p-value = 2.37 \u00d7 10 \u22125 ) (Table S3) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 307,
+                    "end": 317,
+                    "text": "(Table S3)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Functional Enrichment Analysis"
+        },
+        {
+            "text": "Among the DEG between RSV-infected patients and healthy controls, a number of them affecting immunologic-related pathways are strongly over-represented: (i) immune system (R-HSA-168256; adjusted p-value = 4.06 \u00d7 10 \u221227 ), (ii) cytokine signaling in immune system (R-HSA-1280215: STAT1, STAT2, MMP-9; adjusted p-value = 7.90 \u00d7 10 \u221216 ), (iii) innate immune system (R-HSA-168249; adjusted p-value = 5.92 \u00d7 10 \u221219 ) and (iv) adaptive immune system pathways (R-HSA-1280218; adjusted p-value = 1.11 \u00d7 10 \u22127 ). We also observed an over-representation of DEG belonging to pathways related to (i) interleukins signaling (R-HSA-449147; adjusted p-value = 1.36 \u00d7 10 \u22127 ) such as interleukin-1 family signaling (R-HSA-446652; adjusted p-value = 1.45 \u00d7 10 \u22126 ) and (ii) interleukin-1 signaling (R-HSA-9020702; adjusted p-value = 7.67 \u00d7 10 \u22126 ; Table S3 ). RSV infection also causes an overrepresentation DEG related to the interferon signaling pathway (R-HSA-913531; Table S3 ) and interferon-inducible genes such as EIF2AK2, MX1 and IFITM1. Over-representation is also observed By comparing the transcriptomes of RSV-infected patients to healthy controls, we identified 1,562 genes differentially expressed (678 over-expressed and 884 under-expressed; FDR of 5%; Table S2 ). This differential gene expression pattern explains the clustering pattern observed in the PCA ( Figure 1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 832,
+                    "end": 840,
+                    "text": "Table S3",
+                    "ref_id": null
+                },
+                {
+                    "start": 955,
+                    "end": 963,
+                    "text": "Table S3",
+                    "ref_id": null
+                },
+                {
+                    "start": 1252,
+                    "end": 1260,
+                    "text": "Table S2",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 1360,
+                    "end": 1368,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Functional Enrichment Analysis"
+        },
+        {
+            "text": "Our functional enrichment study using Reactome showed that the DEG were enriched in the host cell-cycle pathway in RSV infected patients when compared to controls (R-HSA-69620, adjusted p-value = 1.16 \u00d7 10 \u22125 ; R-HSA-69278, adjusted p-value = 3.83 \u00d7 10 \u22125 ; R-HSA-1640170, adjusted p-value = 2.37 \u00d7 10 \u22125 ) (Table S3) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 307,
+                    "end": 317,
+                    "text": "(Table S3)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Functional Enrichment Analysis"
+        },
+        {
+            "text": "Among the DEG between RSV-infected patients and healthy controls, a number of them affecting immunologic-related pathways are strongly over-represented: (i) immune system (R-HSA-168256; adjusted p-value = 4.06 \u00d7 10 \u221227 ), (ii) cytokine signaling in immune system (R-HSA-1280215: STAT1, STAT2, MMP-9; adjusted p-value = 7.90 \u00d7 10 \u221216 ), (iii) innate immune system (R-HSA-168249; adjusted p-value = 5.92 \u00d7 10 \u221219 ) and (iv) adaptive immune system pathways (R-HSA-1280218; adjusted p-value = 1.11 \u00d7 10 \u22127 ). We also observed an over-representation of DEG belonging to pathways related to (i) interleukins signaling (R-HSA-449147; adjusted p-value = 1.36 \u00d7 10 \u22127 ) such as interleukin-1 family signaling (R-HSA-446652; adjusted p-value = 1.45 \u00d7 10 \u22126 ) and (ii) interleukin-1 signaling (R-HSA-9020702; adjusted p-value = 7.67 \u00d7 10 \u22126 ; Table S3 ). RSV infection also causes an over-representation DEG related to the interferon signaling pathway (R-HSA-913531; Table S3) and interferon-inducible genes such as EIF2AK2, MX1 and IFITM1. Over-representation is also observed in essential proteins of the innate immune response such as oligoadenylate synthase (OAS) family proteins and RNAse L, which are responsible for RNA degradation hereby blocking viral replication [25] .",
+            "cite_spans": [
+                {
+                    "start": 1262,
+                    "end": 1266,
+                    "text": "[25]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 832,
+                    "end": 840,
+                    "text": "Table S3",
+                    "ref_id": null
+                },
+                {
+                    "start": 956,
+                    "end": 969,
+                    "text": "Table S3) and",
+                    "ref_id": null
+                }
+            ],
+            "section": "Functional Enrichment Analysis"
+        },
+        {
+            "text": "In addition, other pathways related to host response to infectious disease (R-HSA-5663205; adjusted p-value = 2.08 \u00d7 10 \u221221 ) and others involved in the viral infection process, such as R-HSA-168254 (influenza infection; adjusted p-value = 2.56 \u00d7 10 \u221217 ), R-HSA-162906 (HIV infection; adjusted p-value = 8.62 \u00d7 10 \u22127 ), R-HSA-168273 (Influenza Viral RNA Transcription and Replication; adjusted p-value = 3.91 \u00d7 10 \u221217 ) and R-HSA-192823 (Viral mRNA Translation; adjusted p-value = 5.14 \u00d7 10 \u221218 ), were found to be clearly enriched in RSV patients (Table S3 ). RSV infection also provokes an over-representation of DEG related to the neutrophil degranulation pathway (R-HSA-6798695; adjusted p-value = 1.59 \u00d7 10 \u221214 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 549,
+                    "end": 558,
+                    "text": "(Table S3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Functional Enrichment Analysis"
+        },
+        {
+            "text": "RSV additionally induced over-representation of differential expressed pattern recognition receptor genes as compared to healthy controls (Table S3 ): (i) Toll-like receptors (TLR) cascades (R-HSA-168898; adjusted p-value = 1.23 \u00d7 10 \u22123 ), including TLR3 (R-HSA-168164; adjusted p-value = 2.45 \u00d7 10 \u22122 ), which are specialized in the recognition of conserved molecular features of different pathogens such as bacteria, viruses, fungi, and parasites; and (ii) C-type lectin receptors (R-HSA-5621481; adjusted p-value = 5.12 \u00d7 10 \u22126 ), capable of sensing glycans present in viral pathogens to activate antiviral immune responses such as phagocytosis, cytokine production, antigen processing and presentation, and subsequent T cell activation.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 138,
+                    "end": 147,
+                    "text": "(Table S3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Functional Enrichment Analysis"
+        },
+        {
+            "text": "Related to this, AIM2-like receptors (interferon inducible protein AIM2; adjusted p-value = 7.90 \u00d7 10 \u221224 ; Table S2 ) were found to be over-expressed (Table S2) . AIM2-like receptors can act as enzymatic complexes (inflammasomes) and are known to be activated by the presence of microbial DNA within the cytosol [26] . In response to viral and bacterial infection these inflammasomes trigger caspase-1 activation and subsequently induce the release of mature pro-inflammatory interleukins such as IL-18, contributing to the immune response to pathogens [27] (Table S2) .",
+            "cite_spans": [
+                {
+                    "start": 313,
+                    "end": 317,
+                    "text": "[26]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 554,
+                    "end": 558,
+                    "text": "[27]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 108,
+                    "end": 116,
+                    "text": "Table S2",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 151,
+                    "end": 161,
+                    "text": "(Table S2)",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 559,
+                    "end": 569,
+                    "text": "(Table S2)",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Functional Enrichment Analysis"
+        },
+        {
+            "text": "Other enriched pathways (Table S3 ) are the TLR4 cascade (R-HSA-166016), which acts as co-receptor with CD14 (adjusted p-value = 2.29 \u00d7 10 \u22128 ) detecting bacterial lipopolysaccharide, and other TLR4-related pathways such as TRIF(TICAM1)-mediated TLR4 signaling (R-HSA-937061) and MyD88-independent TLR4 cascade (R-HSA-166166).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 24,
+                    "end": 33,
+                    "text": "(Table S3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Functional Enrichment Analysis"
+        },
+        {
+            "text": "Finally, we found that the RSV infection causes an under-representation of DEG related to the olfactory signaling pathway (R-HSA-381753; adjusted p-value = 1.09 \u00d7 10 \u221212 ) (Table S3 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 172,
+                    "end": 181,
+                    "text": "(Table S3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Functional Enrichment Analysis"
+        },
+        {
+            "text": "To investigate a specific RSV transcriptome signature, we compared RSV expression patterns against a viral multi-cohort set following a cross-validation strategy that randomly divides the whole dataset into a training and a test set. Representative samples of coronaviruses, influenzas, rhinoviruses, enteroviruses, and RSV transcriptomes were present in both the training and the test sets. The volcano plot of Figure 2A shows the genes differentially expressed when comparing RSV-infected children to children infected by other pathogens.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 412,
+                    "end": 421,
+                    "text": "Figure 2A",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "RSV-Specific Expression Signature"
+        },
+        {
+            "text": "To investigate a specific RSV transcriptome signature, we compared RSV expression patterns against a viral multi-cohort set following a cross-validation strategy that randomly divides the whole dataset into a training and a test set. Representative samples of coronaviruses, influenzas, rhinoviruses, enteroviruses, and RSV transcriptomes were present in both the training and the test sets. The volcano plot of Figure 2A shows the genes differentially expressed when comparing RSVinfected children to children infected by other pathogens. Among the 100 most significant genes in this analysis (indicated in red in Figure 2A ), we searched for the minimum transcriptome signature allowing to discriminate between RSV from other pathogens using the optimal gene model size according to PReMS algorithm. Figure 2B shows the optimal model characterized by 17 genes that conform to an optimal signature to distinguish RSV from other viral conditions. This 17-transcript signature (Table 1; Figure 3A ) identified in the discovery training set distinguished RSV from other viral conditions with area under de curve (AUC) of 90.2% (95%CI: 87-93.0), sensitivity of 81.3% and specificity of 93.0%. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 412,
+                    "end": 421,
+                    "text": "Figure 2A",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 615,
+                    "end": 624,
+                    "text": "Figure 2A",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 802,
+                    "end": 811,
+                    "text": "Figure 2B",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 986,
+                    "end": 995,
+                    "text": "Figure 3A",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "RSV-Specific Expression Signature"
+        },
+        {
+            "text": "In spite of the global burden of RSV, our knowledge of how RSV interacts with the host remains incomplete. Moreover, the study of the host gene expression response to RSV infection is usually restricted to specific and very homogeneous cohorts, hampering the interpretation of the results, the impact of the conclusions obtained and their translation into a molecular test that could be used in routine clinical practice. The present meta-analysis shows that RSV infection leads to global changes in the host transcriptome, affecting not only the transcriptomic machinery of the airway infected cells [28] , but also the expression of hundreds of genes in blood cells (Table S2 ). In particular, according to our results, RSV alters the expression of >1,500 genes in the host compared to healthy controls, involving e.g., cell cycle and immune system genes. This host response can be differentiated to those from other viruses with only 17-transcripts, which might eventually facilitate its use for clinical diagnosis. When applying this signature to the test set, the AUC decreases to 83.6% (95%CI: 76.0-91.3), with a sensitivity of 73.6% and specificity of 87.5%.",
+            "cite_spans": [
+                {
+                    "start": 601,
+                    "end": 605,
+                    "text": "[28]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 668,
+                    "end": 677,
+                    "text": "(Table S2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "When we evaluated the performance of the model to differentiate RSV from each pathogen individually, we obtained AUC values ranging from 77.0% for coronavirus, to 97.9% for enterovirus in the training cohort, and values ranging from 77.1% for influenza to 97.1% for enterovirus in the test cohort (Table 2 ; Figure 3B ,C). ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 297,
+                    "end": 305,
+                    "text": "(Table 2",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 308,
+                    "end": 317,
+                    "text": "Figure 3B",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "In spite of the global burden of RSV, our knowledge of how RSV interacts with the host remains incomplete. Moreover, the study of the host gene expression response to RSV infection is usually restricted to specific and very homogeneous cohorts, hampering the interpretation of the results, the impact of the conclusions obtained and their translation into a molecular test that could be used in routine clinical practice. The present meta-analysis shows that RSV infection leads to global changes in the host transcriptome, affecting not only the transcriptomic machinery of the airway infected cells [28] , but also the expression of hundreds of genes in blood cells (Table S2 ). In particular, according to our results, RSV alters the expression of >1,500 genes in the host compared to healthy controls, involving e.g., cell cycle and immune system genes. This host response can be differentiated to those from other viruses with only 17-transcripts, which might eventually facilitate its use for clinical diagnosis.",
+            "cite_spans": [
+                {
+                    "start": 601,
+                    "end": 605,
+                    "text": "[28]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 668,
+                    "end": 677,
+                    "text": "(Table S2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "In mammals, the cell cycle is governed by a complex molecular machinery. The data indicate that patients infected with RSV have an over-representation of differentially expressed cell cycle-related genes, a well-known strategy employed by many other viruses to facilitate their replication [29, 30] .",
+            "cite_spans": [
+                {
+                    "start": 290,
+                    "end": 294,
+                    "text": "[29,",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 295,
+                    "end": 298,
+                    "text": "30]",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "As expected, we observed DEG and pathways related to the immunological response that are particularly relevant in the context of RSV infection, e.g., cytokines, which are small proteins released by cells that are known to play a major role in interactions and communications between cells. RSV infection causes a significant alteration of cytokine pathways and related pathways (adjusted p-value = 7.90 \u00d7 10 \u221216 ; Table S3 ), a finding that is in agreement with other authors, indicating that host genetic variation in cytokines predisposes to suffering complications during RSV infection [31] . Although more studies are needed to confirm this hypothesis, overall, these results indicate that measuring cytokines might help identify children at high risk of suffering RSV complications; this would allow starting treatments in earlier stages of the disease. Also, among the genes that are over-represented during RSV infection are the STAT family members, which act as transcription activators in response to cytokines. For instance, the absence of STAT1 resulted in airway dysfunction in knockout mice infected with RSV [32] , and variation at STAT2 has been associated with RSV susceptibility in preterm children [33] .",
+            "cite_spans": [
+                {
+                    "start": 589,
+                    "end": 593,
+                    "text": "[31]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1122,
+                    "end": 1126,
+                    "text": "[32]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 1216,
+                    "end": 1220,
+                    "text": "[33]",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 414,
+                    "end": 422,
+                    "text": "Table S3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "Matrix metallopeptidases (MMPs) are proteins mostly known for degrading extracellular matrix proteins, but these are also known to be involved in other processes such as cytokine inactivation [34] . Experiments in mice carried out by Kong et al. [35] indicated that RSV infection raises MMP-9 levels, whereas the reduction of MMP-9 resulted in decreased viral replication, suggesting that MMP-9 may be a potential therapeutic target for RSV disease. Our results are in line with these findings as we found this gene up-regulated, supporting the hypothesis that MMP-9 could be a promising drug target.",
+            "cite_spans": [
+                {
+                    "start": 192,
+                    "end": 196,
+                    "text": "[34]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 246,
+                    "end": 250,
+                    "text": "[35]",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Like other authors, we found up-regulated interferon-inducible genes such as EIF2AK2 [5] , which according to previous results plays a role in RSV susceptibility and immunological response. It has been described that mRNA level of this gene (and expression of TLR4) depends at least partially on the patient ethnicity, suggesting that the transcriptional response of individuals may be affected by the populational background [36] [37] [38] . Another interferon-induced gene we found up-regulated was IFITM1, which, according to Zhang et al. [39] , inhibits RSV infection interfering with the viral entry and replication processes. Remarkably, our infected patients expressed as almost 50% more Interferon-induced GTP-binding protein Mx1 gene (log 2 FC = 1.48) than the healthy controls. This finding is interesting as it has been argued that polymorphisms in MX1 predispose to severe form of RSV in infants [36] .",
+            "cite_spans": [
+                {
+                    "start": 85,
+                    "end": 88,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 426,
+                    "end": 430,
+                    "text": "[36]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 431,
+                    "end": 435,
+                    "text": "[37]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 436,
+                    "end": 440,
+                    "text": "[38]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 542,
+                    "end": 546,
+                    "text": "[39]",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 908,
+                    "end": 912,
+                    "text": "[36]",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "We also found an up-regulation of genes belonging to the innate immune response. For instance, OAS1 and OAS2 are responsible for the activation of ribonuclease L, which is part of the innate immune defense, during viral infection [40] . Ribonuclease L is an interferon IFN-induced ribonuclease that, when activated, destroys all single-stranded RNAs within the cell (cellular and viral) including rRNAs [41] . The destruction of all RNA within the cell is its last attempt to fight back against a virus before the onset of apoptosis [42] .",
+            "cite_spans": [
+                {
+                    "start": 230,
+                    "end": 234,
+                    "text": "[40]",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 403,
+                    "end": 407,
+                    "text": "[41]",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 533,
+                    "end": 537,
+                    "text": "[42]",
+                    "ref_id": "BIBREF43"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "RSV infection also induces an over-representation of DEG related to the neutrophil degranulation pathway; this pathway was found to be related to the immune response to RSV [43] and other viral respiratory diseases [44] . It has been shown that neutrophils degranulate into the airway in response to RSV, pointing to a local innate response to the infection. Neutrophils degranulation implies the release of antimicrobial substances that may contribute to the control of commensal bacteria in the upper respiratory tract [28] .",
+            "cite_spans": [
+                {
+                    "start": 173,
+                    "end": 177,
+                    "text": "[43]",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 215,
+                    "end": 219,
+                    "text": "[44]",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 521,
+                    "end": 525,
+                    "text": "[28]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "According to our meta-analysis, five pattern recognition receptors (CD14, TLR4, TLR5, TLR7 and TLR8) are overexpressed during RSV infection. Variants at these genes might be associated with the development of RSV bronchiolitis in different human populations, including Israel, Finland, Argentina, Japan, and Greece [45] [46] [47] [48] [49] [50] [51] . In 2000, Kurt-Jones et al. [24] reported that RSV persisted longer in the respiratory organs of infected TLR4-deficient mice in comparison to controls, and suggested that therapies that target the expression of TLRs could be useful to fight RSV infections [24] . Moreover, TLR4 polymorphisms Asp299Gly and Thr399Ile seem to be associated with an enhanced risk of developing severe RSV bronchiolitis [45] . Furthermore, Zhou et al. [52] indicated that the TLR4 signaling pathway, in conjunction with MYD88 up-regulation, could be responsible for the activation of immune responses to RSV infection in airway epithelial cells [52] . Our results are in agreement with their observations, as we detected the up-regulation of both genes in the blood of RSV-infected patients when compared to healthy controls (Table S2) .",
+            "cite_spans": [
+                {
+                    "start": 315,
+                    "end": 319,
+                    "text": "[45]",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 320,
+                    "end": 324,
+                    "text": "[46]",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 325,
+                    "end": 329,
+                    "text": "[47]",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 330,
+                    "end": 334,
+                    "text": "[48]",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 335,
+                    "end": 339,
+                    "text": "[49]",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 340,
+                    "end": 344,
+                    "text": "[50]",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 345,
+                    "end": 349,
+                    "text": "[51]",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 379,
+                    "end": 383,
+                    "text": "[24]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 608,
+                    "end": 612,
+                    "text": "[24]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 751,
+                    "end": 755,
+                    "text": "[45]",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 783,
+                    "end": 787,
+                    "text": "[52]",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 976,
+                    "end": 980,
+                    "text": "[52]",
+                    "ref_id": "BIBREF53"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1156,
+                    "end": 1166,
+                    "text": "(Table S2)",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "The up-regulation of the TLR3 cascade is particularly interesting since this receptor recognizes viral dsRNA, ultimately stimulating the production on type I interferons, a family of cytokines that regulate immune response to viral and other intracellular infections [53] .",
+            "cite_spans": [
+                {
+                    "start": 267,
+                    "end": 271,
+                    "text": "[53]",
+                    "ref_id": "BIBREF54"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The over-representation in patients of C-type lectin receptors (CLRs) pathway (R-HSA-5621481; Table S3 ) is also remarkable as it has been described that the detection of viral glycans by these receptors help to fight viral infections. Up-regulation of CLRs activates antiviral immune responses such as antigen processing and presentation, T cell activation and phagocytosis, suppressing viral dissemination within the host. Nevertheless, CLRs can be a double-edged sword as some viruses have evolved to use these receptors for viral entry into host cells, avoiding immune recognition, where kidnapping the host cell machinery they produce hundreds of new copies of themselves spreading their copies further into the host [54] .",
+            "cite_spans": [
+                {
+                    "start": 722,
+                    "end": 726,
+                    "text": "[54]",
+                    "ref_id": "BIBREF56"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 94,
+                    "end": 102,
+                    "text": "Table S3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "Whole exome sequencing studies have revealed host biomarkers of susceptibility to RSV belonging to the olfactory and taste receptors. Single nucleotide polymorphism (SNP) variation at these genes has been observed to be associated with RSV infection [8] . RSV has also been described to cause post-viral olfactory loss [55] . According to our meta-analysis, RSV infection also has an impact on the DEG related to on the olfactory signaling pathway (R-HSA-381753; adjusted p-value = 1.09 \u00d7 10 \u221212 ).",
+            "cite_spans": [
+                {
+                    "start": 250,
+                    "end": 253,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 319,
+                    "end": 323,
+                    "text": "[55]",
+                    "ref_id": "BIBREF57"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Last but not least, we identified a 17-transcript blood signature specific for RSV that differentiates it from other respiratory viruses of similar etiology such as influenza, rhinovirus, coronavirus and enterovirus. This indicates that RSV alters the host transcriptome in a specific manner that can be distinguished from other respiratory viruses. The identified signature could be relevant for RSV diagnosis. Even though current automatic PCR-based technologies already show good performance [56] , these 17 transcripts might further our understanding of host molecular processes specifically altered by the RSV, which could eventually lead to the discovery of new drug targets for the treatment of RSV patients. Future laboratory validation will be necessary before the discovered signature can be used in clinical settings.",
+            "cite_spans": [
+                {
+                    "start": 495,
+                    "end": 499,
+                    "text": "[56]",
+                    "ref_id": "BIBREF58"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "A major advantage of the present meta-analysis is that, by gathering data from different studies, we substantially increase sample size and consequently the statistical power to detect DEG when compared to controls and other pathogens and reduce the potential bias derived from selecting patients in particular populations, geographic areas and/or seasons. To reduce batch effects the data were carefully normalized and preprocessed (see Methods section); a limitation of this procedure is however that it not only reduces artificial sources of variability between datasets, but it might also reduce biological sources. The normalization procedure also reduces the number of probes analyzed to those that are shared between all microarrays. Another limitation of our study is that information on the RSV serotype (A/A2 or B), neither the disease status of the patients, are not available for all the datasets.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The present study is a stepping-stone towards understanding how RSV affects the host transcriptome, but further studies are needed to better understand how the host transcriptomic response change among serotypes, and during the progression of the disease. These studies would allow to shed further light in the mechanism responsible of RSV pathogenicity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "We queried the public gene expression microarray repository Gene Expression Omnibus (GEO) for human gene expression datasets using the following terms: \"RSV\" and/or \"syncytial\". We retained only those studies containing microarray expression data from whole blood samples of RSV infected patients. More information on the datasets used is provided in Table S1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 351,
+                    "end": 359,
+                    "text": "Table S1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "RSV Transcriptomic Datasets"
+        },
+        {
+            "text": "To merge and integrate the public domain RSV microarray studies, we first normalized and preprocessed each dataset separately using the package Lumi [61] for Illumina \u00ae microarrays data and the package Oligo [62] for Affymetrix \u00ae datasets ( Figure S2 ). We also conducted a principal component analysis (PCA) to check for outliers and evaluate the presence of strong batch effects that could affect the analysis of the data.",
+            "cite_spans": [
+                {
+                    "start": 149,
+                    "end": 153,
+                    "text": "[61]",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 208,
+                    "end": 212,
+                    "text": "[62]",
+                    "ref_id": "BIBREF64"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 241,
+                    "end": 250,
+                    "text": "Figure S2",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Datasets Merging, Raw Data Normalization and Assessment of Differentially Expressed Transcripts"
+        },
+        {
+            "text": "Subsequently, we used the R package COCONUT (COmbat CO-Normalization Using conTrols) to combine all datasets into one and reduce batch effects in the meta-analysis [21] .",
+            "cite_spans": [
+                {
+                    "start": 164,
+                    "end": 168,
+                    "text": "[21]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Datasets Merging, Raw Data Normalization and Assessment of Differentially Expressed Transcripts"
+        },
+        {
+            "text": "Finally, to determine which genes are significantly up-or down-regulated during the RSV infection (n = 296) when compared to both healthy controls (n = 193) and other viral conditions as a single group (n = 360; Table S2 ), we used the R package limma [63] and a moderated t-statistic. A linear model was fitted considering the age as a categorical covariate of the model (children / adult); this allowed us to minimize confounding effects considering that the study GSE68310 was carried out on adults whereas the rest of studies were conducted in children. Multiple testing correction was performed using the False Discovery Rate (FDR). A summary of the methodological procedure is shown in Figure 4 . More information on the datasets used is provided in Table S1 .",
+            "cite_spans": [
+                {
+                    "start": 252,
+                    "end": 256,
+                    "text": "[63]",
+                    "ref_id": "BIBREF65"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 212,
+                    "end": 220,
+                    "text": "Table S2",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 692,
+                    "end": 700,
+                    "text": "Figure 4",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 756,
+                    "end": 764,
+                    "text": "Table S1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Datasets Merging, Raw Data Normalization and Assessment of Differentially Expressed Transcripts"
+        },
+        {
+            "text": "To merge and integrate the public domain RSV microarray studies, we first normalized and preprocessed each dataset separately using the package Lumi [61] for Illumina \u00ae microarrays data and the package Oligo [62] for Affymetrix \u00ae datasets ( Figure S2 ). We also conducted a principal component analysis (PCA) to check for outliers and evaluate the presence of strong batch effects that could affect the analysis of the data.",
+            "cite_spans": [
+                {
+                    "start": 149,
+                    "end": 153,
+                    "text": "[61]",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 208,
+                    "end": 212,
+                    "text": "[62]",
+                    "ref_id": "BIBREF64"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 241,
+                    "end": 250,
+                    "text": "Figure S2",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Datasets Merging, Raw Data Normalization and Assessment of Differentially Expressed Transcripts"
+        },
+        {
+            "text": "Subsequently, we used the R package COCONUT (COmbat CO-Normalization Using conTrols) to combine all datasets into one and reduce batch effects in the meta-analysis [21] .",
+            "cite_spans": [
+                {
+                    "start": 164,
+                    "end": 168,
+                    "text": "[21]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Datasets Merging, Raw Data Normalization and Assessment of Differentially Expressed Transcripts"
+        },
+        {
+            "text": "Finally, to determine which genes are significantly up-or down-regulated during the RSV infection (n = 296) when compared to both healthy controls (n = 193) and other viral conditions as a single group (n = 360; Table S2 ), we used the R package limma [63] and a moderated t-statistic. A linear model was fitted considering the age as a categorical covariate of the model (children / adult); this allowed us to minimize confounding effects considering that the study GSE68310 was carried out on adults whereas the rest of studies were conducted in children. Multiple testing correction was performed using the False Discovery Rate (FDR). A summary of the methodological procedure is shown in Figure 4 . ",
+            "cite_spans": [
+                {
+                    "start": 252,
+                    "end": 256,
+                    "text": "[63]",
+                    "ref_id": "BIBREF65"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 212,
+                    "end": 220,
+                    "text": "Table S2",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 692,
+                    "end": 700,
+                    "text": "Figure 4",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Datasets Merging, Raw Data Normalization and Assessment of Differentially Expressed Transcripts"
+        },
+        {
+            "text": "We used the Reactome pathway database to examine biological pathways associated with the genes differentially expressed in RSV patients. Thus, to categorize differentially expressed genes (DEG) for overrepresentation of Reactome pathways we used PANTHER Classification System with the following parameters: Reactome pathways overrepresentation test (released on 2019-03-08) with Reactome version 65 (released on 2019-03-12), and Homo sapiens as a reference list. Statistical significance was evaluated using Fisher's exact test and FDR as the multiple test correction method.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Pathway Analysis"
+        },
+        {
+            "text": "Our hypothesis is that RSV affects the transcriptome in a particular way distinguishable from other viral conditions. From the list of DEG obtained when compared RSV patients against other viral conditions (Table S2) , we investigated a minimum specific transcript signature of RSV infection. We used Parallel Regularised Regression Model Search (PReMS) [64] in a randomly split dataset removing the healthy controls: training set (n = 521) and validation set (n = 135). PReMS explores different logistic regression models constructed from optimal subsets of the candidate genes while increasing the model size iteratively. PReMS [64] was chosen instead of other methods because it tends to select signatures with fewer genes without sacrificing model accuracy, which would facilitate its future translation into a clinical test [17] . The bio-signature was searched among the top 100 DEG between RSV and non-RSV categories.",
+            "cite_spans": [
+                {
+                    "start": 354,
+                    "end": 358,
+                    "text": "[64]",
+                    "ref_id": "BIBREF66"
+                },
+                {
+                    "start": 630,
+                    "end": 634,
+                    "text": "[64]",
+                    "ref_id": "BIBREF66"
+                },
+                {
+                    "start": 829,
+                    "end": 833,
+                    "text": "[17]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 206,
+                    "end": 216,
+                    "text": "(Table S2)",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Signature Discovery Using Parallel Regularized Regression"
+        },
+        {
+            "text": "Finally, the accuracy of the model estimated by PReMS was calculated as the area under the receiver operator curve (AUC) using the R package pROC [65] in both training and test cohorts.",
+            "cite_spans": [
+                {
+                    "start": 146,
+                    "end": 150,
+                    "text": "[65]",
+                    "ref_id": "BIBREF67"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Signature Discovery Using Parallel Regularized Regression"
+        },
+        {
+            "text": "All analyses were carried out using R software version 3.5.2 [66] .",
+            "cite_spans": [
+                {
+                    "start": 61,
+                    "end": 65,
+                    "text": "[66]",
+                    "ref_id": "BIBREF68"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Signature Discovery Using Parallel Regularized Regression"
+        },
+        {
+            "text": "The present integrated multicohort analysis suggests that RSV alters the expression of >1500 genes in the host. A number of them are related to different pathways, namely cell cycle, immunological response to viral infection (including pattern recognition receptors), and olfactory signaling. In addition, RSV modifies the host transcriptome in a very specific manner, different from other respiratory viruses with similar phenotypes. We found a 17-transcript signature (validated in several independent cohorts), that allows the discrimination of RSV infection from other respiratory viruses. Considering the small number of transcripts involved, this signature might be potentially translated into a point of care test.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "This study is a step forward to a better understanding of the molecular mechanism underlying RSV infection. The biomarkers of RSV infection detected may help discover new drug targets and improve the development of vaccines. Using pathway-based approaches such as GO term enrichment or Ingenuity pathway analysis (IPA) to prioritize the genes whose expression is altered by RSV infection may help discovering new drug targets and improve the development of vaccines.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Supplementary Materials: Supplementary materials can be found at http://www.mdpi.com/1422-0067/21/5/1831/ s1. Table S1 . Description of samples and cohorts included in the present study. Table S2 . Genes differentially expressed according to R package limma. Table S3 . Reactome pathway enrichment analysis results. Figure S1 . PCA plot of the eight datasets initially selected for the meta-analysis. The data points clustering on the right side of the plot (PC1) correspond to the outlier transcriptome profiles of the RSV samples from the dataset GSE80179; the control samples in GSE80179 cluster with the other controls. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 110,
+                    "end": 118,
+                    "text": "Table S1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 187,
+                    "end": 195,
+                    "text": "Table S2",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 259,
+                    "end": 267,
+                    "text": "Table S3",
+                    "ref_id": null
+                },
+                {
+                    "start": 316,
+                    "end": 325,
+                    "text": "Figure S1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Conclusions"
+        },
+        {
+            "text": "This study received support from the Instituto de Salud Carlos III: project GePEM (Instituto de Salud Carlos III(ISCIII)/PI16/01478/Cofinanciado FEDER), DIAVIR (Instituto de Salud Carlos III(ISCIII)/DTS19/00049/Cofinanciado FEDER; Proyecto de Desarrollo Tecnol\u00f3gico en Salud) and Resvi-Omics (Instituto de Salud Carlos III(ISCIII)/PI19/0103; 9/Cofinanciado FEDER) given to A.S.; and project ReSVinext (Instituto de Salud Carlos III(ISCIII)/PI16/01569/Cofinanciado FEDER), and Enterogen (Instituto de Salud Carlos III(ISCIII)/ PI19/01090/Cofinanciado FEDER) given to F.M.-T.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding:"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Biomarkers of respiratory syncytial virus (RSV) infection: Specific neutrophil and cytokine levels provide increased accuracy in predicting disease severity",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Schneeberger",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Piedimonte",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Paediatr. Respir. Rev",
+            "volume": "16",
+            "issn": "",
+            "pages": "232--240",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.prrv.2015.05.005"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Global, regional, and national disease burden estimates of acute lower respiratory infections due to respiratory syncytial virus in young children in 2015: A systematic review and modelling study",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mcallister",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "O&apos;brien",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A F"
+                    ],
+                    "last": "Simoes",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Madhi",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Gessner",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Polack",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Balsells",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Acacio",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Aguayo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Lancet",
+            "volume": "390",
+            "issn": "",
+            "pages": "946--958",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(17)30938-8"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Whole blood gene expression in infants with respiratory syncytial virus bronchiolitis",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Fjaerli",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Bukholm",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Krog",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Skjaeret",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Holden",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Nakstad",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Bmc Infect. Dis",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/1471-2334-6-175"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Risk of primary infection and reinfection with respiratory syncytial virus",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Glezen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Taber",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Frank",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Kasel",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "Am. J. Dis. Child",
+            "volume": "140",
+            "issn": "",
+            "pages": "543--546",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/archpedi.1986.02140200053026"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Review of epidemiology and clinical risk factors for severe respiratory syncytial virus (RSV) infection",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Welliver",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "J. Pediatr",
+            "volume": "143",
+            "issn": "",
+            "pages": "112--117",
+            "other_ids": {
+                "DOI": [
+                    "10.1067/S0022-3476(03)00508-0"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Risk factors in children hospitalized with RSV bronchiolitis versus non-RSV bronchiolitis",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Garcia",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Bhore",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Soriano-Fallas",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Trost",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Chason",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Ramilo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mejias",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Pediatrics",
+            "volume": "126",
+            "issn": "",
+            "pages": "1453--60",
+            "other_ids": {
+                "DOI": [
+                    "10.1542/peds.2010-0507"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The burden of respiratory syncytial virus infection in young children",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Hall",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Weinberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Iwane",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Blumkin",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Edwards",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Staat",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Auinger",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Griffin",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Poehling",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Erdman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "N. Engl. J. Med",
+            "volume": "360",
+            "issn": "",
+            "pages": "588--598",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa0804877"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Whole Exome Sequencing reveals new candidate genes in host genomic susceptibility to Respiratory Syncytial Virus Disease",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Salas",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Pardo-Seco",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cebey-L\u00f3pez",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "G\u00f3mez-Carballa",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Obando-Pacheco",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Rivero-Calle",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Curras-Tuala",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Amigo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "G\u00f3mez-Rial",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Martin\u00f3n-Torres",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41598-017-15752-4"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Increased concordance of severe respiratory syncytial virus infection in identical twins",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Thomsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Stensballe",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Skytthe",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Kyvik",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Backer",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Bisgaard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Pediatrics",
+            "volume": "121",
+            "issn": "",
+            "pages": "493--496",
+            "other_ids": {
+                "DOI": [
+                    "10.1542/peds.2007-1889"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Disease severity in respiratory syncytial virus infection: Role of host genetic variation",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tahamtan",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Askari",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Bont",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Salimi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Rev. Med. Virol",
+            "volume": "29",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/rmv.2026"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Respiratory Syncytial Virus Bronchiolitis in Children up to 5 Years of Age in Spain: Epidemiology and Comorbidities: An Observational Study",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gil-Prieto",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gonzalez-Escalada",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Marin-Garcia",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gallardo-Pino",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gil-De-Miguel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "94",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/MD.0000000000000831"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Diagnosis of childhood tuberculosis and host RNA expression in Africa",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kaforou",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Brent",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wright",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Banwell",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Chagaluka",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Crampin",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Dockrell",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "French",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hamilton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "N. Engl. J. Med",
+            "volume": "370",
+            "issn": "",
+            "pages": "1712--1723",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa1303657"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Diagnostic Test Accuracy of a 2-Transcript Host RNA Signature for Discriminating Bacterial vs Viral Infection in Febrile Children",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Herberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kaforou",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wright",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Shailes",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Eleftherohorinou",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hoggart",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cebey-L\u00f3pez",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Carter",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Janes",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gormley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "JAMA",
+            "volume": "316",
+            "issn": "",
+            "pages": "835--845",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2016.11236"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Whole blood gene expression profiles to assess pathogenesis and disease severity in infants with respiratory syncytial virus infection",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mejias",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Dimo",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Suarez",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Garcia",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Suarez-Arrabal",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Jartti",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Blankenship",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jordan-Villegas",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Ardura",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "PLoS Med",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pmed.1001549"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "A 2-transcript host cell signature distinguishes viral from bacterial diarrhea and it is influenced by the severity of symptoms",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Barral-Arca",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Pardo-Seco",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Martin\u00f3n-Torres",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Salas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Sci. Rep",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41598-018-26239-1"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "A qPCR expression assay of IFI44L gene differentiates viral from bacterial infections in febrile children",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "G\u00f3mez-Carballa",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cebey-L\u00f3pez",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Pardo-Seco",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Barral-Arca",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Rivero-Calle",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pischedda",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Curras-Tuala",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "G\u00f3mez-Rial",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Barros",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Martin\u00f3n-Torres",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Sci. Rep",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41598-019-48162-9"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Diagnosis of Kawasaki disease using a minimal whole-blood gene expression signature",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wright",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Herberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kaforou",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Shimizu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Eleftherohorinou",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Shailes",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Barendregt",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Menikou",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gormley",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Berk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "JAMA Pediatr",
+            "volume": "172",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamapediatrics.2018.2293"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Gene expression and regulation in systemic lupus erythematosus",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Frangou",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Bertsias",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Boumpas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Eur. J. Clin. Investig",
+            "volume": "43",
+            "issn": "",
+            "pages": "1084--1096",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/eci.12130"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "How to read a systematic review and meta-analysis and apply the results to patient care: Users' guides to the medical literature",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Murad",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Montori",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Ioannidis",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Jaeschke",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Devereaux",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Prasad",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Neumann",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Carrasco-Labra",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Agoritsas",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hatala",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "JAMA",
+            "volume": "312",
+            "issn": "",
+            "pages": "171--179",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2014.5559"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Power failure: Why small sample size undermines the reliability of neuroscience",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Button",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Ioannidis",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Mokrysz",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Nosek",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Flint",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Robinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Munafo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Nat. Rev. Neurosci",
+            "volume": "14",
+            "issn": "",
+            "pages": "365--376",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nrn3475"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Genome-wide expression for diagnosis of pulmonary tuberculosis: A multicohort analysis",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Sweeney",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Braviak",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Tato",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Khatri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Lancet Respir. Med",
+            "volume": "4",
+            "issn": "",
+            "pages": "213--224",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2213-2600(16)00048-5"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Host-response-based gene signatures for tuberculosis diagnosis: A systematic comparison of 16 signatures",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Warsinske",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Vashisht",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Khatri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "PLOS Med",
+            "volume": "16",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pmed.1002786"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "A 20-Gene Set Predictive of Progression to Severe Dengue",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Robinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Sweeney",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Barouch-Bentov",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Sahoo",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Kalesinskas",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Vallania",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Sanz",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Ortiz-Lasso",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Albornoz",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Rosso",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Cell Rep",
+            "volume": "26",
+            "issn": "",
+            "pages": "1104--1111",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.celrep.2019.01.033"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "A community approach to mortality prediction in sepsis via gene expression analysis",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Sweeney",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Perumal",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Henao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Nichols",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Howrylak",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Bermejo-Martin",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Almansa",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Tamayo",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Davenport",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nat. Commun",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41467-018-03078-2"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "2 -5 -Oligoadenylate Synthetase-Like Protein Inhibits Respiratory Syncytial Virus Replication and Is Targeted by the Viral Nonstructural Protein 1",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dhar",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Cuevas",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Goswami",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Sarkar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Barik",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J. Virol",
+            "volume": "89",
+            "issn": "",
+            "pages": "10115--10119",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.01076-15"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "AIM2 recognizes cytosolic dsDNA and forms a caspase-1-activating inflammasome with ASC",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Hornung",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ablasser",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Charrel-Dennis",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Bauernfeind",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Horvath",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Caffrey",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Latz",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Fitzgerald",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Nature",
+            "volume": "458",
+            "issn": "",
+            "pages": "514--518",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nature07725"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Mechanisms of NOD-like receptor-associated inflammasome activation",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wen",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Miao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Ting",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Immunity",
+            "volume": "39",
+            "issn": "",
+            "pages": "432--441",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.immuni.2013.08.037"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Airway response to respiratory syncytial virus has incidental antibacterial effects",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Sande",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Njunge",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mwongeli Ngoi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Mutunga",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Chege",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Gicheru",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gardiner",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gwela",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Green",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Drysdale",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nat. Commun",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41467-019-10222-z"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "The cell cycle: A review",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Schafer",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Vet. Pathol",
+            "volume": "35",
+            "issn": "",
+            "pages": "461--478",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/030098589803500601"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Martinon-Torres, F. Strong down-regulation of glycophorin genes: A host defense mechanism against rotavirus infection",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Salas",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Marco-Puche",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Trivino",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gomez-Carballa",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cebey-Lopez",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Rivero-Calle",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Vilanova-Trillo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Rodriguez-Tenreiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gomez-Rial",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Infect. Genet. Evol",
+            "volume": "44",
+            "issn": "",
+            "pages": "403--411",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.meegid.2016.07.044"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Respiratory syncytial virus (RSV) evades the human adaptive immune system by skewing the Th1/Th2 cytokine balance toward increased levels of Th2 cytokines and IgE, markers of allergy-A review",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Becker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Virus Genes",
+            "volume": "33",
+            "issn": "",
+            "pages": "235--252",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11262-006-0064-x"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Respiratory syncytial virus infection in the absence of STAT 1 results in airway dysfunction, airway mucus, and augmented IL-17 levels",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hashimoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Durbin",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Collins",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Ho",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Kolls",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Dubin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Sheller",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Goleniewska",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "O&apos;neal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J. Allergy Clin. Immunol",
+            "volume": "116",
+            "issn": "",
+            "pages": "550--557",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jaci.2005.03.051"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Genetic susceptibility to respiratory syncytial virus bronchiolitis in preterm children is associated with airway remodeling genes and innate immune genes",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Siezen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Bont",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hodemaekers",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ermers",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Doornbos",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Van&apos;t Slot",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wijmenga",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Houwelingen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Kimpen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Kimman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Pediatr. Infect. Dis. J",
+            "volume": "28",
+            "issn": "",
+            "pages": "333--335",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/INF.0b013e31818e2aa9"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Chemokine and cytokine processing by matrix metalloproteinases and its effect on leukocyte migration and inflammation",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Van Lint",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Libert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J. Leukoc. Biol",
+            "volume": "82",
+            "issn": "",
+            "pages": "1375--1381",
+            "other_ids": {
+                "DOI": [
+                    "10.1189/jlb.0607338"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Matrix Metalloproteinase-9 Mediates RSV Infection in Vitro and in Vivo",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Kong",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Whitley",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Oster",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Schoeb",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Sullender",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ambalavanan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Clancy",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gaggar",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Blalock",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Viruses",
+            "volume": "7",
+            "issn": "",
+            "pages": "4230--4253",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/v7082817"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "A genetic model of differential susceptibility to human respiratory syncytial virus (RSV) infection",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ciencewicki",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Marzec",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Serra",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bell",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Polack",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Kleeberger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Faseb J. Off. Publ. Fed. Am. Soc. Exp. Biol",
+            "volume": "28",
+            "issn": "",
+            "pages": "1947--1956",
+            "other_ids": {
+                "DOI": [
+                    "10.1096/fj.13-239855"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Ancestry patterns inferred from massive RNAseq data",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Barral-Arca",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Pardo-Seco",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Bello",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Martin\u00f3n-Torres",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Salas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "RNA",
+            "volume": "25",
+            "issn": "",
+            "pages": "857--868",
+            "other_ids": {
+                "DOI": [
+                    "10.1261/rna.070052.118"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Gene-expression variation within and among human populations",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Storey",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Madeoy",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Strout",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wurfel",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ronald",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Akey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Am. J. Hum. Genet",
+            "volume": "80",
+            "issn": "",
+            "pages": "502--509",
+            "other_ids": {
+                "DOI": [
+                    "10.1086/512017"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Human respiratory syncytial virus infection is inhibited by IFN-induced transmembrane proteins",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zan",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Tien",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J. Gen. Virol",
+            "volume": "96",
+            "issn": "1",
+            "pages": "170--182",
+            "other_ids": {
+                "DOI": [
+                    "10.1099/vir.0.066555-0"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Activation of RNase L is dependent on OAS3 expression during infection with diverse human viruses",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Banerjee",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Goldstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gaughan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Silverman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Weiss",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Proc. Natl. Acad. Sci",
+            "volume": "113",
+            "issn": "",
+            "pages": "2241--2246",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.1519657113"
+                ]
+            }
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Cell-type-specific effects of RNase L on viral induction of beta interferon",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Banerjee",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Chakrabarti",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Jha",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Weiss",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Silverman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "MBio",
+            "volume": "5",
+            "issn": "",
+            "pages": "856--870",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/mBio.00856-14"
+                ]
+            }
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "The role of 2 -5 oligoadenylate-activated ribonuclease L in apoptosis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Castelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hassel",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Maran",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Paranjape",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hewitt",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Hsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Silverman",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Youle",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Cell Death Differ",
+            "volume": "5",
+            "issn": "",
+            "pages": "313--320",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/sj.cdd.4400352"
+                ]
+            }
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Respiratory syncytial virus stimulates neutrophil degranulation and chemokine release",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Jaovisidha",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Peeples",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Brees",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Carpenter",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Moy",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "J. Immunol",
+            "volume": "163",
+            "issn": "",
+            "pages": "2816--2820",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "A Role for Neutrophils in Viral Respiratory Disease. Front. Immunol. 2017, 8, 550",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Camp",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Jonsson",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fimmu.2017.00550"
+                ]
+            }
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Association between common Toll-like receptor 4 mutations and severe respiratory syncytial virus disease",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Tal",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mandelberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Dalal",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Cesar",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Somekh",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tal",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Oron",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Itskovich",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ballin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Houri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J. Infect. Dis",
+            "volume": "189",
+            "issn": "",
+            "pages": "2057--2063",
+            "other_ids": {
+                "DOI": [
+                    "10.1086/420830"
+                ]
+            }
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "TLR4 genotype and environmental LPS mediate RSV bronchiolitis through Th2 polarization",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Caballero",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Serra",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Acosta",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Marzec",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gibbons",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Salim",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rodriguez",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Reynaldi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Garcia",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Bado",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J. Clin. Investig",
+            "volume": "125",
+            "issn": "",
+            "pages": "571--582",
+            "other_ids": {
+                "DOI": [
+                    "10.1172/JCI75183"
+                ]
+            }
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Association of TLR4 polymorphisms with symptomatic respiratory syncytial virus infection in high-risk infants and young children",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Awomoyi",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Rallabhandi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Pollin",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lorenz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Sztein",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Boukhvalova",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Hemming",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Blanco",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Vogel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J. Immunol",
+            "volume": "179",
+            "issn": "",
+            "pages": "3171--3177",
+            "other_ids": {
+                "DOI": [
+                    "10.4049/jimmunol.179.5.3171"
+                ]
+            }
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Toll-like receptor 4 Asp299Gly polymorphism in respiratory syncytial virus epidemics",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lofgren",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Marttila",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Renko",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ramet",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hallman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Pediatr. Pulmonol",
+            "volume": "45",
+            "issn": "",
+            "pages": "687--692",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/ppul.21248"
+                ]
+            }
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "CD14 -550 C/T, which is related to the serum level of soluble CD14, is associated with the development of respiratory syncytial virus bronchiolitis in the Japanese population",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Inoue",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Shimojo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Suzuki",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Campos Alberto",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Yamaide",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Suzuki",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Arima",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Matsuura",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tomiita",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Aoyagi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J. Infect. Dis",
+            "volume": "195",
+            "issn": "",
+            "pages": "1618--1624",
+            "other_ids": {
+                "DOI": [
+                    "10.1086/516790"
+                ]
+            }
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "The role of TLR4 and CD14 polymorphisms in the pathogenesis of respiratory syncytial virus bronchiolitis in greek infants",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Goutaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Haidopoulou",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pappa",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Tsakiridis",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Frydas",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Eboriadou",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hatzistylianou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Int. J. Immunopathol. Pharm",
+            "volume": "27",
+            "issn": "",
+            "pages": "563--572",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/039463201402700412"
+                ]
+            }
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "He, Q. TLR5 rs5744174 gene polymorphism is associated with the virus etiology of infant bronchiolitis but not with post-bronchiolitis asthma",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tormanen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Terasjarvi",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lauhkonen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Helminen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Koponen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Korppi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Nuolivirta",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Health Sci. Rep",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/hsr2.38"
+                ]
+            }
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Transcriptomic profiling in childhood H1N1/09 influenza reveals reduced expression of protein synthesis genes",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Herberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kaforou",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gormley",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Sumner",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Patel",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Paulus",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fink",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Martinon-Torres",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Montana",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J. Infect. Dis",
+            "volume": "208",
+            "issn": "",
+            "pages": "1664--1668",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/infdis/jit348"
+                ]
+            }
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Type I interferons in host defense",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Stetson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Medzhitov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Immunity",
+            "volume": "25",
+            "issn": "",
+            "pages": "373--381",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.immuni.2006.08.007"
+                ]
+            }
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "A Simple Screening Approach to Prioritize Genes for Functional Analysis Identifies a Role for Interferon Regulatory Factor 7 in the Control of Respiratory Syncytial Virus Disease",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Mcdonald",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kaforou",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Clare",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hale",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ivanova",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Huntley",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dorner",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wright",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Levin",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Martinon-Torres",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "1",
+            "issn": "",
+            "pages": "51--67",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/mSystems.00051-16"
+                ]
+            }
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Postviral olfactory loss",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Seiden",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Otolaryngol. Clin. N. Am",
+            "volume": "37",
+            "issn": "",
+            "pages": "1159--1166",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.otc.2004.06.007"
+                ]
+            }
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Comparison of Cepheid Xpert Flu/RSV XC and BioFire FilmArray for Detection of Influenza A, Influenza B, and Respiratory Syncytial Virus",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Wahrenbrock",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Matushek",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Boonlayangoor",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Tesic",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Beavis",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Charnot-Katsikas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J. Clin. Microbiol",
+            "volume": "54",
+            "issn": "",
+            "pages": "1902--1903",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JCM.00084-16"
+                ]
+            }
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Plasticity and virus specificity of the airway epithelial cell immune response during respiratory virus infection",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Ioannidis",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Mcnally",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Willette",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Peeples",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Chaussabel",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Durbin",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Ramilo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mejias",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Flano",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J. Virol",
+            "volume": "86",
+            "issn": "",
+            "pages": "5422--5436",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.06757-11"
+                ]
+            }
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "Nasopharyngeal Microbiota, Host Transcriptome, and Disease Severity in Children with Respiratory Syncytial Virus Infection",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "De Steenhuijsen Piters",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Heinonen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hasrat",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Bunsow",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Suarez-Arrabal",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Chaussabel",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Cohen",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Sanders",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Ramilo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Am. J. Respir. Crit. Care Med",
+            "volume": "194",
+            "issn": "",
+            "pages": "1104--1115",
+            "other_ids": {
+                "DOI": [
+                    "10.1164/rccm.201602-0220OC"
+                ]
+            }
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "Host Gene Expression in Nose and Blood for the Diagnosis of Viral Respiratory Infection",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Peterson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Baran",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bhattacharya",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Wylie",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Falsey",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mariani",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Storch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J. Infect. Dis",
+            "volume": "219",
+            "issn": "",
+            "pages": "1151--1161",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/infdis/jiy608"
+                ]
+            }
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Host Transcriptional Response to Influenza and other Acute Respiratory Viral Infections-A Prospective Cohort Study",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhai",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Franco",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Atmar",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Quarles",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Arden",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Bucasas",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Wells",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Nino",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Zapata",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "PLoS Pathog",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.ppat.1004869"
+                ]
+            }
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "A pipeline for processing Illumina microarray",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Kibbe",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Lumi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Bioinformatics",
+            "volume": "24",
+            "issn": "",
+            "pages": "1547--1548",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/bioinformatics/btn224"
+                ]
+            }
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "A framework for oligonucleotide microarray preprocessing",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Carvalho",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Irizarry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Bioinformatics",
+            "volume": "26",
+            "issn": "",
+            "pages": "2363--2367",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/bioinformatics/btq431"
+                ]
+            }
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "limma powers differential expression analyses for RNA-sequencing and microarray studies",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Ritchie",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Phipson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Law",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Smyth",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Nucleic Acids Res",
+            "volume": "43",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nar/gkv007"
+                ]
+            }
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "Parallel Regularised Regression Model Search for sparse bio-signature discovery",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hoggart",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Prems",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "BioRxiv",
+            "volume": "355479",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/355479"
+                ]
+            }
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "pROC: An open-source package for R and S+ to analyze and compare ROC curves",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Robin",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Turck",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hainard",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Tiberti",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Lisacek",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Sanchez",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Muller",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "BMC Bioinform",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/1471-2105-12-77"
+                ]
+            }
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "R: A Language and Environment for Statistical Computing",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license",
+            "authors": [],
+            "year": null,
+            "venue": "\u00a9 2020 by the authors. Licensee MDPI",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "PCA of transcriptome profiles for the seven datasets used for the meta-analysis. Two first principal components (PC1 and PC2) are shown.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "PCA of transcriptome profiles for the seven datasets used for the meta-analysis. Two first principal components (PC1 and PC2) are shown.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "(A) Volcano plot of the genes differentially expressed when comparing respiratory syncytial virus (RSV)-infected children to children infected by other pathogens. The 100 most significant genes are highlighted, and these were used for the signature search. The upward arrow close to the x-axis indicates upregulated genes (log 2 FC < 0), whereas the downward arrow indicates down-regulated genes (log 2 FC > 0). (B) Optimal gene model size according to PReMS algorithm. The X axis represents the training set predictive log-likelihood, while the Y axis represents the number of genes. Solid grey bars indicate one standard error of the predictive log-likelihood. Vertical dashed lines show the optimal and one standard error fits as described in PreMS documentation. Red dots represent DEG that passed the significance threshold after a multiple test correction.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Receiver operating characteristic curves (ROC) based on the specific RVS 17-transcript signature. (A) ROC curve for the training and test sets (all pathogens vs. RSV). (B) ROC curves for each pathogen in the training cohort. (C) ROC curves for each pathogen in the test cohort.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Receiver operating characteristic curves (ROC) based on the specific RVS 17-transcript signature. (A) ROC curve for the training and test sets (all pathogens vs. RSV). (B) ROC curves for each pathogen in the training cohort. (C) ROC curves for each pathogen in the test cohort.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Scheme of the methodological procedure.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Scheme of the methodological procedure.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Contributions: A.S., F.M.-T. and R.B.-A. conceived and designed the study. R.B.A., A.S., X.B. and J.P.S. analyzed the data. A.S., R.B.A., A.G.-C., and M.C.-L. wrote the first draft of the manuscript, which was revised by F.M.-T. All the authors contributed to the final version of the manuscript. All authors have read and agreed to the published version of the manuscript.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Genes Included in the respiratory syncytial virus (RSV) signature. LRC = logistic regression coefficient.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "AUC values for different pathogens (in round brackets the 95% CI for 2,000 bootstrap replicates). TR = training cohort; TE = test cohort; YT = Youden threshold. NA = not available (due to limited number of samples)",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "AUC values for different pathogens (in round brackets the 95% CI for 2,000 bootstrap replicates). TR = training cohort; TE = test cohort; YT = Youden threshold. NA = not available (due to limited number of samples)",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "rhinovirus plus enterovirus, and 4 RSV.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We gratefully acknowledge CESGA (Supercomputing Centre of Galicia, Santiago de Compostela, Spain) for computing availability, web hosting, and support. We would also like to thank Timothy E Sweeney (Inflammatix, Inc) for assistance with the COCONUT package.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments:"
+        },
+        {
+            "text": "The authors declare no conflict of interest.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflicts of Interest:"
+        }
+    ]
+}

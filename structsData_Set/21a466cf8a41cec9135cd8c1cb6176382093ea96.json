@@ -1,0 +1,509 @@
+{
+    "paper_id": "21a466cf8a41cec9135cd8c1cb6176382093ea96",
+    "metadata": {
+        "title": "",
+        "authors": []
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "There is a battle of life and death during this coronavirus disease 2019 (COVID-19) outbreak in Korea like any other parts of the world. This is what is happening in Korea now in March 2020. Mr. K, a 73-year-old man, was diagnosed with COVID-19 in Gyeonsangbukdo on February 28 and had been cared at the hospital A in Pohang, 88 km from Daegu. He developed massive hematochezia and was referred to hospital B for intensive care in Seoul, 320 km from Pohang. He received 10,000 mL of blood transfusion at hospital B on March 1. The medical team in hospital B found that he had massive bleeding from huge duodenal ulcer by endoscopy. Bleeding control was strengthened, and he was placed on a mechanical ventilator. He needed an emergency operation at a negatively pressured operation suite, which was not available at hospital B at that time, with already tight operation schedules being carried out. Rapid communications were held among top hospitals in Seoul, and a special transport team from hospital C moved the patient in a very critical condition to the hospital D across the Han River from south to north of Seoul, where he received a successful bowel resection operation. Mr. K has been off the ventilator for a while and appeared to recover, but unfortunately, he succumbed to COVID-19 later. Korean doctors at the frontline of COVID-19 battle work tirelessly to save lives, and this was just one example of their dedication. The numbers shown here are not just the numbers of deceased patients. These are numbers for struggles of those who were infected to survive and for efforts of those who were at the frontline of the field to save lives.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "We summarized the mortality data of 54 deceased patients when the total number of COVID-19 patients in Korea reached 7,513 as of March 10, 2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Data were achieved from the daily press release from KCDC and briefing contents from national/local government authority press conferences were analyzed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "METHODS"
+        },
+        {
+            "text": "Since the last report on the epidemiology of the Korean outbreak 1 on March 2, 2020, when the number of fatal cases was 22 patients, the mortality number has increased to 54 cases as of March 10, 2020. Fig. 1 shows the timeline for the occurrence of fatal cases in Korea.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 202,
+                    "end": 208,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Timeline of fatal cases in Korea"
+        },
+        {
+            "text": "The first fatal case (national patient number 104) occurred on February 19 and was officially reported on February 20 by Korea Centers for Disease Control and Prevention (KCDC). 2 National patient number 443 (mortality patient number 3) was the first patient who died suddenly without an epidemiological link and was diagnosed with COVID-19 after death on February 21. 3 Since the patient (national patient number 31) was identified and related to the religious group was reported on February 18, there was a surge of the confirmed cases with hundreds of new cases per day, mainly in Daegu and Gyeongsangbuk-do area. 1 With a significant surge of new cases, there was the first fatal case (national patient number 1,443; mortality patient number 13) that the patient died during home isolation after having been confirmed with COVID-19 on February 27, 2020. 4 Since March 1, referrals from Daegu area to hospitals in Seoul (the capital city of the nation with more tertiary hospitals) and other parts of the area in Korea were started for serious patients who needed intensive care. On March 2, patients in mild conditions were relocated to \"life treatment centers\" that were temporarily transformed for housing the mild confirmed patients in individual rooms ( Supplementary  Fig. 1 ). 5 These facilities were initially been used as accommodation facilities for human resource training centers of the local government, universities, or corporations. 6 On March 4, there was the first case of mortality in a patient (mortality patient number 32, the national patient number was not available) without significant underlying illness. As of 0 am, March 10, 2020, there were 54 out of 7,513 confirmed patients with COVID-19 died in Korea. 7",
+            "cite_spans": [
+                {
+                    "start": 369,
+                    "end": 370,
+                    "text": "3",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1287,
+                    "end": 1288,
+                    "text": "5",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1451,
+                    "end": 1452,
+                    "text": "6",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1262,
+                    "end": 1283,
+                    "text": "Supplementary  Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Timeline of fatal cases in Korea"
+        },
+        {
+            "text": "It is of importance to expect what would happen during the outbreak as the epidemic evolves with increasing numbers. Fig. 2 shows the mortality related milestones, the cumulative number of confirmed cases, number of daily new cases, and cumulative number of cases that have been released from isolation in Korea, by March 10, 2020. 1,8,9 Therefore, reviewing these data is important to assess the impact on the patient-care capacities of the healthcare facilities, especially during a surge of an outbreak.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 117,
+                    "end": 123,
+                    "text": "Fig. 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Morality related milestone, number of cases"
+        },
+        {
+            "text": "The first death due to COVID-19 occurred on February 19 and was reported on February 20. This patient was the national patient number 104. 2 The first sudden-death case with postmortem diagnosis of COVID-19 was observed when the total number of patients reached 204 on February 21. 3 The first death on home isolation due to COVID-19 occurred when the number of daily new patients reached 505 with a total number of over 1,766 on February 27. 4 First death without underlying illness occurred when the total number of patients reached 5,328 on March 4. 10 Of note, although without significant illness, this was a 72-year-old woman who developed symptoms on February 23 and was diagnosed with It is of note that even when the total confirmed cases reached 7,513, only 247 patients were released from isolation after treatment on March 10, 2020 (Fig. 2) . cumulative deaths/number of total patients on each day). 8 During the first week after the first morality case, the daily CFR was 1.22%. However, it soon decreased to 0.04% on March 10, 2020. The cumulative CFR of COVID-19 in Korea was 0.7% (54 deaths of total 7,513 confirmed cases) as of 0 am, March 10, 2020. ",
+            "cite_spans": [
+                {
+                    "start": 139,
+                    "end": 140,
+                    "text": "2",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 282,
+                    "end": 283,
+                    "text": "3",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 443,
+                    "end": 444,
+                    "text": "4",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 844,
+                    "end": 852,
+                    "text": "(Fig. 2)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Morality related milestone, number of cases"
+        },
+        {
+            "text": "We tried to analyze survival duration from symptom onset to death in 31 patients (57.4%) of whom the symptom onset dates were available (Table 1 and Fig. 4A) . Among the 31 patients in whom the dates of symptom onset were available, the median days from symptom onset to death was 10 days (IQR, 5-12 days; range, 35-93) Duration from symptom onset to death was not different between men and women (data not shown, P = 0.677) or the two age groups (< 70 years old [n = 9] vs. \u2265 70 years old [n = 22]; P = 0.086) (Fig. 4B) . It also did not differ between the patients with underlying illness (n = 28) and without underlying illness (n = 3) (P = 0.499, log-rank test) (Fig. 4C) . However, it is of note that all three patients without underlying illness were alive until day 10 from the symptom onset. 5 shows the distribution of CFR in some selected countries, including Korea. 11 CFRs of the three countries (Italy, Iran, and Korea) with the highest numbers of confirmed cases next to China, were 5.0%, 3.0%, and 0.7%, respectively. In addition, CFRs in the US and Italy were similar (5.2% and 5.0%), although the numbers of confirmed cases were different. Fig. 5 shows the age distribution of the general population in the background, the proportion of age groups among confirmed cases, and CFRs in each group in Korea (as of March 10), China (as of February 21), and Italy (as of March 9) . Age distribution of the Korean outbreak shows M shape with peak ages in the 20s and 50s (Fig. 6A) 7, 12 while Chinese data shows bell shape with a peak age in the 50s (Fig. 6B) . 13, 14 In Italy, it appears that more individuals in older ages were infected compared to Korea or China (Fig. 6C) . 15 ",
+            "cite_spans": [
+                {
+                    "start": 877,
+                    "end": 879,
+                    "text": "11",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1382,
+                    "end": 1390,
+                    "text": "March 9)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1491,
+                    "end": 1493,
+                    "text": "7,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1494,
+                    "end": 1496,
+                    "text": "12",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1572,
+                    "end": 1575,
+                    "text": "13,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1576,
+                    "end": 1578,
+                    "text": "14",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1689,
+                    "end": 1691,
+                    "text": "15",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 136,
+                    "end": 157,
+                    "text": "(Table 1 and Fig. 4A)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 511,
+                    "end": 520,
+                    "text": "(Fig. 4B)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 666,
+                    "end": 675,
+                    "text": "(Fig. 4C)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 800,
+                    "end": 801,
+                    "text": "5",
+                    "ref_id": null
+                },
+                {
+                    "start": 1157,
+                    "end": 1163,
+                    "text": "Fig. 5",
+                    "ref_id": null
+                },
+                {
+                    "start": 1481,
+                    "end": 1490,
+                    "text": "(Fig. 6A)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1560,
+                    "end": 1569,
+                    "text": "(Fig. 6B)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1677,
+                    "end": 1686,
+                    "text": "(Fig. 6C)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Survival duration from symptom onset to death"
+        },
+        {
+            "text": "We summarized the data of 54 fatal cases with COVID-19 in Korea as of March 10, 2020. Clearly, older patients above 70 are more likely to die from COVID-19 infection than younger individuals, and men had higher CFR compared to women.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Mortality is the most important issue when dealing with the unexpected or expected outbreak and setting up priorities to control the epidemics. Under outbreak circumstances, maintaining the healthcare system is the key issue, especially when there is a rapid surge in the number of confirmed cases in the community as happened in Wuhan, China, Daegu, Korea, and Lombardy, Italy.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "It is premature to mention any factors responsible for the differences in CFR in different regions and countries. However, when there was a sudden rise in numbers, the CFR also rose. The most important strategy is to keep the hospitals' capacity to treat severe patients from the early phase through careful and proper triage and maintain the healthcare system. Further studies in larger number of mortality case analyses should be performed to understand COVID-19 related mortality.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "In conclusion, COVID-19 poses a significant global health threat in 2020. Although difficult without effective antivirals or vaccines, countermeasures should be continuously applied in many aspects of outbreak situations to decrease the mortality.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Korean Society of Infectious Diseases; Korean Society of Pediatric Infectious Diseases",
+            "authors": [],
+            "year": null,
+            "venue": "Korean Society for Antimicrobial Therapy",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Report on the epidemiological features of coronavirus disease 2019 (COVID-19) outbreak in the Republic of Korea from",
+            "authors": [],
+            "year": 2020,
+            "venue": "Korea Centers for Disease Control and Prevention",
+            "volume": "35",
+            "issn": "10",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Korea Centers for Disease Control and Prevention. The update of COVID-19 in Korea as of",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Korea Centers for Disease Control and Prevention. The update of COVID-19 in Korea as of",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Press release of COVID-19 in Daegu as of",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Daegu Metropolitan City",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Govt to open more treatment centers for COVID-19 patients with mild symptoms",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Tbs",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "News",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Korea Centers for Disease Control and Prevention. The update of COVID-19 in Korea as of March 2. http:// ncov.mohw.go.kr/tcmBoardView.do?brdId=&brdGubun=&dataGubun=&ncvContSeq=353274&contSe-q=353274&board_id=&gubun=ALL",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Korea Centers for Disease Control and Prevention. The update of COVID-19 in Korea as of",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Press release of COVID-19 in Daegu as of",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Daegu Metropolitan City",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Press release of COVID-19 in Daegu as of",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Daegu Metropolitan City",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "World Health Organization",
+            "authors": [],
+            "year": 2020,
+            "venue": "Coronavirus disease 2019 (COVID-19) situation report-49",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Population census updated by the KOSIS",
+            "authors": [],
+            "year": 2018,
+            "venue": "Korean Statistical Information Service",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "The Novel Coronavirus Pneumonia Emergency Response Epidemiology Team. The epidemiological characteristics of an outbreak of 2019 novel coronavirus diseases (COVID-19) -China, 2020",
+            "authors": [],
+            "year": 2020,
+            "venue": "Chin J Epidemiol",
+            "volume": "41",
+            "issn": "2",
+            "pages": "125--51",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Population census",
+            "authors": [],
+            "year": 2010,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "della Salute M. COVID-19 situazione in Italia",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Resident population by age, sex and marital status on 1st",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Istituto Nazionale Di Statistica",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "shows the daily number of deaths, daily case fatality rate (CFR) (number of new deaths/number of total patients on each day), and daily cumulative CFR (Number of death and distribution. (A) Daily number of deaths (bar), daily case fatality rate (orange line), and daily cumulative case fatality rate (blue line) of COVID-19 in Korea as of March 10, 2020. (B) Mortality distribution in the nation as of March 10, 2020. Number of total cases (blue) and number of fatal cases (fatal case rate %) (red) are shown. COVID-19 = coronavirus disease 2019, KCDC = Korea Centers for Disease Control and Prevention.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "shows the mortality distribution in the nation as of March 10, 2020. 7 As expected, Daegu and Gyeongsangbuk-do province had most of the mortality cases. One patient from Gangwon-do died at a hospital in Gyeongsangbuk-do and had a funeral in Gangwon-do. One patient from Gyeongsangbuk-do died at National Medical Center in Seoul, and the other patient (A Mongolian patient) died in Gyeonggi-do.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Fig. 5 shows the distribution of CFR in some selected countries, including Korea. 11 CFRs of the three countries (Italy, Iran, and Korea) with the highest numbers of confirmed cases next to China, were 5.0%, 3.0%, and 0.7%, respectively. In addition, CFRs in the US and Italy were similar (5.2% and 5.0%), although the numbers of confirmed cases were different.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Survival duration from symptom onset to death. (A) Overall (n = 31), (B) < 70 years old (n = 9) vs. \u2265 70 years old (n = 22), (C) With underlying illness (n = 28) vs. without underlying illness (n = 3).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Case fatality rate in selected countries in the world. 10-19 20-29 30-39 40-49 50-59 60-69 70-79 \u226580 Population distribution, COVID-19 case distribution and case fatality rate in each age group. (A) Korea, (B) China, and (C) Italy. Blue area: the proportion of age groups among the general population, Yellow area: the proportion of age groups among confirmed cases, Red bar: case fatality rate. COVID-19 = coronavirus disease 2019. group (< 50 years old vs. \u2265 70 years old, P < 0.001; 50-70 years old vs. \u2265 70 years old, P < 0.001, Poisson regression).",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "Fig. 2. Mortality related milestones, the cumulative number of confirmed cases, number of daily new cases, and cumulative number of cases that have been released from isolation in Korea as of March 10, 2020. COVID-19 = coronavirus disease 2019.COVID-19 on February 26 after she became hospitalized to intensive care unit and died on March 4, 2020.10",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "shows the baseline characteristic of fatal cases in Korea. 45%]; P < 0.001; \u03c7 2 test). Gender difference on CRF was more evident in the older age group in patients 60 years or older (men 8/592, 4.73% vs. women 19/1,013, 1.88%; P = 0.002).Data  shown are number (%) not otherwise specified. DM = diabetes mellitus, NA = not available, Sx = symptom. Out of hospital death includes home death, dead on arrival, cardiopulmonary resuscitation on ambulance, etc.; Cardiovascular disease: hypertension, other heart disease such as myocardial infarction; c Neurologic disease: dementia, cerebral infarction; d Values are presented as number of median (interquartile range, range), dates of symptom onset were available in 31 patients. vs. 50-70 years, 18/2,345 [0.77%] vs. \u2265 70 years, 34/676 [5.30%]; P < 0.001; all comparison and all pairwise comparisons).There were eight immunocompromised patients (8/54[14.8%], seven cancer patients, and one kidney transplant recipient). There were seven patients with the psychologic disease. This was mainly related to the cluster of COVID-19 transmission among hospitalized psychologic patients in a mental ward of Daenam Hospital where the religious groups' leader had his family funeral. 1 This religious group was later found to be the main cause of COVID-19 surge in Daegu and Gyeongsangbuk-do area.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Korea vs. Italy, P = 0.124). When adjusted for country effect, CFR of older age group was higher than those of younger age 7/9 https://jkms.org https://doi.org/10.3346/jkms.2020.35.e132",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We express our sincere consolation for the patients and their families who had COVID-19 in Korea. We greatly appreciate the efforts of all the hospital employees and their families who are working tirelessly during this outbreak. We thank all the members of the Korean Society of Infectious Diseases and Korea Centers for Disease Control and Prevention. We also appreciate the collaborative partnership at all levels of individuals in the public and private sectors of the nation. We appreciate the contribution of Drs ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACKNOWLEDGMENTS"
+        }
+    ]
+}

@@ -1,0 +1,453 @@
+{
+    "paper_id": "5cb61edbbbed7a03b791fe1628e1d68577a9a980",
+    "metadata": {
+        "title": "Importance of suppression and mitigation measures in managing COVID-19 outbreaks",
+        "authors": [
+            {
+                "first": "Michael",
+                "middle": [
+                    "E"
+                ],
+                "last": "Hochberg",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "EPHE",
+                    "location": {
+                        "settlement": "Montpellier",
+                        "region": "IRD",
+                        "country": "France"
+                    }
+                },
+                "email": "michael.hochberg@umontpellier.fr"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "I employ a simple mathematical model of an epidemic process to evaluate how three basic quantities: the reproduction number (R), the number of infectious individuals (I), and total community size (N) affect strategies to control COVID-19. Numerical simulations show that strict suppression measures at the beginning of an epidemic can create low infectious numbers, which thereafter can be managed by mitigation measures over longer periods to flatten the epidemic curve. The stronger the suppression measure, the faster it achieves the low levels of exposed and infectious numbers that are conducive to subsequent management. Our results point to a two-step control strategy that begins with some level of confinement to reduce R below 1, followed by sufficient mitigation measures that manage the epidemic by maintaining R at approximately 1.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "management options, and since some nations are days or even weeks behind in their epidemics compared to others. The latter property is important, because the lockstep nature of COVID-19 epidemic trends mean that nations can 'peer into the future' to predict how their own outbreaks will unfold. This information and the efficacy of control strategies already adopted by other 'future' countries can be instrumental in giving the time to plan and logistically organize effective measures.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Here, we employ a simple epidemiological model to elucidate some of the basic parameters and processes that arbitrate control measure outcomes. The model's intuitive results emphasize the necessity to adopt one or both of two strategies: 'suppression measures' that are engaged early and decisively to lower the reproduction number, R0, as close as possible to 0. When successful, this results in low, manageable numbers of infections, and can then be followed by 'mitigation measures' that flatten the epidemic curve by maintaining the reproduction number to approximately 1. The Imperial College COVID-19 Response Team (11) (12) (13) recently analyzed realistic scenarios of each approach to show how they could influence morbidity and mortality trends and the impact on health services. The objective of the present study is to emphasize how strategic lowering of the reproduction number is central to a rational management plan to minimize the impacts of COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 621,
+                    "end": 625,
+                    "text": "(11)",
+                    "ref_id": null
+                },
+                {
+                    "start": 626,
+                    "end": 630,
+                    "text": "(12)",
+                    "ref_id": null
+                },
+                {
+                    "start": 631,
+                    "end": 635,
+                    "text": "(13)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "We employ a simple SEIR model of Susceptible \u2192 Exposed \u2192 Infectious \u2192 Removed states (14) .",
+            "cite_spans": [
+                {
+                    "start": 85,
+                    "end": 89,
+                    "text": "(14)",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Model"
+        },
+        {
+            "text": "The ordinary differential equations take the form: Where Rt is the reproduction number at time t, Tinf is the infectious period, Tinc is the incubation period, and N is a constant equal to S+E+I+R. ' / )*+ is equivalent to the transmission parameter b employed in random-mixing infectious disease models. In the numerical studies below, Rt will either be noted at the beginning of an epidemic (at time t=0, yielding 'the basic reproduction number', R0) or will be the level of Rt as affected by control measures (denoted RS for suppression and RM for mitigation).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model"
+        },
+        {
+            "text": "We employ this general model for COVID-19 to explore how some of its central properties could affect outbreak control efforts. The over-simplicity of the model means that it should not be used to make precise predictions for actual epidemic management situations, but rather serve as a conceptual tool that can serve as a first step towards more realistic analyses for specific scenarios or situaitons.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Numerical methods"
+        },
+        {
+            "text": "Epidemic management strategies were investigated using the Epidemic Calculator package (15) (Supplementary Material). This platform is rich in possibilities for varying key parameters such as the reproduction number (Rt) and temporal scales of infection (Tinf and Tinc), as well as initial subpopulation of infections individuals (I0) and the total population size (N0=S0+I0). The platform also permits the user to experiment with different \"clinical\" parameters, including hospitalization rate, case fatality rate, and recovery time for mild cases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Numerical methods"
+        },
+        {
+            "text": "The results presented below are based on the parameter values provided on the website simulator page ( Table 1) . Given the recent emergence of COVID-19, these parameter values should be viewed as preliminary and possibly inaccurate, since for example, they may be based on limited data or be time-or location-specific. This reinforces the above call for caution in interpreting the findings presented here, and in using the precise model output for any specific management actions.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 103,
+                    "end": 111,
+                    "text": "Table 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Numerical methods"
+        },
+        {
+            "text": "Length of incubation period (Tinc) 5. The Epidemic Calculator package, although very flexible, has some limitations in its use for scientific study. First, the accuracy of the simulator output is untested with respect to analytical results, independent computational studies, and other SEIR platforms. The only test conducted here did verifiy that the simulated equilibrium fraction of susceptible individuals (S\u00a5) followed the predicted relation: -ln(S\u00a5/S0)=R(1-S\u00a5/S0) (14) . The results presented below -even if consistent with intuition -nevertheless need to be viewed as preliminary and contingent on future testing. Second, precision in the intervals for input parameters and platform output were not always to the last decimal places, . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 470,
+                    "end": 474,
+                    "text": "(14)",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Parameter Value"
+        },
+        {
+            "text": "(which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.31.20048835 doi: medRxiv preprint and for large numbers, such as the total community size N, a limited number of choices were available. Therefore, for example, there was no choice for exactly N=70 million, and as such the next highest option (70,420,854) was employed. The same was true for simulations with the lower population size of N=70K (70,263 was used). Moreover, the data presented below (i.e., y-axis data point readings) were in some cases closest interpolations of closely neighboring values that resulted in the simulation target. Varying the input and reading rules to neighboring values was found to have negligible effects on the trends reported, and did not change the main conclusions of this study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Parameter Value"
+        },
+        {
+            "text": "We first explored how the trigger number of infectious cases (I) for suppression measures to be engaged, affected the critical level of RS necessary to keep infectious cases at or below 100 after 60 days. We chose 60 days because it is the approximate period that areas of China (as the first affected country), decided to enter lockdown. is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The data in Table 2 support the above basic insights, whereby suppression measures need to be increasingly strict in order to reduce the time necessary to obtain low target case numbers. . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 446,
+                    "end": 453,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03.31.20048835 doi: medRxiv preprint 5), who showed higher case growth rates with city size. The discrepancy can be explained by the different units employed in each study (case growth rate in (5) vs. fraction of total population infected at some point during a fixed time interval (this study)) and how R was estimated in (5) (found to be city-size dependent) vs. assumed invariant in the present study. Case growth rate (number of new cases on day t -number of new cases on day t-1 / number of new cases on day t-1) was found to increase with community size in the present study (not shown parameters. For example, regulating the infectious population to less than 10% of the total population requires RM less than c.1. 5 , which is about a 40% reduction in the R0 assumed here (Fig. 2A) . Peak . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 792,
+                    "end": 793,
+                    "text": "5",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 850,
+                    "end": 859,
+                    "text": "(Fig. 2A)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03.31.20048835 doi: medRxiv preprint levels of hospitalization can reach c.7%-10% should mitigation measures be 20% or less effective at reducing R0 (Fig. 2B) . Such levels would exceed hospital bed capacity in most countries by at least an order of magnitude (17). Reducing peak hospitalization levels well below 1% (which is still too high for many health services) would require RM close to 1. Finally, similar to the trends in Figs. 2A and B, fatalities are sensitive to the effectiveness of prior suppression measures and community size, indicating that RM needs to be reduced towards unity for smaller communities and those unable to reduce infectious cases sufficiently during suppression measures (Fig. 2C) . These results emphasize that epidemics could be contained by tuning RM close to 1, which would be acceptable to many cities and nations, should levels below 1 not be logistically or socially attainable.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 219,
+                    "end": 228,
+                    "text": "(Fig. 2B)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 501,
+                    "end": 509,
+                    "text": "Figs. 2A",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 775,
+                    "end": 784,
+                    "text": "(Fig. 2C)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "The lockstep nature of COVID-19 outbreaks in different regions, countries and cities means that management practices in places further along the epidemic curve can inform those in earlier stages.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions and future directions"
+        },
+        {
+            "text": "Control strategies in one country, however, are not always applicable in others, due for example to cultural and logistical differences (18) . Mathematical models based on empirical data have a role to play in adapting capacities to address epidemics, both as conceptual aids and management tools. The present study explored two types of intervention that can contribute to reducing the impact of COVID-19 epidemics. The first would be adopted by communities that either initially decided not (or did, but were unable) to sufficiently control the exponential increase of new cases. These 'suppression measures' reduce the reproduction number sufficiently below 1 and in so doing lower the number of infectious cases to a manageable level. The second tactic -'mitigation measures' -may either be gradually introduced towards the end of suppression, or as a preventive approach, whereby communities begin to manage very early in the outbreak. Actual application of these measures is likely to be complex (11, 12) , and in particular, mitigation measures could go through multiple successive adjustments so as to approach desired levels of RM.",
+            "cite_spans": [
+                {
+                    "start": 136,
+                    "end": 140,
+                    "text": "(18)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1002,
+                    "end": 1006,
+                    "text": "(11,",
+                    "ref_id": null
+                },
+                {
+                    "start": 1007,
+                    "end": 1010,
+                    "text": "12)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusions and future directions"
+        },
+        {
+            "text": "We found that the level of stringency in suppression measures (i.e., Rs\u00e00) results in shorter periods necessary to attain a given case growth rate objective, as expressed by the number of currently exposed and infectious individuals in the community. Greater suppression stringency also means that with slightly longer confinement periods, ever-lower numbers of infectious individuals can be obtained, permitting reduced mitigation stringency (Rm>1, but not too high). The latter may be important given both logistical constraints and the desire to reduce the many negative impacts that control measures have, for example, on mental health and the economy.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions and future directions"
+        },
+        {
+            "text": "Analysis using the Epidemic Calculator platform yielded three main results. First, increasingly stringent tactics are needed to obtain a given level of reset, as the number of infectious cases at the . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions and future directions"
+        },
+        {
+            "text": "The copyright holder for this preprint . https://doi.org/10.1101/2020.03.31.20048835 doi: medRxiv preprint start of suppression measures increase. Communities with more than 100,000 infectious cases essentially have to reduce transmission to zero in order to have about 100 cases after 60 days. Second, the duration of suppression measures to attain an objective, decreases to some extent with the severity of measures. Lowering RS to or below 0.1 (i.e., a 96+% drop from R0=2.5) from just over 10,000 infectious cases, would meet the objective of 100 after 30 days, and this indeed what was the Chinese data would suggest (1), indicating that they succeeded in lowering their RS to less than 0.1. According to these simulations, an RS>0.5 would require more than 60 days to meet this same objective. Third, epidemic management is most effective if engaged when infectious cases are low enough to preserve the capacities of health services, which, as above, is best done either near the start of an epidemic or once a suppression reset has succeeded. Although in this scenario, RM<1 is a sufficient condition for successful management, tactics that give weight to individual freedoms, yet keep RM above, but sufficiently close to 1 can successfully contain epidemic consequences, such as morbidities and mortalities and the saturation of health service capacities. Recent data analysis of 11 European countries (13) supports the basic quantitative predictions set out in the present study, and similar analyses of richer, near-future data sets will be needed to refine target parameter values so as to yield regional epidemic and global pandemic management objectives.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "Of the many limitations in the analysis presented here, two in particular merit further study. First, the model assumes random mixing of individuals. Real infection networks are far more complex, and may involve (i) significant spatial structuring, (ii) different numbers of contacts per individual and through time and travel, (iii) epidemiological class effects (such as age, quarantined, hospitalized), and (iv) persistence of the SARS-CoV-2 virus in the external environment. Mathematical models incorporating heterogeneous contact structures (e.g., 5, 7, 19) will have a role to play in indicating the effectiveness of different control measures. Analyses similar to (13) should explore both realistic contact structures and community-specific values of epidemic and health service parameters.",
+            "cite_spans": [
+                {
+                    "start": 554,
+                    "end": 556,
+                    "text": "5,",
+                    "ref_id": null
+                },
+                {
+                    "start": 557,
+                    "end": 559,
+                    "text": "7,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 560,
+                    "end": 563,
+                    "text": "19)",
+                    "ref_id": null
+                },
+                {
+                    "start": 672,
+                    "end": 676,
+                    "text": "(13)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "Second, future analyses will need to translate actual tactics into their effects on different epidemiological parameters, and principally RS and RM. A number of tactics have been proposed and some variously adopted by different communities, including: spatial distancing, quarantining, hand washing, wearing masks, gloves; diagnostics such as contact tracing, and virus and antibody testing; and interventions such as employing repurposed drugs and developing vaccines. Such approaches will need to be employed in a complementary way, since no single one on its own is likely to attain reset or management objectives. Moreover, calibration of RM in particular will require accurate assessments of the contribution of asymptomatic transmission to the propagation of the virus, the latter having been recently demonstrated in mathematical models to potentially influence COVID-19 dynamics (20) .",
+            "cite_spans": [
+                {
+                    "start": 887,
+                    "end": 891,
+                    "text": "(20)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "(which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.31.20048835 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        },
+        {
+            "text": "In conclusion, the simple model analyzed here is not an instrument to develop precise, actionable strategies. Rather, it is a conceptual tool that identifies some of the important parameters, and generates testable hypotheses of how these could affect outbreak management outcomes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not peer-reviewed)"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The Lancet",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30567-5"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "The Lancet",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30260-9"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The Lancet Public Health",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Prem",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "30073--30079",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2468-2667(20"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "The Lancet Glob",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hellewell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2214-109X(20)30074-7"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Infectious Diseases of Humans: Dynamics and Control",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "M R M"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1992,
+            "venue": "OUP",
+            "volume": "15",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF1": {
+            "text": "Suppression levels required to meet objectives, given different starting conditions. Simulations begin with R0=2.5 and 1 infectious individual in a population of c. 70 million unexposed individuals. The suppression strategy starts when the number of infectious individuals attain a given number (x -axis), which correlates with the time elapsed in the outbreak. Rs is the observed maximum level of R needed to result in 100 or fewer infectious individuals after 60 days of confinement (y -axis). See text for further details.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "shows that larger numbers of infectious individuals require stricter measures to attain the (arbitrary) objective of 100 or fewer numbers after two months of measures. According to our",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "and Germany would need to reduce transmission probabilities to near zero to attain the objective, should infectious numbers be on the order of 100,000. Early interventions in populations with 1 to 100 infectious individuals would still require considerable measures, with reductions in baseline R0=2.5 of 25% to 60%, respectively. Given cumulative case number doubling times observed in some countries of about 3 to 5 days (16) (and therefore c. 2 weeks between each log integer on the x-axis of Figure 1), the choice of measures without knowing their true impacts on the reproductive number could have resulted in insufficient flattening of the epidemic curve and valuable time lost.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Effect of mitigation measures on (A) The fraction of initially unexposed people who are eventually exposed (E+I+R) at 200 days after the measure starts; (B) The maximum daily fraction of the population needing hospitalization for any single day, up to 200 days after the measure starts; (C) The fraction of initially unexposed people who eventually die at 200 days after the measure starts. Lines linking points are intended to aid visualization. Although not explored here, numerical simulations for parameter values associated with points above the dashed line in (A) were influenced by 'herd immunity' (21), i.e., when the proportion of the population in the susceptible class, S<(1-1/R). Herd immunity reduces the per capita force of infection on the susceptible class. Moreover, note that the result in (A) appears to contrast with the results in Steir et al. (",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "shows how the effectiveness of suppression strategies and community size influence how strict subsequent mitigation measures must be to result in a given level of epidemiological and clinical",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF2": {
+            "text": "). Numbers above points in (B) refer to the day that maximum hospitalization occurs, and are only shown for the Black line conditions (note that when RM=1, maximum levels begin on day 90 and are constant thereafter; for RM=1.1, maximum levels occur after 200 days). Yellow line: mitigation starts when 1 st infection is observed; c.70 million inhabitants; Gray line: starts at 100 th infection; c.70 million; Red line: starts at 1 st infection; c.70K inhabitants; Black line: starts at 100 th infection; c.70K inhabitants. See main text for additional details.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "I thank the members of the EEC research team at the Institute for Evolutionary Sciences, University of Montpellier for discussions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        }
+    ]
+}

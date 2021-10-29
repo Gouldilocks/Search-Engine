@@ -1,0 +1,2112 @@
+{
+    "paper_id": "7f2df2e8a86da5ade48cd1e7d2a6829e93c2993b",
+    "metadata": {
+        "title": "CovProfile: profiling the viral genome and gene expressions of SARS-COV2",
+        "authors": [
+            {
+                "first": "Yonghan",
+                "middle": [],
+                "last": "Yu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "City University of Hong Kong Shenzhen Research Institute",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Zhengtu",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Respiratory Disease",
+                    "institution": "the First Affiliated Hospital of Guangzhou Medical University",
+                    "location": {
+                        "postCode": "510120",
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yinhu",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "City University of Hong Kong Shenzhen Research Institute",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Le",
+                "middle": [],
+                "last": "Yu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Beijing YuanShengKangTai (ProtoDNA) Genetech Co. Ltd",
+                    "location": {
+                        "postCode": "100190",
+                        "settlement": "Beijing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Wenlong",
+                "middle": [],
+                "last": "Jia",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "City University of Hong Kong Shenzhen Research Institute",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Feng",
+                "middle": [],
+                "last": "Ye",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Respiratory Disease",
+                    "institution": "the First Affiliated Hospital of Guangzhou Medical University",
+                    "location": {
+                        "postCode": "510120",
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": "yefeng@gird.cn"
+            },
+            {
+                "first": "Shuai",
+                "middle": [
+                    "Cheng"
+                ],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "City University of Hong Kong Shenzhen Research Institute",
+                    "location": {}
+                },
+                "email": "*shuaicli@gmail.com"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "SARS-COV2 is infecting more than one million people. Knowing its genome and gene expressions is essential to understand the virus. Here, we propose a computational tool to detect the viral genomic variations as well as viral gene expressions from the sequenced amplicons with Nanopore devices of the multiplex reverse transcription polymerase chain reactions. We applied our tool to 11 samples of terminally ill patients, and discovered that seven of the samples are infected by two viral strains. The expression of viral genes ORF1ab gene, S gene, M gene, and N gene are high among most of the samples. While performing our tests, we noticed the abundances of MUC5B transcript segments to be consistently higher than those of other genes in the host.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Severe acute respiratory syndrome coronavirus 2 (SARS-COV-2) has infected more than one million 2 people, and has led to more than 80,000 deaths, at the time of preparation of this 3 manuscript [1, 23, 25, 28] . The virus is an enveloped and single-stranded RNA betacoronavirus 30kb 4 base-pairs (bps), , which belongs to the family Coronaviridae [6, 27] . Since the year 2000, we have 5 witnessed and experienced three highly widespread pathogenic coronaviruses in human populations - 6 the other two viruses are SARS-COV in 2002-2003, and MERS-CoV in 2012 [4] . All three viruses can 7 lead to Acute Respiratory Distress Syndrome (ARDS) in the human host, which may cause pulmonary 8 fibrosis,and lead to permanent lung function reduction or death [2, 20, 22] . The mechanisms of these 9 severe cases remain unclear. 10 No drug is currently confirmed to be effective against SARS-COV-2. Some vaccine candidates are 11 under intensive studies [12] . A nucleotide analog RNA-dependent RNA Polymerase (RdRP) inhibitor 12 called remdesivir has demonstrated effects on SARS-COV-2 [19] . Hoffmann et al. suggested that 13 TMPRSS2 inhibitor approved for clinical use can be adopted as a treatment option [9] . In silico methods 14 have as well produced lists of potential drugs [7] and epitopes [16] worthy of further exploration. 15 However, short of details on how the viral molecule compromises the cells of hosts, it is hard to prioritize 16 our exploration of the huge array of potential drugs and therapies. Analysis of the mechanism can false negatives, one approach is to amplify the viral sequences with multiplex reverse transcription 21 polymerase chain reaction (RT-PCR), followed by sequencing the amplicons with third generation 22 sequencing technologies such as the Nanopore devices. The approach has been applied to sequence the 23 dengue [21] and Zika viruses [17] , as well as in the SARS-COV-2 viruses [14] . 24 Nanopore sequencing generate long reads, which enable the detection of large genomic structural 25 changes, viral recombination and viral integration into host genome. They also supports alternative 26 splicing analyses of microorganism studies [3] . However, The long reads suffers high error rates. 27 Detection of the viral and host gene expressions using amplicons is further complicated by several factors. 28 First, the sub-sequences can be amplified unevenly. Second, reads in the gene region amplified from the 29 viral genome are indistinguishable from the gene transcripts. Third, chimeric reads are frequent. 30 Here, we developed a computational tool, CovProfile, to detect viral genomic variations, and profile 31 viral gene expressions through data from multiplex RT-PCR Amplicon Sequencing on Nanopore 32 GridION. To detect the genomic variations, we mapped the reads to SARS-CoV-2 reference genome 33 (MN908947.3), and to profile the viral gene expressions, we adopt a regularization method to find out 34 the primer efficiencies, We have tested the tool on the data obtained from the sputum samples in eleven 35 severe COVID-19 patients. We found seven out of eleven patients are infected by two strains, and 36 discovered no structural variations. We found that the expression of viral genes ORF1ab gene, S gene, M 37 gene, and N gene are high among most of the samples. While performing our tests, we noticed the 38 abundances of MUC5B transcript segments to be consistently higher than those of other genes in host.",
+            "cite_spans": [
+                {
+                    "start": 194,
+                    "end": 197,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 198,
+                    "end": 201,
+                    "text": "23,",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 202,
+                    "end": 205,
+                    "text": "25,",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 206,
+                    "end": 209,
+                    "text": "28]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 347,
+                    "end": 350,
+                    "text": "[6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 351,
+                    "end": 354,
+                    "text": "27]",
+                    "ref_id": null
+                },
+                {
+                    "start": 558,
+                    "end": 561,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 750,
+                    "end": 753,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 754,
+                    "end": 757,
+                    "text": "20,",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 758,
+                    "end": 761,
+                    "text": "22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 944,
+                    "end": 948,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1077,
+                    "end": 1081,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1199,
+                    "end": 1202,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1273,
+                    "end": 1276,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1290,
+                    "end": 1294,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1851,
+                    "end": 1855,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1873,
+                    "end": 1877,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1917,
+                    "end": 1921,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 2172,
+                    "end": 2175,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 2228,
+                    "end": 2230,
+                    "text": "27",
+                    "ref_id": null
+                },
+                {
+                    "start": 2547,
+                    "end": 2549,
+                    "text": "30",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The function of this gene may be associated with the severe symptom of pulmonary fibrosis. In this study, we collected Nanopore sequencing data for SARS-CoV-2 virus from the sputum samples of 43 11 COVID-19 patients. A total of 1,804,043 clean reads were generated, with an average of Remove false-positive chimeric reads 50 Chimeric nanopore reads formed by random connection of multiplex RT-PCR amplicons were split into 51 multiple segments if the location of their bilateral ends matches to corresponding locations of PCR 52 primer pair. These chimeric reads could be split into several segments with their bilateral ends exactly 53 matching the sites where the multiplex PCR primers are located, suggesting that they should be 54 processed accurately to avoid false positive identification of virus recombinations or host integrations. 55 We position primers on both viral and host genome, and splits the identified chimeric reads into segments 56 corresponding to PCR amplicons. This method rescues lots of sequencing data, providing more accurate 57 alignment and higher coverage. Realignment were performed on the separated segments before analysis. 58",
+            "cite_spans": [
+                {
+                    "start": 841,
+                    "end": 843,
+                    "text": "55",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "39"
+        },
+        {
+            "text": "We aligned the clean data to SARS-CoV-2 genome (NCBI MN908947.3) with minimap2 [11] with default 60 parameters for Oxford Nanopore reads. With the alignment results, the genomic variations with average 61 quality larger than 10 and coverage depth larger than 20 were called with bcftools (version 1.8). To 62 reduce the effects brought about by the PCR amplification, a variation is filtered if it was located within 63 10 bp upstream or downstream of the primer region, and occurred only in one sample.",
+            "cite_spans": [
+                {
+                    "start": 79,
+                    "end": 83,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "59"
+        },
+        {
+            "text": "Estimating viral load and primer efficiency 65 Assume that there are n primer pairs (s i , t i ), with primer efficiency e i , 1 \u2264 i \u2264 n. Let the viral gene 66 boundaries be denoted (l g , r g ), where g indexes the genes. Denote the observed sequence depth captured 67 by the primer pair (s i , t i ) as d i . 68 We want to estimate the viral gene expression. Let the number of viral copies be denoted v, the 69 number of transcripts of gene g be denoted t g , and the sequencing rate of amplified segment be denoted 70 \u03b1. Then, we can have the following two approximations for d i .",
+            "cite_spans": [
+                {
+                    "start": 44,
+                    "end": 46,
+                    "text": "65",
+                    "ref_id": null
+                },
+                {
+                    "start": 311,
+                    "end": 313,
+                    "text": "68",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "64"
+        },
+        {
+            "text": "If the primer i is fully covered by gene g (Fig1. A) , then as the number of amplicons increases 72 exponentially with the number of replication cycles we have",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 43,
+                    "end": 52,
+                    "text": "(Fig1. A)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "71"
+        },
+        {
+            "text": "where k is the number of replication cycles.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "71"
+        },
+        {
+            "text": "Similarly, if primer pair i spans across gene boundaries; that is, it belongs to none of the gene 75 transcripts (Fig1. B), then we have",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "74"
+        },
+        {
+            "text": "If some reads share two ends, where one end is a primer and the other end is at some gene boundary 77 ( Fig 1D, Fig 1E) , it may indicate that these amplicons are the result of linear amplification. Denote the 78 number of reads r i,g with two endpoints as (t i , e g ), and the number of reads r g,i with two endpoints as 79 (l i , s g ), then",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 104,
+                    "end": 119,
+                    "text": "Fig 1D, Fig 1E)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "74"
+        },
+        {
+            "text": "If a gene g is within some primer target region (Fig2. G), then the sequenced fragment can be 81 expected to exactly cover the gene. Let the number of observed reads span exactly the whole gene g as 82 r g , then",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "74"
+        },
+        {
+            "text": "To find the expressions of the viral genes, we want to minimize the following objective function based 84 on the entities defined above",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "74"
+        },
+        {
+            "text": ". CC-BY 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.04.05.026146 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "74"
+        },
+        {
+            "text": "where \u03bb 1 and \u03bb 2 are two regularization parameters, and k is a weight factor (we set k to 21 according to 86 our experiments). The viral load v, primer efficiencies e i , and expressions t g which minimize the 87 objective equation are our estimation for these parameters. To capture the gene products of the host, reads and primers were aligned to the hg38 transcript database 94 derived from UCSC refGene annotation. Primer alignment were performed with BLAT [10] . Regions",
+            "cite_spans": [
+                {
+                    "start": 462,
+                    "end": 466,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "74"
+        },
+        {
+            "text": "where the depth of reads alignment are equal or larger to 5 are screened. Reads with endpoints matching 96 the screened primer alignment were treated as PCR duplications. Due to mismatches in primer to transcript alignment, primer efficiencies may change when capturing gene product. Thus, the recognized 98 PCR duplication were removed and one copy of those reads were kept. The gene expression from host 99 can then be estimated as the sum of the base depth of each transcript divided by its length. Due to the amplification discrepancy among the primers, the sequencing data was unevenly distributed 128 along the SARS-CoV-2 genome. After aligning the sequencing data to the SARS-CoV-2 genome, we 129 found that the coverage depths of some genomic regions reached over 8000x in some samples, but some 130 regions have coverage depths less than 10x ( Figure 5 ). In order to minimize the data imbalance induced 131 by PCR amplification, we performed data normalization based on the primer efficiency and their 132 locations on SARS-CoV-2 genome, so that the normalized data could reflect the actual virus 133 reproduction in the host. Based on the algorithm illustrated in the method, we obtained the normalized 134 sequencing depth of 11 sample data.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 853,
+                    "end": 861,
+                    "text": "Figure 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "95"
+        },
+        {
+            "text": "After data normalization, the overall coverage depth along the SARS-CoV-2 genome was relatively 136 even, and less than 300x. In addition, we discovered that the ORF1ab gene, S gene, M gene, and N gene 137 exhibited higher coverage depth in the samples, which might indicate higher expression ( Figure 5 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 295,
+                    "end": 303,
+                    "text": "Figure 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "135"
+        },
+        {
+            "text": "These genes are related to host cell recognition, amplification and virus particle assembly, so we The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.04.05.026146 doi: bioRxiv preprint The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.04.05.026146 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "138"
+        },
+        {
+            "text": "Previous studies on the sequencing data have shown that it contains the human genome, so we detected 144 the corresponding genes and their expression levels. Aligning these data to human transcript database, 145 we identified many segments of human gene transcripts. Subsequently, the coverage depths of these genes 146 were normalized based on the primer efficiencies. Only several genes are listed within the top 5% in more 147 than five samples according to the normalized depth. They include the genes MUC5B, TCAF12, KRT12 148 and etc. MUC5B is the only gene consistently within the top 5% across all the samples. More than 50% 149 of the MUC5B gene region is covered ( Figure 5) . However, the region with high coverage in MUC5B 150 gene is inconsistent among the samples, perhaps due to data scarcity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 674,
+                    "end": 683,
+                    "text": "Figure 5)",
+                    "ref_id": null
+                }
+            ],
+            "section": "High expression genes in host 143"
+        },
+        {
+            "text": "In this study, we implemented a software tool, CovProfile, to analyze multiplex RT-PCRs on Nanopore 153 sequencing data, and studied the sputum samples of COVID-19 patients. Our results show enrichment of 154 PCR amplicons which totally cover 99.7% of SARS-CoV-2 virus genome, revealing that the multiplex The data contained large amount of chimeric reads formed by unintended random connection of 159 multiplex PCR amplicons, making up 1.69% of total sequencing reads. Similar observation has been 160 reported that these chimeric reads can be formed during library preparation and sequencing, and lead to 161 the cross barcode assignment errors in multiplex samples [24, 26] . We applied CovProfile on the data and 162 recovered majority of chimeric reads.",
+            "cite_spans": [
+                {
+                    "start": 668,
+                    "end": 672,
+                    "text": "[24,",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 673,
+                    "end": 676,
+                    "text": "26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "152"
+        },
+        {
+            "text": "The sequencing reads could be used to evaluate the expression of SARS-CoV-2 genes. However, the 164 coverage unevenness caused by efficiency differences in the multiplex primers impedes our calculation of 165 pathogenic genes expression. To solve this problem, we propose a multi-parameter method which 166 considers the primer efficiency, gene differential expressions, and RNA virus genome copy number find that viral gene ORF1ab may maintain higher expression than other genes across most samples. This 172 viral gene occupied a large region on SARS-CoV-2 genome, and it responsible for the amplification and 173 assembly of the virus [15] . For the primer, the multiplex primers efficiency has wide distribution in single 174 sample, and the distributions among samples demonstrate similar trend. This suggests that our 175 estimation of primers efficiency comply to the reality. 176 We utilize the sequencing data to evaluate host genome expression and find several genes consistently 177 activated in the majority of samples after eliminating the PCR effects. The most abundant gene is the 178 MUC5B, which encodes a member of the mucin protein family. The family proteins are the major 179 components of mucus secretions in normal lung mucus [18] . MUC5B has been reported to be highly 180 expressed in lung disease, such as chronic obstructive pulmonary disease (COPD). Its up-regulated 181 transcription could cause mucociliary dysfunction and enhances lung fibrosis [8, 13] , thus might be 182 relevant to the recent report that a lot of mucus are found in the lung of COVID-19 infected patients.",
+            "cite_spans": [
+                {
+                    "start": 638,
+                    "end": 642,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 884,
+                    "end": 887,
+                    "text": "176",
+                    "ref_id": null
+                },
+                {
+                    "start": 1249,
+                    "end": 1253,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1476,
+                    "end": 1479,
+                    "text": "[8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1480,
+                    "end": 1483,
+                    "text": "13]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "163"
+        },
+        {
+            "text": "Another activated host gene is the TCAF2, which encodes transient receptor potential cation 184 channel-associated factor. It could bind to the TRPM8 channel and promote its trafficking to the cell 185 surface. Previous study reported that TCAF2 significantly increases the migration speed of prostate 186 cancer cells when it co-expresses with TRPM8 [5] . Other enriched genes might also break the cellular 187 homeostasis, including the nucleoredoxin-like gene NXNL2, tyrosine kinases FER, and so on. Further 188 studies of these genes could help researchers gain insights into the dysregulation of host cells after the 189 SARS-CoV-2 infection. We should point out these genes are extracted based on a very limited amount of 190 data, and the conclusions can be different with a large data sets. The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.04.05.026146 doi: bioRxiv preprint Figure 6 . Normalized coverage depth on MUC5B gene in the 11 samples. In each plot, the X and Y coordinates exhibited the length of MUC5B and the normalized coverage depth on along the MUC5B gene respectively.",
+            "cite_spans": [
+                {
+                    "start": 351,
+                    "end": 354,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 941,
+                    "end": 949,
+                    "text": "Figure 6",
+                    "ref_id": null
+                }
+            ],
+            "section": "183"
+        },
+        {
+            "text": ". CC-BY 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.04.05.026146 doi: bioRxiv preprint Overall, we present a tool for genomic variation detection and the transcriptional profile of 192 SARS-CoV-2 infection from multiplex Nanopore sequencing data. The tool decomposes and realign the 193 chimeric reads that commonly exist in the multiplex Nanopore sequencing, and this will greatly promote 194 the data usage. The method also provides a robust estimation of primer efficiency through a 195 multi-parameter model. The viral and host gene expression we report could pave steps to the 196 development of diagnosis and therapy strategies of SARS-CoV-2 infection candidates. 198 We thank just about everybody. ",
+            "cite_spans": [
+                {
+                    "start": 803,
+                    "end": 806,
+                    "text": "198",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "10/13"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Novel coronavirus (2019-ncov) situation reports",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Middle east respiratory syndrome coronavirus infection during pregnancy: A report of 5 cases from saudi arabia: Table 1",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Assiri",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Abedi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Masri",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Saeed",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Gerber",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Watson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Clinical Infectious Diseases",
+            "volume": "63",
+            "issn": "7",
+            "pages": "951--953",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Determining exon connectivity in complex mrnas by nanopore sequencing",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Bolisetty",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Rajadinakaran",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Graveley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Genome Biology",
+            "volume": "16",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Sars and mers: recent insights into emerging coronaviruses",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "De Wit",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Van Doremalen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Falzarano",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Munster",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Nature Reviews Microbiology",
+            "volume": "14",
+            "issn": "8",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Trp channel-associated factors are a novel protein family that regulates trpm8 trafficking and activityidentification of trpm8 partner proteins",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Gkika",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lemonnier",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Shapovalov",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Gordienko",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Poux",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bernardini",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bokhobza",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Bidaux",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Degerny",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Verreman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "The Journal of Cell Biology",
+            "volume": "208",
+            "issn": "1",
+            "pages": "89--107",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The species severe acute respiratory syndrome-related coronavirus: classifying 2019-ncov and naming it sars-cov-2",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gorbalenya",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Baker",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Baric",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature Microbiology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Master regulator analysis of the sars-cov-2/human interactome. bioRxiv",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Guzzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Mercatelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ceraolo",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Giorgi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Muc5b overexpression causes mucociliary dysfunction and enhances lung fibrosis in mice",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hancock",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Hennessy",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Solomon",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Dobrinskikh",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Estrella",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Hara",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Hill",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kissner",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Markovetz",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E G"
+                    ],
+                    "last": "Villalon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nature communications",
+            "volume": "9",
+            "issn": "1",
+            "pages": "1--10",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Sars-cov-2 cell entry depends on ace2 and tmprss2 and is blocked by a clinically proven protease inhibitor",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hoffmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kleine-Weber",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Schroeder",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kr\u00fcger",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Herrler",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Erichsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Schiergens",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Herrler",
+                    "suffix": ""
+                },
+                {
+                    "first": "N.-H",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nitsche",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "BLAT-the BLAST-like alignment tool",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kent",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Genome Research",
+            "volume": "12",
+            "issn": "4",
+            "pages": "656--664",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Minimap2: pairwise alignment for nucleotide sequences",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Bioinformatics",
+            "volume": "34",
+            "issn": "18",
+            "pages": "3094--3100",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Research and development on therapeutic agents and vaccines for covid-19 and related human coronavirus diseases",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Garner",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Watkins",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Carter",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Smoot",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Gregg",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Daniels",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jervey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Muc5b variant is associated with visually and quantitatively detected preclinical pulmonary fibrosis",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Mathai",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Humphries",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Kropski",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Blackwell",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Powers",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Walts",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Markin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Woodward",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chung",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Brown",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Thorax",
+            "volume": "74",
+            "issn": "12",
+            "pages": "1131--1139",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Amplicon based minion sequencing of sars-cov-2 and metagenomic characterisation of nasopharyngeal swabs from patients with covid-19",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Moore",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Penrice-Randal",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Alruwaili",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Pullan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Carter",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Bewley",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hartley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Genetic diversity and evolution of SARS-CoV-2. Infection",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Phan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Genetics and Evolution",
+            "volume": "81",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Covid-19 vaccine candidates: Prediction and validation of 174 sars-cov-2 epitopes. bioRxiv",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Prachar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Justesen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Steen-Jensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Thorgrimsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Jurgons",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Winther",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Bagger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Multiplex pcr method for minion and illumina sequencing of zika and other virus genomes directly from clinical samples",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Quick",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Grubaugh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Pullan",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Claro",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Gangavarapu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Oliveira",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Robles-Sikisaka",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Rogers",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Beutler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "nature protocols",
+            "volume": "12",
+            "issn": "6",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Muc5b is required for airway defence",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Roy",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Livraghi-Butrico",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Fletcher",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcelwee",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Evans",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Boerner",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Alexander",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Bellinghausen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Petrova",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Nature",
+            "volume": "505",
+            "issn": "7483",
+            "pages": "412--416",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Comparative therapeutic efficacy of remdesivir and combination lopinavir, ritonavir, and interferon beta against mers-cov",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Sheahan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Sims",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Leist",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sch\u00e4fer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Won",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Montgomery",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hogg",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Babusis",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Clarke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature Communications",
+            "volume": "11",
+            "issn": "1",
+            "pages": "1--14",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Radiological findings from 81 patients with COVID-19 pneumonia in wuhan, china: a descriptive study",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Alwalid",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet Infectious Diseases",
+            "volume": "20",
+            "issn": "4",
+            "pages": "425--434",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Assessment of a multiplex pcr and nanopore-based method for dengue virus sequencing in indonesia",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Stubbs",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Blacklaws",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yohan",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Yudhaputri",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Hayati",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Schwem",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Salva\u00f1a",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Destura",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lester",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Myint",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Virology Journal",
+            "volume": "17",
+            "issn": "1",
+            "pages": "1--13",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Pulmonary pathological features in coronavirus associated severe acute respiratory syndrome (SARS)",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "-K",
+                    "middle": [],
+                    "last": "Tse",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Journal of Clinical Pathology",
+            "volume": "57",
+            "issn": "3",
+            "pages": "260--265",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "A novel coronavirus outbreak of global health concern",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Horby",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Hayden",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Gao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "470--473",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Investigation of chimeric reads using the minion",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "White",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Pellefigues",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ronchese",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Lamiable",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Eccles",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "A new coronavirus associated with human respiratory disease in china",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y.-M",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z.-G",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z.-W",
+                    "middle": [],
+                    "last": "Tao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.-H",
+                    "middle": [],
+                    "last": "Tian",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y.-Y",
+                    "middle": [],
+                    "last": "Pei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "579",
+            "issn": "7798",
+            "pages": "265--269",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Detection of viral pathogens with multiplex nanopore minion sequencing: be careful with cross-talk",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Lewandowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lumley",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pullan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Vipond",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Carroll",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Foster",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Matthews",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Peto",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Crook",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Frontiers in microbiology",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "1--4",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "China novel coronavirus investigating and research team. a novel coronavirus from patients with pneumonia in china",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "8",
+            "pages": "727--733",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF1": {
+            "text": ".00\u00b190,848.28 (Mean\u00b1SD) reads per sample (Supplementary Figure 1). Aligning the reads to 45 SARS-CoV-2 and human genomes respectively, the alignment ratio ranged from 20.14% to 99.74% on 46 SARS-CoV-2 genome, and ranged from 0.11% to 72.12% on the human genome. Furthermore, each 47 sample contained 71.24\u00b135.36M data on average, while 61.29\u00b142.13M and 8.87\u00b19.34M data were 48 aligned to SARS-CoV-2 and host genomes, respectively.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Compositions of the data sets. The heights of the columns represented the composition of dsta. The data came from the host, SARS-CoV-2 and other genomes respectively, which were represented by blue, orange and grey colors.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Relations between viral gene, primer pair and sequence. A: Primer pair spans fully on gene with sequence aligned with primers. B: Primer pair spans across gene boundaries at 5' with sequence aligned with primers. C: Primer pair spans across gene boundaries at 3' with sequence aligned with primers. D: Primer pair spans across two gene with sequence aligned with primers. E: Primer pair spans across gene boundaries at 5' with sequence aligned with gene boundaries at 3' and primer at 5'. F: Primer pair spans across gene boundaries at 3' with sequence aligned with gene boundaries at 5' and primer at 3'. G: Sequence aligned with gene boundaries at both 5' and 3'.Calculate viral gene expression89To calculate the viral gene expression, the duplication generated during PCR were removed based on the 90 estimated primer efficiencies. The gene expression can be calculated as the sum of the base depth of each 91 gene divided by its length.92Capture gene product from host 93",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "the sequencing data to the SARS-CoV-2 genome, we detected the mutations of 103 SARS-CoV-2 in the 11 samples3. Based on the mutations of SARS-CoV-2 in 11 samples, we discovered 104 38 SNPs (Single Nucleotide Polymorphisms) in total; 35 of them are located on the genetic regions, 105 including gene ORF1ab, S, N and M. Gene ORF1ab contained 23 SNPs in 11 samples, and 17 of them 106 were non-synonymous mutations. Non-synonymous mutations also occupied a large part of SNPs in the 107 gene S, N and M: 5 of 8 SNPs in gene S, 1 of 3 SNPs in gene N, and 1 of 1 SNPs in gene M were 108non-synonymous mutations. Since most of the SNPs were located in only 1 sample, we deduced that the 109 functions of the discovered SNPs need to be further verified according to lab experiments. Surprisingly, 110 we also found that 7 among 11 samples were heterogeneous at loci 8782. This may imply that the hosts 111 have two different virus strains. However, we did not find creditable InDels (Insertions and Deletions), or 112 structural variations, viral-host integration during the mutation analysis.113Evaluations on the amplification efficient for the primers114    Since 98 pairs of primers from two pools were designed for the enrichment of SARS-CoV-2 genome 115 before sequencing, we discovered that different parts of SARS-CoV-2 genome exhibited different coverage 116 depths. We then calculated the amplification efficiencies for the primers with our proposed method. We 117 discovered that the primers located at the 5' and 3' ends of the SARS-CoV-2 genome exhibited higher 118 amplification efficiency (>1.2,Figure 4), including primer01 and primer84-primer93. With the genomic 119 locations of the primers, we know that the genomic sequences within the ranges 24-410 and120 25,280-28,464 can be amplified with more sequencing data. On the other hand, the remaining primers 121 exhibited slightly lower efficiencies, within the range of 1.0-1.2. For primers 64, 70, 83 and 85, their 122 amplification efficiencies were as low as 1, which indicates that the target regions of these primers were 123 not amplified. Based on the primer efficiencies, the effect of data bias which was induced by the PCR 124 experiments can be attenuated from the original data, and they can be further applied for the 125 normalization of viral gene expression under different primers. 126 Normalized coverage depth on SARS-CoV-2 genome 127",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "speculate that the results might explain the severe SARS-CoV-2 virus infection in the patients. Since 140 gene E, ORF6, ORF7a, ORF7b, ORF8 and ORF10 are less than 400bp in length, their transcripts might 141 not have been captured by the primers, and hence their expressions cannot be estimated.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Distributions of High-frequency SNPs among the 11 COVID-19 samples. The locations of genes in SARS-CoV-2 were exhibited on top of the plot, and the distributions of SNPs were specified for the 11 samples.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Amplification efficient for the 98 pairs of primers. The amplification efficient was calculated for the primers, and their distributions were detected in 11 samples. The primers in pool1 and pool2 were marked with red and blue colors respectively. Original and normalized coverage depth for the 11 samples. The locations of genes in SARS-CoV-2 were exhibited on top of the plot, and they were marked by different colors. Each sample contained two plots, which represented the original (left) and normalized coverage (right) depths for the bases along the SARS-CoV-2 genome respectively. The coverage depth were colored by the genes in SARS-CoV-2.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "155 RT-PCRs are a reliable method in identification of COVID-19 infection. Interestingly, the variant 156 (26709:G>A) is identified in half of samples, and shows consistent heterozygosity (alteration frequency: 157 19.36%-26.15%) in all relevant samples. This suggests at least two virus strains in the patients.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF13": {
+            "text": "167 simultaneously. Different locations on the viral genome have distinct composition of molecule sources, 168 including RNA genome, expressed viral transcript, and PCR amplicons. According to the gene locations 169 along the viral genome, we enumerate reads types based on aligned positions, and deduce the 170 contributions of different sources to the local region depth. By applying this method on our data, we 171",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF16": {
+            "text": "WJ, YY and HL discussed and designed the experiments. 206 YY and JL implemented the code and conducted the analysis. 207 ZL and LY prepared the data. 208 SCL YY WJ and YL drafted the manuscript. 209 SCL, FY revised the manuscript.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "All authors read and approved the final manuscript. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "210"
+        }
+    ]
+}

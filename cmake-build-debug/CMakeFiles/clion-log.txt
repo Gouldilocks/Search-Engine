@@ -1,0 +1,4 @@
+/snap/clion/137/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/bin/make -DCMAKE_C_COMPILER=/bin/cc -DCMAKE_CXX_COMPILER=/bin/c++ -G "CodeBlocks - Unix Makefiles" /home/christian/Desktop/Coder/search-engine-beans/flyingBeans
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/christian/Desktop/Coder/search-engine-beans/flyingBeans/cmake-build-debug

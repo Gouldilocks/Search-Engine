@@ -1,0 +1,944 @@
+{
+    "paper_id": "08a6e7924103b4a001ff84d7db7dcd5560950fa1",
+    "metadata": {
+        "title": "Article history: Cross-Country Comparison of Case Fatality Rates of COVID-19/SARS-COV-2",
+        "authors": [
+            {
+                "first": "Morteza",
+                "middle": [
+                    "Abdullatif"
+                ],
+                "last": "Khafaie",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Ahvaz Jundishapur University of Medical Sciences",
+                    "location": {
+                        "settlement": "Ahvaz",
+                        "country": "Iran"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Fakher",
+                "middle": [],
+                "last": "Rahim",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Ahvaz Jundishapur University of Medical Sciences",
+                    "location": {
+                        "settlement": "Ahvaz",
+                        "country": "Iran A B S T R A C T"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "A novel coronavirus has spread through China, originating from the city of Wuhan and has caused many deaths so far. It is a highly contagious virus that has spread rapidly and efficiently. Coronavirus disease 2019 (COVID-19) is caused by a virus (SARS-CoV-2) from the same family as the lethal coronaviruses that caused severe acute respiratory syndrome (SARS-CoV) and Middle East respiratory syndrome (MERS-CoV). COVID-19 is a relatively large virus (120 nm) and is enveloped, containing a positive-sense single-stranded RNA [1] . The virus is transmitted through direct contact with the infected person's respiratory droplets (coughing and sneezing), as well as contact with infected surfaces. COVID-19 virus can survive for days on surfaces, but a simple disinfectant can eliminate this [2] . COVID-19 signs and symptoms include fever, cough, and shortness of breath. In more severe cases, infection can lead to pneumonia, serious respiratory problems and ultimately, fatalities. Thousands of people have been reported to have been infected with the virus so far [3] . Apart from China, other cases of the disease, also known as COVID-2, have been reported in several countries, including Thailand, South *Corresponding author: Fakher Rahim Korea, Japan, Taiwan, Australia, Iran, and the United States.",
+            "cite_spans": [
+                {
+                    "start": 526,
+                    "end": 529,
+                    "text": "[1]",
+                    "ref_id": null
+                },
+                {
+                    "start": 790,
+                    "end": 793,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1066,
+                    "end": 1069,
+                    "text": "[3]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "According to the Worldometer, as of 10 th March 2020, there are over 114,430 identified cases of COVID-19 worldwide in 115 countries and territories [1] .",
+            "cite_spans": [
+                {
+                    "start": 149,
+                    "end": 152,
+                    "text": "[1]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Of these 115 countries, South Korea and Iran (outside of China) have the largest epidemic of COVID-19 and Italy, France and Spain are the countries with a major epidemic of COVID-19",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "in Europe [2] . COVID-19 spreads mainly from person-to-person during the latency period before the symptoms appear [4] .",
+            "cite_spans": [
+                {
+                    "start": 10,
+                    "end": 13,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 115,
+                    "end": 118,
+                    "text": "[4]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "There is much more to learn about the spread and severity of COVID-19. COVID-19 can cause mild flu-like symptoms, including fever, cough, dyspnea, myalgia, and fatigue, while more serious forms can cause severe pneumonia, acute respiratory distress syndrome, septic shock, and organ failure, which can lead to death [5] . Without a vaccine for COVID-19, transmission of the virus can be reduced with early detection and patient quarantine [6] . There is epidemiological and clinical evidence to suggest a number of novel compounds, as well as medicines licensed for other conditions, that appear to have potential efficacy against COVID-19 [7, 8] . However, in the absence of a safe and effective vaccine or medicine, reducing viral transmission is the only strategy available where general education, and implementing the appropriate prevention and control is key. Precautions can help suppress the risk of infection, such as washing the hands frequently with soap and water or an alcohol-based disinfectant gel, coughing into the elbow or a folded napkin/tissue, avoiding close contact with those who have symptoms, and self-isolating, but medical help must be sought if difficulty in breathing is experienced [5] .",
+            "cite_spans": [
+                {
+                    "start": 316,
+                    "end": 319,
+                    "text": "[5]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 439,
+                    "end": 442,
+                    "text": "[6]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 640,
+                    "end": 643,
+                    "text": "[7,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 644,
+                    "end": 646,
+                    "text": "8]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1212,
+                    "end": 1215,
+                    "text": "[5]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "COVID-19 can be diagnosed with diagnostic test kits [9] and imaging techniques such as chest X-ray and pulmonary CT scans that facilitate early diagnosis of pneumonia in patients with COVID-19 [10] [11] [12] .",
+            "cite_spans": [
+                {
+                    "start": 52,
+                    "end": 55,
+                    "text": "[9]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 193,
+                    "end": 197,
+                    "text": "[10]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 198,
+                    "end": 202,
+                    "text": "[11]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 203,
+                    "end": 207,
+                    "text": "[12]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The case fatality rate (CFR), is a measure of the ability of a pathogen or virus to infect or damage a host in infectious disease and is described as the proportion of deaths within a defined population of interest, i.e. the percentage of cases that result in death [13] . CFRs confers the extent of disease severity and CFR is necessary for setting priorities for public health in targeted interventions to reduce the severity of risk [14] . Initial studies reported an estimation of 3% for the global CFR of COVID-19 [15] . Estimating CFR from country-level data requires assessment of information about the delay between the report of the country-specific cases and death from COVID-19, as well as underestimating and under-reporting of death-related cases, which may not be known. Given the importance of CFR and recovery rate (RR), in this current study the CFR and RR of different countries during a COVID-19 ongoing pandemic was observed using up-to-date countrylevel data.",
+            "cite_spans": [
+                {
+                    "start": 266,
+                    "end": 270,
+                    "text": "[13]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 436,
+                    "end": 440,
+                    "text": "[14]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 519,
+                    "end": 523,
+                    "text": "[15]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The data were retrieved from accurate databases including Worldometer 2, WHO 3, the Center of Disease Control and Prevention [16] , and the Morbidity and Mortality Weekly Report series (provided from Center of Disease Control and Prevention), according to the user's guide of data sources for patient registries [17] . Due to the rapid increase in data, the analysis in this study was performed on the 12 th and 23 rd of March 2020.",
+            "cite_spans": [
+                {
+                    "start": 125,
+                    "end": 129,
+                    "text": "[16]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 312,
+                    "end": 316,
+                    "text": "[17]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Source of data and procedure"
+        },
+        {
+            "text": "Raw data was mapped according to countries and CFR and RR were compared for countries with \u2265 1,000 cases. All countries with < 1,000 cases are presented in supplementary Table 1 . A comparison of CFR with different known viral diseases was performed.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 170,
+                    "end": 177,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Source of data and procedure"
+        },
+        {
+            "text": "The formulas below were used to measure CFR and RR. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Measuring the CFR and RR"
+        },
+        {
+            "text": "The total number of confirmed cases of COVID-19 was highest in China, followed by Italy and Iran on 12 th March, but on 23 rd March 2020, total COVID-19 confirmed cases was the highest in China, followed by Italy, USA, and Spain (Table 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 229,
+                    "end": 238,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "However, Italy's CFR was the highest on both time points (12 th Only countries with total cases over 1,000 are depicted (population in million and GDP in trillion US dollars). GDP = gross domestic product; ICU = intensive care unit. The outbreak was declared a public health emergency of international concern on 30 th January 2020 [18] . Confronting The data from this study supports the fact that the CFR of the COVID-19 pandemic seems to be less than Bird flu, Ebola, SARS, and MERS, but public health concerns remain due to its highly infectious nature, since a large proportion of cases are asymptomatic or mild, which promotes the spread of the disease worldwide. In such situations, the media plays a crucial role in promoting health literacy and advocating limited spread of the disease [19] . ",
+            "cite_spans": [
+                {
+                    "start": 57,
+                    "end": 63,
+                    "text": "(12 th",
+                    "ref_id": null
+                },
+                {
+                    "start": 332,
+                    "end": 336,
+                    "text": "[18]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 795,
+                    "end": 799,
+                    "text": "[19]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Death and severity of COVID-19 are associated with age and comorbidities across the world. Especially in countries with the highest outbreaks, such as China, Italy, and Iran, strategies must be employed to ensure that high-risk groups, such as old people and those with other underlying diseases such as diabetes and cancer, received adequate protection from COVID-19. Therefore, early access to medical care when infected is vital for improving chances of survival.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "Improving medical supplies to countries such as Iran, which is significantly influenced by US punitive policies, can reduce the deterioration of this politically sensitive situation [20] . disease.",
+            "cite_spans": [
+                {
+                    "start": 182,
+                    "end": 186,
+                    "text": "[20]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "The authors have no conflict of interest to declare.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflicts of Interest"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "World Health Organization",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Coronavirus disease 2019 (COVID-19): Situation Report -43",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Clinical findings in a group of patients infected with the 2019 novel coronavirus (SARS-Cov-2) outside of Wuhan, China: Retrospective case series",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Jiang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ",
+            "volume": "368",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "The Incubation Period of Coronavirus Disease 2019 (COVID-19) From Publicly Reported Confirmed Cases: Estimation and Application",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Grantz",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Bi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ann Intern Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Ni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Update: Public Health Response to the Coronavirus Disease 2019 Outbreak -United States",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Jernigan",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Cdc Covid-19 Response",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Team",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "MMWR",
+            "volume": "69",
+            "issn": "8",
+            "pages": "216--225",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Potential Rapid Diagnostics, Vaccine and Therapeutics for 2019 Novel Coronavirus (2019-nCoV): A Systematic Review",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Pang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Iyh",
+                    "middle": [],
+                    "last": "Ang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Med",
+            "volume": "9",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Potential interventions for novel coronavirus in China: A systematic review",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "92",
+            "issn": "5",
+            "pages": "479--90",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Development and Clinical Application of A Rapid IgM-IgG Combined Antibody Test for SARS-CoV-2 Infection Diagnosis",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yi",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Diagnosis and treatment of COVID-19: Acute kidney injury cannot be ignored",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Zhonghua Yi Xue Za Zhi",
+            "volume": "100",
+            "issn": "0",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Clinical and CT features in pediatric patients with COVID-19 infection: Different points from adults",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Pediatr Pulmonol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Relation Between Chest CT Findings and Clinical Conditions of Coronavirus Disease (COVID-19) Pneumonia: A Multicenter Study",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "AJR Am J Roentgenol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Mortality: Statistics",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kanchan",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Unnikrishnan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Encyclopedia of Forensic and Legal Medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "572--579",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Estimating absolute and relative case fatality ratios from infectious disease surveillance data",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Reich",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lessler",
+                    "suffix": ""
+                },
+                {
+                    "first": "Dat",
+                    "middle": [],
+                    "last": "Cummings",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Brookmeyer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Biometrics",
+            "volume": "68",
+            "issn": "2",
+            "pages": "598--606",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "A novel coronavirus outbreak of global health concern",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Horby",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Hayden",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Gao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "470--473",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Cases in",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Agency for Healthcare Research and Quality (US)",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Gliklich",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Dreyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Leavy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Registries for Evaluating Patient Outcomes: A User's Guide",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Note from the editors: World Health Organization declares novel coronavirus (2019-nCoV) sixth public health emergency of international concern",
+            "authors": [],
+            "year": 2020,
+            "venue": "Euro Surveill",
+            "volume": "25",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Khuzestan dust phenomenon: A content analysis of most widely circulated newspapers",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mojadam",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Matlabi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Haji",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Environ Sci Pollut Res",
+            "volume": "25",
+            "issn": "",
+            "pages": "15918--15942",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "COVID-19 battle during the toughest sanctions against Iran",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Takian",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Raoofi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kazempour-Ardebili",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "CFR (%) = (Number of deaths due to COVID-19/ Number of closed cases of COVID-19) \u00d7100 RR (%) = (Number of cases recovered from COVID-19/ Number of closed cases of COVID-19) \u00d7100",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "The cross-country comparison of case fatality rate (CFR) between different countries (n = 116). The circles showed the countries with highest outbreak and positive cases of COVID-19. Countries with CFR value zero has not been illustrated here.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "The cross-country comparison of recovery rate (RR) between different countries (n = 116). The circles showed the countries with highest outbreak and positive cases of COVID-19. Countries with RR value zero has not been illustrated here.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "The cross-country comparison of case fatality rate (CFR) between different known infectious and viral diseases (n = 116). The circles showed the estimated value and the reported range of CFR of COVID-19.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "of people infected by each sick person at both time points (76.12% and 89.85% on 12 th and 23 rd March 2020, respectively; Figure 2). Although the COVID-19 outbreak has led to high rates of death in other Asian countries such as Iran, the recovery rate may be considered acceptable (34%). The comparison of CFR between different known infectious and viral diseases was shown in Figure 3. This revealed that the overall clinical concerns of COVID-19 may eventually be more like those of a severe seasonal flu (CFR of approximately 0.1%) or a pandemic flu, rather than SARS or MERS, which have had CFR of approximately 10% and 36%, correspondingly.DiscussionThis study aimed to observe the CFR of different countries during an ongoing COVID-19 pandemic using recent countrylevel data, showing that alongside the outbreak of this virus, there is a frame-shift and transition from China (as the first country faced with the outbreak) to other countries in other continents.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "emerging diseases requires universal cooperation in identifying, controlling, and preventing these diseases. The Center for Disease Control obtained a number of factors to establish a geographic risk assessment for the spread of COVID-19 (Supplementary Figure 1). This may be used for international guidelines for public health decisions and travel-related exposure. For instance, China and Iran were categorized as countries where there was widespread ongoing transmission, with restrictions on entry.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": ", taking detailed and accurate medical history, and scoring CFR alongside RR, may highlight the highest risk areas, and more efficiently direct the intervention to decrease the spread of the virus globally. This may enable the development of point-of-care tools to help clinicians in stratifying patients, based on possible requirements in the level of care to improve probabilities of survival from COVID-19",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "March, 6.22% versus 23 rd March, 9.26%). The data showed that Italy was the only European country reported on 12 th March, but by the 23 rd March 2020, Spain and France had the highest CFR of 6.16 and 4.21%, respectively, which was strikingly higher than the overall CFR of 3.61%. The highest RR was observed in China, with RR values of 76.12% and 89.85% in both analysis time points, respectively, compared with the overall RR of 55.83% and 29.3% on the 12 th and 23 rd March 2020, respectively.The highest CFR was observed in Italy, followed by China, Iran, and USA on 12 th March, which changed to Italy, Spain,France, Iran, and China on 23 rd March (Figure 1). Among European countries, Spain and France also faced an increasing rate of CFR. Although Morocco, Panama, and Iraq showed higher CFR values, there was only a small number of total cases, therefore the results of countries with highest outbreak and total cases of COVID-19 were preferentially reported.China showed encouraging recovery rates from COVID-19Table 1. The comparison of case fatality rate (CFR) and recovery rate (RR) between different countries (n = 116). Only countries with total cases over 1,000 cases depicted (population in million and GDP in trillion USD; n = 116).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "(Continued).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Cross-country comparisons of CFR and RR as important indicators of disease characteristics are vital for national and international priority setting and recognizing health system performance. However, many factors can confound the current estimation for CFR and RR of COVID-19, namely, undetected cases or delayed case reporting, which can significantly affect the 2 indicators which are linked with a degree of preparedness and mitigation of both the general public and politicians.Since the number of cases in the world is increasing in a heterogeneous form, to obtain a better picture for crosscountry compression of medical care performance, we require a limiting denominator of CFR and RR to be applied to cases under official medical care with final disease outcome (death/ recovered or discharged).",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We acknowledge the contribution made by Dr. Asaad",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        },
+        {
+            "text": "Jundishapur University of Medical Sciences, in data collection and data management.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sharhani, Department of Statistics and epidemiology at Ahvaz"
+        }
+    ]
+}

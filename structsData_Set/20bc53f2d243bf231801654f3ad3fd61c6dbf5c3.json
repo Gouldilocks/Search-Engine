@@ -1,0 +1,407 @@
+{
+    "paper_id": "20bc53f2d243bf231801654f3ad3fd61c6dbf5c3",
+    "metadata": {
+        "title": "Preprints: What is their role in medical journals?",
+        "authors": [
+            {
+                "first": "Jin",
+                "middle": [],
+                "last": "Kyu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Yeungnam University College of Medicine",
+                    "location": {
+                        "settlement": "Daegu",
+                        "country": "Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Chung",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Yeungnam University College of Medicine",
+                    "location": {
+                        "settlement": "Daegu",
+                        "country": "Korea"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Timely dissemination of research findings leads to scientific progress. This is especially important in fields such as biology and medicine, where research findings can affect the development of health care policy and decision-making. In situations such as the Ebola, Zika, and coronavirus disease 2019 (COV-ID-19) outbreaks, scientific research needs to be released to the public as soon as possible to facilitate prompt prevention and treatment. The need to share research findings immediately has created a new trend, known as preprints. Editors and publishers need to understand the concept of preprints and should consider how to handle rapidly changing expectations and practices regarding preprints.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "A preprint is an early draft of a research article that has not been through the peer review process; usually, preprints are published by researchers on openly accessible platforms, either before or during peer review. However, the definition of preprints has not been objectively established, and their standing consequently remains unclear [1] .",
+            "cite_spans": [
+                {
+                    "start": 342,
+                    "end": 345,
+                    "text": "[1]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "BACKGROUND"
+        },
+        {
+            "text": "Interest in preprints arose due to two broad factors. The first factor relates to concerns regarding the inefficiency of the peer review process [2] . It can take months or even years to publish an article presenting research findings. Most conventional journals determine whether to publish an article or to require further revisions through a peer review process, which involves evaluation of an article by two or three peer reviewers (researchers who are working in similar fields), revision by the author, and further assessment after the revision in order to ensure ethi-cal and scientific reliability. Hence, it is inevitable for the peer review process to take considerable time. In situations like the Ebola, Zika, and COVID-19 outbreaks, early and transparent dissemination of research findings may lead to more expedited prevention and treatment efforts [3] . Traditional peer review is not compatible with the time constraints imposed by such circumstances, and preprints can therefore be considered as a supplementary method to address these issues.",
+            "cite_spans": [
+                {
+                    "start": 145,
+                    "end": 148,
+                    "text": "[2]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 864,
+                    "end": 867,
+                    "text": "[3]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "BACKGROUND"
+        },
+        {
+            "text": "The second factor that stimulated interest in preprints is reporting bias. Of the various forms of reporting bias, a particular concern is publication bias, which involves choosing whether to publish research based on the content of the findings. As a result of publication bias, more significant results (statistically or nonstatistically) tend to be submitted and published within a shorter window of time. Hence, a meta-analysis of published studies could overestimate the size of the effect [4, 5] .",
+            "cite_spans": [
+                {
+                    "start": 495,
+                    "end": 498,
+                    "text": "[4,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 499,
+                    "end": 501,
+                    "text": "5]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "BACKGROUND"
+        },
+        {
+            "text": "One of the most notable advantages of preprints is that they allow the early dissemination of research findings. In other words, researchers can spread their findings more broadly and more quickly. Since preprints are published with open access, they facilitate more expedient interactions with researchers in the same field. Authors can receive instant feedback from their colleagues and may identify critical flaws and errors. Moreover, it is easier to disclose research results that may not be suitable for journal publication; and preprints help junior researchers to build their academic careers. Since studies are uploaded onto public plat-having to re-upload the manuscript files and reenter author information. medRxiv (http://www.medrxiv.org) is a preprint platform for medicine. This preprint server designed for health science was established by Cold Spring Harbor Laboratory, Yale University, and BMJ and was launched in 2019. The medRxiv to Journals (M2J) service allows more convenient submission to 30 journals. The scope of medRxiv encompasses all aspects of health science, including medical science, dental science, and nursing. Approximately 200 preprints are posted each month.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "BENEFITS AND LIMITATIONS OF PREPRINTS"
+        },
+        {
+            "text": "The advance of preprint platforms has been slower in biology and medicine than in other fields. One reason for this is that if non-peer-reviewed preprints are considered to be a source of scientifically sound evidence, they may be abused by interest groups or pharmaceutical companies looking for secondary gains. Unlike other academic fields such as mathematics and physics, medical research findings are discussed by the public and media, which often cannot distinguish between journal publications and preprints. Moreover, whereas preprints in mathematics and physics are subject to active discussion, leading to improvements in the academic quality of the research, fewer than 10% of preprints in biology and medicine receive comments, indicating that they do not tend to draw much attention [7] . The simultaneous distribution of different versions of preprints may add confusion to the interpretation of research findings.",
+            "cite_spans": [
+                {
+                    "start": 796,
+                    "end": 799,
+                    "text": "[7]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "THE DECISION SHOULD BE MADE BY ARCHIVES OF PLASTIC SURGERY"
+        },
+        {
+            "text": "Of particular note, scholarly articles about diagnosis and treatment in medicine need to be reviewed especially cautiously. Additional harmful effects are often found even after approval by health authorities and the peer review process. Therefore, if a stakeholder decides to act on information in a preprint, the quality of which has not been ensured, the preprint may inflict actual harm and injury.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "THE DECISION SHOULD BE MADE BY ARCHIVES OF PLASTIC SURGERY"
+        },
+        {
+            "text": "Various arguments can be made for and against preprints in biology and medicine, although the reasons against the usage of preprints in medical science are clear. However, it is difficult to prevent the trend toward preprint usage, and the field is gradually changing. Archives of Plastic Surgery (APS) should therefore take an interest in preprint practices and engage in active discussions. APS needs to determine whether it will consider preprint versions of submitted articles as prior publications. If the journal decides to allow submission of such articles, without considering the preprint as a prior publication, APS will need to contemplate how to deal with comments in the preprint phase, how to forms, the timing of various authors' contributions can be clearly established, helping to prevent plagiarism of research ideas.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "THE DECISION SHOULD BE MADE BY ARCHIVES OF PLASTIC SURGERY"
+        },
+        {
+            "text": "Readers and the public can be provided with preprints as a free service that enables them to access new research more quickly. Preprints also provide a way for publishers to discover researchers who are working on cutting-edge issues and invite them to submit their research to their journals. Furthermore, affiliations and partnerships with preprint platforms could lead to a more expedient submission and review process, which would encourage submissions. A critical disadvantage of preprints is that the quality of the research published in preprints cannot be automatically trusted, because they do not undergo peer review. Therefore, preprints pose the risk of broad dissemination of incorrect findings. However, these issues can be addressed professionally and ethically by other researchers. Preprints are generally not included in researchers' official list of publications, but they are assigned a DOI like journal articles and indexed in Google Scholar. Furthermore, preprints are generally considered as precedents. Hence, authors must disclose which preprint platform they used to publish a preprint in the subsequent process of submitting an article to a journal.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "THE DECISION SHOULD BE MADE BY ARCHIVES OF PLASTIC SURGERY"
+        },
+        {
+            "text": "Each discipline tends to have a unique preprint culture, which refers to the set of informal practices through which researchers share research findings, including preprints before the publication of scholarly articles. Advances in preprint platforms are closely related to the preprint culture in specific academic disciplines. For instance, researchers in physics, mathematics, and economics are known to have a strong preprint culture [6] . Thus, researchers in those fields have developed well-known preprint platforms such as arXiv (https://arxiv.org), and RePEc (http://repec.org). Although the preprint culture is not as strong in biology, chemistry, and psychology, the trends are changing in those disciplines.",
+            "cite_spans": [
+                {
+                    "start": 438,
+                    "end": 441,
+                    "text": "[6]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "PREPRINT PLATFORM PRACTICES IN MEDICINE AND BIOLOGY"
+        },
+        {
+            "text": "Well-known biology preprint platforms include bioRxiv (http://www.biorxiv.org/), Nature Precedings (http://precedings.nature.com/), and ASAPbio (http://www.asapbio.org/). bioRxiv, the most prominent preprint platform in biology, is an open-access preprint repository for biological sciences, jointly established by John Inglis and Richard Sever in 2013. Currently, bioRxiv is run by Cold Spring Harbor Laboratory, which performs initial screening and plagiarism checks for submitted preprints. It hosts the bioRxiv to Journals (B2J) service, through which authors can submit their research to 169 journals without",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "PREPRINT PLATFORM PRACTICES IN MEDICINE AND BIOLOGY"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "treatment of major depression: systematic review and meta-analysis of published and unpublished placebo and selective serotonin reuptake inhibitor controlled trials. Version 2",
+            "authors": [],
+            "year": 2010,
+            "venue": "BMJ",
+            "volume": "341",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Neuraminidase inhibitors for preventing and treating influenza in healthy adults and children",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Jefferson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Doshi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Cochrane Database Syst Rev",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Beams of particles and papers: how digital preprint archives shape authorship and credit",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Delfanti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Soc Stud Sci",
+            "volume": "46",
+            "issn": "",
+            "pages": "629--674",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Joint Surgery will not accept clinical research manuscripts previously posted to preprint servers",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Leopold",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Haddad",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Sandell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "The Bone & Joint Journal, the Journal of Orthopaedic Research",
+            "volume": "101",
+            "issn": "",
+            "pages": "1--4",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "On the origin of nonequivalent states: how we can talk about preprints",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Neylon",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Pattinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Bilder",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "F1000Res",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Will research preprints improve healthcare for patients?",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Krumholz",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Ross",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Otto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "BMJ",
+            "volume": "362",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Preprints: an underutilized mechanism to accelerate outbreak science",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Johansson",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Reich",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Meyers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "PLoS Med",
+            "volume": "15",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Reboxetine for",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Eyding",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lelgemann",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Grouven",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {},
+    "back_matter": [
+        {
+            "text": "perform double-blind peer review, and how to process amendments made on a preprint server after publication.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "annex"
+        },
+        {
+            "text": "No potential conflict of interest relevant to this article was reported.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of interest"
+        },
+        {
+            "text": "Kyu Jin Chung https://orcid.org/0000-0001-6335-1818",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ORCID"
+        }
+    ]
+}

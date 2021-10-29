@@ -1,0 +1,1911 @@
+{
+    "paper_id": "16ecc5bdfd22d87714d9bea1e1b55c462be1dc13",
+    "metadata": {
+        "title": "",
+        "authors": [
+            {
+                "first": "Terri",
+                "middle": [
+                    "L"
+                ],
+                "last": "O&apos;sullivan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Guelph",
+                    "location": {
+                        "addrLine": "50 Stone Road E",
+                        "postCode": "N1G 2W1",
+                        "settlement": "Guelph",
+                        "region": "Ontario",
+                        "country": "Canada"
+                    }
+                },
+                "email": "tosulliv@uoguelph.ca"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Porcine epidemic diarrhea virus (PEDV) emerged into Canada in January 2014, primarily affecting sow herds. Subsequent epidemiological analyses suggested contaminated feed was the most likely transmission pathway. The primary objective of this study was to describe general biosecurity and management practices implemented in PEDV-positive sow herds and matched control herds at the time the virus emerged. The secondary objective was to determine if any of these general biosecurity and farm management practices were important in explaining PEDV infection status from January 22, 2014 to March 1, 2014. A case herd was defined as a swine herd with clinical signs and a positive test result for PEDV. A questionnaire was used to a gather 30-day history of herd management practices, animal movements on/off site, feed management practices, semen deliveries and biosecurity practices for case (n = 8) and control (n = 12) herds, primarily located in Ontario. Data was analyzed using descriptive statistics and random forests (RFs). Case herds were larger in size than control herds. Case herds had more animal movements and non-staff movements onto the site. Also, case herds had higher quantities of pigs delivered, feed deliveries and semen deliveries on-site. The biosecurity practices of case herds were considered more rigorous based on herd management, feed deliveries, transportation and truck driver practices than control herds. The RF model found that the most important variables for predicting herd status were related to herd size and feed management variables. Nonetheless, predictive accuracy of the final RF model was 72%.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "In May 2013, the first swine herd in the United States, located in Iowa, was diagnosed with porcine epidemic diarrhea virus (PEDV). Thirty of 50 states in the United States were affected by the virus within one year of PEDV emergence [1] . The first PEDV strain found in the United States was found to phylogenetically cluster within a subgroup containing a strain In January 2014, the first Canadian swine herd, located in Ontario, was diagnosed with PEDV. This case occurred approximately nine months following the initial case of PED in the United States [4] . Porcine epidemic diarrhea (PED) has a significant impact on animal health and profitability of individual farms [10] , as the virus is highly contagious and is associated with mortality ranging between 80 and 100% in suckling pigs [8] . Unlike the dynamics of the virus in the United States, the emergence of the virus into Canada was thought to be from a common source. Spray-dried porcine plasma (SDPP), a feed ingredient added to nursery feed for improving growth and overall health [11] was thought to be the source of the infection. During the initial phase of the outbreak, a descriptive outbreak investigation and an experimental challenge study were undertaken to determine the likely source of infection. In a previous research study, a case-control study was designed, which utilized data from an extensive questionnaire to analyze a subset of the collected variables using logistic regression [12] and network analysis [13] . In both cases, the common source hypothesis (through feed) was confirmed [12, 13] . In addition, in the case-control study, a biosecurity score was created based on the adoption of four beneficial biosecurity practices: 1) washing and disinfecting livestock trailers prior to delivering pigs onto the site, 2) truck drivers not stepping out of the vehicle and entering the laneway on-site, 3) enforcement of a shower-in policy or bench entry was implemented on-site, and 4) requirement of staff and non-staff members to wear site specific clothing [12] . It was found that the biosecurity score was a risk factor for PED during univariable analysis, which was in agreement with previous reports claiming that PED-affected herds were the herds with a high level of biosecurity [14] . Nonetheless, the questionnaire administered as part of the case-control study contained an abundance of information regarding biosecurity and farm management practices that were in place at the time of the 2014 PED outbreak. Therefore, the primary objective of this study was to describe the general biosecurity and management practices that were in place in sow herds that contracted PEDV during the early phase of the 2014 outbreak, and to compare these herds to matched control herds. The secondary objective was to determine whether, after exclusion of the variables reflective of common source of infection, there were any general biosecurity and farm management practices that were important in explaining PEDV status. In order to address the latter objective, we used a non-parametric approach based on random forests (RFs) [15] , which allowed assessment of variable importance and predictive accuracy based on cross-validation. The source of contaminated feed was excluded from the analysis of the current study, because the focus of this study was on general biosecurity practices potentially associated with the outbreaks.",
+            "cite_spans": [
+                {
+                    "start": 234,
+                    "end": 237,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 558,
+                    "end": 561,
+                    "text": "[4]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 676,
+                    "end": 680,
+                    "text": "[10]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 795,
+                    "end": 798,
+                    "text": "[8]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1050,
+                    "end": 1054,
+                    "text": "[11]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1468,
+                    "end": 1472,
+                    "text": "[12]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1494,
+                    "end": 1498,
+                    "text": "[13]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1574,
+                    "end": 1578,
+                    "text": "[12,",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1579,
+                    "end": 1582,
+                    "text": "13]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 2049,
+                    "end": 2053,
+                    "text": "[12]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 2277,
+                    "end": 2281,
+                    "text": "[14]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 3115,
+                    "end": 3119,
+                    "text": "[15]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "The study protocol and animal use were reviewed and approved by the University of Guelph's Animal Care (AUP# 3094) and Research Ethics Board (REB #14AP030) committees.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MATERIALS AND METHODS"
+        },
+        {
+            "text": "The early incursion of the PED outbreak in Canada affected swine herds predominantly located in the province of Ontario. To evaluate the early phase of the 2014 Canadian outbreak, the study period for recruitment of herds was from January 22, 2014 to March 1, 2014 . During this time period, a total of 27 swine herds were positively diagnosed with PEDV from four provinces: Ontario (n = 24), Prince Edward Island (n = 1), Manitoba (n = 1) and Quebec (n = 1). Case and control herd recruitment and selection processes are described in depth in Perri et al. [12] . A herd with clinical signs that tested positive for PED using real-time reverse transcriptase polymerase chain reaction was classified as a case herd. The case herd definition was established based on the reported PED clinical signs from the outbreaks that occurred in the United States, which included acute onset of severe, watery, neonatal diarrhea with high mortality rates and depression [2] . The authors expected and assumed that the clinical presentation of the Canadian herds would be similar to the infected herds in the United States if the same PED strains (Chinese strain AH2012 and variant-INDEL strain OH581) were identified.",
+            "cite_spans": [
+                {
+                    "start": 251,
+                    "end": 264,
+                    "text": "March 1, 2014",
+                    "ref_id": null
+                },
+                {
+                    "start": 557,
+                    "end": 561,
+                    "text": "[12]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 957,
+                    "end": 960,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Herd selection"
+        },
+        {
+            "text": "For selection of control herds, a list of Ontario swine herds was provided from the Ontario Pork Producers' Marketing Board under a data sharing agreement, and herds were categorized based on facility type and herd size. Control herds were then selected using computer-generated random sampling and matched to case herds based on province, facility type and approximate size.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Herd selection"
+        },
+        {
+            "text": "A questionnaire was used to gather farm management and biosecurity protocols from case and control herds. The questionnaire took approximately one-hour to complete and was completed during a face-to-face interview or by telephone. A detailed description of the questionnaire can be found in Perri et al. [12] . The questionnaire was designed to gather an in-depth description of all farm practices and to gather information that is not often recorded in the literature (i.e. feed storage locations and environmental conditions). The farm practices focused on included: herd demographics, movements on-site and movements off-site. The questionnaire data for case herds were based on their first day of clinical signs of PEDV, and a 30-day history prior to that day. The questionnaire data for control herds were based on the matched case herd's 30-day period of interest.",
+            "cite_spans": [
+                {
+                    "start": 304,
+                    "end": 308,
+                    "text": "[12]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data collection"
+        },
+        {
+            "text": "For herd demographics, the information collected included: the premises identification, name of the site owner, contact information, farm type, number of buildings on-site, number of pigs by production class, pig flow, distance to nearest pig site, number of pig sites within a 3-km radius, water source for pigs, premises washing, whether the water was used for treatment, dates of initial clinical signs (case herds only) and the laboratory name where PEDV was diagnosed (case herds only). A heat producing unit (HPU) variable was computed at the site level. The HPU accounts for production type and the number of pigs on site and was calculated as follows: HPU = 0.17 \u00d7 (sum of nursery and finisher pigs) + 0.3 \u00d7 (sum of gilts and sows) [16, 17] .",
+            "cite_spans": [
+                {
+                    "start": 740,
+                    "end": 744,
+                    "text": "[16,",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 745,
+                    "end": 748,
+                    "text": "17]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data collection"
+        },
+        {
+            "text": "At the site level, information collected based on incoming movements included the number of pig movements, people (staff and visitors), feed deliveries, truck movements, semen deliveries, dates of movements and deliveries. The source (i.e. feed supplier, semen company, transportation company, etc.), name of the staff and visitors and whether the visitor was at a different swine site prior to the current site, the quantity of pigs, dates of other species shipments (i.e. beef and dairy cattle) and the quantity of feed and feed ingredients delivered were documented. The biosecurity protocols for truck drivers, trailers, feed storage, staff and non-staff members were recorded.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data collection"
+        },
+        {
+            "text": "For movements off-site, information was gathered based on the number pig movements, deadstock and culled pig movements, feed deliveries (i.e. delivering feed or feed ingredients off-site within the same production system) and truck movements. The dates of all movements, the number of pigs shipped, the category of pigs, deadstock management protocols and biosecurity practices of trucks and trailers were reported. The truck companies used to deliver feed, pigs, other species and deadstock off site was recorded.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data collection"
+        },
+        {
+            "text": "Descriptive analysis was performed on all variables included in the study using Stata 13.1 (StataCorp LP, USA). For continuous variables, the mean, standard deviation, median, interquartile range, and the minimal and maximum (range) number of observations were recorded based on herd status (case and control herds). For binary variables, the proportions were calculated based on herd status.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Descriptive analysis"
+        },
+        {
+            "text": "The original data set available for statistical analysis consisted of 185 variables. After removing the variables with missing data (n = 22) and variables that had a zero variance (n = 12) the data set consisted of 151 numerical and binary variables. Correlation among the variables was then evaluated using Spearmen's correlation coefficient. Highly correlated variables (r > 0.75) were subsequently evaluated and removed (n = 37). Removal of highly correlated variables was based on manual selection, so that the most biologically most relevant variables from the correlated set remained as a possible predictor for statistical analysis. After removing variables as described above, the data set included PED herd status (case or control herd) with 112 predictor variables.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "RFs were constructed using two steps, initially with 112 variables considered (referred to as the full model), and finally with 39 variables that were identified to be the most important variables using extent of decrease in predictive accuracy as the selection criterion (referred to as the final model). Variables were selected to be in the final model if the decrease in predictive accuracy was greater than zero. RFs were constructed using 'randomForest' package [18] in the statistical software R version 3.3.0 (The R Project for Statistical Computing, Austria). RFs are an ensemble non-parametric method based on iterative fitting of a number of classification trees that are constructed from a random sample of all variables at each node. In this study, the number of trees constructed was fixed to 100,000. A cross-validation approach was utilized, using the 'caret' package in R [19] , to determine the ideal number of variables to be included in the full model. The number of randomly selected variables was set to 5 in the final model. The predictive accuracy of each model was determined by using a classification matrix based on the observed data and additionally by using 10x repeated 5-fold cross-validation, which is available in the caret package. Measures considered were accuracy, sensitivity and specificity. Assessment of predictive accuracy using the validation dataset was not attempted due to the low number of observations.",
+            "cite_spans": [
+                {
+                    "start": 467,
+                    "end": 471,
+                    "text": "[18]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 888,
+                    "end": 892,
+                    "text": "[19]",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "The RF model was also used to determine variable importance for predicting herd status using the 'randomForestExplainer' package in R [20] . Multiple measures of importance were evaluated including: selection frequency, total number of trees, total number of nodes, On-farm biosecurity practices during Canadian porcine epidemic diarrhea outbreak minimal depth, accuracy decrease, Gini decrease and p values. The concept of minimal depth is illustrated in Supplementary Fig. 1 .",
+            "cite_spans": [
+                {
+                    "start": 134,
+                    "end": 138,
+                    "text": "[20]",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 456,
+                    "end": 476,
+                    "text": "Supplementary Fig. 1",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "Twenty sow herds (n = 8 case herds, n = 12 control herds) from the case-control study were used for the current study. For case herds, half of the production systems were farrow-to-finish sites (n = 4, 50%) followed by farrow-to-wean (n = 2, 25%) and farrow-to-feeder (n = 2, 25%). The control herds in the study were evenly distributed between farrow-to-finish sites (n = 4, 33.3%), farrow-to-wean (n = 4, 33.3%) and farrow-to-feeder (n = 4, 33.3%). Some case herds (n = 4, 50%) and control herds (n = 8, 66.7%) were part of a multi-site system. The mean and standard deviation of the HPU for case and control herds were 935.4 \u00b1 428.4 and 518.2 \u00b1 321.0, respectively. Tables 1 to 8 report the descriptive statistics of the variables computed from the questionnaire by herd status.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Descriptive analysis"
+        },
+        {
+            "text": "At the site level, 50% of case herds (n = 4) reported having only one building. One case herd (13%) reported having two buildings on-site and three case herds (38%) reported having more than three buildings on-site. At the site level, 50% of control herds (n = 6) reported having one building, 25% of control herds (n = 3) reported having two buildings and 25% of control herds (n = 3) reported having more than three buildings. Further descriptive statistics on the number and distance of nearby herds to participating case and control herds and the number of buildings by pig flow are reported in Tables 1 and 2 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 599,
+                    "end": 613,
+                    "text": "Tables 1 and 2",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Descriptive analysis"
+        },
+        {
+            "text": "Case herds had a greater number of pig movements on and off of the site compared to control herds over the 30-day period of interest. A detailed description of pig movements is summarized in Table 3 . The biosecurity protocols of trailers and truck drivers for delivering pigs are outlined in Tables 4 and 5 . Approximately 38% of case herds (n = 3) reported that trailers were washed and disinfected prior to delivering pigs on-site, compared to 33% of control herds (n = 4). It was reported that 38% of truck drivers helped unload pigs and On-farm biosecurity practices during Canadian porcine epidemic diarrhea outbreak *Distance to herds were measured in kilometers (km); \u2020 PED-affected and non-affected herds were selected from the case-control study conducted by Perri et al. [20] . PED-affected herds were confirmed positive using real-time reverse, transcriptase polymerase chain reaction. The study period for recruiting PED-affected and non-affected herds was from January 22, 2014 to March 1, 2014. stepped on the laneway on-site for case herds compared to 17% of controls herds (n = 2). The mean and standard deviation of the number of non-staff movements on-site for case and control herds were 4.4 \u00b1 2.8 and 2.9 \u00b1 5.6, respectively based on the 30-day study period of interest. The biosecurity measures implemented on-site for staff and non-members are reported in Table 6 . Staff members and visitors were required to shower-in prior to entering the barn for 88% of case herds (n = 7) and 58% of control herds (n = 7). Fifty percent of case herds (n = 4) reported that they had a Danish entry (a separation between a dirty area containing outdoor boots and dirty coveralls and a clean area prior to entering the barn) compared to 58% of control herds (n = 7). On-farm biosecurity practices during Canadian porcine epidemic diarrhea outbreak *PED-affected and non-affected herds were selected from the case-control study conducted by Perri et al. [20] . PED-affected herds were confirmed positive using real-time reverse, transcriptase polymerase chain reaction. The study period for recruiting PED-affected and non-affected herds was from January 22, 2014 to March 1, 2014. 1.1 \u00b1 2.1 0 (1) 0-6 13 PED, porcine epidemic diarrhea; SD, standard deviation; IQR, interquartile range. *PED-affected and non-affected herds were selected from the case-control study conducted by Perri et al. [20] . PED-affected herds were confirmed positive using realtime reverse, transcriptase polymerase chain reaction. The study period for recruiting PED-affected and non-affected herds was from January 22, 2014 to March 1, 2014. At the site level, 50% of case herds (n = 4) reported having only pigs. However, some case herds reported having beef cattle (n = 1, 13%), dogs (n = 2, 25%) and cats (n = 3, 38%) on-site. Similarly, half of the control herds only reported having pigs on-site (n = 7, 58%). Although, some control herds reported having dogs (n = 4, 33%), cats (n = 2, 17%), horses (n = 2, 17%) and rabbits (n = 1, 0.08%).",
+            "cite_spans": [
+                {
+                    "start": 782,
+                    "end": 786,
+                    "text": "[20]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 995,
+                    "end": 1009,
+                    "text": "March 1, 2014.",
+                    "ref_id": null
+                },
+                {
+                    "start": 1961,
+                    "end": 1965,
+                    "text": "[20]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 2399,
+                    "end": 2403,
+                    "text": "[20]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 2611,
+                    "end": 2625,
+                    "text": "March 1, 2014.",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 191,
+                    "end": 198,
+                    "text": "Table 3",
+                    "ref_id": "TABREF5"
+                },
+                {
+                    "start": 293,
+                    "end": 307,
+                    "text": "Tables 4 and 5",
+                    "ref_id": "TABREF7"
+                },
+                {
+                    "start": 1379,
+                    "end": 1386,
+                    "text": "Table 6",
+                    "ref_id": "TABREF9"
+                }
+            ],
+            "section": "Descriptive analysis"
+        },
+        {
+            "text": "The mean and standard deviation of semen deliveries received on-site for case and control herds were 10.5 \u00b1 4.2 and 7.0 \u00b1 6.2, respectively over the 30-day period of interest. Fifty percent of case On-farm biosecurity practices during Canadian porcine epidemic diarrhea outbreak Helped unload the pigs but did not enter barn, and stepped on the laneway 3/8 (0.38) 2/12 (0.17) Stayed in the cabin -1/12 (0.08) Helped unload pigs, entered barn and stepped on laneway -1/12 (0.08) Truck drivers helped unload the pigs but did not enter barn -1/12 (0.08) PED, porcine epidemic diarrhea. *PED-affected and non-affected herds were selected from the case-control study conducted by Perri et al. [20] . PED-affected herds were confirmed positive using real-time reverse, transcriptase polymerase chain reaction. The study period for recruiting PED-affected and non-affected herds was from January 22, 2014 to March 1, 2014. Helped unload the pigs, stepped on laneway but did not enter barn 7/8 (0.88) 6/12 (0.50) Helped unload pigs, entered barn and stepped on laneway -3/12 (0.25) Stayed in the cabin -1/12 (0.08) PED, porcine epidemic diarrhea. *PED-affected and non-affected herds were selected from the case-control study conducted by Perri et al. [20] . PED-affected herds were confirmed positive using real-time reverse, transcriptase polymerase chain reaction. The study period for recruiting PED-affected and non-affected herds was from January 22, 2014 to March 1, 2014. *PED-affected and non-affected herds were selected from the case-control study conducted by Perri et al. [20] . PED-affected herds were confirmed positive using real-time reverse, transcriptase polymerase chain reaction. The study period for recruiting PED-affected and non-affected herds was from January 22, 2014 to March 1, 2014. herds (n = 4) received semen deliveries on-site and the truck driver did not enter the barn. One case herd (13%) received a semen delivery to the house. Twenty-five percent of control herds (n = 3) received semen deliveries where the truck driver did not enter the barn. One control herd (8%) received a semen delivery to the house on-site and a separate herd (n = 1, 8%) received a semen delivery at a different location (other than the barn and house).",
+            "cite_spans": [
+                {
+                    "start": 688,
+                    "end": 692,
+                    "text": "[20]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1244,
+                    "end": 1248,
+                    "text": "[20]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1577,
+                    "end": 1581,
+                    "text": "[20]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1790,
+                    "end": 1804,
+                    "text": "March 1, 2014.",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Descriptive analysis"
+        },
+        {
+            "text": "Case herds reported 2.5 \u00b1 3.0 deadstock movements off-site within the study period of interest compared to control herds, 2.4 \u00b1 2.9. The deadstock management practices reported by case herds include: deadstock was picked up by contracted company (n = 3, 38%), composted (n = 2, 25%), transported to another site (n = 2, 25%) and buried on-site (n = 1, 13%). For control herds, the deadstock management practices reported include: deadstock was picked up by contracted company (n = 5, 42%), composted (n = 4, 33%) and transported to another site (n = 3, 25%).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Descriptive analysis"
+        },
+        {
+            "text": "Descriptively, case herds received more feed deliveries, larger quantities of bagged and pelleted feed and smaller quantities of bulk feed compared to control herds. The number of deliveries case herds received of pelleted feed were 2.6 \u00b1 2. For bagged and bulk feed deliveries, case herds received 4.0 \u00b1 3.8 and 7.5 \u00b1 8.1, respectively. The number of deliveries control herds received of pelleted feed were 2.1 \u00b1 4.3. For bagged and bulk feed deliveries, control herds received 1.6 \u00b1 2.3 and 8.1 \u00b1 5.6, respectively. Case herds received fewer number of feed deliveries in which the feed was stored inside the barn in a cold area (< 15\u00b0C) as well as outside the barn in a storage bin. However, case herds stored more of their feed deliveries inside the barn in a warm (\u2265 15\u00b0C) area compared to control herds. Tables 7 and 8 contain specific details on feed management and biosecurity practices including: the type of feed deliveries received by production class, how the feed was stored, and whether the feed was mixed on-site. On-farm biosecurity practices during Canadian porcine epidemic diarrhea outbreak ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Descriptive analysis"
+        },
+        {
+            "text": "The top ten variables that were determined using RFs for predicting herd status in the final model include: HPU, total feed quantity (tonnes) delivered to a herd, the number of feed deliveries a herd received from an off-site feed supplier, the total number of non-staff members on-site, the number of semen deliveries received and the number of on-site feed related deliveries including: bagged feed, bulk feed, pelleted feed, sow feed, and bio oil (feed ingredient). Seven out of 10 (70%) of the most important variables used to classify and predict PEDV were related to feed deliveries. The variable names and definitions used to predict the herd status during the incursion of PEDV into Canadian swine herds are reported in Supplementary Table 1 . Additional farm management practices including the water source and water treatment used by case and control herds and the frequency of deliveries by feed ingredients received are reported in Supplementary Tables 2 and 3 . A summary of the variable importance measures for the top 10 variables in the RF are reported in Supplementary Table 4 . The distribution and mean minimal depth for the top ten variables was calculated using the function mean sample \"top trees\" and is illustrated in Fig. 1 . This function calculates the mean minimal depth using a subset out of the number of trees, where the subset is equal to the maximum number of trees in which any Xj was used for splitting. On-farm biosecurity practices during Canadian porcine epidemic diarrhea outbreak Not mixed on-site 3/8 (0.38) 4/12 (0.33) PED, porcine epidemic diarrhea. *PED-affected and non-affected herds were selected from the case-control study conducted by Perri et al. [20] . PED-affected herds were confirmed positive using real-time reverse, transcriptase polymerase chain reaction. The study period for recruiting PED-affected and non-affected herds was from January 22, 2014 to March 1, 2014. No. of trees The shorter the distance from the root of the tree to the variable of interest, the more predictive the variable is. To explain the concept of minimal depth, see Supplementary Fig. 1 .",
+            "cite_spans": [
+                {
+                    "start": 1698,
+                    "end": 1702,
+                    "text": "[20]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1911,
+                    "end": 1925,
+                    "text": "March 1, 2014.",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 728,
+                    "end": 749,
+                    "text": "Supplementary Table 1",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 944,
+                    "end": 972,
+                    "text": "Supplementary Tables 2 and 3",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1072,
+                    "end": 1093,
+                    "text": "Supplementary Table 4",
+                    "ref_id": "TABREF7"
+                },
+                {
+                    "start": 1242,
+                    "end": 1248,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 2101,
+                    "end": 2121,
+                    "text": "Supplementary Fig. 1",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Random forests"
+        },
+        {
+            "text": "Relationships between the importance measures were examined by plotting the measures pairwise against each other (Supplementary Fig. 2 ). This figure excludes p values and the number of trees since comparable information is obtained using the number of nodes. This plot was used to distinguish the three measures that were least correlated. However, all variable measures of importance were correlated and regardless of the measure selected, they all identified the same variables as important.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 113,
+                    "end": 134,
+                    "text": "(Supplementary Fig. 2",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Random forests"
+        },
+        {
+            "text": "The three importance measures that were least correlated were accuracy decrease, Gini decrease and the number of times as a root node. However, these 3 measures were still highly correlated (r > 0.75). A multi-importance plot using the top 3 importance measures to visually identify the top variables for predicting herd status is illustrated in Fig. 2 . Variables of importance by category of herd management based on mean decrease in accuracy for predicting PEDV during the incursion of the virus in Canadian swine herds are presented in Supplementary Fig. 3 . The top 3 variables of importance found using mean decrease in accuracy include HPU, total feed quantity (tonnes) delivered to a herd and the number of feed deliveries a herd received by contracted feed suppliers. Variables of importance by category of herd management based on Gini decrease for predicting PEDV during the incursion of the virus in Canadian swine herds are presented in Supplementary Fig. 4 . The same top 3 variables of importance listed above were found when using Gini decrease for predicting PEDV during the incursion of the virus in Canadian swine herds. Partial dependence plots for the top three importance variables are illustrated in Supplementary Fig. 5 . The two importance variables that had the highest selection frequency (number of times as a root node), number of nodes, number of trees, Gini decrease, and the smallest mean minimal death was HPU and total feed quantity (tonnes) delivered to a herd. The HPU was the only variable which reached the maximum number of trees for splitting.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 346,
+                    "end": 352,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 540,
+                    "end": 560,
+                    "text": "Supplementary Fig. 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 950,
+                    "end": 970,
+                    "text": "Supplementary Fig. 4",
+                    "ref_id": null
+                },
+                {
+                    "start": 1223,
+                    "end": 1243,
+                    "text": "Supplementary Fig. 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "Random forests"
+        },
+        {
+            "text": "For the full RF model, the average accuracy for predicting herd status (case or control herd) based on repeated cross-validation was 55.3%. The specificity and sensitivity of the model were 78.3% and 20.6%, respectively. For the final RF model, the predictive accuracy was 72% and the specificity and sensitivity of the model were 90% and 45%, respectively.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Random forests"
+        },
+        {
+            "text": "Prior to January 2014, Canadian swine industry members, stakeholders and veterinarians were preparing for the emergence of PEDV, due to the rapid spread of the virus observed months prior in the United States and the high connectivity between the Canadian and United States industries. The virus has significantly affected the swine industry due to production losses as well as financial commitments for intervention and surveillance programs [21] . The production losses are due to reduced performance in breeding herds as a result of high morbidity and mortality that occurs in immunologically na\u00efve neonatal piglets. Poor performance is also evident in finishing herds due to periods of increased clinical illness (i.e. diarrhea and vomiting). Given that the routes of transmission for PEDV have been established within and between herds, including: animal movements, truck movements, people, equipment, feed and herd biosecurity [6] [7] [8] [9] , these were the areas of focus for the current study.",
+            "cite_spans": [
+                {
+                    "start": 443,
+                    "end": 447,
+                    "text": "[21]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 933,
+                    "end": 936,
+                    "text": "[6]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 937,
+                    "end": 940,
+                    "text": "[7]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 941,
+                    "end": 944,
+                    "text": "[8]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 945,
+                    "end": 948,
+                    "text": "[9]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "There are many truck movements that transport nursery pigs, market hogs, and cull sows from the province of Ontario (Canada) to the United States. In 2014, 3.9 million feeder pigs were exported from Canada to the United States, which accounted for 79.5% of the United States total imports [22] . It has been previously reported in the United States that transport trucks are typically shared between producers and sites and are often not disinfected or washed in between loads, which can enable the spread of PEDV [23] . After the trucks are emptied in the United States, they often return to Ontario without being washed, disinfected and dried [23] . Additionally, in a study conducted by Lowe et al. [24] , it was found that animal movement and biosecurity practices related to animal transportation (trucks and trailers) played a role in viral transmission. Lowe et al. [24] reported that 4.9% PEDV-free trucks that delivered pigs to abattoirs were cross-contaminated after the pigs were unloaded. For this reason, it was initially speculated that the emergence of PED into Canada would be due to contaminated trucks from the United States. Although, the biosecurity practices based on transportation, truck drivers and herd management practices descriptively favour case herds over control herds in the current study. For instance, 38% of case herds received pig deliveries from transport trailers that were washed and disinfected prior to delivering pigs onsite compared to 33% of control herds. Thirty-eight percent of case herds reported that truck drivers helped unload pigs, stepped on the laneway and entered the barn when delivering pigs on-site compared to 17% of control herds. When pigs were delivered off-site to either a different farm, abattoir, deadstock or culled animal site, 63% of case herds reported that the pigs were delivered in transport trailers that were washed and disinfected compared to 42% of control herds. Also, 88% of staff and non-staff members were required to shower on-site prior to entering the barn compared to 58% of control herds. Case herds also had fewer numbers of deadstock movements picked up by contracted deadstock companies compared to control herds. Thus, case herds seemed to have better biosecurity practices related to herd management and animal movements including deadstock and culled animals with regards to transportation and truck driver protocols. These findings were also determined analytically by Perri et al. [12] and descriptively by Pasma et al. [14] . This indicates that biosecurity related to animal movements, transportation vehicles and deadstock removal likely did not play a role in the incursion of PEDV into Canada.",
+            "cite_spans": [
+                {
+                    "start": 289,
+                    "end": 293,
+                    "text": "[22]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 514,
+                    "end": 518,
+                    "text": "[23]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 645,
+                    "end": 649,
+                    "text": "[23]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 702,
+                    "end": 706,
+                    "text": "[24]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 873,
+                    "end": 877,
+                    "text": "[24]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 2475,
+                    "end": 2479,
+                    "text": "[12]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 2514,
+                    "end": 2518,
+                    "text": "[14]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "With regards to feed management practices, feed suppliers and potentially contaminated SDPP were not included in the current study. Viral infection based on feed is likely a multi-factorial process. For instance, specific feed ingredients capable of harbouring viable PEDV over a long period of time becomes contaminated, followed by the contaminated ingredients contacting a supportive matrix during the processing of complete feed [10] . Feed deliveries consisting of the PEDV-positive feed transmit the virus to pigs on farm. Dee et al. [10] found that PEDV survival is specific to certain ingredients. Dee et al. [10] also found that PEDV survived longer in soybean meal which may have been due to environmental temperatures since decreased titers were observed with increased temperature over time. This is because coronaviruses including PEDV can typically survive temperatures from 56\u00b0C for 10-15 min, 37\u00b0C for several days, 4\u00b0C for numerous months, and while frozen at \u221260\u00b0C for many years without losing infectivity [25] .",
+            "cite_spans": [
+                {
+                    "start": 433,
+                    "end": 437,
+                    "text": "[10]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 540,
+                    "end": 544,
+                    "text": "[10]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 617,
+                    "end": 621,
+                    "text": "[10]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1025,
+                    "end": 1029,
+                    "text": "[25]",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "In the current study, the case herds received a higher amount of feed deliveries on-site that consisted of pelleted and bagged feed compared to control herds. Control herds received more feed ingredient deliveries such as soybean meal. Regarding feed storage, case herds stored more feed inside the barn in warm areas than control herds. Whereas, control herds stored more of their feed ingredients indoors and outdoors in cold areas (i.e. in non-insulated areas) located in storage bins. The study period of interest occurred during the winter months in Canada and thus, feed storage (i.e. if stored outside) could have increased the risk of the viability of the virus if the complete feed or feed ingredients were contaminated. Although, if temperature (i.e. colder temperature) were to be associated with PEDV herd status during the incursion of the virus, this would be counterintuitive for the current study since the control herds stored their feed in colder temperatures. To further understand whether feed management practices influenced a herd's PEDV status, RF models were applied.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The machine learning tool RF was used to provide a unique perspective on determining the most important variables for predicting PEDV. The most important variables found to predict herd status (case versus control herds) included herd size and variables related to feed management. All 7 importance measures used to determine variable importance consistently found that following HPU, the total quantity of feed (tonnes) delivered as well as the number of feed deliveries received from off-site feed suppliers were the next top variables for explaining herd status. Although variables related to contaminated plasma were excluded from the model, the variables related to feed were still identified as the most important ones. It is possible that this is due to partial confounding between different feed-related variables. The final model based on a limited set of variables had a moderate predictive accuracy (72%) using cross-validation, although the sensitivity of this model was still poor and indicated that only 45% of case herds were expected to be correctly identified. This predictive accuracy suggests that it was expected that the PED status of 72% of study herds during this study period, (which were not used to train the data) could be accurately predicted using this model. As such, the model has modest accuracy and results should be interpreted with care.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Modest accuracy was likely a consequence of withholding an important predictor (exposure to contaminated porcine plasma) from the model. The predictive accuracy further suggests that relying on biosecurity practices that were important predictors of PED status was not a strategy that resulted in great model performance, and we believe that this was likely due to positive correlation between feed-related variables and exposure to contaminated porcine plasma. An indication of this was the high importance of herd size and feed-related variables, among all the biosecurity variables considered in the model. External validity using herds from different study periods was not considered in this study. We expect that this model cannot be extrapolated to other study periods because of all feed-biosecurity measures that were implemented shortly after PED incursion.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The current study does present some limitations. Of the 27 identified case herds during the study period, only 8 sow herds participated in the study. This moderate response rate (30%) is likely due to producers not having enough time to participate especially in the immediate post-outbreak phase, as well as the sensitive nature of the early phase of the outbreak. It was found that the case herds that participated in the study were larger in production size based on HPU compared to control herds, despite efforts to match on the herd size category. This finding likely had an effect on why case herds had more pig movements, higher quantities of pigs delivered, feed deliveries, quantity of feed, non-staff movements on-site and semen deliveries. The next limitation of the study is the sample size. There were 20 herds included in the study with > 100 predictive variables evaluated. However, the RF tree-based machine learning tool splits nodes one step-at-a-time which permits trees (and thus forests) to implement regularization in data sets with large amounts of predictors and a small sample size [15] . Also, the grouping property of trees allows RF to competently account for correlated variables [15] . An advantage of using RF permutation accuracy as an importance measure rather than univariate screening models is that it accounts for each predictor variable individually as well as in multivariate interactions with all other predictor variables [15] . Using RF can increase the prediction accuracy compared to single classification trees because the ensemble method adjusts and accounts for instability of individual trees by small changes in the learning sample, which impairs the prediction accuracy in test samples [26] . Another limitation of using RF is that the interpretation of the model is not as straightforward compared to an individual classification tree. However, this study incorporated 7 measures of importance to determine the top variables for predicting the model. The importance measures were all highly correlated, however the results were consistent when comparing the top 10 importance variables.",
+            "cite_spans": [
+                {
+                    "start": 1107,
+                    "end": 1111,
+                    "text": "[15]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1209,
+                    "end": 1213,
+                    "text": "[15]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1463,
+                    "end": 1467,
+                    "text": "[15]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1736,
+                    "end": 1740,
+                    "text": "[26]",
+                    "ref_id": "BIBREF40"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "In conclusion, the study provided a detailed descriptive analysis of general biosecurity and management practices implemented in PEDV-positive sow herds during the early phase of the 2014 outbreak and in matched control herds. The study focussed solely on the incursion of PEDV into Canadian swine herds during the period of January 22 and March 1, 2014. Detailed descriptions of biosecurity and feed management on case and matched control herds have added insight to the on-farm practices because most of the data obtained and recorded is not readily found in the literature and fills this knowledge gap. A RF machine learning tool determined that along with herd size, 70% of the importance variables for predicting herd status (case versus control herds) were feed management protocols. The final RF model provided a moderate predictive accuracy (72%) and poor sensitivity (45%). The poor sensitivity of this model is problematic due to the nature of the virus. Since the common source of infection was not included, the RF model determined herd size and feed management variables were of importance for predicting herd status, which is likely due to partial confounding. Overall, this study has provided novel insight into the role of biosecurity and feed management practices at the time PEDV emerged into Canadian swine herds in 2014.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Supplementary Table 1 Variable names and definitions used in the study to predict the herd status during the incursion of porcine epidemic diarrhea virus in Canadian swine herds using random forests Click here to view Supplementary Table 2 Water source and treatment used for PED-affected and non-PED-affected * swine herds Click here to view Supplementary Table 3 The frequency of deliveries by feed ingredients received by PED-affected and non-PEDaffected * Canadian swine herds",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 14,
+                    "end": 21,
+                    "text": "Table 1",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 232,
+                    "end": 239,
+                    "text": "Table 2",
+                    "ref_id": "TABREF4"
+                },
+                {
+                    "start": 357,
+                    "end": 364,
+                    "text": "Table 3",
+                    "ref_id": "TABREF5"
+                }
+            ],
+            "section": "SUPPLEMENTARY MATERIALS"
+        },
+        {
+            "text": "Supplementary A depiction to explain the concept of minimal depth in random forests. The top black node is referred to as the root node. The numbers represent the minimal depth of each node. The variables that split closest to the root node have a strong effect on the predictive accuracy of the random forest model and a higher importance measure. On-farm biosecurity practices during Canadian porcine epidemic diarrhea outbreak Supplementary Fig. 4 Variable importance using Gini decrease for predicting porcine epidemic diarrhea virus by type of management practice during the incursion of the virus in Canadian swine herds, 2014.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 430,
+                    "end": 450,
+                    "text": "Supplementary Fig. 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Click here to view"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Scientific opinion on porcine epidemic diarrhoea and emerging porcine deltacoronavirus",
+            "authors": [],
+            "year": 2014,
+            "venue": "EFSA J",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Emergence of Porcine epidemic diarrhea virus in the United States: clinical signs, lesions, and viral genomic sequences",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Stevenson",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hoang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Schwartz",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Burrough",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Madson",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Cooper",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pillatzki",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gauger",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Schmitt",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Koster",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Killian",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Yoon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Vet Diagn Invest",
+            "volume": "25",
+            "issn": "",
+            "pages": "649--654",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "New variant of porcine epidemic diarrhea virus",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Byrum",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Emerg Infect Dis",
+            "volume": "20",
+            "issn": "",
+            "pages": "917--919",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Investigation into the role of potentially contaminated feed as a source of the first-detected outbreaks of porcine epidemic diarrhea in Canada",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Pasick",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Berhane",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ojkic",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Maxie",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Embury-Hyatt",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Swekla",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Handel",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fairles",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Alexandersen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Transbound Emerg Dis",
+            "volume": "61",
+            "issn": "",
+            "pages": "397--410",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "A novel diagnostic approach to detecting porcine epidemic diarrhea virus: The lateral immunochromatography assay",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Cho",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Cheong",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Jeong",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "An",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "An",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Virol Methods",
+            "volume": "225",
+            "issn": "",
+            "pages": "4--8",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Spatial and temporal epidemiology of porcine epidemic diarrhea (PED) in the Midwest and Southeast regions of the United States",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Alvarez",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Goede",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Morrison",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Perez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Prev Vet Med",
+            "volume": "123",
+            "issn": "",
+            "pages": "155--160",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "One world--one health: the threat of emerging swine diseases. an Asian perspective",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Ayudhya",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Assavacheep",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Thanawongnuwech",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Thanawongnuwech",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Transbound Emerg Dis",
+            "volume": "59",
+            "issn": "",
+            "pages": "9--17",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Update on porcine epidemic diarrhea",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pospischil",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Stuedli",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kiupel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "J Swine Health Prod",
+            "volume": "10",
+            "issn": "",
+            "pages": "81--85",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Epidemiological factors associated to spread of porcine epidemic diarrhea in Japan",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sasaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Alvarez",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sekiguchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sueyoshi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Otake",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Perez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Prev Vet Med",
+            "volume": "123",
+            "issn": "",
+            "pages": "161--167",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "An evaluation of porcine epidemic diarrhea virus survival in individual feed ingredients in the presence or absence of a liquid antimicrobial",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Dee",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Neill",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Clement",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Singrey",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Christopher-Hennings",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nelson",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Porcine Health Manag",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Porcine epidemic diarrhea virus RNA present in commercial spray-dried porcine plasma is not infectious to na\u00efve pigs",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Opriessnig",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Gerber",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Halbur",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Halbur",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "PLoS One",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "An epidemiological investigation of the early phase of the porcine epidemic diarrhea (PED) outbreak in Canadian swine herds in 2014: A case-control study",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Perri",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Poljak",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Dewey",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jcs",
+                    "middle": [],
+                    "last": "Harding",
+                    "suffix": ""
+                },
+                {
+                    "first": "O&apos;",
+                    "middle": [],
+                    "last": "Sullivan",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Prev Vet Med",
+            "volume": "150",
+            "issn": "",
+            "pages": "101--109",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Network analyses using case-control data to describe and characterize the initial 2014 incursion of porcine epidemic diarrhea (PED) in Canadian swine herds",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Perri",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Poljak",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Dewey",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jcs",
+                    "middle": [],
+                    "last": "Harding",
+                    "suffix": ""
+                },
+                {
+                    "first": "O&apos;",
+                    "middle": [],
+                    "last": "Sullivan",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Prev Vet Med",
+            "volume": "162",
+            "issn": "",
+            "pages": "18--28",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Outbreak investigation of porcine epidemic diarrhea in swine in Ontario",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Pasma",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Furness",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Alves",
+                    "suffix": ""
+                },
+                {
+                    "first": "Aubry",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Can Vet J",
+            "volume": "57",
+            "issn": "",
+            "pages": "84--89",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Random forests for genomic data analysis",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ishwaran",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Genomics",
+            "volume": "99",
+            "issn": "",
+            "pages": "323--329",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Risk factors associated with seropositivity to porcine respiratory coronavirus in Danish swine herds",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Flori",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mousing",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Gardner",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Willeberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Have",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Prev Vet Med",
+            "volume": "25",
+            "issn": "",
+            "pages": "51--62",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Epidemiological investigations in regard to porcine reproductive and respiratory syndrome (PRRS) in Quebec, Canada. Part 2: prevalence and risk factors in breeding sites",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Lambert",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Arsenault",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Poljak",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "&apos;allaire",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Prev Vet Med",
+            "volume": "104",
+            "issn": "",
+            "pages": "84--93",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Classification and regression by randomForest",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Liaw",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wiener",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "R News",
+            "volume": "2",
+            "issn": "",
+            "pages": "18--22",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Classification and Regression Training",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kuhn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Understanding Random Forests with randomForestExplainer",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Paluszy\u0144ska",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Porcine epidemic diarrhea virus infection: Etiology, epidemiology, pathogenesis and immunoprophylaxis",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Jung",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Saif",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Vet J",
+            "volume": "204",
+            "issn": "",
+            "pages": "134--143",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Statistics and Market Information System. Overview of the United States Hog Industry",
+            "authors": [],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "The first case of porcine epidemic diarrhea in Canada",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ojkic",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hazlett",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fairles",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Marom",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Slavic",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Maxie",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Alexandersen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Pasick",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Alsop",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Burlatschenko",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Can Vet J",
+            "volume": "56",
+            "issn": "",
+            "pages": "149--152",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Role of transportation in spread of porcine epidemic diarrhea virus infection, United States",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lowe",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gauger",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Harmon",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Connor",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Yeske",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Loula",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Levis",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Dufresne",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Main",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Emerg Infect Dis",
+            "volume": "20",
+            "issn": "",
+            "pages": "872--874",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Effects of air temperature and relative humidity on coronavirus survival on surfaces",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Casanova",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jeon",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rutala",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Weber",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Sobsey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Appl Environ Microbiol",
+            "volume": "76",
+            "issn": "",
+            "pages": "2712--2717",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Bias in random forest variable importance measures: illustrations, sources and a solution",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Strobl",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Boulesteix",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zeileis",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hothorn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "BMC Bioinformatics",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF1": {
+            "text": "PED, porcine epidemic diarrhea; SD, standard deviation; IQR, interquartile range. *PED-affected and non-affected herds were selected from the case-control study conducted by Perri et al.[20]. PED-affected herds were confirmed positive using realtime reverse, transcriptase polymerase chain reaction. The study period for recruiting PED-affected and non-affected herds was from January 22, 2014 to March 1, 2014.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "The distribution and mean minimal depth for the top variables for predicting porcine epidemic diarrhea virus during the incursion of the virus in Canadian swine herds, 2014. The vertical black line represents the mean minimal depth. The x-axis ranges from zero to 30 000 trees in which is the maximum any variable was used for splitting on Xj. Variable HPU is the only variable that reaches the maximum number of trees. HPU, heat producing unit.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Multi-importance plot using the accuracy decrease, Gini decrease and number of times as a root node to visually identify variables for predicting porcine epidemic diarrhea virus during the incursion of the virus in Canadian swine herds using random forests. The blue circles represent the top variables (most important) for predicting herd status (case versus control herd) and the black variables are the remaining variables using in the random forest model. HPU, heat producing unit.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF2": {
+            "text": "The number and distance* of nearby herds from PED-affected and non-PED-affected \u2020 Canadian swine herds",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "The number of buildings by pig flow for PED-affected and non-PED-affected* Canadian swine herds",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "The quantity and frequency of pigs and pig movements on-and off-site by production class identified in PED-affected and non-PED-affected* Canadian",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "7/16 https://vetsci.org https://doi.org/10.4142/jvs.2020.21.e25",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF7": {
+            "text": "The biosecurity protocols of trailers and truck drivers when pigs were delivered on site PED-affected and non-PED-affected* Canadian swine herds",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF8": {
+            "text": "The biosecurity protocols of trailers and truck drivers when pigs were delivered off site PED-affected and non-PED-affected* Canadian swine herds",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF9": {
+            "text": "The biosecurity protocols of staff and non-staff members on site PED-affected and non-PED-affected* Canadian swine herds",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF11": {
+            "text": "Descriptive feed deliveries and storage practices on farm for PED-affected and non-PED-affected* Canadian swine herds",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF13": {
+            "text": "Feed mixing practices of PED-affected and non-PED-affected* Canadian swine herds",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF14": {
+            "text": "A summary of the variable importance measures * for the top variables for predicting porcine epidemic diarrhea virus during the incursion of the virus in Canadian swine herds Click here to viewSupplementary Fig. 1",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF15": {
+            "text": "Click here to viewRelationship between measures of importance * for predicting porcine epidemic diarrhea virus during the incursion of the virus in Canadian swine herds.Variable importance using mean decrease in accuracy for predicting porcine epidemic diarrhea virus by type of management practice during the incursion of the virus in Canadian swine herds, 2014. here to view14/16 https://vetsci.org https://doi.org/10.4142/jvs.2020.21.e25",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Partial dependence plots for the top three importance variables for predicting PEDV during the incursion of the virus in Canadian swine herds, 2014.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary Fig. 5"
+        }
+    ]
+}

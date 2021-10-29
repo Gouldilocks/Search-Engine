@@ -1,0 +1,1768 @@
+{
+    "paper_id": "4ad5a1ef0e00bd793a408c7915c6e207f360138f",
+    "metadata": {
+        "title": "Original Article Myoung-don Oh , 3 and on behalf of the Korea National Committee for Clinical Management of COVID-19 Clinical Course and Outcomes of Patients with Severe Acute Respiratory Syndrome Coronavirus 2 Infection: a Preliminary Report of the First 28 Patients from the Korean Cohort Study on COVID-19",
+        "authors": [
+            {
+                "first": "Eu",
+                "middle": [
+                    "Suk"
+                ],
+                "last": "Kim",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Seoul National University College of Medicine",
+                    "location": {
+                        "settlement": "Seongnam",
+                        "country": "Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Bum",
+                "middle": [
+                    "Sik"
+                ],
+                "last": "Chin",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "National Medical Center",
+                    "location": {
+                        "settlement": "Seoul",
+                        "country": "Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Chang",
+                "middle": [
+                    "Kyung"
+                ],
+                "last": "Kang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Seoul National University College of Medicine",
+                    "location": {
+                        "settlement": "Seoul",
+                        "country": "Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Nam",
+                "middle": [
+                    "Joong"
+                ],
+                "last": "Kim",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Seoul National University College of Medicine",
+                    "location": {
+                        "settlement": "Seoul",
+                        "country": "Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yu",
+                "middle": [
+                    "Min"
+                ],
+                "last": "Kang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Myongji Hospital",
+                    "location": {
+                        "settlement": "Goyang",
+                        "country": "Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jae-Phil",
+                "middle": [],
+                "last": "Choi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Seoul Medical Center",
+                    "location": {
+                        "settlement": "Seoul",
+                        "country": "Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Dong",
+                "middle": [
+                    "Hyun"
+                ],
+                "last": "Oh",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Seoul Medical Center",
+                    "location": {
+                        "settlement": "Seoul",
+                        "country": "Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jeong-Han",
+                "middle": [],
+                "last": "Kim",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Armed Forces Capital Hospital",
+                    "location": {
+                        "settlement": "Seongnam",
+                        "country": "Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Boram",
+                "middle": [],
+                "last": "Koh",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Gyeonggi Provincial Medical Center Ansung Hospital",
+                    "location": {
+                        "settlement": "Anseong",
+                        "country": "Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Seong",
+                "middle": [
+                    "Eun"
+                ],
+                "last": "Kim",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Chonnam National University Medical School",
+                    "location": {
+                        "settlement": "Gwangju",
+                        "country": "Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Na",
+                "middle": [],
+                "last": "Ra",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Chosun University",
+                    "location": {
+                        "settlement": "Gwangju",
+                        "country": "Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yun",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jae-Hoon",
+                "middle": [],
+                "last": "Lee",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Wonkwang University School of Medicine",
+                    "location": {
+                        "settlement": "Iksan",
+                        "country": "Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jin",
+                "middle": [
+                    "Yong"
+                ],
+                "last": "Kim",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Incheon Medical Center",
+                    "location": {
+                        "settlement": "Incheon",
+                        "country": "Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yeonjae",
+                "middle": [],
+                "last": "Kim",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "National Medical Center",
+                    "location": {
+                        "settlement": "Seoul",
+                        "country": "Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ji",
+                "middle": [
+                    "Hwan"
+                ],
+                "last": "Bang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Seoul Metropolitan Government-Seoul National University Boramae Medical Center",
+                    "location": {
+                        "settlement": "Seoul",
+                        "country": "Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Kyoung-Ho",
+                "middle": [],
+                "last": "Song",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Seoul National University College of Medicine",
+                    "location": {
+                        "settlement": "Seongnam",
+                        "country": "Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Hong",
+                "middle": [
+                    "Bin"
+                ],
+                "last": "Kim",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Seoul National University College of Medicine",
+                    "location": {
+                        "settlement": "Seongnam",
+                        "country": "Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ki-Hyun",
+                "middle": [],
+                "last": "Chung",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "National Medical Center",
+                    "location": {
+                        "settlement": "Seoul",
+                        "country": "Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Myoung-Don",
+                "middle": [],
+                "last": "Oh",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background: Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)-infected pneumonia emerged in Wuhan, China in December 2019. In this retrospective multicenter study, we investigated the clinical course and outcomes of novel coronavirus disease 2019 (COVID-19) from early cases in Republic of Korea. Methods: All of the cases confirmed by real time polymerase chain reaction were enrolled from the 1st to the 28th patient nationwide. Clinical data were collected and analyzed for changes in clinical severity including laboratory, radiological, and virologic dynamics during the progression of illness. Results: The median age was 40 years (range, 20-73 years) and 15 (53.6%) patients were male. The most common symptoms were cough (28.6%) and sore throat (28.6%), followed by fever (25.0%). Diarrhea was not common (10.7%). Two patients had no symptoms. Initial chest X-ray (CXR) showed infiltration in 46.4% of the patients, but computed tomography scan confirmed pneumonia in 88.9% (16/18) of the patients. Six patients (21.4%) required J Korean Med Sci. 2020 Apr 6;35(13):e142 https://doi.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)-infected pneumonia has been initially identified in Wuhan, China since December 2019. 1 A total number of 693,224 laboratory-confirmed cases have been documented globally as of March 30th, 2020, including 33,106 deaths. 2 After experiencing the largest outbreak of Middle East respiratory syndrome (MERS) outside the Arabian Peninsula in 2015, 3 the Korean government has maintained a strong quarantine system for emerging infectious diseases imported from foreign countries. The first novel coronavirus disease 2019 (COVID-19) case in Korea was a traveler from Wuhan, China in January 19th, 2020. 4 While the spread of COVID-19 was limited before February 20, 5,6 a huge outbreak occurred among a religious group in the southern part of Korea, Daegu, and the number of COVID-19 cases in Korea reached 6,593 on March 6th, 2020. 7, 8 While clinical and epidemiological features of COVID-19 have been described in China by several investigations, 9-14 most of them focused on SARS-CoV-2-infected pneumonia in China. There is still uncertainty about the clinical course and outcomes of COVID-19, especially outside of China where patients can be detected in the early course of disease by the quarantine system. Recently, the Korea Centers for Disease Control and Prevention (KCDC) reported epidemiological features of the earliest 28 COVID-19 cases in Republic of Korea. 15 We performed this study to describe the clinical characteristics of COVID-19 in Republic of Korea, including radiological and virologic dynamics during the progression of illness.",
+            "cite_spans": [
+                {
+                    "start": 281,
+                    "end": 282,
+                    "text": "2",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 405,
+                    "end": 406,
+                    "text": "3",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 659,
+                    "end": 660,
+                    "text": "4",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 892,
+                    "end": 893,
+                    "text": "8",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1430,
+                    "end": 1432,
+                    "text": "15",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Korea National Committee for Clinical Management of COVID-19 (KNCCMC) was organized in early February 2020 and consisted of infectious disease specialists or physicians of each hospital who took care of the confirmed COVID-19 patients. KNCCMC developed a standardized clinical record form (CRF) which was modified from the World Health Organization Global 2019-novel coronavirus clinical characterization CRF. 16 Individual cases were reviewed and treatment and discharge plans were discussed during regular video conference calls three time a week. All of cases nationwide were enrolled in this study from the 1st to the 28th patient. Participating hospitals were as follows: Seoul National University Hospital, National Medical Center, and Seoul Medical Center, Seoul; Incheon Medical",
+            "cite_spans": [
+                {
+                    "start": 410,
+                    "end": 412,
+                    "text": "16",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Study design and participants"
+        },
+        {
+            "text": "According to the definition of the KCDC, 7 a suspected COVID-19 patient was defined as someone fulfilling both of the following criteria: 1) a presence of at least one condition among fever; respiratory symptoms such as cough, sore throat, or dyspnea; or radiographic evidence of pneumonia, 2) a recent visit to countries where SARS-CoV-2 transmission in the community has been reported including Wuhan city, China or recent close contact with a confirmed COVID-19 patient within 14 days before illness onset. A confirmed case was defined as a patient with positive results by real time reverse transcription polymerase chain reaction (RT-PCR) assay for SARS-CoV-2 in upper respiratory specimen (nasopharyngeal and oropharyngeal swab), with or without lower respiratory specimen (sputum). The patients who had no symptoms but had been screened for COVID-19 due to a strong epidemiologic link were also enrolled when they were laboratory-confirmed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Case definitions"
+        },
+        {
+            "text": "Respiratory samples from the patients were sent to the KCDC and RT-PCR for detecting SARS-CoV-2 was performed as in previous study. 17 In brief, RNA was extracted from clinical samples with a QIAamp \u00ae viral RNA mini kit (QIAGEN, Hilden, Germany). The primer and probe sequences used for RNA-dependent RNA polymerase gene detection were: 5\u2032-GTGARATGGTCATGTGTGGCGG-3\u2032 (Forward), 5\u2032-CARATGTTAAASACACTATTAGCATA-\u20323 (Reverse) and 5\u2032-CAGGTGGAACCTCATCAGGAGATGC-3\u2032 (Probe in 5-FAM/3\u2032-BHQ format) and the primer and probe sequences used for E gene detection were: 5\u2032-ACAGGTACGTTAATAGTTAATAGCGT-3\u2032 (Forward), 5\u2032-ATATTGCAGCAGTACGCACACA-3\u2032 (Reverse) and 5\u2032-ACACTAGCCATCCTTACTGCGCTTCG-3\u2032 (Probe in 5-FAM/3\u2032-BHQ format). Reverse transcription was performed at 50\u00b0C for 30 minutes, followed by inactivation of the reverse transcriptase at 95\u00b0C for 10 minutes. PCR amplification was performed with 40 cycles at 95\u00b0C for 15 seconds and 60\u00b0C for 1 minute using an ABI 7500 Fast instrument (Thermo Fisher Scientific, Waltham, MA, USA).",
+            "cite_spans": [
+                {
+                    "start": 132,
+                    "end": 134,
+                    "text": "17",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Viral diagnostic methods"
+        },
+        {
+            "text": "Primary physicians from each participating hospital retrospectively collected clinical medical record data then two infectious disease physicians from KNCCMC reassessed the accuracy of the raw data. Patients were hospitalized in the isolation units in each hospital from January 19th, 2020, with final follow-up for the study on February 17th, 2020. Epidemiologic, demographic, and clinical information including laboratory and radiologic findings were obtained. Clinical severity and changes according to days after first symptom onset were assessed as follows: 1, no limit of daily activity; 2, limit of daily activity but no need for supplemental O 2 therapy; 3, need for supplemental O 2 therapy via nasal prong; 4, need for supplemental O 2 therapy via facial mask; 5, need for high flow supplemental O 2 therapy or non-invasive ventilation; 6, need for invasive ventilation; 7, multi-organ failure or need for extracorporeal membrane oxygenation (ECMO) therapy; 8, death.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Clinical data collection and severity evaluation"
+        },
+        {
+            "text": "Chest radiograph scoring was performed as described in a previous study 18 ",
+            "cite_spans": [
+                {
+                    "start": 72,
+                    "end": 74,
+                    "text": "18",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Clinical data collection and severity evaluation"
+        },
+        {
+            "text": "The Institutional Review Board (IRB) at Seoul National University Hospital reviewed and approved the study protocol (IRB registration No. H-2002-042-1100). After that, the IRB at each participating hospital approved it. The board waived the requirement for written consent.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ethics statement"
+        },
+        {
+            "text": "The study population included 28 hospitalized patients with confirmed COVID-19. The median age of the 28 patients was 40 years (interquartile range, 28-54; range, 20-73), and 15 (53.6%) were men. Of the 28 patients, five (17.9%) had one or more coexisting medical condition and diabetes was most common ( Table 1) . The most common symptoms at the time of admission for isolation were cough (8, 28.6%) and sore throat (8, 28.6%), followed by fever, myalgia, and headache (7, 25.0%). Diarrhea was present in three patients (10.7%) among initial symptoms. Two cases were asymptomatic when they were confirmed as COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 305,
+                    "end": 313,
+                    "text": "Table 1)",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Patients and clinical characteristics"
+        },
+        {
+            "text": "During the hospitalization, six patients (21.4%) required oxygen supplement therapy: four with nasal cannula and two with face mask. No one required mechanical ventilator or ECMO therapy. Nineteen patients (67.9%) received lopinavir/ritonavir for antiviral therapy. Ultimately, pneumonia was present in 22 patients (78.5%) and the proportion of pneumonia was 91.3% (21/23) among the patients who received a CT scan ( Table 2) . Seventeen patients (60.7%) developed fever and became afebrile during the hospitalization and the median day of defervescence was 9 days (range, 3-18) after symptom onset (Supplementary Fig. 1 ). By February 17, 10 patients were off isolation or discharged, and the median day of off-isolation/ discharge was 18.5 days after symptom onset (range, 11-27).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 417,
+                    "end": 425,
+                    "text": "Table 2)",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 599,
+                    "end": 620,
+                    "text": "(Supplementary Fig. 1",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Clinical course and outcomes"
+        },
+        {
+            "text": "Except for 2 patients who showed no symptoms, six among 26 patients showed clinical deterioration during the hospitalization and needed supplemental oxygen therapy ( Supplementary Fig. 2) . The others showed little limitation in daily activity during the hospitalization.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 166,
+                    "end": 187,
+                    "text": "Supplementary Fig. 2)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Chronological changes of COVID-19"
+        },
+        {
+            "text": "While neutrophilia or neutropenia was not common regardless of clinical severity ( Fig. 1A and B), lymphopenia (defined as \u2264 1.0 \u00d7 10 9 /L) was more common in severe cases (33.3%, 2/6) than mild cases (18.2%, 4/22) during the clinical course ( Fig. 1C and D) . High levels of C-reactive protein in the blood were more frequently observed in severe cases ( Fig. 1E and F ) as the clinical course became worse during the 5-7 day period after symptom onset.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 83,
+                    "end": 90,
+                    "text": "Fig. 1A",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 244,
+                    "end": 258,
+                    "text": "Fig. 1C and D)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 356,
+                    "end": 369,
+                    "text": "Fig. 1E and F",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Chronological changes of COVID-19"
+        },
+        {
+            "text": "We could evaluate viral kinetics by serial RT-PCR of respiratory specimens from 9 patients from the early course of illness. Viral shedding from upper respiratory tract (URT) and lower respiratory tract (LRT) was shown in Fig. 2A and B as cycle threshold (Ct) value, respectively (Supplementary Table 1 ). Viral shedding was high during the first 5 days of illness and higher in URT than LRT. It decreased after day 7 of illness. Infiltration on initial chest X-ray was observed in 13 patients (46.4%), but pneumonia was confirmed in most patients who underwent computed tomography (CT) scan initially (16/18, 88.9%) ( Table 1) . The chest radiographic scores remained relatively stable during the first week of illness. However, around day 7 of illness, the scores began to increase in some patients, suggesting progression of pneumonia (Fig. 2C) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 222,
+                    "end": 229,
+                    "text": "Fig. 2A",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 295,
+                    "end": 302,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 619,
+                    "end": 627,
+                    "text": "Table 1)",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 838,
+                    "end": 847,
+                    "text": "(Fig. 2C)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Chronological changes of COVID-19"
+        },
+        {
+            "text": "We report the clinical course and outcomes of the first 28 patients with COVID-19 in Republic of Korea. The clinical severity was mild symptomatic or asymptomatic in 78.6% (22/28) of the patients. The most common prodromal symptoms were sore throat, cough, fever, and myalgia, which was suggestive of common cold. Although radiological pneumonia was detected in the majority (22/28, 78.6%) of the patients, only 27.3% (6/22) of them required supplemental oxygen therapy. Radiological pneumonia was detected as early as from the 1st day of illness onset, and was even identified in patients who did not have any symptoms of the LRT infection, such as cough, sputum, chest pain, or dyspnea. Although they had radiological pneumonia, they did not feel unwell and were able to carry on their daily activities as usual (\"walking pneumonia\"). The titers of SARS-CoV-2 shedding from the URT were very high from the prodromal phase of illness until day 5 of illness. In our patient cohort, the clinical features of COVID-19 during the prodromal phase were insidious and mild. Fever was absent in 75.0% of the patients at the time of admission. Throat symptoms, such as pain, discomfort and globus sensation and cough were ranked as relatively common, but only 1/3 had these symptoms. As the prodromal symptoms were mild and did not begin abruptly, most of the patients were not able to tell exactly when they had become ill. And because of this benign nature of the prodromal symptoms, they did not realize that they had been infected with SARS-CoV-2, and went out to carry on usual activities, while spreading the virus inadvertently.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The defining clinical characteristic of COVID-19 was an early development of radiological pneumonia. During the prodromal phase, only 1/3 of our patients developed any clinical features suggesting pneumonia, such as cough, sputum, or chest discomfort. Chest radiographs on hospitalization did not reveal any infiltrates in more than 50% of patients. However, chest CT scans, which were performed on hospitalization or within 1-2 days, showed infiltrates in the lungs suggesting viral pneumonia in 16/18 (88.9%) patients ( Table 1) . If we had not taken CT scans of the lungs, we would have easily missed the pneumonia diagnosis. 4 The radiological pneumonia from CT scan was detected as early as day 1 of illness onset. The most common findings of CT scans were bilateral, ground-glass opacity in the periphery of the lungs as described in previous studies. 9,11,12 Despite radiological pneumonia, the patients were clinically stable and mobile during the first week of illness (\"walking pneumonia\"). We assessed the progression of COVID-19 pneumonia using the chest radiograph scoring, and it remained stable during the first week of illness, but increased around the day 7 of illness. This pattern of pneumonia progression was also noted in patients with MERS-CoV infection. 18 The early onset of the lung infiltrates and few clinical manifestations of LRT infection may suggest that the virus can invade into the LRT, evading innate immune mechanisms and replicate before adaptive immune response begins to play a role. A tissue biopsy and immunohistopathological studies of the lungs may elucidate this unique and interesting clinical feature of SARS-CoV-2 infection.",
+            "cite_spans": [
+                {
+                    "start": 629,
+                    "end": 630,
+                    "text": "4",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1277,
+                    "end": 1279,
+                    "text": "18",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 522,
+                    "end": 530,
+                    "text": "Table 1)",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Gastrointestinal manifestations were relatively uncommon in our patient cohort. While 10% of the patients had diarrhea, 3% had vomiting, and 3% had abdominal pain at presentation, all of them revealed other common symptoms of acute respiratory illness.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Overall, diarrhea was present in 39% (11/28) of patients during hospitalization from the admission in this study. As diarrhea is an adverse effect of lopinavir/ritonavir, we reassessed the frequency of diarrhea according to the patients being treated with lopinavir/ritonavir or not, and 53% (10/19) and 11% (1/9) of our patients had diarrhea, respectively (data not shown). In Chinese patients, the frequency of diarrhea ranged 2%-10%. 9,11,12 It is important to note that receptor binding is a major determinant of tissue tropism for a coronavirus. 19 A recent study showed that SARS-CoV-2 used angiotensin converting enzyme II as a cellular entry receptor, 20,21 as SARS-CoV. 19 Therefore, it is plausible that SARS-CoV-2 may be able to replicate in the gastrointestinal epithelial cells and be excreted in the stool.",
+            "cite_spans": [
+                {
+                    "start": 551,
+                    "end": 553,
+                    "text": "19",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 679,
+                    "end": 681,
+                    "text": "19",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Recently, China CDC reported that they isolated SARS-CoV-2 from a stool sample taken 15 days after illness onset of a laboratory confirmed patient. 22 The possibilities of fecalto-oral transmission and opportunistic aerosol transmission of SARS-CoV-2 remain to be determined. 23 It is important to note that the virus titers in the respiratory specimens peaked on early days after illness onset ( Fig. 2A and B) . Of the seven infectors of our cohort, two transmitted the virus on the first day of illness, one on the 8th day of illness, and 4 via household transmission. The Ct values of the URT specimens ranged from 18-25 in the 4 infectors within the 5 days of illness: 18.74, 18.33, 25.12, and 21.5 for each patient. Our data suggest that the viral shedding from the URT may reach its peak during the first 3-5 days after illness onset. A recent study on virus shedding kinetics is also in line with our finding. 24 This \"shift to the left\" pattern of virus shedding kinetics is strikingly different from that of SARS-CoV, which shows an inverted V pattern, with its peak at day 10 of illness. 25 Also of note is that 57.1% (4/7) of infectors had cough or sputum, in contrast to only 23.8% (5/21) of non-infectors having cough. These findings suggest that the transmissions of SARS-CoV-2 may occur easily and begin from the prodromal phase of illness, just like common cold or influenza viruses. Considering that the median time from symptom onset to isolation of the patients was 3 days, and that high titers of virus shedding began from day 1 of illness with the peak around day 3-5 of illness, early detection and isolation strategy may be relatively less effective in containing the virus in COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 148,
+                    "end": 150,
+                    "text": "22",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 276,
+                    "end": 278,
+                    "text": "23",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 918,
+                    "end": 920,
+                    "text": "24",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 1099,
+                    "end": 1101,
+                    "text": "25",
+                    "ref_id": "BIBREF43"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 397,
+                    "end": 411,
+                    "text": "Fig. 2A and B)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The clinical outcomes of most patients in this study were not complicated. As of 17 February 2020, no patient required supplemental oxygen therapy with mechanical ventilation nor any organ-supporting treatments in intensive care unit. A total of 10 cases have fully recovered There are some limitations in our study. Only 28 patients from our cohort were included in this study. However, we gathered and analyzed the detailed clinical information about all of the first 28 cases nationwide in Republic of Korea. Moreover, some cases were confirmed during the surveillance test for COVID-19 after exposure to SARS-CoV-2. The proportion of elderly patients and frequency of underlying conditions were small, and therefore the first 28 patients from the early phase of the COVID-19 outbreak in Korea had relatively favorable outcomes. 26 Most of the enrolled patients would be healthier than the population of recent larger outbreaks showing worse outcomes, mostly in the elderly group. The results regarding outcomes in this study should be interpreted cautiously. In most cases, we did not perform virologic tests for coinfection of other respiratory viruses such as influenza.",
+            "cite_spans": [
+                {
+                    "start": 832,
+                    "end": 834,
+                    "text": "26",
+                    "ref_id": "BIBREF45"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Our study suggests that (1) the prodromal symptoms of SARS-CoV-2 infection were mild, (2) radiological pneumonia was very common, and developed from the early days of illness, (3) pneumonia may progress at day 7 of illness, (4) high titers of the virus shed from the URT during the prodromal phase (5), and the median time from symptom onset to defervescence was 10 days and to off-isolation 18.5 days.",
+            "cite_spans": [
+                {
+                    "start": 176,
+                    "end": 179,
+                    "text": "(3)",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A novel coronavirus from patients with pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "8",
+            "pages": "727--760",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "World Health Organization main website",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Clinical presentation and outcomes of Middle East respiratory syndrome in the Republic of Korea",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Joh",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Shin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Infect Chemother",
+            "volume": "48",
+            "issn": "2",
+            "pages": "118--144",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The first case of 2019 novel coronavirus pneumonia imported into Korea from Wuhan, China: implication for infection prevention and control measures",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Choe",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Oh",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Oh",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Korean Med Sci",
+            "volume": "35",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Viral load kinetics of SARS-CoV-2 infection in first two patients in Korea",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Ko",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Chung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Korean Med Sci",
+            "volume": "35",
+            "issn": "7",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Case of the index patient who caused tertiary transmission of COVID-19 infection in Korea: the application of lopinavir/ritonavir for the treatment of COVID-19 infected pneumonia monitored by quantitative RT-PCR",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jeon",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Shin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Seong",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Korean Med Sci",
+            "volume": "35",
+            "issn": "6",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Korean Society of Infectious Diseases; Korean Society of Pediatric Infectious Diseases",
+            "authors": [],
+            "year": null,
+            "venue": "Korean Society for Antimicrobial Therapy",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Report on the epidemiological features of coronavirus disease 2019 (COVID-19) outbreak in the Republic of Korea from",
+            "authors": [],
+            "year": 2020,
+            "venue": "Korea Centers for Disease Control and Prevention",
+            "volume": "35",
+            "issn": "10",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kok",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "To",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "514--537",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Qu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "507--520",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Clinical characteristics of 138 hospitalized patients with 2019 novel coronavirus-infected pneumonia in Wuhan, China",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.1585"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Epidemiologic and clinical characteristics of novel coronavirus infections involving 13 patients outside Wuhan, China",
+            "authors": [
+                {
+                    "first": "Lin",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Dela",
+                    "middle": [],
+                    "last": "Cruz",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Early transmission dynamics in Wuhan, China, of novel coronavirus-infected pneumonia",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "13",
+            "pages": "1199--207",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Epidemiology and Case Management Team, Korea Centers for Disease Control and Prevention. Early epidemiological and clinical characteristics of 28 cases of coronavirus disease in South Korea",
+            "authors": [],
+            "year": 2020,
+            "venue": "Osong Public Health Res Perspect",
+            "volume": "11",
+            "issn": "1",
+            "pages": "8--14",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "World Health Organization. Global COVID-19 Clinical Characterization Case Record Form. Geneva: World Health Organization",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Identification of coronavirus isolated from a patient in Korea with COVID-19",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Chung",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Jo",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Woo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Osong Public Health Res Perspect",
+            "volume": "11",
+            "issn": "1",
+            "pages": "3--7",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Viral load kinetics of MERS coronavirus infection",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Oh",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Choe",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chae",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "N Engl J Med",
+            "volume": "375",
+            "issn": "13",
+            "pages": "1303--1308",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Human coronavirus: host-pathogen interaction",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Fung",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Annu Rev Microbiol",
+            "volume": "73",
+            "issn": "1",
+            "pages": "529--57",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "579",
+            "issn": "7798",
+            "pages": "270--273",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Niu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "565--74",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Isolation of 2019-nCoV from a stool specimen of a laboratory-confirmed case of the coronavirus disease 2019 (COVID-19)",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Shu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China CDC Wkly",
+            "volume": "8",
+            "issn": "",
+            "pages": "123--127",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Enteric involvement of coronaviruses: is faecal-oral transmission of SARS-CoV-2 possible?",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Yeo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kaushal",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Yeo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Gastroenterol Hepatol",
+            "volume": "5",
+            "issn": "4",
+            "pages": "335--342",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "SARS-CoV-2 viral load in upper respiratory specimens of infected patients",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zou",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ruan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Hong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "12",
+            "pages": "1177--1186",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Clinical progression and viral load in a community outbreak of coronavirus-associated SARS pneumonia: a prospective study",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Peiris",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Hung",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Poon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Lancet",
+            "volume": "361",
+            "issn": "9371",
+            "pages": "1767--72",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Epidemiological research priorities for public health control of the ongoing global novel coronavirus (2019-nCoV) outbreak",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cowling",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Euro Surveill",
+            "volume": "25",
+            "issn": "6",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF1": {
+            "text": "Changes in laboratory data according to severity over time in 28 patients with COVID-19. Changes in peripheral blood neutrophil counts is shown in (A) and (B) according to requirement of O 2 therapy, respectively. Changes in peripheral blood lymphocyte counts is shown in (C) and (D). Changes in CRP is shown in (E) and (F). COVID-19 = coronavirus disease 2019, CRP = C-reactive protein, Pt = patient.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Changes in SARS-CoV-2 Ct value of RT-PCR in respiratory specimens and radiologic features over time. Changes of Ct value of SARS-CoV-2 RNA (envelope gene, E) in nasopharyngeal with or without oropharyngeal specimen is shown in (A) in 9 patients with COVID-19. Changes of Ct value of SARS-CoV-2 RNA (E) in lower respiratory specimen (expectorate sputum) is shown in (B). Progression of pneumonia in 28 patients is shown in (C). Each lung was divided into the upper, middle, and lower zones, and infiltrates on each zone were scored from 0 to 4 (maximum CXR score, 24). SARS-CoV-2 = severe acute respiratory syndrome coronavirus 2, Ct = cycle threshold, RT-PCR = real time reverse transcription polymerase chain reaction, COVID-19 = coronavirus disease 2019, Pt = patient, CXR = chest X-ray.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": ": in brief, serial chest radiographs were retrospectively reviewed in consensus by four physicians who were",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Clinical characteristics of 28 patients with COVID-19 at the time of admission for isolation Data are shown as mean \u00b1 standard deviation or number (%). COVID-19 = coronavirus disease 2019, HIV = human immunodeficiency viruses, AIDS = acquired immunodeficiency syndrome.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Clinical course and outcomes of 28 patients with COVID-19 COVID-19 = coronavirus disease 2019, ID = illness day, CT = computed tomography, CXR = chest X-ray, LPV/r = lopinavir/ritonavir, DM = diabetes mellitus.Only CXRs were performed.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "9/12 https://jkms.org https://doi.org/10.3346/jkms.2020.35.e142 Clinical Spectrum and Outcomes of COVID-19, Korean Cohort Study from the infection and have been discharged from hospital. Of the 18 confirmed cases who are still in hospital, most are stable or improving.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

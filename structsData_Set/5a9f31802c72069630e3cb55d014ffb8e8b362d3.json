@@ -1,0 +1,1476 @@
+{
+    "paper_id": "5a9f31802c72069630e3cb55d014ffb8e8b362d3",
+    "metadata": {
+        "title": "A Model for Supply-Chain Decisions for Resource Sharing with an Application to Ventilator Allocation to Combat COVID-19",
+        "authors": [
+            {
+                "first": "Sanjay",
+                "middle": [],
+                "last": "Mehrotra",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Northwestern University",
+                    "location": {
+                        "settlement": "Evanston",
+                        "region": "IL"
+                    }
+                },
+                "email": "mehrotra@northwestern.edu"
+            },
+            {
+                "first": "Hamed",
+                "middle": [],
+                "last": "Rahimian",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Northwestern University",
+                    "location": {
+                        "settlement": "Evanston",
+                        "region": "IL"
+                    }
+                },
+                "email": "hamed.rhimian@northwestern.edu"
+            },
+            {
+                "first": "Masoud",
+                "middle": [],
+                "last": "Barah",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Northwestern University",
+                    "location": {
+                        "settlement": "Evanston",
+                        "region": "IL"
+                    }
+                },
+                "email": "mbarah@northwestern.edu"
+            },
+            {
+                "first": "Fengqiao",
+                "middle": [],
+                "last": "Luo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Northwestern University",
+                    "location": {
+                        "settlement": "Evanston",
+                        "region": "IL"
+                    }
+                },
+                "email": "fengqiaoluo2014@northwestern.edu"
+            },
+            {
+                "first": "Karolina",
+                "middle": [],
+                "last": "Schantz",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Northwestern University",
+                    "location": {
+                        "settlement": "Evanston",
+                        "region": "IL"
+                    }
+                },
+                "email": "karolina.schantz@northwestern.edu"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "This paper presents a stochastic optimization model for allocating and sharing a critical resource in the case of a pandemic. The demand for different entities peaks at different times, and an initial inventory from a central agency is to be allocated. The entities (states) may share the critical resource with a different state under a risk-averse condition. The model is applied to study the allocation of ventilator inventory in the COVID-19 pandemic by the U.S. Department of Homeland Security, Federal Emergency Management Agency (FEMA) to different states in the US. Findings suggest that if less than 60% of the ventilator inventory is available for non-COVID-19 patients, FEMA's stockpile of 20,000 ventilators (as of 03/23/2020) would be nearly adequate to meet the projected needs. However, when more than 75% of the available ventilator inventory must be reserved for non-COVID-19 patients, various degrees of shortfall are expected. In an extreme case, where the demand is assumed to be concentrated in the top-most quartile of the forecast confidence interval, the total shortfall over the planning horizon (till 05/31/20) is about 28,500 ventilator days, with a peak shortfall of 2,700 ventilators on 04/12/20. The results also suggest that in the worse-than-average to severe demand scenario cases, NY requires between 7,600-9,200 additional ventilators for COVID-19 patients during its peak demand. However, between 400 to 2,000 of these ventilators can be given to a different state after the peak demand is subsided.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "COVID-19 was first identified in Wuhan, China in December 2019 [22] . It has since become a global pandemic. As of March 31, 2020 the United States has overtaken China in the number of deaths due to the disease, with more than 3,900 deaths. Italy, which has 12,428 deaths, and Spain, which has 8,464, are the only two countries with higher death tolls. However, United States tops both of these countries in the current number of confirmed COVID-19 cases (189,035) [1] . Confirmed cases in the United States have more than doubled every three days in the time period since the first 100 cases were detected. This is even faster than the increases observed in Spain and Italy at the same point in the course of their epidemics [2] . In Northern Italy, one of the global epicenters of the pandemic, COVID-19 has completely overwhelmed the healthcare system, forcing doctors into impossible decisions about which patients to save. Physicians on the front lines have shared accounts of how they must now weigh factors like age, comorbidities and probability of surviving prolonged intubation when deciding",
+            "cite_spans": [
+                {
+                    "start": 63,
+                    "end": 67,
+                    "text": "[22]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 465,
+                    "end": 468,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 726,
+                    "end": 729,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In response to the above problem, this paper presents a model for allocation and possible reallocation of ventilators that are available in the national stockpile. Importantly, computational results from the model also provide estimates of ventilators' shortfall in each state under different future demand scenarios.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Our Contributions"
+        },
+        {
+            "text": "The modeling framework can be used to develop master plans that will allocate part of the ventilator inventory here-and-now, while allocating and reallocating the available ventilators in the future. The modeling framework incorporates conditions under which part of the historically available ventilator inventory is used for non-COVID-19 patients, who also present themselves for treatment with the COVID-19 patients. Thus, only a fraction of the historical ventilator inventory is available to treat COVID-19 patients. The remaining demand needs are met by allocation and re-allocation of available ventilators from FEMA (a central agency) and availability of additional ventilators through planned productions. The availability of inventory from a state for re-allocation incorporates a certain risk-aversion parameter. We present results, while performing a what-if analysis, under realistically generated demand scenarios using available ventilator demand data and ventilator availability data for different US states. An online planning tool is also developed, and made available for use.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Our Contributions"
+        },
+        {
+            "text": "This paper is organized as follows. A review of the related literature is provided in Section 2. We present our resource allocation planning model, and its re-formulation in Section 3. Section 4 presents our computational results under different mechanical ventilator demand scenarios for the COVID-19 pandemic situation in the US. Some concluding remarks are made at the end.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Organization"
+        },
+        {
+            "text": "A review on the role of operations research in global health that ensures equity is provided in [14] . The paper points out that poor availability of representative and high quality data, and a lack of collaboration between operations research scientists, healthcare practitioners, and stakeholders are found to be common challenges for effective operation research modeling in global health. A medical resource allocation problem in a situation caused by a disaster is considered in [30] , where victims' deteriorating health conditions are modeled as a Markov chain, and the resources are allocated to optimize the total expected health recovery rate and to reduce the total waiting time. Certain illustrative examples in a queuing network setting are also given in [30] . The problem of scarce medical resource allocation after a natural disaster using a discrete event simulation approach is investigated in [15] . Specifically, the authors in [15] investigate four resource-rationing principles: first come-first served, random, most serious first, and least serious first. It is found that without ethical concern, the least serious first principle exhibits the highest efficiency. However, a random selection provides a relatively fair allocation of services and provides a better trade-off with ethical considerations. Resource allocation in an emergency department in a multi-objective and simulation-optimization framewok is studied in [17] . Simulation and queueing models for bed allocation are studied in [28, 19] .",
+            "cite_spans": [
+                {
+                    "start": 96,
+                    "end": 100,
+                    "text": "[14]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 484,
+                    "end": 488,
+                    "text": "[30]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 768,
+                    "end": 772,
+                    "text": "[30]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 912,
+                    "end": 916,
+                    "text": "[15]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 948,
+                    "end": 952,
+                    "text": "[15]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1446,
+                    "end": 1450,
+                    "text": "[17]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1518,
+                    "end": 1522,
+                    "text": "[28,",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1523,
+                    "end": 1526,
+                    "text": "19]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Literature Review"
+        },
+        {
+            "text": "The problem of determining the levels of contact tracing to control spread of infectious disease using a simulation approach to a social network model is considered in [11] . A linear programming model is used in investigating the allocation of HIV prevention funds across states [16] . This paper suggest that in the optimal allocation, the funds is not distributed in an equitable manner. A linear programming model to derive an optimal allocation of healthcare resources in developing countries is studied in [18] . Differential equation-based systems modeling approach is used in [10] to find a geographic and demographic dependent way of distributing pandemic influenza vaccines based on a case study of A/H1N1 pandemic.",
+            "cite_spans": [
+                {
+                    "start": 168,
+                    "end": 172,
+                    "text": "[11]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 280,
+                    "end": 284,
+                    "text": "[16]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 512,
+                    "end": 516,
+                    "text": "[18]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 584,
+                    "end": 588,
+                    "text": "[10]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Literature Review"
+        },
+        {
+            "text": "In a more recent COVID-19-related study, [23] propose a probability model to estimate the effectiveness of quarantine and isolation on controlling the spread of COVID-19. In the context of ventilator allocation, a conceptual framework for allocating ventilators in a public emergency is proposed in [31] . The problem of estimating mechanical ventilator demand in the United States during an influenza pandemic was considered in [24] . In a high severity pandemic scenario, a need of 35,000 to 60,500 additional ventilators to avert 178,000 to 308,000 deaths was estimated. Robust models for emergency staff deployment in the event of a flu pandemic were studied in [12] . Specifically, the authors focused on managing critical staff levels during such an event, with the goal of minimizing the impact of the pandemic. Effectiveness of the approach was demonstrated through experiments using realistic data.",
+            "cite_spans": [
+                {
+                    "start": 41,
+                    "end": 45,
+                    "text": "[23]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 299,
+                    "end": 303,
+                    "text": "[31]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 429,
+                    "end": 433,
+                    "text": "[24]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 666,
+                    "end": 670,
+                    "text": "[12]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Literature Review"
+        },
+        {
+            "text": "A method for optimizing stockpiles of mechanical ventilators, which are critical for treating hospitalized influenza patients in respiratory failure is introduced in [21] . In a case-study, mild, moderate, and severe pandemic conditions are considered for the state of Texas. Optimal allocations prioritize local over central storage, even though the latter can be deployed adaptively, on the basis of real-time needs. Similar to this paper, the model in [21] uses an expected shortfall of ventilators in the objective function, while also considering a second criteria of total cost of ventilator stockpiling. However, the model in [21] does not consider distribution of ventilators over time. In the case of COVID-19, the ventilator demand is expected to peak at different times in different states, as the demand for each state has different trajectories. Only forecasts are available on how the demand might evolve in the future.",
+            "cite_spans": [
+                {
+                    "start": 166,
+                    "end": 170,
+                    "text": "[21]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 455,
+                    "end": 459,
+                    "text": "[21]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 633,
+                    "end": 637,
+                    "text": "[21]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Literature Review"
+        },
+        {
+            "text": "In this paper, we assume that the planning horizon is finite, and for simplicity we assume that reallocation decisions will be made at discrete times (days) t 0 , t 1 , t 2 , . . . . Under certain demand conditions, the ventilators might be in short supply to be able to meet the demand. Our model is formulated as a stochastic program, and for the purpose of this paper, we reformulate and solve the developed model in its extensive form. We refer the reader to [13, 27] for a general description of this topic.",
+            "cite_spans": [
+                {
+                    "start": 463,
+                    "end": 467,
+                    "text": "[13,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 468,
+                    "end": 471,
+                    "text": "27]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Literature Review"
+        },
+        {
+            "text": "In this section, we present a multi-period planning model to allocate ventilators to different regions based on their needs to treat the patients at the critical level. We assume that the demand for ventilators at each planning period is stochastic. We further assume that there is a central agency that coordinates the ventilator (re)location decisions. The ventilators' (re)location is executed at the beginning of a time period. Once these decision are made and executed, the states can use their inventory to treat the patients. Both the federal agency and the states have to decide whether to reserve their inventory in anticipation of future demand or they should share it with other entities.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Model for Ventilator Allocation"
+        },
+        {
+            "text": "Before presenting the formulation, we list the sets, parameters, and decision variables that are used in the model. \u03b3 n : the percentage of the initial inventory of ventilators in region n \u2208 N that cannot be used to meet the demand for patients at the critical level, \u03c4 n : the percentage of the initial inventory of ventilators in region n \u2208 N that the region is willing to share with other regions, among those that can be used to care for patients at the critical level, \u03c1 n : the risk-aversion of region n \u2208 N to send their idle ventilators to the central agency to be shared with other regions,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Model for Ventilator Allocation"
+        },
+        {
+            "text": "\u2022 Stochastic parameter -d n,t : the number of patients in regions n \u2208 N in the critical level that need a ventilator at the beginning of time period t \u2208 T ,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Model for Ventilator Allocation"
+        },
+        {
+            "text": "\u2022 Decision variables x n,t : the number of ventilators relocated to region n \u2208 N from the central agency at the beginning of time period t \u2208 T , z n,t : the number of ventilators relocated to the central agency from region n \u2208 T at the beginning of time period t \u2208 T , 4 . CC-BY-NC 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Model for Ventilator Allocation"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.04.02.20051078 doi: medRxiv preprint y n,t : the number of ventilators at region n \u2208 T that can be used towards treating the patients at the critical level at the end of time period t \u2208 {0} \u222a T , s t : the number of ventilators at the central agency at the end of time period t \u2208 {0} \u222a T .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Model for Ventilator Allocation"
+        },
+        {
+            "text": "The planning model to minimize the expected shortage of ventilators in order to treat the patients at the critical level is formulated as follows:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Model for Ventilator Allocation"
+        },
+        {
+            "text": "Let us now explain the model in details. The objective function (1a) denotes the expected total shortage of ventilators over all time periods t \u2208 T and all regions n \u2208 N . Constraints (1b) and (1c) ensure the conservation of ventilators for the regions and the central agency, respectively. Constraint (1d) enforces that a region is not vending out any ventilator to the central agency if its in-hand inventory is lower than its safety stock, where the safety stock is determined as \u03c1 ndn,t , for t \u2208 [T ] and n \u2208 N . Constraint (1e) ensures that the total number of outgoing ventilators from the central agency to the regions cannot be larger than the available inventory, after incorporating the newly produced ventilators and the incoming ones from the regions. Constraints (1f) and (1g) set the initial inventory at the regions and central agency, respectively. The remaining constraints ensure the nonnegativity of decision variables. Note that the objective function and constraints (1d) are not linear. By introducing an additional variable, the term (d n,t \u2212 y n,t ) + in the objective function, for n \u2208 N and t \u2208 T , can be linearized as finite support ofD, and use \u03c9 to denote an element of this set (i.e., a scenario). Furthermore, suppose that p \u03c9 represents the probability of scenario \u03c9 \u2208 \u2126, where p \u03c9 \u2265 0, and \u03c9\u2208\u2126 p \u03c9 = 1.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Model for Ventilator Allocation"
+        },
+        {
+            "text": "By incorporating the finiteness of the support ofD, a linearized reformulation of model (1) can be written as a mixed-binary program in the following extensive form:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Model for Ventilator Allocation"
+        },
+        {
+            "text": "where d \u03c9 n,t denotes the number of patients at the critical level in regions n \u2208 N that need ventilator at the beginning of time period t \u2208 T under scenario \u03c9 \u2208 \u2126. Note that all variables in model (2) have superscript \u03c9 to indicate their dependence to scenario \u03c9 \u2208 \u2126.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Model for Ventilator Allocation"
+        },
+        {
+            "text": "In our computational experiments in Section 4, we used a commercial mixed-integer programming solver to obtain the results. Furthermore, we used I + \u03c4 n y n,0 + t \u2264 tQ t as a big-M for n \u2208 N and t \u2208 T . It is worth noting that (1) (and (2) as well) considers multi-period decisions. In the model a decision maker will make decisions for the entire planning horizon using the information that is available at the beginning of planning.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Model for Ventilator Allocation"
+        },
+        {
+            "text": "The ventilator allocation model (2), described in Section 3, was implemented in Python 3.7. All computations were performed using GUROBI 9.1, on a Linux Ubuntu environment, using 14 cores of a PC with 3.4 GHz processor and 128 GB of RAM. An hour time limit was given for all the runs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ventilator Allocation Case Study: The US"
+        },
+        {
+            "text": "Since projected ventilator needs is a key input for the model, it is important to use accurate estimates of the demand forecasts. The forecasts of ventilator needs generated by [20] were used in our computational study. These forecasts were made available on 03/26/2020, and used the most recent epidemiological data and advanced modeling techniques. The available information closely tracks the real-time data [4] . This COVID-19 needs forecast data was recently used for in a recent presidential news brief [8] . Although it is difficult to validate the ventilator need forecasts against actual hospital and state level operational data, as this information is not readily available, we find that this model's 6 . CC-BY-NC 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 177,
+                    "end": 181,
+                    "text": "[20]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 411,
+                    "end": 414,
+                    "text": "[4]",
+                    "ref_id": null
+                },
+                {
+                    "start": 509,
+                    "end": 512,
+                    "text": "[8]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Ventilator Demand Data"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ventilator Demand Data"
+        },
+        {
+            "text": "We considered a seventy-day planning period, starting from March 23, 2020 and ending on May 31, 2020. We generated the random demands in ways that correspond to projected future demands under different mitigation effects. More precisely, we considered four different cases to generate random samples for the number of ventilators that is needed to care for COVID-19 patients. These cases are listed below: We further discuss the demand generation procedure. A demand scenario contains the demand data for all days and states. In all Cases I-IV, we assumed that the forecast CI provided in [20] , for each day and for each state, represents the support of the demand distribution.",
+            "cite_spans": [
+                {
+                    "start": 589,
+                    "end": 593,
+                    "text": "[20]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Demand Scenario Generation"
+        },
+        {
+            "text": "Case I and II are generated to develop average demand scenario representations that use the information provided in the CI given in [20] in two different ways. In Case I, it is assumed that the mean is the median of the demand distribution (i.e., the right-and left-tail of the demand distribution have 0.5 probability). We randomly generated a number to indicate which tail to sample from, where both tails have the same 0.5 probability to be chosen. Once the tail is determined, we divided the tail into 50 equally-distanced partitions, and chose a random partition to uniformly sample from. We repeated this process for all days and states. We sampled from the same tail and partition for all days and states, although the range from which we sample depends on the CI. In this case, all scenarios are equally likely.",
+            "cite_spans": [
+                {
+                    "start": 132,
+                    "end": 136,
+                    "text": "[20]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Demand Scenario Generation"
+        },
+        {
+            "text": "In Case II, we randomly generated a number to indicate which tail to sample from, where the top 25% of the CI (i.e., the right tail) has a 0.25 probability and the bottom 75% (i.e., the left tail) has a 0.75 probability to be chosen. If the right tail is chosen, we set the weight of the scenario to 0.25, and to 0.75 otherwise. The rest of the procedure is similar to Case I. In order to determine the probability of scenarios, we normalized the weights. Demand scenarios in Cases III-V are generated in the same fashion as in Case II, where the only difference is on the probability of which tail to choose from, which is determined by the sampling scheme described in the definition of the case.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Demand Scenario Generation"
+        },
+        {
+            "text": "For each of the four cases above, we generated 24 scenarios. Note that in each case, different quantities for the random demandd \u03c9 n,t , t \u2208 T , n \u2208 N , and \u03c9 \u2208 \u2126, might be generated. An illustration of the trajectory of demand scenarios over time is given in Figure ? ? for the US and the States of New York and California.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 260,
+                    "end": 268,
+                    "text": "Figure ?",
+                    "ref_id": null
+                }
+            ],
+            "section": "Demand Scenario Generation"
+        },
+        {
+            "text": "Another key input to the planning model is the initial ventilator inventory. As of March 23, 2020, before the rapid rise of COVID-19 cases in NY, FEMA had about 20,000 ventilators in reserve, 7 . CC-BY-NC 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ventilator Inventory, Stockpile and Production"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.04.02.20051078 doi: medRxiv preprint [20] 8 . CC-BY-NC 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 144,
+                    "end": 148,
+                    "text": "[20]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Ventilator Inventory, Stockpile and Production"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.04.02.20051078 doi: medRxiv preprint i.e., I = 20, 000. We used this for our model which suggests ventilator allocation decisions from 03/23/2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ventilator Inventory, Stockpile and Production"
+        },
+        {
+            "text": "Estimates for the initial inventory of ventilators at different states were obtained from [6]. These estimates are based on a hospital survey [26, 5] . The estimates for new ventilator productions were obtained based on information provided at the US presidential briefings on 03/27/20 [7] . These estimates suggest that the normal yearly ventilator production capacity is about 30,000 ventilator/year. However, under the US Defense Production Act, with the participation of additional companies, production of approximately 10,000 ventilators/month could be possible [7] . Using this information, for the baseline case we assumed that the current daily ventilator production rate is 100 ventilators/day; and it will be increased up to 300 ventilators/day starting April 15th.",
+            "cite_spans": [
+                {
+                    "start": 142,
+                    "end": 146,
+                    "text": "[26,",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 147,
+                    "end": 149,
+                    "text": "5]",
+                    "ref_id": null
+                },
+                {
+                    "start": 286,
+                    "end": 289,
+                    "text": "[7]",
+                    "ref_id": null
+                },
+                {
+                    "start": 568,
+                    "end": 571,
+                    "text": "[7]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Ventilator Inventory, Stockpile and Production"
+        },
+        {
+            "text": "Recall that in the model, parameter \u03b3 is used to indicate the fraction of ventilators used to care for non-COVID-19 patients. Additionally, a parameter \u03c4 is used in the model to estimate a state's willingness to share the fraction of their initial COVID-19-use ventilators. Similarly, the parameter \u03c1 is used to control the risk-aversion of a state to send their idle ventilators to FEMA for use in a different state. We suppose that for all states n, n \u2208 N , we have \u03b3 n = \u03b3, \u03c1 n = \u03c1, and \u03c4 n = \u03c4 . In order to systematically study the ventilator allocations and shortfalls, we fixed the value of \u03c1 to 1.5, and we used the following parameters: \u03b3 \u2208 {50%, 60%, 75%} and \u03c4 \u2208 {0%, 10%, 25%}.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Inventory Sharing Parameters"
+        },
+        {
+            "text": "For each setting (\u03b3, \u03c4 ), we solved model (2) under Cases I-IV. A summary of results is reported in Tables 1 and 2. We briefly describe the columns in these tables. Column \"Total\" in Table 1 denotes the total shortage, and is calculated as",
+            "cite_spans": [
+                {
+                    "start": 42,
+                    "end": 45,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 183,
+                    "end": 190,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Numerical Results"
+        },
+        {
+            "text": "Quantity \"Worst day\" in column \"Worst day (t)\" denotes the shortage in the worst day, and is calculated as",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Numerical Results"
+        },
+        {
+            "text": "where t denotes a day that the worst shortage happens, i.e., t \u2208 arg max t\u2208T \u03c9\u2208\u2126 p \u03c9 n\u2208N e \u03c9 n,t . Moreover, quantity \"Worst day-state\" in column \"Worst day-state (t)\" denotes the shortage in the worst day and state, and is calculated as",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Numerical Results"
+        },
+        {
+            "text": "where (t, n) \u2208 arg max t\u2208T arg max n\u2208N \u03c9\u2208\u2126 p \u03c9 e \u03c9 n,t . We also analyzed the ventilators reallocation to/from different states for the setting (\u03b3, \u03c4 ) = (0.75, 0), which is the most dramatic case we considered from the inventory and stockpile perspectives. We report a summary of results in Table 2 under the two worst situations, Cases III (Mildy Worse than Average) and IV (Severe). Column \"Total inflow\" in this table denotes the total incoming ventilators to a state n \u2208 N from FEMA, and is calculated as",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 292,
+                    "end": 299,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Numerical Results"
+        },
+        {
+            "text": "p \u03c9 x \u03c9 n,t .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Numerical Results"
+        },
+        {
+            "text": ". CC-BY-NC 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "9"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "9"
+        },
+        {
+            "text": "Similarly, column \"Total outflow\" denotes the total outgoing ventilators from a state n \u2208 N to FEMA, and is calculated as Total outflow := t\u2208T \u03c9\u2208\u2126 p \u03c9 z \u03c9 n,t .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "9"
+        },
+        {
+            "text": "Also, column \"Net flow\" represents the difference between \"Total inflow\" and \"Total outflow\".",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "9"
+        },
+        {
+            "text": "The results in Table 1 suggest that when only up to 50% of a state's ventilator inventory is used for non-COVID-19 patients, FEMA's current stockpile of 20,000 ventilators is sufficient for meeting the demand imposed by COVID-19 patients. This ventilator use threshold increases to 60% of non-COVID-19 patients, if states are willing to share up to 50% of their excess inventory with other states. 11 . CC-BY-NC 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 15,
+                    "end": 22,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "However, if no such sharing is considered, then a moderate number of ventilators (approximately 300) will be required beyond FEMA's current stockpile to meet demand in Cases I-IV.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The ventilator availability situation gets worse in the case where 75% (or greater %) of the available ventilators must be used for non-COVID-19 patients. In this case, in Case III (Mildy Worse than Average) and Case IV (Severe) the inventory shortfall on the worst day (04/12/2020) is between 1,500-2,700. This shortfall decreases moderately to 1,250-2,250 if states are willing to share part of their initial ventilator inventory.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "We have presented a model for procuring and sharing life-saving resources whose demand is stochastic. The demand arising from different entities (states) peaks at different times, and it is important to meet as much of this demand as possible to save lives. Each participating entity is risk averse to sharing their excess inventory at any given time, and this risk-aversion is captured by using a safety threshold parameter. Specifically, the developed model is applicable for the current COVID-19 pandemic, where many US states are in dire need of mechanical ventilators to provide life-support to severely-and critically-ill patients. Computations were performed using realistic ventilator need forecasts and availability under a wide combination of parameter settings.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Concluding Remarks"
+        },
+        {
+            "text": "Our findings suggest that the fraction of currently available ventilators that are to be used for non-COVID-19 patients strongly impacts a state/national ability to meet demand arising from COVID-19 patients. When more than 40% of the existing inventory is available for COVID-19 patients, national stockpile is sufficient to meet the demand. However, if less than 25% of the existing inventory is available for COVID-19 patients, the current national stockpile and the anticipated production may not be sufficient under extreme demand scenarios. As expected, the magnitude of this shortfall increases when one considers more and more extreme demand scenarios.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Concluding Remarks"
+        },
+        {
+            "text": "Overall, the model developed in this paper can be used as a planning tool/framework by state and federal agencies in planning for the ventilator acquisition to meet national demand. The results reported in this paper can provide a guide to states in their own planning for the ventilator needs. We, however, emphasize that these results are based on certain modeling assumptions. This include the process of demand forecast scenario generation, estimates of initial ventilator inventory, and future production quantities. Each one of these, as well as other model parameters, can be changed in the model input to obtain more refined results. Nevertheless, an important finding is that a state's willingness to share its idle inventory can help address overall shortfall.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Concluding Remarks"
+        },
+        {
+            "text": "While this paper has focused on ventilator needs in the US, such a model can also be adapted for use in international supply-chain coordination across countries of equipment such as ventilators as COVID-19 is expected to have different peak dates and demand cycles in other counties, and one or two additional disease spread cycles are likely till an effective vaccine becomes available.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Concluding Remarks"
+        },
+        {
+            "text": "In concluding, we point out that the model developed in this paper has a one-time planning decision, i.e., there are no \"wait-and-see\" decisions in the model. One can also formulate the ventilator allocation problem as a time-dynamic multistage stochastic program, where the decision maker can make recourse decisions as time evolves based on the information available so far on the stochastic demands and past decisions. We are currently working on such an extension.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Concluding Remarks"
+        },
+        {
+            "text": ". CC-BY-NC 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "12"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.04.02.20051078 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "12"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "COVID-19 Resource Center",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "COVID-19 Statistics and Research",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Cuomo gives New York Coronavirus Briefing",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "March 31 White House Briefing from Coronavirus Task Force",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "State health systems strained as coronavirus outbreak spreads",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Geographic prioritization of distributing pandemic influenza vaccines",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Araz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Galvani",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Meyers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Health Care Management Science",
+            "volume": "15",
+            "issn": "",
+            "pages": "175--187",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Contact tracing to control infectious disease: when enough is enough",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Armbruster",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Brandeau",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Health Care Management Science",
+            "volume": "10",
+            "issn": "",
+            "pages": "341--355",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Models for managing the impact of an epidemic",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Bienstock",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Zenteno",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:1507.08648"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Introduction to Stochastic Programming. Springer series in operations research and financial engineering",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Birge",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Louveaux",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Operations research in global health: a scoping review with a focus on the themes of health equity and impact",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Bradley",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Jung",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tandon-Verma",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Khoury",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "C Y"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Cheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Health Research Policy and Systems",
+            "volume": "15",
+            "issn": "1",
+            "pages": "1--24",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Principles of scarce medical resource allocation in natural disaster relief: a simulation approach",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Medical Decision Making",
+            "volume": "32",
+            "issn": "3",
+            "pages": "470--476",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "A linear programming model for allocating HIV prevention funds with state agencies: a pilot study",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Earnshaw",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hicks",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Richter",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Honeycut",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Health Care Management Science",
+            "volume": "10",
+            "issn": "",
+            "pages": "239--252",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Stochastic resource allocation in emergency departments with a multi-objective simulation optimization algorithm",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Health Care Management Science",
+            "volume": "20",
+            "issn": "",
+            "pages": "55--75",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Where efficiency saves lives: A linear program for the optimal allocation of health care resources in developing countries",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Flessa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Health Care Management Science",
+            "volume": "3",
+            "issn": "",
+            "pages": "249--267",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Using a queueing model to help plan bed allocation in a department of geriatric medicine",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Gorunescu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Mcclean",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Millard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Health Care Management Science",
+            "volume": "5",
+            "issn": "",
+            "pages": "307--312",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Forecasting covid-19 impact on hospital bed-days, icu-days, ventilator days and deaths by us state in the next 4 months",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Stockpiling ventilators for influenza pandemics",
+            "authors": [
+                {
+                    "first": "H.-C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Araz",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Morton",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Damien",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Clements",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Meyers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Emerging infectious diseases",
+            "volume": "",
+            "issn": "6",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "The continuing 2019-ncov epidemic threat of novel coronaviruses to global health-the latest 2019 novel coronavirus outbreak in wuhan,china",
+            "authors": [
+                {
+                    "first": "Azhar",
+                    "middle": [],
+                    "last": "Hui",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "International Journal of Infectious Disease",
+            "volume": "91",
+            "issn": "1",
+            "pages": "264--266",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Containing 2019-ncov(wuhan) coronavirus",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kaplan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Health Care Management Science",
+            "volume": "23",
+            "issn": "",
+            "pages": "1--4",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Estimates of the demand for mechanical ventilation in the united states during an influenza pandemic",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Meltzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Patel",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ajao",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Nystrom",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Koonin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Clinical Infectious Diseases",
+            "volume": "60",
+            "issn": "1",
+            "pages": "88--94",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Facing covid-19 in italy ethics, logistics, and therapeutics on the epidemic's front line",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Rosenbaum",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "New England Journal of Medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Mechanical ventilators in us acute care hospitals",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Rubinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Vaughn",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Nelson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Giordano",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kallstrom",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Buckley",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Burney",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Hupert",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Mutter",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Handrigan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Disaster Medicine and Public Health Preparedness",
+            "volume": "4",
+            "issn": "3",
+            "pages": "199--206",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Lectures on Stochastic Programming: Modeling and Theory",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Shapiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Dentcheva",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ruszczynski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "A simulation study of the winter bed crisis",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Vasilakis",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Ei-Darzi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Health Care Management Science",
+            "volume": "4",
+            "issn": "",
+            "pages": "31--36",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Characteristics of and important lessons from the coronavirus disease 2019 (covid-19) outbreak in china: summary of a report of 72 314 cases from the chinese center for disease control and prevention",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcgoogan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "A medical resource allocation model for serving emergency victims with deteriorating health conditions",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Annals of Operations Research",
+            "volume": "236",
+            "issn": "1",
+            "pages": "177--196",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "A conceptual framework for allocation of federally stockpiled ventilators during large-scale public health emergencies",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zaza",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Koonin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ajao",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Nystrom",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Branson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Patel",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bray",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Iademarco",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Health Security",
+            "volume": "14",
+            "issn": "1",
+            "pages": "88--94",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Sets and indices -N : states (regions), indexed by n \u2208 N , -T : Planning periods, indexed by t \u2208 T , \u2022 Deterministic parameters -T : the total number of time periods, i.e, T := [T ], where [T ] := {1, . . . , T }, -Y n : the initial inventory of ventilators in region n \u2208 N at time period t = 0, -I: the initial inventory of ventilators in the central at the beginning of time period t = 1, -Q t : the number of ventilators produced during the time period t \u2212 1 that can be used at the beginning of time period t, for t \u2265 1,",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Case I. Average-I: Each of the demand scenarios have equal probability and the distribution is uniform over the range of the CI provided in [20], Case II. Average-II: The demand scenarios in the top 25% of CI have 0.25 probability (equally distributed); and scenarios in the bottom 75% have 0.75 probability, Case III. Worse than Average: The demand scenarios in the top 25% of CI have 0.50 probability; and the scenarios in the bottom 75% have 0.50 probability. Case IV. Severe: The demand scenarios in the top 25% of CI have 0.75 probability; and the demand scenarios in the bottom 75% have 0.25 probability,",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Summary of generated scenarios (Cases I-IV) for the US and the States of New York and California, adapted from the data provided in",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "forecasts for deaths are quite accurate. For example, the model forecasted 217.9 deaths (CI: [176.95, 271.0]) on 03/29/20 for NY state. The number of reported deaths in the state on 03/29/30 were 237. Similarly, the model forecasted 262.2 deaths (CI: [206.9, 340]) on 03/30/20 against the actual deaths of 253 on that day.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Ventilators' shortage summary under Cases I-IV.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Inflow and outflow of ventilators under Case III (Mildy Worse than Average) and Case IV (Severe), with (\u03b3, \u03c4 ) = (0.75, 0).",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

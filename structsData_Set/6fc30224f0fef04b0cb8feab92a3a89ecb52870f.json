@@ -1,0 +1,278 @@
+{
+    "paper_id": "6fc30224f0fef04b0cb8feab92a3a89ecb52870f",
+    "metadata": {
+        "title": "",
+        "authors": []
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "\u2022 Do not allow patients to stay in the holding area. Treatment should be carried out in a pre-allocated negative pressure operating room. Warning signs for COVID-19 infection should be posted in front of the operating room to minimize staff exposure. \u2022 Patients should not stay in the recovery room or postoperative care unit. After complete recovery in the operating room, the patient should be transferred into a negative pressure room in a ward or intensive care unit (ICU). \u2022 Endotracheal intubation, tube exchange, and extubation are high-risk procedures that can expose healthcare workers to respiratory droplets of the virus. These procedures must be carried out in a location where negative pressure is applied such as negative pressure room, and special care should be taken. \u2022 Depending on the clinical situation, performing an endotracheal intubation early in a negative pressure room in a ward or ICU, rather than in an operating room, should be considered. \u2022 If it is determined that the degree of negative pressure in the environment is not sufficient, the additional application of a portable high-efficiency particulate air filter should be considered. \u2022 A highly efficient hydrophobic filter should be placed between the endotracheal tube and the reservoir bag, to prevent atmospheric contamination by respiratory droplets during patient transfers.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patient transport and operating room managing plan"
+        },
+        {
+            "text": "\u2022 Assign the most experienced anesthesia professionals to practitioners performing endotracheal intubations. Inexperienced trainees should not perform endotracheal intubation for training purposes. \u2022 Assign experienced assistants who can perform techniques such as cricoid pressure when performing rapid sequence induction (RSI). \u2022 Consider allowing anesthesia teams to be replaced at least every 2 hours, to prevent fatigue.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Preparation of manpower"
+        },
+        {
+            "text": "\u2022 Allow sufficient time for all staff involved to don PPE. It may take more than 5 minutes to properly wear PPE. \u2022 Early planning and implementation of endotracheal intubation should be considered. In the event of an unexpected emergency endotracheal intubation, PPE cannot be adequately donned; therefore, early implementation should be performed when possible. \u2022 Protective coverall/body suits, N95 masks, disposable goggles/ face shields, disposable shoe covers, and disposable gloves must be worn. Use the double glove technique on both hands to reduce contact. \u2022 A powered air-purifying respirator should be worn by healthcare workers who are involved in endotracheal intubation or extubation processes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Preparation before anesthesia and use of personal protective equipment"
+        },
+        {
+            "text": "\u2022 Awake fiberoptic intubation should not be performed unless it is a necessary indication. Spraying local anesthetics can aerosolize the virus, and should be avoided. \u2022 Consider using video laryngoscopes to increase the likelihood of successful endotracheal intubation. \u2022 Consider using disposable devices for intubation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Selection of intubation technique"
+        },
+        {
+            "text": "\u2022 A high-efficiency hydrophobic filter must be applied between the face mask and the breathing circuit, or between the face mask and the reservoir bag. \u2022 Preoxygenation for 5 minutes with 100% oxygen should be performed. \u2022 RSI should be performed to limit procedures such as manual ventilation, which can spread aerosolized virus into the room. \u2022 The method of RSI can be modified to suit the clinical situation. If manual ventilation is required, a small tidal volume may be considered, or a supraglottic airway may be inserted to provide ventilation instead of manual ventilation using a face mask. \u2022 Do not use high-flow oxygen, such as high-flow nasal cannula devices, as these can aerosolize the virus.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Endotracheal intubation"
+        },
+        {
+            "text": "\u2022 All used airway equipment should be placed in double ziplocked plastic bags and removed for disposal or disinfection. \u2022 Used laryngoscopes should be sealed in double zip-locked plastic bags as soon as the endotracheal intubation is complete, to prevent further contamination of the surroundings. \u2022 End-tidal carbon dioxide sample lines and traps should be replaced. \u2022 Take care to avoid contaminating various instruments in the operating room, such as stethoscopes, pens, and telephones.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Equipment management after endotracheal intubation"
+        },
+        {
+            "text": "\u2022 Consider preparing additional isolation rooms as contaminated areas next to the operating room to remove and dispose of PPE in accordance with protocol. If it is difficult to obtain an additional isolation room, use the space inside or immediately outside the operating room to remove PPE according to the protocol. \u2022 Wash your hands after removing PPE. \u2022 Avoid body contact, including touching your hair or face, until hands are washed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Undressing and hand washing after endotracheal intubation"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Jae Hee Woo (Ewha Womans University College of Medicine, Seoul)",
+            "authors": [
+                {
+                    "first": "Jong-Hwan",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Anesthesia patient safety foundation",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Anaesthesia and SARS",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kamming",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gardam",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Chung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Br J Anaesth",
+            "volume": "90",
+            "issn": "",
+            "pages": "715--723",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/bja/aeg173"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Infection control and anesthesia: lessons learned from the Toronto SARS outbreak",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Bevan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gardam",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Can J Anaesth",
+            "volume": "50",
+            "issn": "",
+            "pages": "989--97",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/BF03018361"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Staff safety during emergency airway management for COVID-19 in Hong Kong",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Cheung",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Ho",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Eyk",
+                    "middle": [],
+                    "last": "Cham",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Lam",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Respir Med",
+            "volume": "",
+            "issn": "",
+            "pages": "30084--30093",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2213-2600(20)30084-9"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Intubation of SARS patients: infection and perspectives of healthcare workers",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Caputo",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Byrick",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Chapman",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Orser",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Orser",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Can J Anaesth",
+            "volume": "53",
+            "issn": "",
+            "pages": "122--131",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/BF03021815"
+                ]
+            }
+        }
+    },
+    "ref_entries": {},
+    "back_matter": [
+        {
+            "text": "No potential conflict of interest relevant to this article was reported.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflicts of Interest"
+        }
+    ]
+}

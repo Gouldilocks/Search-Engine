@@ -1,0 +1,2699 @@
+{
+    "paper_id": "8a4601e1e07350f37133cd29ec748305f474de3d",
+    "metadata": {
+        "title": "Towards universal health coverage: lessons from 10 years of healthcare reform in China",
+        "authors": [
+            {
+                "first": "Wenjuan",
+                "middle": [],
+                "last": "Tao",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Zhi",
+                "middle": [],
+                "last": "Zeng",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Haixia",
+                "middle": [],
+                "last": "Dang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Bingqing",
+                "middle": [],
+                "last": "Lu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Linh",
+                "middle": [],
+                "last": "Chuong",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Dahai",
+                "middle": [],
+                "last": "Yue",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jin",
+                "middle": [],
+                "last": "Wen",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Rui",
+                "middle": [],
+                "last": "Zhao",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Weimin",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Gerald",
+                "middle": [
+                    "F"
+                ],
+                "last": "Kominski",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Universal health coverage (UHC) is driving the global health agenda and is now an ambition for many nations at all stages of development. 1 2 UHC is a means for achieving improved equity, health, financial well-being and economic development, ensuring that everyone has access to quality, affordable health services when needed. 3 Most countries have made UHC a key global health objective through the United Nations' resolution, and move towards UHC following the Sustainable Development Goals (SDG) set in 2015. At the beginning of the 21st century, the push for UHC seems stronger than ever. 4 The new WHO director general, Dr Tedros, emphasised that UHC is the 'top strategic priority' in the road map for WHO's renewal. 5 Accordingly, WHO's General Program of Work for 2019-2023 has set an ambitious goal of benefiting more than 1 billion people from UHC by 2023. 6 WHO states that there is 'no one size to fit all'-there are different ways to attain UHC. An increasing number of low and middle-income countries (LMIC) are actively pursuing policies to achieve UHC and share their implementation experience from different political settings, such as Turkey, 7 Indonesia, 8 Thailand 9 and Bangladesh. 10 According to The World Bank report, the march to UHC in China is unparalleled. 11 Also, Yip et al commented that 'China's reform goals and systemic strategies are exemplary for other nations that pursue UHC.' 12 In early 2009, the Chinese government launched a new round of health system reform with the goal of providing affordable and equitable basic healthcare for all by 2020, which is in line with the basic concept of UHC defined by WHO. 13 This year marks the 10th anniversary of China's most recent healthcare reform. Evidence from China is especially timely for countries pursuing UHC. However, much of the early research focused solely on the first 3-year reform after 2009 in China, summary box \u25ba Continued political support is the most important enabling condition for achieving universal health coverage (UHC). China has shown clear political willingness to make UHC achievement a more countryled process. \u25ba Increasing health financing is necessary, and the investment from both government and private sector is considered. \u25ba A strong primary healthcare system should be regarded as a core component in realising UHC. The Chinese government has made primary healthcare a priority in its 'Healthy China 2030' strategy. \u25ba Some lessons providing reform experiences for other countries include the pilot reform and systematic reform strategy. without addressing the issue of the reform evolution and progress during the past decade. There is inadequate understanding of how China moves towards UHC step by step. We undertook a literature review, and analysed policies and secondary data from governmental sources. We aim to share the complete experience and strategy about China's healthcare reform, and provide the critical lessons for other nations, especially for LMICs.",
+            "cite_spans": [
+                {
+                    "start": 138,
+                    "end": 141,
+                    "text": "1 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 329,
+                    "end": 330,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 595,
+                    "end": 596,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 725,
+                    "end": 726,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 869,
+                    "end": 870,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1163,
+                    "end": 1164,
+                    "text": "7",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1176,
+                    "end": 1177,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1205,
+                    "end": 1207,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1287,
+                    "end": 1289,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1417,
+                    "end": 1419,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1652,
+                    "end": 1654,
+                    "text": "13",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "InTroduCTIon"
+        },
+        {
+            "text": "The People's Republic of China (PRC) covers approximately 9.6 million km 2 , and is now the most populous country in the world with 1.42 billion people. 14 The urban population accounts for 58.0% of the total population. 15 PRC was founded on 1 October 1949. At the time, China had one of the world's poorest healthcare delivery systems due to an economy weakened by war. 16 Today, China is an upper middle-income country whose gross domestic product has grown substantially at an average annual rate of 9.5% over the past 40 years, and has lifted more than 850 million people out of poverty. 17 With the rapid economic growth, China has made great efforts to achieve UHC. For example, China has devoted increased public funding to health-the largest increase among Brazil, Russia, India, China and South Africa countries. 18 China has almost achieved all of the Millennium Development Goals (MDG) by 2015, making a major contribution to the achievement of the MDGs globally, and is now moving towards SDGs to achieve UHC by 2030. 19 Table 1 illustrates a summary of key socioeconomic and health indicators in the country from 1990 to 2017, as well as the comparable data in the other Emerging 7 (E7) countries (India, Brazil, Mexico, Russia, Indonesia and Turkey) in 2017. China has experienced remarkable improvements in economic conditions, human development and health outcomes, such as life expectancy and mortality. Compared with other E7 countries, China is at a relatively good level in both its economy and population health.",
+            "cite_spans": [
+                {
+                    "start": 221,
+                    "end": 223,
+                    "text": "15",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 372,
+                    "end": 374,
+                    "text": "16",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 593,
+                    "end": 595,
+                    "text": "17",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 823,
+                    "end": 825,
+                    "text": "18",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1031,
+                    "end": 1033,
+                    "text": "19",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1034,
+                    "end": 1041,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "AnAlysIs of THe ConTexT"
+        },
+        {
+            "text": "Since the founding of the PRC in 1949, China has experienced dramatic changes in its healthcare system. Like many other countries, China's healthcare reform has also undergone a difficult exploratory process. Therefore, it is necessary to briefly review the progress of reform of the healthcare system over the past 70 years. We divide the progress of China's healthcare reform into three stages.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A revIew of THe reform progress"
+        },
+        {
+            "text": "stage 1: 30 years after the founding of people's republic of China (1949 China ( -1979 At the founding of PRC, with a weak foundation, the state developed a centrally planned socialist system, emphasising public ownership and welfare, mass-based collectivism and egalitarianism. 20 In the health sector, the government managed a centrally directed health delivery system, and defined four principles to guide health and medical work: (1) serve the workers, peasants and soldiers; (2) put prevention first, in particular through the Patriotic Health Campaigns; (3) integrate traditional Chinese medicine with Western medicine; and (4) combine health work with mass movements. 21 22 These principles of healthcare delivery reform contributed to rapid improvement in the health of the population, 23 creating some reform models (eg, 'Barefoot Doctors', 24 'Cooperative Medical System' 25 and 'threetier health service delivery system') that were highly valued by the WHO. 26 During this period, despite a shortage of healthcare resources, China's healthcare BMJ Global Health system achieved almost universal access to healthcare and preventive services, producing impressive health gainsfor example, dramatically increased life expectancy and decreased infant mortality. 27 stage 2: 30 years after the 'reform and opening up' policy Beginning in 1978, China began its 'reform and opening-up' policy, ushering in a socialist market economy that encouraged a free market and focused on economic growth. This led to a fundamental transformation of the Chinese healthcare system and had a profound impact. 28 29 With privatisation and marketisation, the changes in the healthcare system included: a shift from public financing to private sources; a reorganisation of public hospitals and clinics into commercial enterprises; decentralising healthcare governance to local governments; and a pricing policy that enabled facilities to gain profits. 30 31 These changes helped expand healthcare resources and improve medical technology and equipment, but also posed many problems (eg, reduced government expenditure on healthcare, less emphasis on rural areas and public health, and overutilisation of unnecessary or expensive care), 32-34 resulting in a series of adverse effects, such as increased disparities between rural and urban residents, a decline in public health, rising healthcare costs and sharp decreases in insurance coverage. 23 31 35 In 2003, the severe acute respiratory syndrome epidemic revealed weaknesses in China's health system and focused a domestic and international spotlight on those weaknesses. 36 This wake-up call opened a window of opportunity for a new round of healthcare reform. 37 It is an unprecedented health system transformation towards UHC, aiming to provide universal coverage of basic healthcare by the end of 2020. 38 39 Following extensive interagency consultation and public debates, this launch emphasised a return to government-led, people-centred healthcare and healthcare as a public good. The latest round of healthcare reform adopted the 'best fit' with the existing institutional and policy frameworks towards achieving UHC by an incremental approach (step by step), which was recommended by the WHO team. 40 The 'Opinions on Deepening the Health Care System Reform' that were promulgated by the Central Committee of the Communist Party of China (CPC) and the State Council marked the start of China's new healthcare reform. 41 The comprehensive reform plan can be summarised as 'one goal, four beams, and eight columns' (figure 1). 42 43 Under the goal of achieving UHC, China concentrated on establishing the four systems (ie, public health service system, medical service system, health insurance system, and drug supply and security system), based on the eight functional mechanisms that could provide essential supports. Accordingly, three sequential phases of healthcare reform plans were to be carried out to achieve the overall goal by 2020: the 2009-2011 phase, the 2012-2015 phase and the 2016-2020 phase (figure 1). 31 44 BMJ Global Health The 2009-2011 phase The first 3-year reform plan laid a foundation for the 2020 goal. There were five reform priorities: (1) accelerating the establishment of a basic health insurance system; (2) establishing a preliminary national essential drug system; (3) improving the primary care delivery system to provide basic healthcare; (4) making basic public health services (BPHS) available and equal for all; and (5) piloting public hospital reforms. 45 46 Reforms during this first phase focused on strengthening primary care. This phase of reform obtained positive evaluations and was confirmed to be heading in the right direction by WHO and others. 12 47 48 The 2012-2015 phase The second phase of healthcare reform, China's '12th Five-Year Plan', continued in the same general direction. 49 The reforms were promoted and deepened during this period, and clarified three tasks: (1) basic health insurance for all; (2) consolidation and improvement of the essential drug system; and (3) reform of public hospitals.",
+            "cite_spans": [
+                {
+                    "start": 61,
+                    "end": 72,
+                    "text": "China (1949",
+                    "ref_id": null
+                },
+                {
+                    "start": 73,
+                    "end": 86,
+                    "text": "China ( -1979",
+                    "ref_id": null
+                },
+                {
+                    "start": 279,
+                    "end": 281,
+                    "text": "20",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 675,
+                    "end": 680,
+                    "text": "21 22",
+                    "ref_id": null
+                },
+                {
+                    "start": 794,
+                    "end": 796,
+                    "text": "23",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 850,
+                    "end": 852,
+                    "text": "24",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 882,
+                    "end": 884,
+                    "text": "25",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 969,
+                    "end": 971,
+                    "text": "26",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1269,
+                    "end": 1271,
+                    "text": "27",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1600,
+                    "end": 1605,
+                    "text": "28 29",
+                    "ref_id": null
+                },
+                {
+                    "start": 1940,
+                    "end": 1945,
+                    "text": "30 31",
+                    "ref_id": null
+                },
+                {
+                    "start": 2432,
+                    "end": 2434,
+                    "text": "23",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 2435,
+                    "end": 2440,
+                    "text": "31 35",
+                    "ref_id": null
+                },
+                {
+                    "start": 2614,
+                    "end": 2616,
+                    "text": "36",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 2704,
+                    "end": 2706,
+                    "text": "37",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 2849,
+                    "end": 2854,
+                    "text": "38 39",
+                    "ref_id": null
+                },
+                {
+                    "start": 3249,
+                    "end": 3251,
+                    "text": "40",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 3468,
+                    "end": 3470,
+                    "text": "41",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 3576,
+                    "end": 3581,
+                    "text": "42 43",
+                    "ref_id": null
+                },
+                {
+                    "start": 4070,
+                    "end": 4075,
+                    "text": "31 44",
+                    "ref_id": null
+                },
+                {
+                    "start": 4543,
+                    "end": 4548,
+                    "text": "45 46",
+                    "ref_id": null
+                },
+                {
+                    "start": 4745,
+                    "end": 4747,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 4748,
+                    "end": 4753,
+                    "text": "47 48",
+                    "ref_id": null
+                },
+                {
+                    "start": 4885,
+                    "end": 4887,
+                    "text": "49",
+                    "ref_id": "BIBREF49"
+                }
+            ],
+            "ref_spans": [],
+            "section": "A revIew of THe reform progress"
+        },
+        {
+            "text": "The focus of reform gradually shifted from primary care to the public hospitals, especially county public hospitals. The county public hospitals lead the reform of public hospitals through subsidising medical services with profit from drug sales, and comprehensively promoting the reform of the management system, compensation mechanism, personnel distribution, procurement mechanism and price mechanism.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A revIew of THe reform progress"
+        },
+        {
+            "text": "The 2016-2020 phase Following the reform tasks specified at the Third Plenary Session of the 18th Central Committee of the CPC in 2013, the '13th Five-Year Plan on deepening the health care system reform' marked the beginning of the third phase, a comprehensive drive for deeper reform. 50 The reform of this phase focuses on the transitions from: (1) laying a solid foundation to improving quality; (2) framework formation to system construction; and (3) singlearea breakthroughs to system integration and comprehensive promotion. 'Tripartite System Reform (TSR)', which refers to the linkage reform of the medical care, ",
+            "cite_spans": [
+                {
+                    "start": 287,
+                    "end": 289,
+                    "text": "50",
+                    "ref_id": "BIBREF50"
+                }
+            ],
+            "ref_spans": [],
+            "section": "A revIew of THe reform progress"
+        },
+        {
+            "text": "Main reform initiatives Achievements",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Reform areas"
+        },
+        {
+            "text": "Expanding the population coverage of the basic health insurance schemes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Health insurance system"
+        },
+        {
+            "text": "More than 95% of the population covered by social health insurance schemes in 2018.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Health insurance system"
+        },
+        {
+            "text": "Extending the health service package of the basic health insurance schemes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Health insurance system"
+        },
+        {
+            "text": "The number of pharmaceuticals on the drug list was expanded to 2643 in 2019; government subsidies per capita for the URBMI and NRCMS have increased more than fivefold in 2018 compared with 2009.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Health insurance system"
+        },
+        {
+            "text": "Developing the MFA for people living in extreme poverty.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Health insurance system"
+        },
+        {
+            "text": "In 2018, a total of \u00a542.46 billion was spent from medical assistance funds nationwide to subsidise 76.739 million people to participate in basic medical insurance, and 53.61 million people received outpatient and inpatient assistance.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Health insurance system"
+        },
+        {
+            "text": "Developing the CMI for those people with catastrophic medical expenditure.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Health insurance system"
+        },
+        {
+            "text": "Since 2013, CMI has covered 1.01 billion people in China and benefited more than 11 million people (60% of whom are rural residents), and reimbursement payments have exceeded \u00a530 billion. 73 Integrating basic health insurance systems of rural and urban residents: merging NRCMS and URBMI into the URRMI.",
+            "cite_spans": [
+                {
+                    "start": 188,
+                    "end": 190,
+                    "text": "73",
+                    "ref_id": "BIBREF73"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Health insurance system"
+        },
+        {
+            "text": "Unifying insurance coverage, funding policies, insured treatment, reimbursement catalogues, management of contracted medical institutions and fund management: for example, the number of drugs covered in the insurance drug list is unified to 2643 in 2019, and the per-capita premium is unified to \u00a5693 in 2018.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Health insurance system"
+        },
+        {
+            "text": "Reforming the payment system. 65% of public hospitals above the second level have carried out reforms of the disease category-based insurance payment in 2017; announcing a list of 30 pilot cities for DRG payment reform in 2019.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Health insurance system"
+        },
+        {
+            "text": "Zero mark-up policy on drug sales. All public hospitals nationwide have removed the medicine mark-ups in 2017.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Drug supply and security system"
+        },
+        {
+            "text": "Formulating and expanding the NEML.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Drug supply and security system"
+        },
+        {
+            "text": "Issuing a revision of the NEML in 2009 including a list of 307 essential medicines, and expanding the list to 520 medicines in 2012 and 685 medicines in 2018. 58 Supplying and evaluating the generic drugs.",
+            "cite_spans": [
+                {
+                    "start": 159,
+                    "end": 161,
+                    "text": "58",
+                    "ref_id": "BIBREF58"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Drug supply and security system"
+        },
+        {
+            "text": "Publishing the first list of 34 generic drugs on June 2018; as of 28 August 2019, 313 product specifications have passed the generic drug consistency evaluation. 74 Reforming the drug tendering and procurement system. 11 pilot provinces and 200 pilot cities have implemented the 'two invoice policy' tendering system by the end of 2017; the drug procurement costs of the corresponding varieties in 11 pilot cities fell from \u00a57.7 billion to \u00a51.9 billion, and the cost dropped by 75.3%.",
+            "cite_spans": [
+                {
+                    "start": 162,
+                    "end": 164,
+                    "text": "74",
+                    "ref_id": "BIBREF74"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Drug supply and security system"
+        },
+        {
+            "text": "Promoting rational use of essential drugs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Drug supply and security system"
+        },
+        {
+            "text": "Rates of antibiotic use in inpatient and outpatient care decreased by 50% in selected tertiary hospitals. 75",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Drug supply and security system"
+        },
+        {
+            "text": "Increasing investment in the primary healthcare system, including strengthening the infrastructure of PHC facilities.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Medical service system"
+        },
+        {
+            "text": "Government subsidies to PHC institutions have increased substantially: from 2009 to 2017, subsidies as a proportion of total PHC income increased from 12.3% to 32.5%. 76 Expanding human resources for primary care through incentives and supporting projects.",
+            "cite_spans": [
+                {
+                    "start": 167,
+                    "end": 169,
+                    "text": "76",
+                    "ref_id": "BIBREF76"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Medical service system"
+        },
+        {
+            "text": "Compared with 2012, the total number of primary healthcare workers in 2017 increased by 7.1% to 3.863 million, and the number of general practitioners per 10 000 population increased from 0.8 to 1.8.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Medical service system"
+        },
+        {
+            "text": "Developing a tiered service delivery system by establishing HCAs and providing family practitioners contracted services. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Medical service system"
+        },
+        {
+            "text": "Implementing telemedicine to improve the delivery of services to people living in remote and lowincome areas.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Reform areas Main reform initiatives Achievements"
+        },
+        {
+            "text": "More than 13 000 medical institutions implemented telemedicine services, which have covered all national poverty counties.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Reform areas Main reform initiatives Achievements"
+        },
+        {
+            "text": "Providing basic public health service package to all people through government subsidies.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Public health service system"
+        },
+        {
+            "text": "Increased government public funding was invested to expand the services (from 9 categories in 2009 to 14 categories in 2017) and availability of the basic public health package to almost everyone; an average of \u00a515 was allotted per capita in 2009 and was increased to \u00a555 in 2018. Supporting programmes to control the main public health problems. 51 52 Figure 2 illustrates the priorities and relationship among the three healthcare reform plans. mAIn reform InITIATIves And ACHIevemenTs of THe pAsT deCAde Health insurance system Reforming the health insurance system is essential and critical since it has served as the major source of financing for the healthcare delivery system. Basic health insurance in China, including the Urban Employee Basic Medical Insurance, the New Rural Cooperative Medical Scheme (NRCMS) and the Urban Resident Basic Medical Insurance (URBMI), laid the foundation for universal insurance coverage. Priority was given to expanding the scope and health service package of the basic insurance coverage, improving provider payment mechanisms, as well as increasing the financing level, fiscal subsidies and reimbursement rates. To improve equity in access to healthcare between rural and urban areas and efficiency in operation of the schemes, 53 the Chinese government consolidated the fragmented health insurance schemes by merging NRCMS and URBMI into the Urban and Rural Resident Medical Insurance in 2016, 54 and then established the National Healthcare Security Administration in 2018 to implement unified management for these insurance schemes. In addition, the government launched Medical Financial Assistance in 2003 and Catastrophic Medical Insurance in 2012 as supplementary medical insurance to provide funds for patients with poverty and catastrophic illness. 55 The moves, parts of 'Health Poverty Alleviation (HPA)' (a critical element of the national Poverty Alleviation Project), are significant steps towards 'Healthy China' and UHC, protecting people with low incomes from impoverishment due to exorbitant healthcare costs, and breaking the cycle of poverty and illness. 55 The payment reform is being implemented to modify the behaviour of providers and to control the unreasonable growth of medical expensesreplacing fee-for-service payment with comprehensive payment methods based on disease category. 56 drug supply and security system As the base of drug supply and security system, the national essential medicines system reform is comprehensive and includes but is not limited to the following: the selection, production and distribution of essential medicines; quality assurance; reasonable pricing; tendering and procurement; a zero mark-up policy on sales; rational use and reimbursement; and monitoring and evaluation. 57 The government issued a revision of the National Essential Medicines List (NEML) in 2009 including a list of 307 essential medicines, and constantly expands the list to fully meet the needs of basic healthcare. 58 These on-list medicines should be available at all primary care institutions. To improve access to medicines, China boosted the research and development of generic drugs, and required the evaluation of generics to prove they are equivalent to the originator products in terms of quality and efficacy. 59 A 'two invoice policy' tendering system was developed to avoid higher mark-up and reduce circulation during the process of distribution. 60 All medicines in the NEML are included in health insurance reimbursement lists, which are reimbursed at higher rates compared with non-essential medicines.",
+            "cite_spans": [
+                {
+                    "start": 347,
+                    "end": 352,
+                    "text": "51 52",
+                    "ref_id": null
+                },
+                {
+                    "start": 1272,
+                    "end": 1274,
+                    "text": "53",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 1439,
+                    "end": 1441,
+                    "text": "54",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 1801,
+                    "end": 1803,
+                    "text": "55",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 2118,
+                    "end": 2120,
+                    "text": "55",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 2352,
+                    "end": 2354,
+                    "text": "56",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 2777,
+                    "end": 2779,
+                    "text": "57",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 2991,
+                    "end": 2993,
+                    "text": "58",
+                    "ref_id": "BIBREF58"
+                },
+                {
+                    "start": 3295,
+                    "end": 3297,
+                    "text": "59",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 3435,
+                    "end": 3437,
+                    "text": "60",
+                    "ref_id": "BIBREF60"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 353,
+                    "end": 361,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Public health service system"
+        },
+        {
+            "text": "medical service system Establishing a strong primary care delivery system is an ongoing priority in China. The government has increased BMJ Global Health investment in primary care, with initiatives that include strengthening the infrastructure of primary healthcare (PHC) facilities, expanding human resources for primary care through incentives and supporting projects, establishing a general practitioner system 61 and improving the capacity of PHC personnel through training and education, such as general practice training and continuous medical education programmes. Public hospital reforms focus on removing drug mark-ups as a source of financing, and rationalising medical service pricing (eg, improving the price of medical services that can reflect the value of medical staffs' technical services, and piloting the removal of medical consumable mark-ups). Additionally, the priority task is establishing a tiered healthcare delivery system by developing healthcare alliances to improve intersectoral coordination and integration 62 and providing family practitioners contracted services. 63 The development of private hospitals is encouraged to increase the supply of healthcare resources. Further, telemedicine is promoted to improve the delivery of services to people living in remote and poverty areas. public health service system The 'equalization of basic public health services' policy implemented the national BPHS programme and the crucial public health service (CPHS) programme. It aims to reduce major health risk factors, prevent and control major communicable diseases and chronic diseases and improve response to public health emergencies. 64 This policy seeks to achieve universal availability and promote a more equitable provision of basic health services to all urban and rural citizens. The BPHS set out the minimum services for all citizens, including health management and monitoring. The service package can be expanded by local governments according to local public health issues and financial affordability. CPHS seeks to fight important infectious diseases (eg, prevention and control of tuberculosis, AIDS and bilharziasis) and meet the needs of vulnerable groups (eg, breast and cervical cancer screening for rural women, cataract surgery for low-income patients). 65 With a focus on public health and prevention, the State Council announced a series of 15 recommended actions to achieve 'Healthy China 2030' on 15 July 2019, which include 'intervening in health influencing factors, protecting full-life-cycle health, and preventing and controlling major diseases'. 66 During the past 10 years since the latest round of healthcare reform, China made steady progress in achieving the reform goals and UHC. Table 2 showed the summary of the main reform initiatives and achievements.",
+            "cite_spans": [
+                {
+                    "start": 1039,
+                    "end": 1041,
+                    "text": "62",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 1098,
+                    "end": 1100,
+                    "text": "63",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 1664,
+                    "end": 1666,
+                    "text": "64",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 2302,
+                    "end": 2304,
+                    "text": "65",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 2604,
+                    "end": 2606,
+                    "text": "66",
+                    "ref_id": "BIBREF66"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 2743,
+                    "end": 2750,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Public health service system"
+        },
+        {
+            "text": "lessons from CHInA's experIenCe Achieving UHC is a tough and long-term task that is not unique to China and confronts many other countries. When pursuing UHC, China adopted the general strategies recommended by WHO, and also developed a pathway with Chinese characteristics through healthcare reform. The experience from China may provide invaluable lessons for other countries.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Public health service system"
+        },
+        {
+            "text": "First, continued political support is the most important enabling condition for achieving UHC. Efforts through national-level initiatives of different governments show that the political will to drive better healthcare is crucial, such as the 2017 National Health Policy in India and Rwanda's Vision 2020. 67 China's commitment to UHC remains unchanged since the healthcare reform in 2009, and progress through three phases step by step focusing on the overall goal. CPC and governments at all levels have shown clear political willingness to reach the goal by 2030, making UHC achievement a more country-led process. In 2016, President Xi Jinping announced 'Healthy China 2030 Blueprint', a national long-term strategy in health sector that sets ambitious targets for China.",
+            "cite_spans": [
+                {
+                    "start": 306,
+                    "end": 308,
+                    "text": "67",
+                    "ref_id": "BIBREF67"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Public health service system"
+        },
+        {
+            "text": "Second, increasing health financing is necessary, and the investment from both government and private sectors is considered. At the initial phase of the healthcare reform, on the basis of limited financial fund, Chinese government increased investment in healthcare infrastructure and greatly increased the coverage of health insurances, achieving the universal coverage maximally. After years of exploration during the reform process, it was realised that China should strike a proper balance between the government and the market-play the government's leading role in providing basic health services, and at the same time, introduce appropriate competition mechanisms to energise the market in nonbasic health services, encouraging the private sector to provide multilevel and diversified medical services.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Public health service system"
+        },
+        {
+            "text": "Third, a strong PHC system should be regarded as a core component in realising UHC. Along with the new Declaration of Astana, PHC for health as a global priority is the pathway to reach the SDGs and UHC. 68 In the early days, some experience in PHC in China demonstrated that 'health for all' is a practical possibility, for example, the 'Patriotic Health Campaign' and 'Barefoot Doctors'. 69 The 'Patriotic Health Campaign' encouraged everyone to participate in public health activities, and aimed to improve sanitation, hygiene, health education, as well as combat infectious diseases. 70 Engagement of civil society is necessary to promote UHC. The 'Barefoot Doctors' model used limited medical resources to provide common disease diagnosis and prevention services to a large rural population. However, the Chinese healthcare system created adverse consequences after market-based reforms, in part due to a weakening of support for PHC. 71 Today, recognising the importance of revamping its PHC system, the Chinese government has made PHC a priority in its 'Healthy China 2030' strategy.",
+            "cite_spans": [
+                {
+                    "start": 204,
+                    "end": 206,
+                    "text": "68",
+                    "ref_id": "BIBREF68"
+                },
+                {
+                    "start": 390,
+                    "end": 392,
+                    "text": "69",
+                    "ref_id": "BIBREF69"
+                },
+                {
+                    "start": 588,
+                    "end": 590,
+                    "text": "70",
+                    "ref_id": "BIBREF70"
+                },
+                {
+                    "start": 940,
+                    "end": 942,
+                    "text": "71",
+                    "ref_id": "BIBREF71"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Public health service system"
+        },
+        {
+            "text": "In addition to these general lessons, there are also some lessons with Chinese characteristics, providing reform experiences for other countries: (1) China's health reforms are usually piloted and then rolled out nationwide, such as the public hospital reform; or the reform started from the grass level and then refined for the nation, such as the Sanming model. 72 (2) In the latest phase of reform, China is paying more attention to the systemic and linkage reform (ie, TSR). This innovative strategy can help promote the dynamic balance among medical care, medical insurance and medicine, and construct a coordinating healthcare system to achieve UHC.",
+            "cite_spans": [
+                {
+                    "start": 364,
+                    "end": 366,
+                    "text": "72",
+                    "ref_id": "BIBREF72"
+                },
+                {
+                    "start": 367,
+                    "end": 370,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Public health service system"
+        },
+        {
+            "text": "A strength of our study was that we systematically and comprehensively assessed healthcare reform in the past decade moving towards UHC in China, including evolution, initiatives and achievements. The lessons learnt from China could help other nations improve UHC in sustainable and adaptive ways, including continued political support, increased health financing and a strong PHC system as basis. The experience of the rapid development of UHC in China can provide a valuable mode for countries (mainly LMICs) planning their own path further on in the UHC journey.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ConClusIon"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Universal health coverage and public health: a truly sustainable approach",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Verrecchia",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Thompson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Yates",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Lancet Public Health",
+            "volume": "4",
+            "issn": "",
+            "pages": "10--11",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2468-2667(18)30264-0"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "The world health report 2013: research for universal health coverage",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Organization",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Participants at the Bellagio Workshop on Implementing Pro-Poor Universal Health Coverage. Implementing pro-poor universal health coverage",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bump",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Cashin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Lancet Glob Health",
+            "volume": "4",
+            "issn": "",
+            "pages": "14--16",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2214-109X(15)00274-0"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Universal health coverage, health systems strengthening, and the world bank",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tichenor",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Sridhar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "BMJ",
+            "volume": "358",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.j3347"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Offline: WHO-a roadmap to renewal?",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Horton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Lancet",
+            "volume": "390",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(17)32904-5"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Universal health coverage: realistic and achievable?",
+            "authors": [],
+            "year": 2019,
+            "venue": "Lancet Public Health",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2468-2667(18)30268-8"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Universal health coverage in turkey: enhancement of equity",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Atun",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ayd\u0131n",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chakraborty",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Lancet",
+            "volume": "382",
+            "issn": "",
+            "pages": "65--99",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(13)61051-X"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Universal health coverage in Indonesia: concept, progress, and challenges",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Agustina",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Dartanto",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sitompul",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Lancet",
+            "volume": "393",
+            "issn": "",
+            "pages": "75--102",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(18)31647-7"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Health systems development in Thailand: a solid platform for successful implementation of universal health coverage",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Tangcharoensathien",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Witthayapipopsakul",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Panichkriangkrai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Lancet",
+            "volume": "391",
+            "issn": "",
+            "pages": "1205--1228",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(18)30198-3"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Cooperative societies: a sustainable platform for promoting universal health coverage in Bangladesh",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Sarker",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sultana",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mahumud",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "BMJ Glob Health",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmjgh-2016-000052"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "The long March to universal coverage: lessons from China. universal health coverage studies series (UNICO) No.9",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Langenbrunner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Early appraisal of China's huge and complex health-care reforms",
+            "authors": [
+                {
+                    "first": "Wc-M",
+                    "middle": [],
+                    "last": "Yip",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hsiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Lancet",
+            "volume": "379",
+            "issn": "",
+            "pages": "833--875",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(11)61880-1"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Monitoring and evaluating progress towards universal health coverage in China",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Meng",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "PLoS Med",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pmed.1001694"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "World population Dashboard-China",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "China: human development indicators",
+            "authors": [],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Reforming health care in China: historical, economic and comparative perspectives",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Piriz",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "The world bank in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Bank",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "An assessment of progress towards universal health coverage in Brazil",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Marten",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Mcintyre",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Travassos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "BRICS). Lancet",
+            "volume": "384",
+            "issn": "",
+            "pages": "2164--71",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(14)60075-1"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Report on China's implementation of the millennium development goals",
+            "authors": [],
+            "year": 2000,
+            "venue": "UNDP",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "The Great Reversal: Transformation of Health Care in the People's Republic of China",
+            "authors": [
+                {
+                    "first": "M-S",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Health in China. from MAO to market reform",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hesketh",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Wei",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "BMJ",
+            "volume": "314",
+            "issn": "",
+            "pages": "1543--1548",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.314.7093.1543"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Health care in China after MAO",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dobson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1981,
+            "venue": "Health Care Financ Rev",
+            "volume": "2",
+            "issn": "",
+            "pages": "41--53",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "The health sector in China policy and institutional review",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Barefoot doctors in China",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wen",
+                    "suffix": ""
+                }
+            ],
+            "year": 1974,
+            "venue": "Lancet",
+            "volume": "1",
+            "issn": "",
+            "pages": "976--984",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(74)91277-X"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "China's universal health care coverage. towards universal health care in emerging economies. social policy in a development context",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Hsiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "People's Republic of China health system review. Manila: WHO Regional Office for the Western Pacific",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Meng",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "An exploration of China's mortality decline under MAO: a provincial analysis, 1950-80",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Babiarz",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Eggleston",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Miller",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Popul Stud",
+            "volume": "69",
+            "issn": "",
+            "pages": "39--56",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/00324728.2014.972432"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Transformation of health care in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hsiao",
+                    "suffix": ""
+                }
+            ],
+            "year": 1984,
+            "venue": "N Engl J Med",
+            "volume": "310",
+            "issn": "",
+            "pages": "932--938",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJM198404053101428"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Privatization and its discontents--the evolving Chinese health care system",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Blumenthal",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Hsiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Privatization",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "N Engl J Med",
+            "volume": "353",
+            "issn": "",
+            "pages": "1165--70",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMhpr051133"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "China's healthcare system and reform",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Burns",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Towards universal health care in emerging economies: opportunities and challenges",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Hsiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "239--66",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Health care systems in transition: people's Republic of China. Part I: an overview of China's health care system",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hillier",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "J Public Health Med",
+            "volume": "18",
+            "issn": "",
+            "pages": "258--65",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/oxfordjournals.pubmed.a024502"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Health care system reform in China: issues, challenges and options. Citeseer: China Economics and Management Academy",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zou",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Evolution of health provision in Pre-SARS China: the changing nature of disease prevention",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Schwartz",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Evans",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Greenberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "China Review",
+            "volume": "7",
+            "issn": "",
+            "pages": "81--104",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "China's health system and its reform: a review of recent studies",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wagstaff",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Yip",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lindelow",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Health Econ",
+            "volume": "18",
+            "issn": "2",
+            "pages": "7--23",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/hec.1518"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Evolution of China's health-care system",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Phillips",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Lancet",
+            "volume": "372",
+            "issn": "",
+            "pages": "1715--1721",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(08)61351-3"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "China's Latest Health Reforms: A Conversation With Chinese Health Minister Chen Zhu",
+            "authors": [
+                {
+                    "first": "T-M",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Health Aff",
+            "volume": "27",
+            "issn": "",
+            "pages": "1103--1113",
+            "other_ids": {
+                "DOI": [
+                    "10.1377/hlthaff.27.4.1103"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "How to attain the ambitious goals for health reform in China",
+            "authors": [],
+            "year": 2015,
+            "venue": "Lancet",
+            "volume": "386",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(15)00452-3"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Dilemmas of access to healthcare in China",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Potter",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "An International Journal",
+            "volume": "08",
+            "issn": "",
+            "pages": "164--79",
+            "other_ids": {
+                "DOI": [
+                    "10.1142/S0219747210000105"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Advancing universal coverage of healthcare in China: translating political will into policy and practice",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Brixi",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Bekedam",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Int J Health Plann Manage",
+            "volume": "29",
+            "issn": "",
+            "pages": "160--74",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/hpm.2207"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Opinions of the central Committee of the Communist Party of China and the state Council on deepening the health care system reform",
+            "authors": [],
+            "year": 2009,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Implementing Health Care Reform Policies in China -Challenges and Opportunities: the Center for Strategic and International Studies (CSIS)",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Freeman",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Boynton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Health care transformation in contemporary China-Moral experience in a socialist neoliberal Polity",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "China's health care system reform: progress and prospects",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Fu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Int J Health Plann Manage",
+            "volume": "32",
+            "issn": "",
+            "pages": "240--53",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/hpm.2424"
+                ]
+            }
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Launch of the health-care reform plan in China",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Lancet",
+            "volume": "373",
+            "issn": "",
+            "pages": "1322--1326",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(09)60753-4"
+                ]
+            }
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Current major project on health care system reform",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Council",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Early results of China's historic health reforms: the view from Minister Chen Zhu. Interview by Tsung-Mei Cheng",
+            "authors": [
+                {
+                    "first": "T-M",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Health Aff",
+            "volume": "31",
+            "issn": "",
+            "pages": "2536--2580",
+            "other_ids": {
+                "DOI": [
+                    "10.1377/hlthaff.2012.1017"
+                ]
+            }
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "The world Health organization and others made positive evaluations of the phased results of China's health care reform",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Agency",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Notice of the state Council on printing and distributing the planning and implementation plan for deepening the health care system reform during the 12th five-year plan period",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Council",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Notice of the state Council on printing and distributing the 13th five-year plan for deepening the reform of health care system",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Council",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "The Central Committee of the Communist Party of China and the State Council issued the",
+            "authors": [],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "The governance of China volume 2-Chapter: promote a healthy China",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xi",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Jinping",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Consolidating the social health insurance schemes in China: towards an equitable and efficient health system",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Meng",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Lancet",
+            "volume": "386",
+            "issn": "",
+            "pages": "1484--92",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(15)00342-6"
+                ]
+            }
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "State Council's opinions on integrating the basic medical insurance system for urban and rural residents",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Council",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Enhancing financial protection under China's social health insurance to achieve universal health coverage",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Eggleston",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hanson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "BMJ",
+            "volume": "365",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.l2378"
+                ]
+            }
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Guiding opinions of the general office of the state Council on further deepening the reform of basic medical insurance payment methods",
+            "authors": [],
+            "year": 2017,
+            "venue": "b7fc 4b30 45c2 b7ec acd7 4f82c05e. shtml",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Essential medicine policy in China: pros and cons",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Med Econ",
+            "volume": "16",
+            "issn": "",
+            "pages": "289--94",
+            "other_ids": {
+                "DOI": [
+                    "10.3111/13696998.2012.751176"
+                ]
+            }
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "edition): background, differences from previous editions, and potential issues",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "China issues the National essential medicines list",
+            "volume": "12",
+            "issn": "",
+            "pages": "445--454",
+            "other_ids": {
+                "DOI": [
+                    "10.5582/bst.2018.01265"
+                ]
+            }
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Opinions of the general office of the state Council on reforming and improving the policy of supply and use of generic drugs",
+            "authors": [],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "The reform of the essential medicines system in China: a comprehensive approach to universal coverage",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Barber",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Santoso",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Glob Health",
+            "volume": "3",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.7189/jogh.03.010303"
+                ]
+            }
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "State Council's guidance on establishing a general practitioner systems",
+            "authors": [],
+            "year": 2011,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "What can we learn from China's health system reform?",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Meng",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mills",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "BMJ",
+            "volume": "365",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.l2349"
+                ]
+            }
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Guidance on the promotion of family practice contract service",
+            "authors": [],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Opinions on promoting the gradual equalization of basic public health services",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Mo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "Strengthening public health services to achieve universal health coverage in China",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Balabanova",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "BMJ",
+            "volume": "365",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.l2358"
+                ]
+            }
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "The state Council's opinions on implementing healthy China action",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "Achieving high-quality universal health coverage: a perspective from the National health service in England",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Friebel",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Molloy",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Leatherman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "BMJ Glob Health",
+            "volume": "3",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmjgh-2018-000944"
+                ]
+            }
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "How primary health care can make universal health coverage a reality, ensure healthy lives, and promote wellbeing for all",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kluge",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Kelley",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Barkley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Lancet",
+            "volume": "392",
+            "issn": "",
+            "pages": "1372--1376",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(18)32482-6"
+                ]
+            }
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "WHO. Primary health Care-The Chinese experience. Geneva: World Health Organization",
+            "authors": [],
+            "year": 1983,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "An introduction to the Patriotic health work",
+            "authors": [],
+            "year": 2014,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "The primary health-care system in China",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Lancet",
+            "volume": "390",
+            "issn": "",
+            "pages": "2584--94",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(17)33109-4"
+                ]
+            }
+        },
+        "BIBREF72": {
+            "ref_id": "b72",
+            "title": "An evaluation of systemic reforms of public hospitals: the Sanming model in China",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Fu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Health Policy Plan",
+            "volume": "32",
+            "issn": "",
+            "pages": "1135--1180",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/heapol/czx058"
+                ]
+            }
+        },
+        "BIBREF73": {
+            "ref_id": "b73",
+            "title": "Catastrophic medical insurance in China",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Lancet",
+            "volume": "390",
+            "issn": "",
+            "pages": "1724--1729",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(17)32603-X"
+                ]
+            }
+        },
+        "BIBREF74": {
+            "ref_id": "b74",
+            "title": "The latest 313 generic drug evaluation drug summary",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Gbihealth",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF75": {
+            "ref_id": "b75",
+            "title": "Rational use of antibiotics in the context of China's health system reform",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "BMJ",
+            "volume": "365",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.l4016"
+                ]
+            }
+        },
+        "BIBREF76": {
+            "ref_id": "b76",
+            "title": "10 years of health-care reform in China: progress and gaps in universal health coverage",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Yip",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Fu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Lancet",
+            "volume": "394",
+            "issn": "",
+            "pages": "1192--204",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(19)32136-1"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Overall framework and road map of the new round of healthcare reform. *12th Five-Year Plan on deepening the medical system reform. **13th Five-Year Plan on deepening the medical system reform.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "The priorities and relationship among the three healthcare reform plans.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Tiered healthcare system started by 95% of municipalities by the end of 2017; all 2134 tertiary public hospitals in China participated in the establishment of HCAs in 2018.Improving pricing policies: removing mark-up of drugs as a source of finance for all public hospitals, increasing the price of medical services that can reflect the value of medical staffs' technical services.In 2017, 27.5% of the medical revenue of public hospitals reflected the value of technical services of medical staff (medical service income), an increase of 2.8 percentage points over the previous year. Drugs and consumables accounted for 48.0% of the total revenue, 4.2 percentage points lower than the previous year. Among them, the proportion of medicines dropped to 34.7%.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Adapted from Meng et al[62].Data  sources are from the Central People's Government of the People's Republic of China website, the National Health Commission website and the National Healthcare Security Administration website. \u00a57=US$1. CMI, Catastrophic Medical Insurance; DRG, diagnosis-related group; HCA, healthcare alliance; MFA, Medical Financial Assistance; NEML, National Essential Medicines List; NRCMS, New Rural Cooperative Medical Scheme; PHC, primary healthcare; URBMI, Urban Resident Basic Medical Insurance; URRMI, Urban and Rural Resident Medical Insurance.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Socioeconomic and health indicators for China and other E7 countries",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Summary of the main reform initiatives and achievements, 2009 to present",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "medical insurance and pharmaceutical industry, became the basic principle for comprehensively deepening the healthcare reform. It is noteworthy that this phase of reform is guided by the 'Healthy China 2030' strategy, which emphasises ensuring population health for all individuals across the life course and integrated Health in All Policies.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

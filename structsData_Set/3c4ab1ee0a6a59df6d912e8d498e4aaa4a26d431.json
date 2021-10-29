@@ -1,0 +1,2189 @@
+{
+    "paper_id": "3c4ab1ee0a6a59df6d912e8d498e4aaa4a26d431",
+    "metadata": {
+        "title": "Clinical Infectious Diseases Clinical Infectious Diseases \u00ae 2019;XX(XX):1-10 A Phase II, Randomized, Double-blind, Placebo- Controlled Trial of Presatovir for the Treatment of Respiratory Syncytial Virus Upper Respiratory Tract Infection in Hematopoietic-Cell Transplant Recipients",
+        "authors": [
+            {
+                "first": "Roy",
+                "middle": [
+                    "F"
+                ],
+                "last": "Chemaly",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Texas",
+                    "location": {
+                        "addrLine": "MD Anderson Cancer Center",
+                        "settlement": "Houston",
+                        "region": "Texas",
+                        "country": "USA"
+                    }
+                },
+                "email": "rfchemaly@mdanderson.org."
+            },
+            {
+                "first": "Sanjeet",
+                "middle": [
+                    "S"
+                ],
+                "last": "Dadwal",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Anne",
+                "middle": [],
+                "last": "Bergeron",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "H\u00f4pital Saint Louis",
+                    "location": {
+                        "settlement": "Paris",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Per",
+                "middle": [],
+                "last": "Ljungman",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Department of Cellular Therapy and Allogeneic Stem Cell Transplantation",
+                    "institution": "Karolinska University Hospital and Karolinska Institutet",
+                    "location": {
+                        "settlement": "Stockholm",
+                        "country": "Sweden"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yae-Jean",
+                "middle": [],
+                "last": "Kim",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sungkyunkwan University School of Medicine",
+                    "location": {
+                        "settlement": "Seoul",
+                        "region": "South Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Guang-Shing",
+                "middle": [],
+                "last": "Cheng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Vaccine and Infectious Disease Division, Fred Hutchinson Cancer Research Center",
+                    "institution": "",
+                    "location": {
+                        "settlement": "Seattle",
+                        "region": "Washington",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sudhakar",
+                "middle": [
+                    "N"
+                ],
+                "last": "Pipavath",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Washington",
+                    "location": {
+                        "settlement": "Seattle",
+                        "region": "Washington",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ajit",
+                "middle": [
+                    "P"
+                ],
+                "last": "Limaye",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Washington",
+                    "location": {
+                        "settlement": "Seattle",
+                        "region": "Washington",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Elodie",
+                "middle": [],
+                "last": "Blanchard",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Centre Hospitalier Universitaire de Bordeaux",
+                    "institution": "",
+                    "location": {
+                        "settlement": "Bordeaux",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Drew",
+                "middle": [
+                    "J"
+                ],
+                "last": "Winston",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of California",
+                    "location": {
+                        "addrLine": "Los Angeles Ronald Reagan Medical Center",
+                        "settlement": "Los Angeles",
+                        "region": "California",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Patrick",
+                "middle": [
+                    "J"
+                ],
+                "last": "Stiff",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Loyola University Medical Center",
+                    "location": {
+                        "settlement": "Chicago",
+                        "region": "Illinois",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Tsila",
+                "middle": [],
+                "last": "Zuckerman",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Rambam Medical Health Care Campus",
+                    "location": {
+                        "settlement": "Haifa",
+                        "country": "Israel"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Silvy",
+                "middle": [],
+                "last": "Lachance",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universit\u00e9 de Montr\u00e9al",
+                    "location": {
+                        "settlement": "Montr\u00e9al",
+                        "region": "Qu\u00e9bec",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Galia",
+                "middle": [],
+                "last": "Rahav",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Infectious Diseases Unit, Chaim Sheba Medical Center, Tel Hashomer and Sackler School of Medicine",
+                    "institution": "Tel-Aviv University",
+                    "location": {
+                        "settlement": "Tel Aviv",
+                        "country": "Israel"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Catherine",
+                "middle": [
+                    "B"
+                ],
+                "last": "Small",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Kathleen",
+                "middle": [
+                    "M"
+                ],
+                "last": "Mullane",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Chicago Medical Center",
+                    "location": {
+                        "settlement": "Chicago",
+                        "region": "Illinois",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Roberto",
+                "middle": [
+                    "L"
+                ],
+                "last": "Patron",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Mayo Clinic Arizona",
+                    "location": {
+                        "settlement": "Phoenix",
+                        "region": "Arizona",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Dong-Gun",
+                "middle": [],
+                "last": "Lee",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Catholic University of Korea",
+                    "location": {
+                        "postCode": "18",
+                        "settlement": "Seoul",
+                        "region": "South Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Hans",
+                "middle": [
+                    "H"
+                ],
+                "last": "Hirsch",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Alpana",
+                "middle": [],
+                "last": "Waghmare",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Vaccine and Infectious Disease Division, Fred Hutchinson Cancer Research Center",
+                    "institution": "",
+                    "location": {
+                        "settlement": "Seattle",
+                        "region": "Washington",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Matt",
+                "middle": [],
+                "last": "Mckevitt",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Gilead Sciences Inc",
+                    "location": {
+                        "settlement": "Foster City",
+                        "region": "California",
+                        "country": "USA,"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Robert",
+                "middle": [],
+                "last": "Jordan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Gilead Sciences Inc",
+                    "location": {
+                        "settlement": "Foster City",
+                        "region": "California",
+                        "country": "USA,"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ying",
+                "middle": [],
+                "last": "Guo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Gilead Sciences Inc",
+                    "location": {
+                        "settlement": "Foster City",
+                        "region": "California",
+                        "country": "USA,"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Polina",
+                "middle": [],
+                "last": "German",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Gilead Sciences Inc",
+                    "location": {
+                        "settlement": "Foster City",
+                        "region": "California",
+                        "country": "USA,"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Danielle",
+                "middle": [
+                    "P"
+                ],
+                "last": "Porter",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Gilead Sciences Inc",
+                    "location": {
+                        "settlement": "Foster City",
+                        "region": "California",
+                        "country": "USA,"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "David",
+                "middle": [
+                    "L"
+                ],
+                "last": "Gossage",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Gilead Sciences Inc",
+                    "location": {
+                        "settlement": "Foster City",
+                        "region": "California",
+                        "country": "USA,"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Timothy",
+                "middle": [
+                    "R"
+                ],
+                "last": "Watkins",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Gilead Sciences Inc",
+                    "location": {
+                        "settlement": "Foster City",
+                        "region": "California",
+                        "country": "USA,"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Francisco",
+                "middle": [
+                    "M"
+                ],
+                "last": "Marty",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jason",
+                "middle": [
+                    "W"
+                ],
+                "last": "Chien",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Gilead Sciences Inc",
+                    "location": {
+                        "settlement": "Foster City",
+                        "region": "California",
+                        "country": "USA,"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Michael",
+                "middle": [],
+                "last": "Boeckh",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Vaccine and Infectious Disease Division, Fred Hutchinson Cancer Research Center",
+                    "institution": "",
+                    "location": {
+                        "settlement": "Seattle",
+                        "region": "Washington",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background. Hematopoietic-cell transplant (HCT) recipients are at risk for severe respiratory syncytial virus (RSV) infection. We evaluated the RSV fusion inhibitor presatovir in a randomized, double-blind, Phase II trial in HCT recipients with RSV upper respiratory tract infections.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Methods. Patients were stratified by lymphopenia (<200/\u00b5L) and ribavirin use; were randomized, stratified by lymphopenia (<200/\u03bcL) and ribavirin use, to receive oral presatovir at 200 mg or a placebo on Days 1, 5, 9, 13, and 17, and were followed through Day 28. The coprimary efficacy endpoints were the time-weighted average change in the nasal RSV viral load between Days 1 and 9 and the proportion of patients developing lower respiratory tract complications (LRTCs) through Day 28.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Results. From 23 January 2015 to 16 June 2017, 189 patients were randomly assigned to treatment (96 to presatovir and 93 to the placebo). Presatovir treatment, compared with the placebo treatment, did not significantly affect (prespecified \u03b1 = 0.01) a time-weighted average decline in the RSV viral load from Day 1 to 9 (treatment difference, \u22120.33 log 10 copies/mL; 95% confidence interval [CI] \u2212.64 to \u2212.02 log 10 copies/mL; P = .040) or the progression to LRTC (11.2% vs 19.5%, respectively; odds ratio, 0.50; 95% CI, .22-1.18; P = .11). In a post hoc analysis among patients with lymphopenia, presatovir decreased LRTC development by Day 28 (2/15 [13.3%] vs 9/14 [64.3%], respectively; P = .008), compared with the placebo. Adverse events were similar for patients receiving presatovir and the placebo.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Conclusions. Presatovir had a favorable safety profile in adult HCT recipients with RSV but did not achieve the coprimary endpoints. Exploratory analyses suggest an antiviral effect among patients with lymphopenia.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "clinical Trials Registration. NCT02254408; EUDRA-CT#2014-002474-36.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Adult recipients of autologous or allogeneic hematopoietic-cell transplants (HCT) are at high risk for respiratory syncytial virus (RSV) infection and associated morbidity and mortality. Up to 17% of HCT recipients may develop an RSV infection [1] [2] [3] [4] [5] [6] [7] , of whom 17% to 84% progress from an upper respiratory tract infection (URTI) to a lower respiratory tract infection (LRTI) [2, 3, 5, [7] [8] [9] [10] [11] [12] [13] [14] . Progression to a LRTI often requires hospitalization, during which oxygen supplementation and intensive care may be required; RSV LRTIs are associated with increased mortality rates, ranging from 6% to 35% [2, 4, 8, 9, [15] [16] [17] [18] [19] [20] . Survivors of a respiratory viral infection after HCT may have a long-term airflow decline [15, 21] .",
+            "cite_spans": [
+                {
+                    "start": 244,
+                    "end": 247,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 248,
+                    "end": 251,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 252,
+                    "end": 255,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 256,
+                    "end": 259,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 260,
+                    "end": 263,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 264,
+                    "end": 267,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 268,
+                    "end": 271,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 397,
+                    "end": 400,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 401,
+                    "end": 403,
+                    "text": "3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 404,
+                    "end": 406,
+                    "text": "5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 407,
+                    "end": 410,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 411,
+                    "end": 414,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 415,
+                    "end": 418,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 419,
+                    "end": 423,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 424,
+                    "end": 428,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 429,
+                    "end": 433,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 434,
+                    "end": 438,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 439,
+                    "end": 443,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 652,
+                    "end": 655,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 656,
+                    "end": 658,
+                    "text": "4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 659,
+                    "end": 661,
+                    "text": "8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 662,
+                    "end": 664,
+                    "text": "9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 665,
+                    "end": 669,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 670,
+                    "end": 674,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 675,
+                    "end": 679,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 680,
+                    "end": 684,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 685,
+                    "end": 689,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 690,
+                    "end": 694,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 787,
+                    "end": 791,
+                    "text": "[15,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 792,
+                    "end": 795,
+                    "text": "21]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Currently, there are no effective vaccines or approved antiviral agents for RSV infection in HCT recipients. Aerosolized ribavirin (Virazole) is approved for the treatment of RSV infections in young children but is not used in general pediatric practice because of efficacy and tolerability concerns and the complexity of the required specialized aerosol delivery system [22] [23] [24] . A randomized, placebo-controlled trial of aerosolized ribavirin attempted in HCT recipients recruited only 14 subjects in 5 years due to slow accrual [25] . Epidemiologic studies and a single-center, retrospective analysis suggest that ribavirin-based therapy has some efficacy for preventing RSV-associated morbidity or mortality in high-risk HCT recipients [6, 14, 18] . However, these results are from uncontrolled, retrospective studies and the ribavirin benefit remains unconfirmed. Thus, there remains a significant, unmet medical need for safe, convenient, and effective treatments for RSV infection.",
+            "cite_spans": [
+                {
+                    "start": 371,
+                    "end": 375,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 376,
+                    "end": 380,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 381,
+                    "end": 385,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 538,
+                    "end": 542,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 747,
+                    "end": 750,
+                    "text": "[6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 751,
+                    "end": 754,
+                    "text": "14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 755,
+                    "end": 758,
+                    "text": "18]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Presatovir (formerly GS-5806) is an oral RSV fusion inhibitor with potent and selective anti-RSV activity in vitro and a terminal half-life of ~34 hours [26] . When tested in a human challenge study of healthy volunteers, presatovir reduced the RSV viral load and the severity of clinical disease [26] . In the current study, we evaluated presatovir's safety, tolerability, and efficacy among HCT recipients with RSV URTIs.",
+            "cite_spans": [
+                {
+                    "start": 153,
+                    "end": 157,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 297,
+                    "end": 301,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "This Phase II, randomized, double-blind, placebo-controlled, 2-group, parallel study recruited allogeneic or autologous HCT recipients with positive local RSV test results who were 18 to 75 years of age from 43 centers in 9 countries (Supplementary Appendix). Patients with new or worsening respiratory symptoms for \u22647 days, who had been diagnosed with an RSV infection of the upper respiratory tract for \u22646 days, and who were without new abnormalities on a chest X-ray obtained <48 hours from the start of study treatment were eligible to participate. Patients with a specified, documented respiratory virus coinfection within 7 days from the start of study treatment or with another significant respiratory or systemic infection were excluded. The full eligibility criteria are provided in the Supplementary Methods.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients and Study Design"
+        },
+        {
+            "text": "This study followed International Conference on Harmonization requirements and the principles of the Declaration of Helsinki and was approved by local ethics committees. Written informed consent was obtained from patients or their legally responsible representatives. The protocol amendments and Data Monitoring Committee activities are described in the Supplementary Methods. The trial was registered at ClinicalTrials.gov (NCT02254408) and EudraCT (2014-002474-36) before enrollment began.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients and Study Design"
+        },
+        {
+            "text": "Patients were randomly assigned (1:1) to receive presatovir or a placebo, were stratified centrally by lymphopenia (lymphocyte count <200 cells/mm 3 within 6 days of screening), and were prescribed the use of ribavirin by any route of administration at randomization. The study treatment assignments were provided by an interactive web response system (Bracket Global, Wayne, PA, USA). Patients, all study staff, and the study sponsor were blinded to study treatment. Allocation was concealed by the use of presatovir and placebo tablets that were identical in appearance.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Randomization and Masking"
+        },
+        {
+            "text": "The patients received presatovir at 200 mg (4 \u00d7 50 mg tablets) or a placebo orally or by a nasogastric tube during study visits on Days 1, 5, 9, 13 , and 17 (\u00b124 hours), and were followed through study Day 28. Based on human pharmacokinetic and pharmacodynamic studies [26] , this regimen was predicted to provide plasma concentrations >4-fold over requirements to inhibit the replication of >95% of tested RSV isolates. Patients with detectable RSV by reverse transcription quantitative polymerase chain reaction (RT-qPCR) on Day 22 could participate in an optional extended, weekly follow-up through Day 56. A detailed schedule of the study assessments and procedures is provided in Supplementary Table 1 .",
+            "cite_spans": [
+                {
+                    "start": 131,
+                    "end": 138,
+                    "text": "Days 1,",
+                    "ref_id": null
+                },
+                {
+                    "start": 139,
+                    "end": 141,
+                    "text": "5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 142,
+                    "end": 144,
+                    "text": "9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 269,
+                    "end": 273,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 685,
+                    "end": 706,
+                    "text": "Supplementary Table 1",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Procedures"
+        },
+        {
+            "text": "Plasma pharmacokinetic methods are described in the Supplementary Methods. For virology assessments, bilateral intranasal swabs were obtained using mid-turbinate, adult, flocked swabs (Copan Diagnostics, Murrieta, CA) at each study visit. Samples were analyzed using RT-qPCR to measure the RSV viral load; RSV F gene sequencing, to detect the development of resistance; and a multiplex assay to identify respiratory viral coinfections. All nasal samples were analyzed at central laboratories; further methodological details are provided in the Supplementary Methods. Chest X-rays or computed tomography scans were performed per standard care in patients with suspected lower respiratory tract complications (LRTC). Imaging studies and results of local microbiology tests were collected for review by the endpoint adjudication committee.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Procedures"
+        },
+        {
+            "text": "Clinical safety assessments included vital signs, body weight, and oxygen saturation by pulse oximetry; laboratory safety assessments included complete blood cell counts and liver enzyme measurements. Cardiac safety was assessed via electrocardiograms and troponin testing (per US Food and Drug Administration cardiac monitoring requirements) on Days 1, 17, and 28. Additional safety assessments included the evaluation of adverse events (AEs) and the documentation of concomitant medications.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Procedures"
+        },
+        {
+            "text": "The coprimary endpoints were the time-weighted, average change in the nasal RSV viral load, measured by RT-qPCR (log 10 copies/mL) between Day 1 and Day 9, and the proportion of patients who developed LRTCs-defined as a primary RSV LRTI, a secondary bacterial LRTI, a lower respiratory tract infection due to unusual pathogens, or an LRTC of unknown etiology-from Day 1 through Day 28. The development of an LRTC was determined by an independent, blinded endpoint adjudication committee (details are in the Supplementary Methods). The secondary efficacy endpoint was the proportion of patients who died or developed respiratory failure requiring invasive mechanical ventilation from Day 1 to Day 28. Safety was assessed from AEs, vital signs, electrocardiograms, and clinical laboratory test results.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Outcomes"
+        },
+        {
+            "text": "Assuming a time-weighted average change in the RSV viral load from Day 1 to Day 9 of \u22121 log 10 copies/mL with a standard deviation (SD) of 2 log 10 and an LRTC event rate of 30% in patients receiving the placebo, 100 patients per treatment group were planned to provide >80% power to detect a \u22651-log 10 decrease in the first coprimary endpoint with a 2-sided \u03b1 of 0.01 and >90% power to detect a \u226520% reduction in the second coprimary endpoint with a 2-sided \u03b1 of 0.04 in patients receiving presatovir, relative to the placebo.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analysis"
+        },
+        {
+            "text": "The efficacy population included patients who received \u22651 dose of presatovir with a quantifiable nasal RSV viral load on Day 1. The coprimary and secondary endpoints were analyzed in the efficacy population and in prespecified subgroups defined by the randomization stratification factors (lymphopenia and ribavirin use on Day 1), and were also analyzed post hoc in subgroups defined by the duration of RSV symptoms, hospitalization status, time after HCT, and graft-vs-host disease (GVHD) status on Day 1. The safety population included patients who received \u22651 dose of presatovir.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analysis"
+        },
+        {
+            "text": "The first coprimary analysis was performed by a parametric analysis of covariance with the baseline viral load and randomization stratification factors as covariates. The second coprimary analysis and secondary efficacy analysis were performed using 2-sided Cochran-Mantel-Haenszel tests stratified by lymphopenia (<200 cells/mm 3 ) and the intent to use ribavirin at baseline. If the number of events was small, the Fisher exact method was applied. A fallback approach was employed to control the Type I error rate at 0.05 across the coprimary and secondary endpoints (details are in the Supplementary Methods). Subgroup analyses were performed using the corresponding analysis of covariance model for the first coprimary endpoint and the Fisher exact test, with a 95% confidence interval (CI) based on the Clopper-Pearson method, for the second coprimary and secondary endpoints.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analysis"
+        },
+        {
+            "text": "From 23 January 2015 to 16 June 2017, 213 patients were screened for eligibility; 24 patients were excluded, the majority (n = 14) of whom did not have a documented RSV infection of the upper respiratory tract. A total of 189 patients were randomly assigned to a study treatment (96 to presatovir and 93 to the placebo), and 185 received \u22651 dose of a study drug (95 received presatovir and 90 received the placebo; Figure 1 ). The sponsor halted the study on 20 September 2017, before achieving the planned 200-subject enrollment, because an unplanned interim analysis before a database lock by an unblinded team indicated that results were unlikely to differ if enrollment was extended through another RSV season. Important protocol deviations are described in the Supplementary Results and  Supplementary Table 2 . Overall, 168 (90.8%) patients (88 assigned to presatovir and 80 to the placebo) completed treatment with a study drug through Day 17 ( Figure 1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 415,
+                    "end": 423,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 762,
+                    "end": 814,
+                    "text": "the Supplementary Results and  Supplementary Table 2",
+                    "ref_id": "TABREF6"
+                },
+                {
+                    "start": 952,
+                    "end": 960,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Patients"
+        },
+        {
+            "text": "Patient demographic and baseline clinical characteristics were generally well balanced between treatment groups, except for hospitalization of a larger number of patients receiving presatovir, compared with the placebo, at the beginning of study treatment (43.2% vs 26.7%, respectively; Table 1 ). The majority of treated patients (146/185, 78.9%) underwent allogeneic HCT, and 69/185 (37.3%) had GVHD at baseline. Lymphopenia was noted in 29 (15.7%) patients, and 44 (23.8%) patients were treated with aerosolized or oral ribavirin at baseline (Table 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 287,
+                    "end": 294,
+                    "text": "Table 1",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 545,
+                    "end": 554,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Patients"
+        },
+        {
+            "text": "Efficacy Figure 2A -B shows the absolute RSV viral load and change from baseline at each study visit. Despite adequate plasma concentrations (Supplementary Results; Supplementary Table 3) , presatovir did not significantly (prespecified \u03b1 = 0.01) reduce the time-weighted average change in the RSV viral load from Day 1 to Day 9, compared with the placebo (mean, \u22121.26 [SD, 0.964] log 10 copies/mL vs \u22120.91 [SD, 1.145] log 10 copies/mL, respectively; treatment difference, \u22120.33 log 10 copies/mL; 95% CI, \u2212.64 to \u2212.02 log 10 copies/mL; P = .040). The development of LRTCs through Day 28 is shown in Figure 3 . Compared with the placebo, presatovir did not significantly reduce the proportion of patients in the efficacy population who developed an LRTC from Day 1 through Day 28 ( ). There were 2 events in each treatment arm that were attributed to a primary RSV LRTI, and 1 event in the presatovir arm was adjudicated as a secondary bacterial infection. Sensitivity analyses are reported in the Supplementary Results. Death or respiratory failure requiring mechanical ventilation through Day 28 occurred in 5/89 (5.6%) patients receiving presatovir and 5/87 (5.7%) patients receiving the placebo (P = .98; Figure 4 ).",
+            "cite_spans": [
+                {
+                    "start": 779,
+                    "end": 780,
+                    "text": "(",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 9,
+                    "end": 18,
+                    "text": "Figure 2A",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 141,
+                    "end": 187,
+                    "text": "(Supplementary Results; Supplementary Table 3)",
+                    "ref_id": "TABREF5"
+                },
+                {
+                    "start": 599,
+                    "end": 607,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1208,
+                    "end": 1216,
+                    "text": "Figure 4",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Patients"
+        },
+        {
+            "text": "In prespecified subgroup analyses, presatovir numerically decreased the proportion of patients who developed an LRTC from Day 1 through Day 28, relative to the placebo, among patients with baseline lymphopenia ( Table 2;  Supplementary Tables 4 and 5 ). The proportions of patients receiving presatovir who developed LRTC were similar among patients without baseline lymphopenia and in patients without ribavirin use at baseline, as compared to those receiving the placebo (Supplementary Tables 4 and 5 ). Overall, ribavirin use was higher among patients who developed an LRTC (37.0%) versus those who did not (23.5%). Patients hospitalized at baseline had a numerically higher rate of LRTCs, relative to those who For this value, n = 10 for presatovir, n = 11 for placebo, and n = 21 total. c For this value, n = 88 for placebo and n = 183 total. , and the hospitalization status was imbalanced between the presatovir and placebo arms at baseline. The effects of presatovir versus placebo treatment on the time-weighted average change in the viral load from Day 1 to Day 9 and the occurrence of death or respiratory failure requiring mechanical ventilation through Day 28 were similar between patients hospitalized and not hospitalized on Day 1 (Supplementary Table  6 ). However, treatment with presatovir, relative to the placebo, was associated with a 28% lower LRTC event rate among patients hospitalized on Day 1 ( Table 2; Supplementary Table  6 ). In other post hoc analyses, the proportion of patients who developed LRTCs was numerically lower following presatovir treatment, as compared to placebo treatment, among patients with shorter than median symptom durations (\u22644 days) and \u2264365 days since HCT (Table 2; Supplementary Tables 6-9) .",
+            "cite_spans": [
+                {
+                    "start": 210,
+                    "end": 211,
+                    "text": "(",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 212,
+                    "end": 250,
+                    "text": "Table 2;  Supplementary Tables 4 and 5",
+                    "ref_id": "TABREF6"
+                },
+                {
+                    "start": 473,
+                    "end": 502,
+                    "text": "(Supplementary Tables 4 and 5",
+                    "ref_id": null
+                },
+                {
+                    "start": 1261,
+                    "end": 1269,
+                    "text": "Table  6",
+                    "ref_id": null
+                },
+                {
+                    "start": 1421,
+                    "end": 1452,
+                    "text": "Table 2; Supplementary Table  6",
+                    "ref_id": "TABREF6"
+                },
+                {
+                    "start": 1711,
+                    "end": 1746,
+                    "text": "(Table 2; Supplementary Tables 6-9)",
+                    "ref_id": "TABREF6"
+                }
+            ],
+            "section": "Patients"
+        },
+        {
+            "text": "A post hoc multivariate Cox proportional hazard model for the time to an LRTC through Day 28 in patients receiving presatovir, adjusted for lymphopenia and ribavirin use on Day 1, enrollment site, and hospitalization status on Day 1, yielded an adjusted hazard ratio of 0.44 (95% CI, .19-.99; P = .091), as compared to those receiving the placebo. Optional extended RSV monitoring and serologic responses are presented in the Supplementary Results. Patients with treatment-emergent substitutions in RSV F that were associated with presatovir resistance had a numerically smaller change in the time-weighted average RSV load, but not worse clinical outcomes, relative to those with wild-type F sequences; such substitutions occurred at a significantly higher frequency in patients with, versus without, lymphopenia (Supplementary Results; Supplementary Tables 10-11).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients"
+        },
+        {
+            "text": "Overall, AEs were reported in 76 (80%) of the patients receiving presatovir and 78 (86.7%) of the patients receiving the placebo, while 18 (18.9%) of the patients receiving presatovir and 23 (25.6%) of the patients receiving the placebo had serious adverse events (SAEs). The most common AEs were diarrhea (15.8%), nausea (13.7%), and pyrexia (12.6%) in the patients receiving presatovir; and diarrhea (15.6%), vomiting (13.3%), and nausea (11.1%) in the patients receiving the placebo (Table 3 ). Most Grade 3 or 4 AEs and SAEs occurred less frequently in patients receiving presatovir, except for pyrexia as an SAE in 4 (4.2%) patients and GVHD in the gastrointestinal tract as an SAE, Grade 3 pyrexia, and Grade 4 pneumonia in 2 (2.1%) patients each (Supplementary Tables 12-13 ). There were no imbalances in new electrocardiogram findings or troponin abnormalities between the 2 groups. Overall, 6 patients died during the study; 2 (2.1%) were treated with presatovir and 4 (4.4%) were treated with the placebo. There were 2 patients receiving presatovir who died from gastrointestinal hemorrhage and pneumonia (1 each), and 4 patients receiving the placebo died from an LRTI, pneumonia, recurrent acute myeloid leukemia, and an intracranial hemorrhage (1 each).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 486,
+                    "end": 494,
+                    "text": "(Table 3",
+                    "ref_id": "TABREF5"
+                },
+                {
+                    "start": 753,
+                    "end": 780,
+                    "text": "(Supplementary Tables 12-13",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Safety"
+        },
+        {
+            "text": "This is the largest randomized, double blind, placebo-controlled clinical trial to date for the treatment of allogeneic and autologous HCT recipients with RSV URTIs. Presatovir treatment did not meet the coprimary endpoints of a greater time-weighted average change in the RSV viral load from Day 1 to 9 and the reduced development of LRTCs through Day 28, but was well tolerated, with a comparable safety profile relative to the placebo. In a post hoc analysis of patients with lymphopenia, the proportion who developed an LRTC through Day 28 was 51% lower following treatment with presatovir, as compared to the placebo; other post hoc analyses also indicated trends toward a treatment effect on LRTCs. The results suggest lessons for the design of future clinical trials of drugs for RSV or other respiratory viruses in transplant recipients or other immunocompromised patients. Among healthy adults with established experimental RSV infections, presatovir treatment, as compared to the placebo treatment, significantly reduced the RSV load and clinical severity [26] . The current study did not reproduce these findings, most likely because the challenge study participants received presatovir at or before symptom onset, whereas the current study patients were treated after a median of 4 days of symptoms. An exploratory analysis revealed trends toward reduced LRTC rates following presatovir treatment, versus placebo treatment, of patients with median or shorter symptom durations (Table 2) . Future studies of anti-RSV drugs, particularly fusion inhibitors, should explore whether earlier therapy improves treatment outcomes.",
+            "cite_spans": [
+                {
+                    "start": 1066,
+                    "end": 1070,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1489,
+                    "end": 1498,
+                    "text": "(Table 2)",
+                    "ref_id": "TABREF6"
+                }
+            ],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Some transplant centers treat RSV infections in immunocompromised patients with oral or aerosolized ribavirin, despite lacking randomized clinical trial evidence [1] . Ribavirin use in RSV-infected HCT recipients, especially those with URTIs, has been associated with more favorable outcomes in retrospective studies [6, 8, 27 ]. In the current study, placebo-treated patients who received ribavirin had a higher LRTC progression rate, compared with those who did not (26% vs 18%, respectively), and all patients who developed an LRTC used ribavirin more frequently (37.0%), relative to those without progression (23.5%). As this was not a randomized, controlled study of ribavirin treatment, these observations require confirmation.",
+            "cite_spans": [
+                {
+                    "start": 162,
+                    "end": 165,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 317,
+                    "end": 320,
+                    "text": "[6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 321,
+                    "end": 323,
+                    "text": "8,",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The observed rate of LRTCs was lower than the expected 30% used for the sample size calculation, and the Day 28 mortality was very low (~3%) relative to previous retrospective studies [2, 7, 10] , possibly due to the recruitment of less severely ill patients who would not typically undergo RSV testing. Lymphopenia is a well-described risk factor for LRTCs in RSV-infected HCT recipients [9, 12, 14, 28] , as observed in the current study (64% in placebo-treated patients with lymphopenia vs 11% in those without). Treatment with presatovir reduced the development of LRTCs in patients with lymphopenia-a surrogate marker of impaired T-cell or humoral immunity-possibly because robust immune responses masked any treatment effect by improving outcomes regardless of the treatment. Furthermore, lymphopenia could influence respiratory immunopathology, providing better evidence of presatovir's antiviral efficacy.",
+            "cite_spans": [
+                {
+                    "start": 184,
+                    "end": 187,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 188,
+                    "end": 190,
+                    "text": "7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 191,
+                    "end": 194,
+                    "text": "10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 389,
+                    "end": 392,
+                    "text": "[9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 393,
+                    "end": 396,
+                    "text": "12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 397,
+                    "end": 400,
+                    "text": "14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 401,
+                    "end": 404,
+                    "text": "28]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Perhaps the most important question is whether an all-cause LRTC rate is a clinically relevant endpoint and, if so, whether the observed trends are clinically meaningful. Respiratory failure and mortality are more clinically significant, but their rates in this study suggest that the sample size required would be prohibitive, especially for HCT recipients. The current study endpoint of LRTCs included multiple etiologies, because RSV URTIs may predispose patients to secondary infections-for example, by disrupting mucociliary function [29, 30] -so treatment could prevent a secondary LRTI, as well as a primary LRTI. Furthermore, any LRTC is a clinically significant event that may prolong hospitalization, necessitate intensive clinical care (including empiric antimicrobial treatment), and potentially result in death. Only a minority of LRTCs in this study were adjudicated as primary RSV LRTIs-likely due to other etiologies, as well as a lack of lower respiratory tract samples for the confirmation of RSV-underscoring the potential importance of nonviral pulmonary events in HCT recipients with RSV infections. Determining the cause of each LRTC event in a clinical trial, while ideal, requires invasive procedures (eg, bronchoscopy or lung biopsy) that could pose significant patient risks and are not globally mandated by the current clinical standard of care. Thus, radiographic confirmation, corroborated by clinical data with central, blinded adjudication, as used here, may be the best approach to classify LRTIs. Whether the near-50% relative reduction in LRTC events is clinically meaningful, despite lacking statistical significance, is left to interpretation. The consistent trends toward a treatment effect in exploratory analyses need confirmation in future studies.",
+            "cite_spans": [
+                {
+                    "start": 539,
+                    "end": 543,
+                    "text": "[29,",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 544,
+                    "end": 547,
+                    "text": "30]",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "In summary, this study provided important lessons for the design of future clinical trials of drugs for RSV and other respiratory virus infections in HCT recipients. Although the coprimary endpoints were not achieved, presatovir treatment was associated with trends toward an antiviral effect and clinical benefit. Similar future trials should judiciously select suitable at-risk patients (ie, patients with lymphopenia, neutropenia, The median duration of respiratory symptoms on Day 1 in the efficacy population was 4 days.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "GVHD, or receiving corticosteroids) to maximize the potential benefits. Because having an LRTC increases the mortality risk, prompt diagnoses, early intervention for RSV URTIs in highrisk patients, and effective antiviral agents are imperative to improve clinical outcomes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Respiratory syncytial virus infection in patients with hematological diseases: single-center study and review of the literature",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Khanna",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Widmer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Decker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Clin Infect Dis",
+            "volume": "46",
+            "issn": "",
+            "pages": "402--414",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Prospective study of the incidence, clinical features, and outcome of symptomatic upper and lower respiratory tract infections by respiratory viruses in adult recipients of hematopoietic stem cell transplants for hematologic malignancies",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Martino",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Porras",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Rabella",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Biol Blood Marrow Transplant",
+            "volume": "11",
+            "issn": "",
+            "pages": "781--96",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Community-acquired respiratory syncytial virus and parainfluenza virus infections after hematopoietic stem cell transplantation: the Fred Hutchinson Cancer Research Center experience",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Nichols",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Gooley",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Boeckh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Biol Blood Marrow Transplant",
+            "volume": "7",
+            "issn": "",
+            "pages": "11--16",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Respiratory tract viral infections in bone marrow transplant patients",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Raboni",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Nogueira",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Tsuchiya",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Transplantation",
+            "volume": "76",
+            "issn": "",
+            "pages": "142--148",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Timing and severity of community acquired respiratory virus infections after myeloablative versus non-myeloablative hematopoietic stem cell transplantation",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Schiffer",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kirby",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Sandmaier",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Storb",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Corey",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Boeckh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Haematologica",
+            "volume": "94",
+            "issn": "",
+            "pages": "1101--1109",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Management of RSV infections in adult recipients of hematopoietic stem cell transplantation",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Shah",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Chemaly",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Blood",
+            "volume": "117",
+            "issn": "",
+            "pages": "2755--63",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Community respiratory virus infections among hospitalized adult bone marrow transplant recipients",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Whimbey",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Champlin",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Couch",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "Clin Infect Dis",
+            "volume": "22",
+            "issn": "",
+            "pages": "778--82",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Respiratory syncytial virus infection in recipients of allogeneic stem-cell transplantation: a retrospective study of the incidence, clinical features, and outcome",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Avetisyan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mattsson",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Sparrelid",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ljungman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Transplantation",
+            "volume": "88",
+            "issn": "",
+            "pages": "1222--1228",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Respiratory viral infections in adults with hematologic malignancies and human stem cell transplantation recipients: a retrospective study at a major cancer center",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Chemaly",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ghosh",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Bodey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Medicine (Baltimore)",
+            "volume": "85",
+            "issn": "",
+            "pages": "278--87",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Management of respiratory viral infections in hematopoietic cell transplant recipients and patients with hematologic malignancies",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Chemaly",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Shah",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Boeckh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Clin Infect Dis",
+            "volume": "59",
+            "issn": "5",
+            "pages": "344--51",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Respiratory syncytial virus upper respiratory tract illnesses in adult blood and marrow transplant recipients: combination therapy with aerosolized ribavirin and intravenous immunoglobulin",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ghosh",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Champlin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Englund",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Bone Marrow Transplant",
+            "volume": "25",
+            "issn": "",
+            "pages": "751--756",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Respiratory syncytial virus in hematopoietic cell transplant recipients: factors determining progression to lower respiratory tract disease",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Guthrie",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Waghmare",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Infect Dis",
+            "volume": "209",
+            "issn": "",
+            "pages": "1195--204",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Outcome of respiratory syncytial virus lower respiratory tract disease in hematopoietic cell transplant recipients receiving aerosolized ribavirin: significance of stem cell source and oxygen requirement",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Seo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Campbell",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Biol Blood Marrow Transplant",
+            "volume": "19",
+            "issn": "",
+            "pages": "589--96",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Impact of aerosolized ribavirin on mortality in 280 allogeneic haematopoietic stem cell transplant recipients with respiratory syncytial virus infections",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Shah",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Ghantoji",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Shah",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Antimicrob Chemother",
+            "volume": "68",
+            "issn": "",
+            "pages": "1872--80",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Airflow decline after myeloablative allogeneic hematopoietic cell transplantation: the role of community respiratory viruses",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Erard",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Chien",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J Infect Dis",
+            "volume": "193",
+            "issn": "",
+            "pages": "1619--1644",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "An outbreak of respiratory syncytial virus in a bone marrow transplant center",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Harrington",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hooton",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hackman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1992,
+            "venue": "J Infect Dis",
+            "volume": "165",
+            "issn": "",
+            "pages": "987--93",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Community respiratory virus infections in immunocompromised patients: hematopoietic stem cell and solid organ transplant recipients, and individuals with human immunodeficiency virus infection",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Boeckh",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Englund",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Semin Respir Crit Care Med",
+            "volume": "28",
+            "issn": "",
+            "pages": "222--264",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Management of respiratory viral infections in hematopoietic cell transplant recipients",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Shah",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Ghantoji",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Mulanovich",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ariza-Heredia",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Chemaly",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Am J Blood Res",
+            "volume": "2",
+            "issn": "",
+            "pages": "203--221",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Respiratory syncytial virus infection following hematopoietic stem cell transplantation",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Small",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Casson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Malak",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Bone Marrow Transplant",
+            "volume": "29",
+            "issn": "",
+            "pages": "321--328",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Combination therapy with aerosolized ribavirin and intravenous immunoglobulin for respiratory syncytial virus disease in adult bone marrow transplant recipients",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Whimbey",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Champlin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Englund",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Bone Marrow Transplant",
+            "volume": "16",
+            "issn": "",
+            "pages": "393--402",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Influence of respiratory viruses on airflow decline after allogenic hematopoietic stem cell transplantation",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "De Seynes",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Fleury",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Milpied",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Eur Respir J",
+            "volume": "48",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Food and Drug Administration: Center for Drug Evaluation and Research. Respiratory syncytial virus infection: developing antiviral drugs for prophylaxis and treatment. Guidance for industry. Draft guidance",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Us Department",
+                    "suffix": ""
+                },
+                {
+                    "first": "Human",
+                    "middle": [],
+                    "last": "Health",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Services",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Ribavirin for Inhalation Solution, USP)",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Virazole \u00ae",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Use of ribavirin in the treatment of respiratory syncytial virus infection",
+            "authors": [],
+            "year": 1993,
+            "venue": "American Academy of Pediatrics Committee on Infectious Diseases",
+            "volume": "92",
+            "issn": "3",
+            "pages": "501--505",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Randomized controlled multicenter trial of aerosolized ribavirin for respiratory syncytial virus upper respiratory tract infection in hematopoietic cell transplant recipients",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Boeckh",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Englund",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Clin Infect Dis",
+            "volume": "44",
+            "issn": "",
+            "pages": "245--254",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Oral GS-5806 activity in a respiratory syncytial virus challenge study",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Devincenzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Whitley",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mackman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "N Engl J Med",
+            "volume": "371",
+            "issn": "",
+            "pages": "711--733",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Respiratory syncytial virus lower respiratory disease in hematopoietic cell transplant recipients: viral RNA detection in blood, antiviral treatment, and clinical outcomes",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Waghmare",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Campbell",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Clin Infect Dis",
+            "volume": "57",
+            "issn": "",
+            "pages": "1731--1772",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Respiratory virus infections in stem cell transplant patients: the European experience",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ljungman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Biol Blood Marrow Transplant",
+            "volume": "7",
+            "issn": "",
+            "pages": "5--7",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Ciliary dyskinesia is an early feature of respiratory syncytial virus infection",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kulkarni",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Radhakrishnan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Eur Respir J",
+            "volume": "43",
+            "issn": "",
+            "pages": "485--96",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Respiratory syncytial virus and human bronchial epithelium",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Tristram",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Hicks",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hard",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Arch Otolaryngol Head Neck Surg",
+            "volume": "124",
+            "issn": "",
+            "pages": "777--83",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Patient disposition from enrollment through analysis. Abbreviations: ALT, alanine aminotransferase; AST, aspartate aminotransferase; RSV, respiratory syncytial virus; URT, upper respiratory tract.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Protocol deviation related to onset of respiratory symptoms was recorded for 1 placebo-treated patient. e For this value, n = 94 for presatovir and n = 184 total.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Nasal respiratory syncytial virus (RSV) RNA at each study visit in the efficacy population. A, The median nasal RSV RNA. B, The median change from baseline in nasal RSV RNA at each study visit in patients treated with presatovir (closed circles, solid line) versus placebo (open circles, dashed line). Error bars represent the interquartile range.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Development of lower respiratory tract complications (LRTC) in the efficacy population. The LRTC rate at each study visit in patients treated with presatovir (solid line) versus placebo (dashed line) is shown.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Occurrence of death or respiratory failure requiring mechanical ventilation in the efficacy population. The event rate at each study visit in patients receiving presatovir (solid line) versus placebo (dashed line) is shown.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "10/89 [11.2%] on presatovir vs 17/87 [19.5%] on placebo; P = .11; \u03b1 = 0.04). The majority of LRTC events were adjudicated as having an unknown etiology (presatovir, 7/10 [70%]; placebo, 15/17 [88%]",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "2/15 [13.3%] vs 9/14 [64.3%], respectively; P = .008) and those not receiving ribavirin (4/64 [6.3%] vs [12/68] 17.6%, respectively; P = .061;",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Baseline Characteristics and Demographics: Safety Population Patients Given Presatovir, n = 95 Patients Given Placebo, n = 90 Total, N = 185",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Continued started treatment as outpatients (18/63 [28.6%] vs 9/113 [8.0%], respectively)",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "Adverse Events and Laboratory Abnormalities Reported in \u22654 Patients in a Treatment Group in the Safety PopulationData are shown as n (%).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "Post Hoc AnalysesData are for LRTC development through Day 28 by presence of lymphopenia, duration of symptoms, hospitalization status, and time after HCT at Day 1. Data for other efficacy endpoints and subgroups are provided inSupplementary Tables 4-9.Abbreviations: CI, confidence interval; HCT, hematopoietic cell transplant; LRTC, lower respiratory tract complications. a P values were calculated using the Fisher exact test.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Financial support. This work was supported by Gilead Sciences Inc. Potential conflicts of interest. R. F. C. received research grants paid to his institution and personal fees from Gilead Sciences Inc., during the conduct of the study; research grants paid to his institution from Ablynx, AiCuris, Ansun, Chimerix, Merck, Oxford Immunotec, Novartis, Pulmotec, Shire, and Xenex; and consultant fees/honoraria from Ablynx, Achaogen, ADMA Biologics, Ansun, Astellas, Chimerix, Clinigen, Janssen, Oxford Immunotec, Merck/Merck Sharp & Dohme (MSD), Pulmotect, Shionogi, Shire, and Xenex, outside the current study. S. S. D. received grants paid to his institution from Gilead Sciences Inc., during the conduct of the study; grants to his institution and personal fees for consulting, advisory board, and speaker bureau participation from Merck; personal fees for advisory board participation from Clinigen and Janssen; and grants paid to his institution from Ablynx, AiCuris, Ansun, GlaxoSmithKline (GSK), Oxford Immunotec, and Shire, outside the current study. A. B. received funding to her institution from Gilead Sciences Inc., during the conduct of the study; research grants from SOS Oxyg\u00e8ne and Pfizer; and consultant/ speaker fees from Gilead Sciences Inc., Merck, Therakos, Shire, Zambon, Ablynx, and Pfizer, outside the current study. P. L. received research grants or fees/honoraria paid to his institution from Merck, Gilead Sciences Inc., Astellas, Shire, and Oxford Immunotec; and consultant fees/honoraria from Ablynx NV and AiCuris, outside the current study. Y.-J. K. received grants from Gilead Sciences Inc., during the conduct of the study. G.-S. C. was a member of the endpoint adjudication committee (EAC) for this trial and received payment from Gilead Sciences Inc. for this work. S. N. P. was a member of the EAC for this trial and received salary support paid to his institution by Gilead Sciences Inc. for this work. A. P. L. was a member of the EAC for this trial and received payment from Gilead Sciences Inc. for this work; served on the data safety monitoring board for another trial sponsored by Gilead Sciences Inc.; received grants and consulting fees as a site investigator from Merck, site investigator payments from Astellas and Oxford Immunotec, and consulting fees from Helocyte and VirBio, outside the current study. E. B. received speaker fees from Gilead Sciences Inc., Pfizer, Novartis, Roche, and Boehringer Ingelheim, outside the current study. D. J. W. received research grants from Gilead Sciences Inc., during the conduct of the study; research grants from Merck, Oxford Immunotec, Shire, and Chimerix; and consultant fees from Merck, outside the current study. P. J. S. received grants from Gilead Sciences Inc., during the conduct of the study. G. R. received grants and personal fees from MSD and Pfizer and personal fees from Astellas, outside the current study. C. B. S. received grants paid to her institution from Gilead Sciences Inc., during the conduct of the study, and from GSK, ViiV, Merck, Shire, Schering, Abbott, Chimerix, and Ablynx, outside the current study. K. M. M. received grants as a clinical trial investigator from Gilead Sciences Inc., during the conduct of the study; clinical research grants from Ansun, Astellas, Merck, Rebiotix, Scynexis, and Shire; and consultant fees/honoraria from Chimerix, GSK, Merck, and Scynexis, outside the current study. R. L. P. received research grants paid directly to his institution by Gilead Sciences Inc., during the conduct of the study. D.-G. L. received research grants and consultant fees or speaker honoraria from Pfizer, MSD, and Astellas, outside the current study. A. W. received clinical trial support from Gilead Sciences Inc., during the conduct of the study. M. M., Y. G., P. G., D. P. P., and T. R. W. are employees of Gilead Sciences Inc., and may hold stock. R. J. is a former employee of and holds stock in Gilead Sciences Inc. D. L. G. is an employee of Sanofi Genzyme and a former employee of Gilead Sciences Inc., and may hold stock in both companies. F. M. M. received research grants paid to his institution and consulting fees for clinical trial design from Gilead Sciences Inc., during the conduct of the study; research support paid to his institution and consulting fees for clinical trial design from GSK and Chimerix; research grant support paid to his institution from Ansun; and personal fees from Visterra and Roche Molecular Diagnostics, outside the current study. J. W. C. is an employee and stockholder of Janssen BioPharma and a former employee and current stockholder of Gilead Sciences Inc. M. B. received clinical trial support and consulting fees from Gilead Sciences Inc., during the conduct of the study; grants and personal fees from Ablynx, Ansun, Chimerix Inc., GSK, Merck, Shire, and Vir Bio; and personal fees from Bavarian Nordic, Humabs Inc., Janssen, Modema Therapeutics, Pulmocide, and Pulmotect, outside the current study. All other authors report no potential conflicts. All authors have submitted the ICMJE Form for Disclosure of Potential Conflicts of Interest. Conflicts that the editors consider relevant to the content of the manuscript have been disclosed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        },
+        {
+            "text": "Supplementary materials are available at Clinical Infectious Diseases online. Consisting of data provided by the authors to benefit the reader, the posted materials are not copyedited and are the sole responsibility of the authors, so questions or comments should be addressed to the corresponding author. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary Data"
+        }
+    ]
+}

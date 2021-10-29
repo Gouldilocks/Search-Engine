@@ -1,0 +1,912 @@
+{
+    "paper_id": "8dd18a43bcdea1792d6c228a9bfcf812694c420a",
+    "metadata": {
+        "title": "Asian Spine Journal \u2022 pISSN 1976-1902 eISSN 1976-7846 \u2022 www.asianspinejournal.org Asian Spine",
+        "authors": [
+            {
+                "first": "Jun",
+                "middle": [],
+                "last": "Zou",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The First Affiliated Hospital of Soochow University",
+                    "location": {
+                        "addrLine": "188 Shizi St",
+                        "postCode": "215006",
+                        "settlement": "Suzhou, Suzhou",
+                        "region": "Jiangsu",
+                        "country": "China, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Hao",
+                "middle": [],
+                "last": "Yu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The First Affiliated Hospital of Soochow University",
+                    "location": {
+                        "addrLine": "188 Shizi St",
+                        "postCode": "215006",
+                        "settlement": "Suzhou, Suzhou",
+                        "region": "Jiangsu",
+                        "country": "China, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Dawei",
+                "middle": [],
+                "last": "Song",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The First Affiliated Hospital of Soochow University",
+                    "location": {
+                        "addrLine": "188 Shizi St",
+                        "postCode": "215006",
+                        "settlement": "Suzhou, Suzhou",
+                        "region": "Jiangsu",
+                        "country": "China, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Junjie",
+                "middle": [],
+                "last": "Niu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The First Affiliated Hospital of Soochow University",
+                    "location": {
+                        "addrLine": "188 Shizi St",
+                        "postCode": "215006",
+                        "settlement": "Suzhou, Suzhou",
+                        "region": "Jiangsu",
+                        "country": "China, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Huilin",
+                "middle": [],
+                "last": "Yang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The First Affiliated Hospital of Soochow University",
+                    "location": {
+                        "addrLine": "188 Shizi St",
+                        "postCode": "215006",
+                        "settlement": "Suzhou, Suzhou",
+                        "region": "Jiangsu",
+                        "country": "China, China"
+                    }
+                },
+                "email": "hlyang@suda.edu.cn"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Coronavirus disease 2019 outbreak started in December 2019 that caused difficulties for clinical work. Practical work experience in our spinal outpatient and emergency department during the COVID-19 pandemic is summarized in this article, with combined evidence-based medical evidence to explore a standardized process of diagnosis and treatment for spinal diseases. Outpatient reservation, continuous screening, triage, and isolation, first consultation accountability system, pandemic reporting system, and online revisit were strictly followed. We hope that our experience in prevention and control of COVID-19 can help spine surgeons globally in stopping the spread of COVID-19. Spine surgeons should collaborate with infection control specialists to avoid cross-infection in hospitals and optimize treatment.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Last December 2019, coronavirus disease 2019 (CO-VID-19) was discovered in Wuhan, Hubei province, and has spread rapidly to various areas. This has caused serious harm to people's health and a huge economic burden [1] . As of March 23, 2020, a total of 332,930 patients were confirmed positive of the disease and 14,510 died worldwide [2] . The World Health Organization has increased the assessment of the risk of spread and impact of CO-VID-19 to very high at the global level [3] . COVID-19 is characterized by strong infectivity, rapid spread, and general susceptibility, which brought a great challenge to spine surgery. Optimizing the diagnosis and treatment for spinal diseases under the condition of blocking the pandemic transmission is a problem that spine surgeons need to solve. This paper summarized the recent experiences in spine surgery and provided recommendations on how to carry out the standardized diagnosis and treatment for spinal diseases during the COVID-19 pandemic. the target cell by binding to angiotensin-converting enzyme 2 via the S protein on its surface, with 10-20 times higher affinity than SARS [5] . The incubation period of COVID-19 is usually 3-7 days and no more than 14 days, while it can also last up to 24 days in rare cases. Confirmed, asymptomatic, and incubation period patients are the sources of infection. The transmission route mainly includes respiratory droplets and direct contact, but the possibility of aerosol propagation and vertical propagation is not excluded [6] .",
+            "cite_spans": [
+                {
+                    "start": 214,
+                    "end": 217,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 335,
+                    "end": 338,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 479,
+                    "end": 482,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1132,
+                    "end": 1135,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1520,
+                    "end": 1523,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The main symptoms of COVID-19 are fever, dry cough, sore throat, fatigue, and muscle pain. A small number of patients appear to exhibit nasal congestion, runny nose, diarrhea, and other symptoms [7] . In critical patients, the disease progresses rapidly, and dyspnea may occur 1 week after onset and may advance to acute respiratory distress syndrome, sepsis, internal environmental imbalance, and multiple organ dysfunction syndrome. In the early stage, total leukocyte and lymphocyte counts are normal or decreased, C-reactive protein and erythrocyte sedimentation rate are increased, and procalcitonin is normal. Multiple ground-glass opacities are typical findings in chest computed tomography (CT) and air bronchograms in both lungs. Lung consolidation, pleural thickening, and pleural effusion can be seen in severe cases [8] .",
+            "cite_spans": [
+                {
+                    "start": 195,
+                    "end": 198,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 828,
+                    "end": 831,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "To determine whether the patient is suspected of having the infection, the epidemiological history, clinical symptoms, and laboratory and imaging examination should be evaluated. Diagnosis of COVID-19 must meet any of the following criteria [9] : (1) positive nucleic acid test of SARS-CoV-2 detected by reverse transcription-quantitative polymerase chain reaction, (2) highly homologous genome sequencing to SARS-CoV-2, and (3) positive serological testing of SARS-CoV-2-specific immunoglobulin G (IgG) and immunoglobulin M antibodies (serum SARS-CoV-2-specific IgG antibody is 4 times higher in the recovery period than in the acute phase). Patients who meet the above conditions but have no clinical symptoms are diagnosed as asymptomatic infection. Any patient with suspicious symptoms should be actively tested for etiology",
+            "cite_spans": [
+                {
+                    "start": 241,
+                    "end": 244,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The principle of COVID-19 management"
+        },
+        {
+            "text": "The principles of COVID-19 management can be summarized as \"early detection, early report, early isolation, and early treatment.\" Any patient with suspicious symptoms should be actively tested for etiology. Once suspected or asymptomatic infection or confirmed case is identified, a report to the Centers for Disease Control and Prevention (CDC) should be submitted within 2 hours, and the patients should be admitted to the designated hospital. Single isolation treatment should be implemented for suspected infections, intensive isolation for asymptomatic infections or confirmed cases, and intensive care unit for critical patients.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The principle of COVID-19 management"
+        },
+        {
+            "text": "Outpatient and Emergency during the Pandemic",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Characteristics and Principles of Spinal"
+        },
+        {
+            "text": "Spinal diseases are injuries of the vertebrae, discs, spinal cord, nerves, or surrounding muscles due to various causes. Common spinal diseases include congenital spinal deformity, degenerative changes, spinal stenosis, spinal fractures, spondylolisthesis, spinal infections, and tumors. These diseases vary in course and symptoms. The mild form only appears with ache or numbness, which can be alleviated by resting, while the severe can cause paralysis and even death. Additionally, some patients may present with abnormal blood pressure, gastrointestinal disorders, and other symptoms [10] . During the COVID-19 pandemic, the condition of patients in spinal outpatient and emergency departments is more critical and serious than usual, which mainly includes spinal fracture, lumbar disc herniation, and spine surgery complications. Meanwhile, the proportion of patients with anxiety increased, manifested by excessive worry about their illness and fear of possible infection during hospital visits.",
+            "cite_spans": [
+                {
+                    "start": 588,
+                    "end": 592,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Characteristics of spinal outpatient and emergency during the pandemic"
+        },
+        {
+            "text": "Prevention and control in the spread of COVID-19 is the priority in the outpatient and emergency. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Management principles of spinal outpatient and emergency during the pandemic"
+        },
+        {
+            "text": "The objects of protection mainly include medical staff, patients, and accompanying persons. Medical staff should wear disposable caps, goggles, N95 masks (National Institute for Occupational Safety and Health-approved masks), overalls and protective clothing, disposable gloves, and disposable shoe covers [12] . Except for the necessary physical examination, medical staff should keep at least 1 m away from the patient and accompanying persons. Gloves should be changed or disinfectant should be used after contact with every patient. Patients should take proper healthy precautions, avoid contact with people, and limit the number of accompanying persons to only one.",
+            "cite_spans": [
+                {
+                    "start": 306,
+                    "end": 310,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Personnel protection"
+        },
+        {
+            "text": "Two separate waiting areas should be set up at the screening triage station for febrile and non-febrile patients. The consultation room should be equipped with disinfection equipment such as quick-drying hand disinfectant and sodium hypochlorite disinfectant. Indoor ventilation should be enhanced when the consultation room is occupied, and the equipment in the clinic should be thoroughly cleaned and disinfected by specialist staff after outpatient service.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Site and equipment management"
+        },
+        {
+            "text": "A solid outpatient reservation system should be established in the hospital during the COVID-19 outbreak. Patients can make an appointment in advance through the Internet and provide the information about recent travel history, contact history of infected cases, and clinical manifestations including but not limited to fever, dry cough, and fatigue. At the hospital, patients should cooperate with temperature measurement and other screening triage work. In principle, the spinal outpatient department only treats patients with normal screening results. Spine surgeons make a preliminary diagnosis according to patients' medical history and physical examination. If necessary, X-ray, CT, and magnetic resonance imaging are conducted to make a definite diagnosis. Outpatient and emergency staff should follow the first consultation accountability system. Complete blood count and chest CT are recommended as routine examination during the epidemic [13] , and medical records should be written in detail. If the examination results indicate the possibility of pneumonia, it should be reported to the hospital and CDC in time and the patients should be admitted to a designated hospital for isolation treatment and further screening programs.",
+            "cite_spans": [
+                {
+                    "start": 948,
+                    "end": 952,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Procedures for spinal outpatient and emergency"
+        },
+        {
+            "text": "Hospitalized suspected or confirmed patients whose body temperature returns to normal after more than 3 days, symptoms are significantly improved, pulmonary inflammation in imaging is significantly alleviated, and respiratory nucleic acid test of the pathogen is negative for 2 consecutive times are regarded as clinically cured [14, 15] . Clinically cured patients can be discharged from the hospital, while visitors are strictly controlled during the patients' stay in the hospital. It is still recommended to continue home isolation or intensive medical observation for 2 weeks to minimize the potential risk of viral transmission.",
+            "cite_spans": [
+                {
+                    "start": 329,
+                    "end": 333,
+                    "text": "[14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 334,
+                    "end": 337,
+                    "text": "15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Procedures for spinal outpatient and emergency"
+        },
+        {
+            "text": "For patients with critical spinal diseases, the isolated treatment room can be used for diagnosis and treatment under the premise that both the hospital staff and patients complete their health protection and the level of protection should be equal to confirmed COVID-19 cases. Patients need to receive a screening test after vital signs are stable. For patients with surgical indications, those with normal screening results can be admitted to the hospital according to the conventional process. However, suspected or confirmed cases with surgical conditions should be admitted to a designated hospital. The medical department, infection control division, operating room, and anesthesiology department should be informed to prepare for the operation in advance.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Procedures for spinal outpatient and emergency"
+        },
+        {
+            "text": "Nonoperative treatment applies to mild patients, elective surgery patients, and patients who cannot tolerate the operation. The available measures include analgesic treatment, rehabilitation exercise, traction therapy, and so on [16] [17] [18] . Nonoperative treatment should aim at relieving pain and to ease respiratory burden by suppressing the increase of systemic oxygen consumption caused by pain, which can contribute to improve the COVID-19 condition [19] . It is important to note that conservative treatment, including prolonged bed rest, increases the risk of respiratory and urinary tract infections. Thus, spine surgeons should weigh the advantages and disadvantages of conservative treatment, actively communicate with patients and their families, and adopt the most appropriate treatment methods. Moreover, patients can use online follow-up in order to minimize unnecessary hospital visits. Patients whose symptoms have not improved significantly after a period of standardized conservative treatment can be admitted to the hospital for surgery after the epidemic is under control.",
+            "cite_spans": [
+                {
+                    "start": 229,
+                    "end": 233,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 234,
+                    "end": 238,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 239,
+                    "end": 243,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 459,
+                    "end": 463,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Nonoperative treatment"
+        },
+        {
+            "text": "Emergency or confined operation should be performed for patients with severe nerve compression, spinal cord injury, progressive aggravation of nerve dysfunction, or spinal fracture with obvious displacement or compression. The patient can be admitted to the hospital after the possibility of infection is excluded by expert panel consultation. During hospitalization, a separate ward is provided for every noninfected patient. Chest CT and SARS-CoV-2 nucleic acid test should be reexamined 3 days before the operation, and operation can be performed timely after diagnosis is excluded. Spine surgeons should take measures to promote postoperative rehabilitation and reexamine the patients' chest CT and SARS-CoV-2 nucleic acid test 3 days after surgery. The excluded diagnosed patients need to be discharged early after their condition stabilized. If suspected or confirmed COVID-19 cases are found during hospitalization, the patient should be transferred to the isolation ward for further treatment.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Operative treatment"
+        },
+        {
+            "text": "Suspected or confirmed COVID-19 cases should be treated with more caution and conservative treatment should be given priority. The following strategies should be adopted in patients with emergency or confined operation indications [20] : (1) Try to use minimally invasive surgery, reduce the scope of surgery, and shorten the operation time.",
+            "cite_spans": [
+                {
+                    "start": 231,
+                    "end": 235,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Treatment strategies for spinal patients with CO-VID-19"
+        },
+        {
+            "text": "(2) Prone position is preferred to avoid viral transmission by respiratory droplets. (3) Reduce the use of electrotomes under the principle of ensuring complete hemostasis, and use suction devices with caution to reduce aerosol diffusion. (4) The operation should be gentle and careful to avoid body fluid spatter and sharp instrument injury. (5) During the operation, no one is allowed to enter or leave the operating room except under special circumstances. (6) Operation personnel should be screened for the virus before and after an operation, and anyone with suspicious symptoms should be isolated for medical treatment in time.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Treatment strategies for spinal patients with CO-VID-19"
+        },
+        {
+            "text": "In summary, spinal diseases are prone to respiratory infections and related complications, thus increasing the infection risk for COVID-19. Spine surgeons are facing the dual challenges of spinal disease and COVID-19 during the epidemic. To ensure the safety of patients and health care workers, spine surgeons need to follow standard procedures of diagnosis and treatment. Based on the actual work of spinal outpatient and emergency departments and the suggestions of other orthopedic practitioners, outpatient, and emergency management procedures for patients with spinal diseases during the epidemic of CO-VID-19 were formulated. We hope to provide a reference for the first-line medical staff in blocking viral transmission and improving treatment of spinal diseases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "US$675 million needed for new coronavirus preparedness and response global plan",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "World Health Organization. Coronavirus disease (COVID-2019): situation reports -61",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "World Health Organization. WHO Director-General's opening remarks at the media briefing on CO-VID-19",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "A novel coronavirus from patients with pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "727--760",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wrapp",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Corbett",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "367",
+            "issn": "",
+            "pages": "1260--1263",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJ-Moa2002032"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Radiological findings from 81 patients with COVID-19 pneumonia in Wuhan, China: a descriptive study",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Lancet Infect Dis",
+            "volume": "2020",
+            "issn": "20",
+            "pages": "30086--30090",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "A rapid advice guideline for the diagnosis and treatment of 2019 novel coronavirus (2019-nCoV) infected pneumonia (standard version)",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Jin",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Cheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Mil Med Res",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Autonomic dysreflexia after spinal cord injury: systemic pathophysiology and methods of management",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Eldahan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Rabchevsky",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Auton Neurosci",
+            "volume": "209",
+            "issn": "",
+            "pages": "59--70",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Clinical course and outcomes of critically ill patients with SARS-CoV-2 pneumonia in Wuhan, China: a single-centered, retrospective, observational study",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Lancet Respir Med",
+            "volume": "2020",
+            "issn": "20",
+            "pages": "30079--30084",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Association between 2019-nCoV transmission and N95 respirator use",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J Hosp Infect",
+            "volume": "2020",
+            "issn": "20",
+            "pages": "30097--30106",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Correlation of chest CT and RT-PCR testing in coronavirus disease 2019 (COVID-19) in China: a report of 1014 cases",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Spinal emergencies in primary care practice",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Babu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Patel",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Palumbo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Daniels",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Am J Med",
+            "volume": "132",
+            "issn": "",
+            "pages": "300--306",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "National Health Commission of the People's Republic of China. Covid-19 diagnosis and treatment plan",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Acute spinal cord compression",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Ropper",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Ropper",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "N Engl J Med",
+            "volume": "376",
+            "issn": "",
+            "pages": "1358--69",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Exercise and peripheral nerve grafts as a strategy to promote regeneration after acute or chronic spinal cord injury",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Theisen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sachdeva",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Austin",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kulich",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Kranz",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Houle",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Neurotrauma",
+            "volume": "34",
+            "issn": "",
+            "pages": "1909--1923",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Traction-manipulation and plastic corsets in the treatment of disc lesions of the lumbar spine",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Mckee",
+                    "suffix": ""
+                }
+            ],
+            "year": 1956,
+            "venue": "Lancet",
+            "volume": "270",
+            "issn": "",
+            "pages": "472--477",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Consensus on standardized diagnosis and treatment for osteoporotic vertebral compression fracture patients during epidemic of corona virus disease 2019",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Chin J Trauma",
+            "volume": "36",
+            "issn": "",
+            "pages": "117--140",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Consensus on emergency surgery and infection prevention and control for severe trauma patients with 2019 novel coronavirus pneumonia",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Mao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Chin J Trauma",
+            "volume": "36",
+            "issn": "",
+            "pages": "97--103",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "All patients should receive COVID-19 screening to prevent nosocomial cross-infection. Mild patients are mainly treated conservatively to relieve symptoms and psychologically counseled. For the critical spinal patients, the aim should be saving lives and preserve spinal cord function and adopt surgical treatment if necessary. Patients should appropriately reduce the number of hospital revisits and try to use the Internet for online consulting. Noncritical surgery should be avoided during the pandemic. Patients requiring elective surgery can be operated after the pandemic is under control.Because of mobility limitations caused by spinal diseases, prolonged bed rest can aggravate the underlying diseases and lead to complications such as deep vein thrombosis, pneumonia, pressure ulcers, urinary tract infection, and osteoporosis. Previous studies have shown that older populations with underlying diseases have significantly increased susceptibility to COVID-19 and relatively poor prognosis[11]. Spinal patients are more susceptible to COVID-19; hence, screening is of vital importance in outpatient and emergency work in spine surgery duringFig. 1. Procedure of spinal outpatient and emergency. CBC, complete blood cell count; CT, computed tomography.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "No potential conflict of interest relevant to this article was reported.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of Interest"
+        }
+    ]
+}

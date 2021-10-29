@@ -1,0 +1,2256 @@
+{
+    "paper_id": "3fcf1cb78cf4b3258892739d3040bf5d0e0b8011",
+    "metadata": {
+        "title": "Porcine epidemic diarrhoea virus induces cell-cycle arrest through the DNA damage-signalling pathway",
+        "authors": [
+            {
+                "first": "Yi-Ran",
+                "middle": [],
+                "last": "Luo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Shanghai Key Laboratory of Veterinary Biotechnology",
+                    "institution": "Shanghai Jiao Tong University",
+                    "location": {
+                        "postCode": "200240",
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Shu-Ting",
+                "middle": [],
+                "last": "Zhou",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Shanghai Key Laboratory of Veterinary Biotechnology",
+                    "institution": "Shanghai Jiao Tong University",
+                    "location": {
+                        "postCode": "200240",
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Liang",
+                "middle": [],
+                "last": "Yang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Shanghai Key Laboratory of Veterinary Biotechnology",
+                    "institution": "Shanghai Jiao Tong University",
+                    "location": {
+                        "postCode": "200240",
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yuan-Ping",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Shanghai Key Laboratory of Veterinary Biotechnology",
+                    "institution": "Shanghai Jiao Tong University",
+                    "location": {
+                        "postCode": "200240",
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sheng-Yao",
+                "middle": [],
+                "last": "Jiang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Shanghai Key Laboratory of Veterinary Biotechnology",
+                    "institution": "Shanghai Jiao Tong University",
+                    "location": {
+                        "postCode": "200240",
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yeliboli",
+                "middle": [],
+                "last": "Dawuli",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Shanghai Key Laboratory of Veterinary Biotechnology",
+                    "institution": "Shanghai Jiao Tong University",
+                    "location": {
+                        "postCode": "200240",
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yi-Xuan",
+                "middle": [],
+                "last": "Hou",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Tian-Xing",
+                "middle": [],
+                "last": "Zhou",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Shanghai Key Laboratory of Veterinary Biotechnology",
+                    "institution": "Shanghai Jiao Tong University",
+                    "location": {
+                        "postCode": "200240",
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zhi-Biao",
+                "middle": [],
+                "last": "Yang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Shanghai Key Laboratory of Veterinary Biotechnology",
+                    "institution": "Shanghai Jiao Tong University",
+                    "location": {
+                        "postCode": "200240",
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": "zbyang@sjtu.edu.cn"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Introduction: Porcine epidemic diarrhoea virus (PEDV) infection causes watery diarrhoea, vomiting, anorexia, and weight loss, especially among neonatal piglets, inflicting on them morbidity and mortality potentially reaching 90%-100%. Despite it being known that certain mammalian cell phases are arrested by PEDV, the mechanisms have not been elucidated, and PEDV pathogenesis is poorly understood. This study determined the effect of an epidemic PEDV strain on cell cycle progression. Material and Methods: We observed the effect of the PEDV SHpd/2012 strain on an infected Vero cell cycle through flow cytometry and Western blot, investigating the interrelationships of cell-cycle arrest, the DNA damage-signalling pathway caused by PEDV and the phosphorylation levels of the key molecules Chk.2 and H2A.X involved upstream and downstream in this pathway. Results: PEDV induced Vero cell-cycle arrest at the G1/G0 phase. The phosphorylation levels of Chk.2 and H2A.X increased with the prolongation of PEDV infection, and no significant cell-cycle arrest was observed after treatment with ATM or Chk.2 inhibitors. The proliferation of PEDV was also inhibited by treatment with ATM or Chk.2 inhibitors. Conclusion: PEDV-induced cell-cycle arrest is associated with activation of DNA damage-signalling pathways. Our findings elucidate the molecular basis of PEDV replication and provide evidence to support further evaluation of PEDV pathogenesis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Porcine epidemic diarrhoea virus (PEDV) is the pathogen responsible for porcine epidemic diarrhoea (PED). PED causes watery diarrhoea, vomiting, anorexia, and weight loss, especially among neonatal piglets, and the morbidity and mortality of PED in neonatal piglets can reach 90%-100%. PEDV first appeared in England (21) and Belgium (15) in the early 1970s, and outbreaks later occurred in the Czech Republic, China, Korea, Vietnam, and the United States. Since 2010, new mutant strains of PEDV have been discovered in China (4, 8, 12-17, 29, 30) . These strains spread to the United States, South Korea, and southeast Asia and caused significant economic losses to the pig industry. The pathogenesis of PEDV is not clear, and the mechanism for infection of cells by PEDV remains largely unknown. Recently, PEDV infection has been shown to cause S-phase arrest of porcine small intestinal epithelial cells (IEC) (24, 25) . In a study of porcine transmissible gastroenteritis virus (TGEV), it was also found that PEDV can cause S-phase arrest of ST cells (2) . Furthermore, mouse hepatitis virus (MHV), infectious bronchitis virus (IBV), severe acute respiratory syndrome-coronavirus (SARS-CoV), and other coronaviruses can cause G0/G1-or G2/M-phase arrest (3, 7, 19, (26) (27) (28) . Nevertheless, the mechanisms by which epidemic strains of PEDV affect the mammalian cell cycle have not been elucidated. In this study, Vero cells were infected with the epidemic SHpd/2012 PEDV strain to determine the effect on cell cycle progression, to explore the molecular mechanisms producing the effects of PEDV on the cell cycle, and to provide theoretical support for a better definition of the pathogenesis of PEDV.",
+            "cite_spans": [
+                {
+                    "start": 317,
+                    "end": 321,
+                    "text": "(21)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 334,
+                    "end": 338,
+                    "text": "(15)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 526,
+                    "end": 547,
+                    "text": "(4, 8, 12-17, 29, 30)",
+                    "ref_id": null
+                },
+                {
+                    "start": 913,
+                    "end": 917,
+                    "text": "(24,",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 918,
+                    "end": 921,
+                    "text": "25)",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1055,
+                    "end": 1058,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1257,
+                    "end": 1260,
+                    "text": "(3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1261,
+                    "end": 1263,
+                    "text": "7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1264,
+                    "end": 1267,
+                    "text": "19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1268,
+                    "end": 1272,
+                    "text": "(26)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1273,
+                    "end": 1277,
+                    "text": "(27)",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1278,
+                    "end": 1282,
+                    "text": "(28)",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Cell and virus cultures. The epidemic PEDV strain SHpd/2012 and Vero cell line were isolated and preserved by the Zoonotic Disease and Comparative Medicine Laboratory of Shanghai Jiao Tong University (22) . Vero cells were cultured in Dulbecco's Modified Eagle's Medium (DMEM, Gibco, Grand Island, NY, USA). The cells were infected with the epidemic SHpd/2012 PEDV strain at a multiplicity of infection (MOI) of 0.5 in T25 culture flasks. Afterwards, 4 mL of maintenance cell culture solution (containing 10 \u03bcg/mL of trypsin and 2% DMEM) was added, and cells were incubated for 4-5 days, during which period the cytopathic effect (CPE) was observed daily. When CPE reached 80%, the cells were frozen at \u221280\u00b0C in a FORMA 900 Series freezer (Thermo Fisher Scientific, Waltham, MA, USA). After freezing and thawing, culture samples were centrifuged (5810R, Eppendorf, Hamburg, Germany) at 9,000 g for 5 min and the supernatants were collected.",
+            "cite_spans": [
+                {
+                    "start": 200,
+                    "end": 204,
+                    "text": "(22)",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Material and Methods"
+        },
+        {
+            "text": "Vero cell cycle synchronisation and preparation for flow cytometry. Initially, after PEDV infection, the cell cycles of the Vero cells were synchronised by serum starvation in serum-free medium, locking most cells in the G1/G0 phase (9) . Then, the cells were seeded in 6-well culture plates at a concentration of 3 \u00d7 10 5 cells per well and were incubated at 37\u00b0C with 5% CO2 for 24 h. After 24 h, the culture medium was carefully replaced with serum-free DMEM, and the cells were incubated at 37\u00b0C with 5% CO2 for a further 36 h.",
+            "cite_spans": [
+                {
+                    "start": 233,
+                    "end": 236,
+                    "text": "(9)",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Material and Methods"
+        },
+        {
+            "text": "Dry bromodeoxyuridine (BrdU) powder (Becton, Dickinson and Company, Franklin Lakes, NJ, USA) was dissolved in dimethylsulphoxide (DMSO, Sigma-Aldrich, St. Louis, MO, USA) to make a 10 mM stock solution (1,000 \u00d7). Almost 4 h before staining for flow analysis, BrdU solution was added to the infected and control cells at a final concentration of 10 \u03bcM. Cells were incubated with BrdU at 37\u00b0C for 4 h, after which the medium was replaced with DMEM. Cells were digested with trypsin (Sigma-Aldrich), collected in centrifuge tubes, and centrifuged at 1,000 g for 5 min to pellet cells. After centrifugation, the supernatant was discarded, and the cells were resuspended in chilled PBS solution with pH 7.2. Cells were counted with a cell counter (Countess, Invitrogen, Waltham, MA, USA).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Material and Methods"
+        },
+        {
+            "text": "For each sample, 1 \u00d7 10 6 cells were added to the centrifuge tube. Cells were then resuspended in 70% ethanol and fixed at 4\u00b0C for 12 h. They were then washed and resuspended in 1 mL chilled PBS and next centrifuged at 1,500 g for 10 min, and the supernatant was discarded. Anti-BrdU monoclonal antibody was diluted 1:5 in PBS solution containing 1% foetal bovine serum and 0.5% Triton X100 (Sigma-Aldrich), 100 \u03bcL of antibody dilution was added to each cell sample, and the samples were incubated at room temperature for 20 min. After incubation, each sample was washed and resuspended in 1 mL of chilled PBS, then centrifuged at 1,500 g for 10 min, and the supernatant was discarded.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Material and Methods"
+        },
+        {
+            "text": "FITC-conjugated fluorescent secondary antibody (Jackson ImmunoResearch Laboratories, West Grove, PA, USA) was diluted 1:1,500 in PBS, 100 \u03bcL of diluted secondary antibody was added to each cell sample, and these were then incubated at room temperature for 30 min in the dark. After incubation, each sample was again washed and resuspended in 1 mL chilled PBS, then centrifuged again at 1,500 g for 5 min, and the supernatant was discarded. A total of 100 \u03bcL of propidium iodide (PI -Sigma-Aldrich) stain was added to each sample, and samples were incubated at room temperature for 30 min in the dark. Cells were washed and resuspended in 1 mL chilled PBS, then analysed by flow cytometry (Beckman FC 500 MPL, Beckman Coulter, Pasadena, CA, USA).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Material and Methods"
+        },
+        {
+            "text": "Flow cytometric cell cycle analysis. FlowJo 9.0 software (FlowJo, Ashland, OR, USA) was used to analyse the flow cytometric data to detect differences in cell cycle distribution of Vero cells. The intact cell population was identified based on the forward scattersideways scatter diagram of each sample, and the middle of the cell grouping with a relatively concentrated central region was identified as R1. From the R1 population, PI intensity was plotted on the X axis (red channel), and BrdU (FITC, green channel) was plotted on the Y axis to present the periodic distribution scatter of double staining for cell cycle analysis. The S (R3), G1/G0 (R2), and G2/M (R4) phase cells were distinguished based on the intensity of the FITC fluorescence signal, and cells in the G1/G0 or G2/M phases were discriminated according to the intensity of the PI fluorescence signal; the proportion of cells in each phase was determined for the R1 population.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Material and Methods"
+        },
+        {
+            "text": "We analysed the cell cycle flow cytometry data of the PEDV-infected samples and mock control samples at 0 h, 12 h, 24 h, 28 h, and 32 h post infection, according to the methods above, and determined the proportion of cells in each phase of the cell cycle.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Material and Methods"
+        },
+        {
+            "text": "Analysis of changes in cyclin expression by Western blot. Flow cytometry analysis of the cell cycle can determine the cell cycle changes, but for revealing the molecular mechanism of the cell-cycle arrest induced by PEDV infection in more detail, we evaluated the time-dependent changes in expression of cyclin proteins in mock-infected and infected cells. Antibodies against PEDV N protein (6), Cyclin D1 (Abcam, Cambridge, UK), anti-Cyclin E1 (Cell Signaling Technologies, Danvers, MA, USA), and Cyclin B1 (Abcam) were used as the primary antibodies. Horseradish peroxidase (HRP)-conjugated secondary antibodies (Sigma-Aldrich), and other targets were used to evaluate protein expression of samples at 6 h, 12 h, 24 h, and 48 h after infection, to determine the changes in expression of relevant signalling molecules. Protein expression was visualised by enhanced chemiluminescence reagents (Thermo Fisher Scientific). Relative quantification of cyclin expression was determined by the width of the slip in Western blot.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Material and Methods"
+        },
+        {
+            "text": "Evaluation of DNA damage pathway as related to PEDV infection. Phospho-specific antibodies for each molecule of interest in the pathway were used in this experiment, and the relative phosphorylation content of the major signalling molecules was detected by Western blot. Additionally, inhibition of specific signalling molecules in the DNA damage pathway by chemical agents enabled us to confirm whether cellcycle arrest caused by PEDV infection involved activation of the DNA damage-signalling pathway.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Material and Methods"
+        },
+        {
+            "text": "Since the activation of the DNA damage pathway would be ascertained by evaluating phosphorylated proteins, phosphatase inhibitors were added to prevent removal of phosphate moieties during the preparation of the protein sample.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Material and Methods"
+        },
+        {
+            "text": "Treatment of cells with DNA damage pathway inhibitors. The following chemical inhibitors of the DNA damage-signalling pathway were used: the ATM inhibitor, which was 2-morpholin-4-yl-6thianthren-1-yl-pyran-4-one; and the Chk.2 inhibitor which was 2-(4-(4-chlorophenoxy)phenyl)-1H-benzimidazole -5-carboxamide (Cell Signaling Technologies). Both drugs were dissolved in DMSO to a working concentration of 10 \u03bcM. An equivalent volume of DMSO was added to the blank control cells.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Material and Methods"
+        },
+        {
+            "text": "We used inhibitors of ATM and Chk.2 to block the DNA damage-signalling pathway and to confirm whether PEDV infection can lead to cell-cycle arrest. Cells were seeded in 6-well culture plates at a concentration of 5 \u00d7 10 5 cells/well, and incubated with DMSO, ATM inhibitors, or Chk.2 inhibitors for 2 h. After seeding, cells were infected with PEDV at an MOI of 0.5, received the addition of complete medium, and were incubated for 48 h. A portion of the cells was digested according to the procedure described in the preparation for flow cytometry, then fixed and stained for flow detection; the other portion was prepared for quantitative fluorescence PCR to detect the number of virus copies (10) and to evaluate the effect of DNA damage pathway inhibitors on viral replication, according to these methods.",
+            "cite_spans": [
+                {
+                    "start": 695,
+                    "end": 699,
+                    "text": "(10)",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Material and Methods"
+        },
+        {
+            "text": "The overall picture of the detected differences in cell cycle distribution is shown in Figs. 1A and B . The proportion of S-phase cells in the mock-infected group gradually increased, and in the infected group it significantly decreased over time. G2 cells represented a smaller proportion in the infected group than in the mock group at all times, and in the latter group, cells in the G1/G0 stage became gradually fewer than those in the infection group over time.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 87,
+                    "end": 101,
+                    "text": "Figs. 1A and B",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "In mock cells, due to the addition of complete medium, cells were stimulated by growth factors in FBS, and as Vero cells recovered and continued to divide, the proportion of cells in the G1/G0 phase gradually decreased; the rate of reduction was highest between 12 and 24 h (Fig. 2) . Likewise, cells in the S phase increased over time, and the rate of addition was highest between 12 and 24 h (Fig. 3) . Although the proportion of cells in the G2/M phase was lower in the infected and control groups, the proportion and incremental increase of G2/M-phase cells in the control group was higher than that in the infected group (Fig 4) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 274,
+                    "end": 282,
+                    "text": "(Fig. 2)",
+                    "ref_id": null
+                },
+                {
+                    "start": 394,
+                    "end": 402,
+                    "text": "(Fig. 3)",
+                    "ref_id": null
+                },
+                {
+                    "start": 626,
+                    "end": 633,
+                    "text": "(Fig 4)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "In co-treated infected cells, the addition of FBS resulted in a slight decrease in cells in the G1/G0 phase. However, 24 h later, infected cells in this phase were more numerous than those of the control group, according to the proliferation of the virus (Fig. 2) . The proportion of cells in the S phase in the infected group increased up to 24 h but began to decrease thereafter (Fig. 3) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 255,
+                    "end": 263,
+                    "text": "(Fig. 2)",
+                    "ref_id": null
+                },
+                {
+                    "start": 381,
+                    "end": 389,
+                    "text": "(Fig. 3)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Cyclin protein expression changes. At 24 h and 48 h of virus proliferation, expression of cyclin E1 was significantly lower in the infected group than in the mock group. Cyclin D1 had decreased by 48 h in the infected group. In contrast, the expression of cyclin B1 in the infected group was higher than in the mock group at 12 h and 24 h, showing an increasing trend, although it also began to gradually decrease at 48 h (Fig. 5) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 422,
+                    "end": 430,
+                    "text": "(Fig. 5)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Cell-cycle arrest and PEDV proliferation dependency on activation of the DNA damage pathway. After 12 h and 18 h the phosphorylation levels of Chk.2 were higher in the PEDV infection group than in the control group, and followed a gradually increasing and then decreasing trend (Fig. 6) . The phosphorylation of H2A.X increased at 12 h, 18 h, and 24 h in the PEDV infection group samples, and correlated with PEDV proliferation in Vero cells, as indicated by PEDV N expression (Fig. 6) . These data indicate that infection with PEDV activates the DNA damage-signalling pathway in Vero cells, and suggest that since H2A.X is the downstream mediator of Chk.2, the phosphorylation of Chk.2 occurs earlier than phosphorylation of H2A.X.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 278,
+                    "end": 286,
+                    "text": "(Fig. 6)",
+                    "ref_id": null
+                },
+                {
+                    "start": 477,
+                    "end": 485,
+                    "text": "(Fig. 6)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "There were no significant differences in cell cycling or cell-cycle arrest between the mock-infected cells treated with DMSO and those treated with the ATM and Chk.2 inhibitors (Fig. 7) . However, for cells infected with PEDV and treated with DMSO, the proportion of cells in the G1 and G0 phases was significantly increased, and the proportion of cells in the S phase and the G2/M phase was decreased; for cells treated with the ATM and Chk.2 inhibitors, the proportion in the G1/G0 phase was slightly increased (Fig. 7) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 177,
+                    "end": 185,
+                    "text": "(Fig. 7)",
+                    "ref_id": null
+                },
+                {
+                    "start": 513,
+                    "end": 521,
+                    "text": "(Fig. 7)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "At 48 h after infection, cells treated with DMSO had the highest virus proliferation of nearly 500,000 copies/mL; at 48 h after infection, cells treated with the ATM inhibitor and Chk.2 inhibitor exhibited 50,000 virus copies/mL, which is dramatically lower than that of cells treated with DMSO (Fig. 8) . We therefore conclude that PEDV proliferation in Vero cells could be inhibited by chemical blockade of the DNA damagesignalling pathway. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 295,
+                    "end": 303,
+                    "text": "(Fig. 8)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Several viruses cause cell-cycle arrest in host cells, and different viruses have distinct ways and mechanisms of inducing it (4, 7, 19, (26) (27) (28) . In this study, we used flow cytometry and Western blot to investigate the mechanism of cell-cycle arrest in Vero cells after infection with PEDV. We evaluated cell-cycle proportions using BrdU-PI bicolour-labelled flow cytometry, which determines the proportion of S-phase cells by inserting BrdU into newly replicated DNA molecules, and indicates cells in the G1/G0 and G2/M phases by PI bound to chromosomes in all stages of the cell cycle. This method is more accurate and better reflects the proportions of a cell population in the different phases of the cell cycle than traditional PI single-staining methods. Compared with the control group, infection of Vero cells with the PEDV SHpd/2012 strain induced a significant increase in the proportion of cells in the G1/G0 phase after 24 h.",
+            "cite_spans": [
+                {
+                    "start": 126,
+                    "end": 129,
+                    "text": "(4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 130,
+                    "end": 132,
+                    "text": "7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 133,
+                    "end": 136,
+                    "text": "19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 137,
+                    "end": 141,
+                    "text": "(26)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 142,
+                    "end": 146,
+                    "text": "(27)",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 147,
+                    "end": 151,
+                    "text": "(28)",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In order to investigate the effect of PEDV infection on cell-cycle arrest further, we evaluated changes in the expression of several cyclins at different time periods in the infected and control groups. The results of flow cytometric cell-cycle analysis and Western blot indicated that PEDV infection caused G1/G0 cell-cycle arrest in Vero cells.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Since DNA damage signalling is a major pathway for regulating cell-cycle arrest, we predicted that cycle arrest caused by infection of Vero cells with PEDV is due to the activation of the DNA damagesignalling pathway. We evaluated expression of the phosphorylated forms of ATM and Chk.2 to detect activation of the DNA damage-signalling pathway in the infected and control groups. We also treated cells with chemical inhibitors of ATM and Chk.2 to determine if cell-cycle arrest after PEDV infection was linked with activation of the DNA damage-signalling pathway.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Control Vero cells treated with the ATM or Chk.2 inhibitors did not undergo cell-cycle arrest because the DNA damage-signalling pathway is not normally activated in these cells. In the infected group, the cells treated with DMSO showed increased G1/G0 cell-cycle arrest, while the cells treated with ATM and Chk.2 inhibitors did not, indicating that these two inhibitors block the DNA damage-signalling pathway, and do not arrest the G1/G0 cell cycle. These results revealed that cell-cycle arrest after infection of Vero cells with PEDV was caused by activation of the DNA damage-signalling pathway.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In this study, we found that the phosphorylation of Chk.2 and H2A.X in the DNA damage-signalling pathway is significantly enhanced along with the proliferation of PEDV. We demonstrate that the inhibitors of Chk.2 and H2A.X can reduce the G1/G0phase arrest of Vero cells infected by PEDV, indicating that the effect of PEDV infection on Vero cell cycles is diminished with a blockade of the DNA damagesignalling pathway. Additionally, proliferation of PEDV was reduced after the DNA damage-signalling pathway was blocked. These data indicate that G1/G0 arrest caused by PEDV infection in Vero cells is dependent on the activation of the DNA damage-signalling pathway, and the activation of this pathway also affects the proliferation of PEDV in Vero cells.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Previously, some studies reported that CoV infection or viral proteins could cause G1/G0-phase arrest, but the mechanisms varied from species to species. For example, researchers found that the expression of cyclin D3 protein and the phosphorylation of Rb in cells were reduced by eukaryotic expression of SARS-CoV 3a protein, resulting in the arrest of both cells in the G1 phase (28) . Similarly, SARS-CoV protein 7a had the same impact on cyclin D3 and Rb, and the 44-82 amino acid region of the ORF 7a gene may be involved in this function (27) . Eukaryotic expression of EGFP-tagged 3b protein in Vero, HEK-293 and COS-7 cell lines has been found to block the G1/G0 phase of host cells. In addition, the N protein of SARS-CoV also plays a role in arresting the host cell cycle (18) , by binding to the cyclin-dependent kinase (CDK) complex to inhibit the synthesis of genomic DNA (blocking the S phase). Further studies confirmed that the N protein could also bind to cyclin D directly, inhibit the activity of the Cdk4-cyclin D complex, and downregulate the expression of Cdk2 and the activity of the Cdk2 complex. Additionally, the downregulation of E2F1 was also observed in Vero E6 cells transfected with the N protein (18) .",
+            "cite_spans": [
+                {
+                    "start": 381,
+                    "end": 385,
+                    "text": "(28)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 544,
+                    "end": 548,
+                    "text": "(27)",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 782,
+                    "end": 786,
+                    "text": "(18)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1228,
+                    "end": 1232,
+                    "text": "(18)",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Some studies have shown that the non-structural p28 protein encoded by the ero1 gene of MHV could increase the activity of the Rb protein, p53, and p21 Cip1 molecules in cells, thereby blocking the cell at the G1/G0 phase (11). By upregulating the phosphorylation level of p53, MHV p28 protein can increase the transcriptional activity of p21 Cip1 so as to inhibit the activity of the Cdk2-cyclin E complex. Ultimately, MHV p28 protein can inhibit the phosphorylation of the Rb protein, making a large number of cells at the G1/G0 phase.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Researchers found that in virus-infected cells, levels of G1-phase regulators such as cyclin D1 and D2 decrease with IBV replication, eventually leading to G2/M-phase arrest (7) . Some other researchers further showed that the blockade induced by IBV could be achieved in the absence of p53 in host cells, while their studies also showed that the nsp13 protein of IBV could activate the DNA damage-signalling pathway, which also leads to downstream cell-cycle arrest (23).",
+            "cite_spans": [
+                {
+                    "start": 174,
+                    "end": 177,
+                    "text": "(7)",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Ding et al. (5) showed that ST and PK-15 cell lines infected by TGEV could induce S-phase and G2/Mphase arrest. Western blot results showed that TGEV infection promoted the expression of p21 and downregulated cyclin B, cdc2, CDK2, and proliferating cell nuclear antigen molecule. Furthermore, by adding the inhibitor of the p53 molecule, it was found that such inhibitory effect would weaken the cycle-arrest effect of TGEV infection on ST and PK-15 cells, thus leading to speculation that TGEV infection activates the signal pathway of the p53 molecule, on the activation of which depends the cycle-arrest phenomenon (1) .",
+            "cite_spans": [
+                {
+                    "start": 12,
+                    "end": 15,
+                    "text": "(5)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 618,
+                    "end": 621,
+                    "text": "(1)",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The N protein of PEDV can cause S-phase prolongation of the infected cells (24) . The researchers who made that finding generated a porcine small intestinal epithelial cell line stably expressing N protein. Flow cytometry showed that N protein expression could block the cells in the S phase, but the mechanism was not fully elucidated. In this study, we demonstrated that PEDV arrests the cell cycle by activating the DNA damage-signalling pathway, which is beneficial to the proliferation of the virus.",
+            "cite_spans": [
+                {
+                    "start": 75,
+                    "end": 79,
+                    "text": "(24)",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The authors declare that there is no conflict of interests regarding the publication of this article. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of Interests Statement:"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Respiratory syncytial virus matrix protein induces lung epithelial cell cycle arrest through a p53 dependent pathway",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bian",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Gibbs",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Orvell",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Imani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "PloS One",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Expression of protein N of porcine transmissible gastroenteritis in swine intestinal epithelial cells and effect and influence on cell cycle",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Tong",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "36",
+            "issn": "",
+            "pages": "7--10",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Murine coronavirus nonstructural protein p28 arrests cell cycle in G0/G1 phase",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Sugiyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kubo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Makino",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J Virol",
+            "volume": "78",
+            "issn": "",
+            "pages": "10410--10419",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Comparative genomic analysis of classical and variant virulent parental/attenuated strains of porcine epidemic diarrhea virus",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Ku",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "7",
+            "issn": "",
+            "pages": "5525--5538",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Transmissible gastroenteritis virus infection induces cell cycle arrest at S and G2/M phases via p53-dependent pathway",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ding",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dai",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Huo",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Virus Res",
+            "volume": "178",
+            "issn": "",
+            "pages": "241--251",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Preparation and characterization of monoclonal antibodies against the N protein of porcine epidemic diarrhoea virus SHpd/2012 strain",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ding",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Cui",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Hua",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Vet Med-Czech",
+            "volume": "63",
+            "issn": "",
+            "pages": "468--475",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Cell cycle perturbations induced by infection with the coronavirus infectious bronchitis virus and their effect on virus replication",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Dove",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Brooks",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Bicknell",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wurm",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hiscox",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J Virol",
+            "volume": "80",
+            "issn": "",
+            "pages": "4147--4156",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Phylogenetic analysis of porcine epidemic diarrhea virus field strains prevailing recently in China",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Kou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Ge",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Arch Virol",
+            "volume": "158",
+            "issn": "",
+            "pages": "711--715",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Synchronization of cell populations in G1/S and G2/M phases of the cell cycle",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Harper",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Methods Mol Biol",
+            "volume": "296",
+            "issn": "",
+            "pages": "157--166",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Development and application of a TaqMan Real-Time RT-PCR assay for the detection of a porcine epidemic diarrhea virus strain in China",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Hou",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Tong",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Hua",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Vet Res",
+            "volume": "60",
+            "issn": "",
+            "pages": "127--133",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Hepatitis C virus NS3/4A protein interacts with ATM, impairs DNA repair and enhances sensitivity to ionizing radiation",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lai",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Jeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Machida",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Virology",
+            "volume": "370",
+            "issn": "",
+            "pages": "295--309",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Genome sequencing and analysis of a novel recombinant porcine epidemic diarrhea virus strain from Henan, China",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Qiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Virus Genes",
+            "volume": "52",
+            "issn": "",
+            "pages": "91--98",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Phylogenetic analysis of porcine epidemic diarrhea virus (PEDV) field strains in central China based on the ORF3 gene and the main neutralization epitopes",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Qiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Su",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Arch Virol",
+            "volume": "159",
+            "issn": "",
+            "pages": "1057--1065",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Molecular characterization and phylogenetic analysis of porcine epidemic diarrhea virus (PEDV) field strains in south China",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Bee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Virus Genes",
+            "volume": "45",
+            "issn": "",
+            "pages": "181--185",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "A new coronavirus-like particle associated with diarrhea in swine",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Pensaert",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Debouck",
+                    "suffix": ""
+                }
+            ],
+            "year": 1978,
+            "venue": "Arch Virol",
+            "volume": "58",
+            "issn": "",
+            "pages": "243--247",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Epidemiology and vaccine of porcine epidemic diarrhea virus in China: mini-review",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Vet Med Sci",
+            "volume": "78",
+            "issn": "",
+            "pages": "355--363",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Outbreak of porcine epidemic diarrhea in suckling piglets",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Song",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "China. Emerg Infect Dis",
+            "volume": "18",
+            "issn": "",
+            "pages": "161--163",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "The nucleocapsid protein of severe acute respiratory syndrome-coronavirus inhibits the activity of cyclin-cyclin-dependent kinase complex and blocks S phase progression in mammalian cells",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Surjit",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Chow",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J Biol Chem",
+            "volume": "281",
+            "issn": "",
+            "pages": "10669--10681",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "The dynamics of cell cycle regulation",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Tyson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Csikasz-Nagy",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Novak",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Bioessays",
+            "volume": "24",
+            "issn": "",
+            "pages": "1095--1109",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Porcine epidemic diarrhea virus variants with high pathogenicity",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "China. Emerg Infect Dis",
+            "volume": "19",
+            "issn": "",
+            "pages": "2048--2049",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "An apparently new syndrome of porcine epidemic diarrhea",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Wood",
+                    "suffix": ""
+                }
+            ],
+            "year": 1977,
+            "venue": "Vet Rec",
+            "volume": "100",
+            "issn": "",
+            "pages": "243--244",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Characteristics of Vero cells infected by SHpd/2012 strain of porcine epidemic diarrhea virus",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ding",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Agriculture Science",
+            "volume": "36",
+            "issn": "",
+            "pages": "16--21",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Coronavirus infection induces DNA replication stress partly through interaction of its nonstructural protein 13 with the p125 subunit of DNA polymerase delta",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Biol Chem",
+            "volume": "286",
+            "issn": "",
+            "pages": "39546--39559",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Porcine epidemic diarrhea virus N protein prolongs S-phase cell cycle, induces endoplasmic reticulum stress, and up-regulates interleukin-8 expression",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H-J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Vet Microbiol",
+            "volume": "164",
+            "issn": "",
+            "pages": "212--221",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Porcine epidemic diarrhea virus M protein blocks cell cycle progression at S-phase and its subcellular localization in the porcine intestinal epithelial cells",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Tong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Acta Virologica",
+            "volume": "59",
+            "issn": "",
+            "pages": "265--275",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "G0/G1 arrest and apoptosis induced by SARS-Co V 3b protein in transfected cells",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Virol J",
+            "volume": "2",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "SARS coronavirus 7a protein blocks cell cycle progression at G0/G1 phase via the cyclin D3/p Rb pathway",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Virology",
+            "volume": "346",
+            "issn": "",
+            "pages": "74--85",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "G1 phase cell cycle arrest induced by SARS-CoV 3a protein via the cyclin D3/pRb pathway",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shan",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Hua",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Am J Resp Cell Mol",
+            "volume": "37",
+            "issn": "",
+            "pages": "9--19",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Occurrence and investigation of enteric viral infections in pigs with diarrhea in China",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Arch Virol",
+            "volume": "158",
+            "issn": "",
+            "pages": "1631--1636",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Isolation and identification of a variant porcine epidemic diarrhea virus",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ding",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Cai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "47",
+            "issn": "",
+            "pages": "957--963",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Aanalysis workflow for flow cytometry data; B -changes in cell cycle of Vero cells infected with PEDV between 0 h and 32 h after infection",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "changes in proportion of cells in the G1/G0 phase of Vero cells infected with PEDV between 0 h and 32 h after infection A B Changes in proportion of cells in the S phase of Vero cells infected with PEDV between 0 h and 32 h after infection",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Changes in proportion of cells in the G2/M phase of Vero cells infected with PEDV between 0 h and 32 h after infectionFig. 5. Changes over time in Cyclin B1, D1, and E1 in Vero cells infected with PEDV (M -control; I -PEDV infected cells) Changes over time in Chk.2, H2A.X, p53, and PEDV-N in Vero cells infected with PEDV (M -control, I -PEDV infected cells) Cell cycle data of control or PEDV-infected Vero cells treated by DMSO, ATM inhibitor, or/and Chk.2 inhibitor Fig. 8. Virus proliferation evaluated by real-time PCR of control or PEDV infected Vero cells treated by DMSO, ATM inhibitor or Chk.2 inhibitor",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Disclosure Statement: Research/project grant: The study was supported by the National Key Research and Development Programme of China (2016YFD0500100) and Natural Science Foundation of China (31472211, 31472207).",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Yi-Ran Luo, and Shu-Ting Zhou contributed equally to this study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Animal Rights Statement: None required."
+        }
+    ]
+}

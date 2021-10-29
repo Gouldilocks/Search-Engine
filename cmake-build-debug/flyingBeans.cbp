@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="flyingBeans"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/bin/make -j12 -f &quot;/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/bin/make -j12 -f &quot;/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/make -j12 -f &quot;/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/make -j12 -f &quot;/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/bin/make -j12 -f &quot;/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/bin/make -j12 -f &quot;/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/make -j12 -f &quot;/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/make -j12 -f &quot;/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/bin/make -j12 -f &quot;/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/bin/make -j12 -f &quot;/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/make -j12 -f &quot;/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/make -j12 -f &quot;/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="flyingBeans">
+				<Option output="/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/cmake-build-debug/flyingBeans" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/bin/make -j12 -f &quot;/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 flyingBeans"/>
+					<CompileFile command="/bin/make -j12 -f &quot;/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/make -j12 -f &quot;/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/make -j12 -f &quot;/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="flyingBeans/fast">
+				<Option output="/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/cmake-build-debug/flyingBeans" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/bin/make -j12 -f &quot;/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 flyingBeans/fast"/>
+					<CompileFile command="/bin/make -j12 -f &quot;/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/make -j12 -f &quot;/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/make -j12 -f &quot;/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/DSPair.h">
+			<Option target="flyingBeans"/>
+		</Unit>
+		<Unit filename="/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/Document.cpp">
+			<Option target="flyingBeans"/>
+		</Unit>
+		<Unit filename="/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/Document.h">
+			<Option target="flyingBeans"/>
+		</Unit>
+		<Unit filename="/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/DocumentParser.cpp">
+			<Option target="flyingBeans"/>
+		</Unit>
+		<Unit filename="/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/DocumentParser.h">
+			<Option target="flyingBeans"/>
+		</Unit>
+		<Unit filename="/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/IndexHandler.cpp">
+			<Option target="flyingBeans"/>
+		</Unit>
+		<Unit filename="/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/IndexHandler.h">
+			<Option target="flyingBeans"/>
+		</Unit>
+		<Unit filename="/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/QueryEngine.cpp">
+			<Option target="flyingBeans"/>
+		</Unit>
+		<Unit filename="/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/QueryEngine.h">
+			<Option target="flyingBeans"/>
+		</Unit>
+		<Unit filename="/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/UserInterface.cpp">
+			<Option target="flyingBeans"/>
+		</Unit>
+		<Unit filename="/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/UserInterface.h">
+			<Option target="flyingBeans"/>
+		</Unit>
+		<Unit filename="/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/avlNode.h">
+			<Option target="flyingBeans"/>
+		</Unit>
+		<Unit filename="/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/avlTests.cpp">
+			<Option target="flyingBeans"/>
+		</Unit>
+		<Unit filename="/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/avlTree.h">
+			<Option target="flyingBeans"/>
+		</Unit>
+		<Unit filename="/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/catch.hpp">
+			<Option target="flyingBeans"/>
+		</Unit>
+		<Unit filename="/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/hashy.h">
+			<Option target="flyingBeans"/>
+		</Unit>
+		<Unit filename="/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/hashyTests.cpp">
+			<Option target="flyingBeans"/>
+		</Unit>
+		<Unit filename="/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/main.cpp">
+			<Option target="flyingBeans"/>
+		</Unit>
+		<Unit filename="/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/porter2_stemmer.cpp">
+			<Option target="flyingBeans"/>
+		</Unit>
+		<Unit filename="/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/porter2_stemmer.h">
+			<Option target="flyingBeans"/>
+		</Unit>
+		<Unit filename="/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/christian/Desktop/Coder/search-engine-beans/flyingBeans/stopWords.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

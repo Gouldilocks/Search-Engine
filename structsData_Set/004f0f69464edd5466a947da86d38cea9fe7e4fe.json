@@ -1,0 +1,4495 @@
+{
+    "paper_id": "004f0f69464edd5466a947da86d38cea9fe7e4fe",
+    "metadata": {
+        "title": "Human Pregnancy Specific Beta-1-Glycoprotein 1 (PSG1) Has a Potential Role in Placental Vascular Morphogenesis 1",
+        "authors": [
+            {
+                "first": "Cam",
+                "middle": [
+                    "T"
+                ],
+                "last": "Ha",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Uniformed Services University of the Health Sciences",
+                    "location": {
+                        "settlement": "Bethesda"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Julie",
+                "middle": [
+                    "A"
+                ],
+                "last": "Wu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Uniformed Services University of the Health Sciences",
+                    "location": {
+                        "settlement": "Bethesda"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ster",
+                "middle": [],
+                "last": "Irmak",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University Hospital Essen",
+                    "location": {
+                        "settlement": "Essen",
+                        "country": "Germany"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Felipe",
+                "middle": [
+                    "A"
+                ],
+                "last": "Lisboa",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Uniformed Services University of the Health Sciences",
+                    "location": {
+                        "settlement": "Bethesda"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Anne",
+                "middle": [
+                    "M"
+                ],
+                "last": "Dizon",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Uniformed Services University of the Health Sciences",
+                    "location": {
+                        "settlement": "Bethesda"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "James",
+                "middle": [
+                    "W"
+                ],
+                "last": "Warren",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Uniformed Services University of the Health Sciences",
+                    "location": {
+                        "settlement": "Bethesda"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Suleyman",
+                "middle": [],
+                "last": "Ergun",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University Hospital Essen",
+                    "location": {
+                        "settlement": "Essen",
+                        "country": "Germany"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Gabriela",
+                "middle": [
+                    "S"
+                ],
+                "last": "Dveksler",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Uniformed Services University of the Health Sciences",
+                    "location": {
+                        "settlement": "Bethesda"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Previous studies suggest that human pregnancy specific beta-1-glycoproteins (PSGs) play immunomodulatory roles during pregnancy; however, other possible functions of PSGs have yet to be explored. We have observed that PSGs induce transforming growth factor beta 1 (TGFB1), which among its other diverse functions inhibits T-cell function and has proangiogenic properties. The present study investigates a potential role for PSG1, the most abundant PSG in maternal serum, as a possible inducer of proangiogenic growth factors known to play an important role in establishment of the vasculature at the maternal-fetal interface. To this end, we measured TGFB1, vascular endothelial growth factors (VEGFs) A and C, and placental growth factor (PGF) protein levels in several cell types after PSG1 treatment. In addition, tube formation and wound healing assays were performed to investigate a possible direct interaction between PSG1 and endothelial cells. PSG1 induced up-regulation of both TGFB1 and VEGFA in human monocytes, macrophages, and two human extravillous trophoblast cell lines. We did not observe induction of VEGFC or PGF by PSG1 in any of the cells tested. PSG1 treatment resulted in endothelial tube formation in the presence and absence of VEGFA. Site-directed mutagenesis was performed to map the essential regions within the N-domain of PSG1 required for functional activity. We found that the aspartic acid at position 95, previously believed to be required for binding of PSGs to cells, is not required for PSG1 activity but that the amino acids implicated in the formation of a salt bridge within the N-domain are essential for PSG1 function.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "angiogenesis, growth factors, placenta, placental angiogenesis, pregnancy, pregnancy-specific glycoprotein 1, syncytiotrophoblast, transforming growth factor beta 1, vascular endothelial growth factor",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Pregnancy specific beta-1-glycoproteins (PSGs)-previously known as SP1-are members of the carcinoembryonic antigen (CEA) family and are highly glycosylated proteins secreted by the placenta [1] . Human PSGs have been detected in the maternal serum as early as 3 days postfertilization, coinciding with the attachment of the blastocyst to the uterine wall [2] . Previous studies have reported abnormal levels of PSGs in complicated pregnancies and have shown their importance for the maintenance of a successful pregnancy [3] .",
+            "cite_spans": [
+                {
+                    "start": 190,
+                    "end": 193,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 355,
+                    "end": 358,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 521,
+                    "end": 524,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Eleven human PSG genes are clustered on chromosome 19q13.1-13.3 [4] . The human PSGs are comprised of a leader peptide followed by one N-terminal immunoglobulin (Ig) variable region-like domain (N-domain) and two or three Ig constant region-like domains [5] . PSG homologues have been identified in species with hemochorial placentation, including nonhuman primates, rats, and mice, all of which are species having several PSG genes that result in expression of several PSG proteins because of alternative splicing [6] . The function of human and murine PSGs is believed to be that of immunomodulators, as one of many reported mechanisms that prevent rejection of the allogeneic fetus by the maternal immune system. This proposed role of PSGs has been suggested by several investigators and is supported by different experimental findings, including the ability of PSGs to induce transforming growth factor beta 1 (TGFB1) [2, [7] [8] [9] [10] .",
+            "cite_spans": [
+                {
+                    "start": 64,
+                    "end": 67,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 254,
+                    "end": 257,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 515,
+                    "end": 518,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 922,
+                    "end": 925,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 926,
+                    "end": 929,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 930,
+                    "end": 933,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 934,
+                    "end": 937,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 938,
+                    "end": 942,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "One of the best-known functions of TGFB1 is that of immunoregulation, but during pregnancy, TGFB1 has been suggested to play a role in several other processes, including implantation, trophoblast differentiation, and in the activation and resolution phases of angiogenesis [11, 12] . The recognized importance of TGFB1 during the angiogenic process has been strengthened by its ability to regulate the vascular endothelial growth factor (VEGF) family, which includes VEGFs A, B, C, and D as well as placental growth factor (PGF) [13] [14] [15] [16] . Therefore, we hypothesized that PSGs may induce TGFB1 to promote immune tolerance, affect trophoblast function, and promote angiogenesis in the pregnant uterus. We explored this possibility by examining the effect of PSG1 in cell types involved with development of the placental blood supply, including primary monocyte/macrophages, low-passage primary endothelial cells, and two extravillous trophoblast cell lines.",
+            "cite_spans": [
+                {
+                    "start": 273,
+                    "end": 277,
+                    "text": "[11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 278,
+                    "end": 281,
+                    "text": "12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 529,
+                    "end": 533,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 534,
+                    "end": 538,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 539,
+                    "end": 543,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 544,
+                    "end": 548,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Previous studies from our laboratory showed that the Ndomain of PSGs is sufficient for their activity in target cells [9, 17] . The N-terminal domain of human PSG1 contains a Gly-Asp-Asp (GDD) motif on a solvent-exposed loop [18] in a region believed to be important for receptor binding and activity [19, 20] . The studies reported here indicate that amino acids G93 and D95, corresponding to the first and third amino acids in this potential receptor binding region, respectively, are not essential for the PSG1 functions we have described, whereas mutations in the salt bridge of the N-domain and elimination of two potential N-linked glycosylation sites render a protein without activity.",
+            "cite_spans": [
+                {
+                    "start": 118,
+                    "end": 121,
+                    "text": "[9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 122,
+                    "end": 125,
+                    "text": "17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 225,
+                    "end": 229,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 301,
+                    "end": 305,
+                    "text": "[19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 306,
+                    "end": 309,
+                    "text": "20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "A better understanding of the molecules that control the process of angiogenesis and trophoblast-mediated vascular remodeling during pregnancy is important, because disturbanc-es in placental blood flow and vascular development impair fetal growth [21] . Angiogenesis occurs at all stages during pregnancy to ensure that the embryo will be supplied with sufficient nutrients and oxygen [22, 23] . The results presented here suggest that PSGs could contribute to the process of establishing the maternal-fetal vasculature in two ways. First, PSG1 has the ability to induce TGFB1 and VEGFA by different cell types, including monocytes/macrophages and extravillous trophoblasts. Second, PSG1 has the capacity to interact with endothelial cells, inducing tube formation, as well as to enhance vascular morphogenetic processes induced by VEGFA.",
+            "cite_spans": [
+                {
+                    "start": 248,
+                    "end": 252,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 386,
+                    "end": 390,
+                    "text": "[22,",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 391,
+                    "end": 394,
+                    "text": "23]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "For immunoblotting, anti-FLAG M2 antibody (Sigma), the anti-PSG monoclonal antibody BAP1 (Genovac), and the anti-human Fc antibody (KPL) were employed. Neutralization of TGFB1 was performed by adding 10 lg/ml of the anti-human TGFB1 neutralizing antibody (R&D Systems) to the cells 10 min before PSG1 addition. Normal chicken Ig antibody, also obtained from R&D Systems, was used as the control. Recombinant human VEGFA was obtained from Immunotools.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Antibodies and Reagents"
+        },
+        {
+            "text": "The cDNA encoding the PSG1 leader peptide (L), N, A2, and B2 domains followed by a FLAG tag (Sigma) without the stop codon was synthesized by GenScript Corporation. The cDNA was subcloned into the BglII and NotI sites of the pEF1/V5-His vector (Invitrogen), resulting in the in-frame addition of the nucleotide coding for the V5 and histidine (His) tags at the C-terminus. The final construct, designated here as PSG1-FLAG, codes for a secreted PSG1 protein composed of the N, A2, and B2 domains followed by three tags-FLAG, V5, and His-at the C-terminus. To generate PSG1-Fc, the PSG1 cDNA encoding the L, N, A2, and B2 domains of PSG1 was subcloned inframe into the EcoRI-BglII sites of pFuse-IgG1 e3-Fc1 (InvivoGen), resulting in the addition of the hinge region, CH2 and CH3 domains, of the IgG heavy chain at the C-terminus.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Protein Production and Purification"
+        },
+        {
+            "text": "We transfected each of the PSG1-encoding plasmids described above into dihydrofolate reductase-negative (DHFR \u00c0 ) CHO cells along with pDCHIP, which encodes the Dhfr minigene, in a 1:10 molar ratio using Lipofectamine 2000 (Invitrogen) according to the manufacturer's recommendations. Positive transformants were obtained by methotrexate selection until maximum levels of protein were obtained from the cells, as determined by ELISA of the collected supernatants. Stably transfected cells were seeded into 5-kDa molecular weight cutoff hollow-fiber cartridges (FiberCell Systems, Inc.) and grown in Dulbecco modified Eagle medium supplemented with 2% fetal bovine serum (FBS; low IgG for PSG1-Fc production), 10 mM Hepes, 50 IU/ml of penicillin, and 50 lg/ ml of streptomycin. The supernatants from the cartridges were harvested daily, centrifuged at 5000 3 g for 10 min to remove cell debris, and then kept frozen until processed as described below. The control protein, FLAG-Fc, was harvested from the supernatant of DHFR \u00c0 CHO cells that were a kind gift from Dr. Gerardo Kaplan (Center of Biologics Evaluation and Research, U.S. Food and Drug Administration, Bethesda, MD).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Protein Production and Purification"
+        },
+        {
+            "text": "Recombinant proteins were purified by affinity chromatography using the \u00c4 KTAprime Plus system (GE Healthcare). PSG1-FLAG was dialyzed into 20 mM sodium phosphate buffer (pH 7.4) containing 20 mM imidazole (EMD Chemicals, Inc.) and purified using a HisTrap column (GE Healthcare). The obtained fractions were pooled, buffer-exchanged into PBS, applied to a column packed with anti-FLAG M2 agarose (Sigma), and eluted with 33 FLAG peptide (Sigma). PSG1-Fc and the FLAG-Fc were dialyzed into 20 mM sodium phosphate buffer (pH 7.4) and purified using a HiTrap protein A column (GE Healthcare). The proteins were eluted with 0.1 M glycine (pH 2.7) and collected into tubes containing 100 ll of 1 M Tris-HCl (pH 8.0). Fractions containing the purified PSG from the anti-FLAG agarose or protein A columns were identified by Western blot analysis with the anti-PSG1 MAb BAP1 and were pooled. The pooled fractions were concentrated and buffer-exchanged with PBS using Amicon Ultra-15 10-kDa MWCO centrifugal filter units (Millipore Corp.). The purified proteins were run on a SDS-PAGE gel, stained with GelCode Blue Stain Reagent (Pierce), and quantitated against bovine serum albumin standards. In addition, the recombinant PSG1 proteins were immunoblotted with anti-FLAG (for PSG1-FLAG and FLAG-Fc) and antihuman Fc (for PSG-1Fc, the PSG1 mutants, and FLAG-Fc) after separation using SDS-PAGE. In all cases, 500 ng of protein were loaded per lane, and the antibodies were used at a concentration of 1 lg/ml overnight in 5% milk in Tris-buffered saline Tween-20 and were followed by a 1:10 000 dilution of the horseradish peroxidase-labeled secondary antibody (Bio-Rad).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Protein Production and Purification"
+        },
+        {
+            "text": "To mutate selected amino acids in the N-domain of PSG1, we designed a PSG1 cDNA containing an Acc65I and an XhoI restriction site recognition sequence as silent mutations and cloned the cDNA into pFuse-IgG1 e3-Fc1 vector (InvivoGen). A 406-bp cDNA fragment was synthesized by Genscript Corporation in which the nucleotides coding for amino acids G and D-in positions 93 and 95, respectively, of the N-domain of the mature PSG1-were replaced for nucleotides coding for amino acids S and L, respectively. The fragment containing the mutations had an EcoRI site at the 5 0 end and an Acc65I site at the 3 0 end. To generate the mutant, we replaced the EcoRI-Acc65I fragment in PSG1 cloned into pFuse-IgG1 e3-Fc1 for the fragment containing the mutations. The successful exchange, resulting in PSG1 G93D95-S93L95, was confirmed by sequencing both strands of the cDNA.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Generation of the PSG1GDD!SDL and PSG1RNN!AAA Mutants"
+        },
+        {
+            "text": "The same strategy as described above was utilized to generate the R64, N79, and N77 mutant, in which all three amino acids were replaced for alanines. Briefly, a fragment with the mutated nucleotides with a 5 0 EcoRI site and a 3 0 XhoI site was synthesized by Genscript Corporation and replaced in the wild-type PSG1cDNA cloned into pFuse-IgG1 e3-Fc, previously digested with the same enzymes. The plasmids encoding the mutated PSG1s were transfected into CHO-K1 cells with Lipofectamine LTX (Invitrogen) according to the manufacturer's recommendations. Five hours posttransfection, the medium was aspirated, and the cells were kept in OPTI-MEM I (Invitrogen) for 72 h. The recombinant PSG1 G93D95-SL mutant, designated PSG1GDD!SDL, and the PSG1 R64N70N77-AAA mutant, designated PSG1RNN!AAA, were purified from the media using a protein A column as described above for wild-type PSG1-Fc. All proteins were determined to be endotoxin-free by their inability to induce tumor necrosis factor (TNF) in macrophages and with the HEK-Blue lipoplysaccharide (LPS) detection system (InvivoGen). The endotoxin levels in the proteins employed during these studies were tested, because LPS has been shown to induce VEGFA in some cell types.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Generation of the PSG1GDD!SDL and PSG1RNN!AAA Mutants"
+        },
+        {
+            "text": "All cells-both primary and established cell lines-employed for these studies were cultured in 5% CO 2 /95% air in a 378C humidified incubator. The RAW 264.7, CHO-K1, CHO DHFR \u00c0 , and BeWo cells were obtained from American Type Culture Collection and cultured in the media and cell densities recommended. Because FBS contains high levels of TGFB1, we used 5% or 10% fetal clone III serum alternative (Hyclone) for culturing cells in the experiments in which TGFB1 was to be measured. The human invasive trophoblast HTR-8/SVneo cell line was provided to us by Dr. Charles Graham (Queen's University, Kingston, ON, Canada) and was cultured in HyQ RPMI 1640-RS (Hyclone) or RPMI 1640 (Gibco) with 5% fetal clone III or FBS, 13 normocin (InvivoGen), and 100 U/ml of penicillin/streptomycin (Gibco) [24] . The trophoblast cell line SGHPL-4 was a kind gift or Dr. G.S. Whitley (Division of Basic Medical Sciences, St. George's University of London, U.K.) and was cultured in Ham F-12 nutrient mix supplemented with either 10% fetal clone III or 10% FBS, 2 mM L-glutamine, and 103 penicillin/streptomycin. The human endometrial endothelial cell line (HEEC) was a gift from Dr. Gil Mor (Yale University School of Medicine, New Haven, CT). HEEC was cultured as described by Aldo et al. [25] and Krikun et al. [26] .",
+            "cite_spans": [
+                {
+                    "start": 793,
+                    "end": 797,
+                    "text": "[24]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1276,
+                    "end": 1280,
+                    "text": "[25]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1299,
+                    "end": 1303,
+                    "text": "[26]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Cell Lines"
+        },
+        {
+            "text": "Human monocytes were isolated from the peripheral blood of healthy adult donors and purified by centrifugal elutriation as previously described [9] . The experiments employing monocytes were repeated six times, each time with cells from a different donor. Monocytes were maintained in RPMI 1640 (Invitrogen) supplemented with 2 mM glutamine and 50 lg/ml of gentamicin. Samples were obtained in accordance with National Institutes of Health Institutional Review Board approved protocols. Macrophages were derived from blood monocytes by culturing the adherent cells for 7 days in RPMI 1640 supplemented with 2 mM glutamine, 50 lg/ml of gentamicin, and 2% human type AB serum (Sigma). Human monocyte-derived dendritic cells were generated by culturing blood monocytes in RPMI 1640 supplemented with 2 mM glutamine, 10 ng/ml of CSF2 (granulocyte macrophage colony-stimulating factor; R&D Systems), and 20 ng/ml of interleukin 4 (R&D Systems) for 7 days; the day before PSG1 treatment, 100 ng/ml of LPS (Sigma) were added to the cells.",
+            "cite_spans": [
+                {
+                    "start": 144,
+                    "end": 147,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Primary Cells"
+        },
+        {
+            "text": "Uterine microvascular endothelial cells (UtMVECs) and human umbilical vein endothelial cells (HUVECs) were obtained from Lonza and utilized before 28 HA ET AL. passage 7. These cells were cultured in the basal media supplied by the company, supplemented with the recommended kit of media additives (EGM2 SingleQuots-hydrocortisone, human epidermal growth factor [hEGF], FBS, VEGF, human fibroblast growth factor beta [hFGFb], E3R-insulin-like growth factor 1 [R3-IGF], ascorbic acid, heparin, and gentamicin/amphotericin-B). Human dermal microvascular endothelial cells (HDMECs; Promocell) were cultured on gelatin-coated dishes in endothelial cell growth medium MV (Promocell) supplemented with 5% fetal calf serum. HDMECs were used at passage 3 or 4.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Primary Cells"
+        },
+        {
+            "text": "For ELISAs, cells were plated in triplicate wells the day before treatment in tissue culture, treated in 24-, 48-, or 96-well plate formats (BD Biosciences) and incubated in a 378C humidified incubator with 5% CO 2 . Cells treated in 24well plates were seeded as follows: RAW 264.7 cells at a density of 1 3 10 6 cells/well, HTR-8/SVneo cells at 0.4 3 10 6 cells/well, human monocytes at 1.2 3 10 6 cells/well, and endothelial cells (UtMVECs, HEEC, and HUVECs) at 0.4 3 10 6 cells/well. When the experiments were performed in 48-well plates, the cells indicated above were seeded at half the density as that used in the 24-well plates. BeWo cells and, in some experiments, human monocytes and HEEC were seeded in 96-well plates at a density of 1 3 10 5 , 4 3 10 5 , or 2 3 10 5 cells/ well, respectively. Human macrophages and human monocyte-derived dendritic cells were seeded in 96-well plates at a density of 0.3 3 10 6 cells/ well. SGHPL-4 cells were seeded at a density of 5 3 10 5 cells/well in a 96-well plate.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Enzyme-Linked Immunosorbant Assays"
+        },
+        {
+            "text": "Cells seeded in 24-or 48-well plates were treated with recombinant proteins in 300 ll of media for treatment times of less than 6 h or in 1 ml of media for treatment times of greater than 6 h. Cells treated in 96-well plates were treated in 200 ll of media for 24 or 48 h. When primary endothelial cells were used in experiments designed to measure VEGFA, the cells were incubated in supplement-free EGM medium (Lonza) 2 h before treatment because of the presence of VEGFA in the complete media. Treatment of HEEC was performed in OPTI-MEM I (Invitrogen).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Enzyme-Linked Immunosorbant Assays"
+        },
+        {
+            "text": "After treatment, the supernatants were collected and centrifuged at 5000 rpm for 5 min and used immediately for measurement of the specific factor by ELISA or stored at \u00c0808C. For measuring TGFB1 secretion by ELISA, supernatant or medium alone was activated according to the manufacturer's instructions (R&D Systems). VEGFA, VEGFC, and PGF ELISA kits were purchased from R&D Systems. TNF in the supernatants was determined using the OptEIA TNF (Mono/Mono) ELISA Set (BD Biosciences). At least three different protein preparations were tested, and experiments were repeated a minimum of three times.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Enzyme-Linked Immunosorbant Assays"
+        },
+        {
+            "text": "The endothelial tube formation assay was carried out using Purecol, a threedimensional type I collagen gel (Nutacon) prepared in 48-well cluster tissue culture dishes as previously described [27] . After polymerization of the gel at 378C, wild-type HDMECs were seeded onto solidified gels at a concentration of 6 3 10 4 cells/well in 300 ll of endothelial growth medium MV containing 5% fetal calf serum and SupplementMix (containing heparin, epidermal growth factor, and hydrocortisone; Promocell). At confluence, the medium was replaced by basal medium containing 5% heat-inactivated fetal calf serum without further supplements. After 24 h, cells were treated with PSG1-Fc or FLAG-Fc (100 and 500 ng/ml) alone or in combination with VEGFA (25 ng/ ml). This treatment was repeated every 3 days, and photographs were taken with a phase-contrast microscope (Carl Zeiss, Inc.) equipped with a digital camera (ProgRes C10 plus ; Jenoptik AG).",
+            "cite_spans": [
+                {
+                    "start": 191,
+                    "end": 195,
+                    "text": "[27]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Endothelial Tube Formation Assay and Wound Healing Assay"
+        },
+        {
+            "text": "For wound healing assays, HDMECs were seeded in a 48-well tissue culture plate until they reached confluence. In the middle of each well, a wound line was induced using a pipette as previously described [28] . Each well was treated with VEGF alone (25 ng/ml), PSG1-Fc alone (100 and 500 ng/ml), FLAG-Fc alone (100 and 500 ng/ml), PSG1-Fc (100 and 500 ng/ml) plus VEGF (25 ng/ml), and FLAG-Fc (100 and 500 ng/ml) plus VEGF (25 ng/ml). Basal medium alone was used as a negative control. The wounding area of each well was observed by phase-contrast microscopy (Leica). These areas were observed daily and photographed using a digital camera mounted on the phasecontrast microscope. The wounding distance was measured using the morphometric program Optimas (Optimast).",
+            "cite_spans": [
+                {
+                    "start": 203,
+                    "end": 207,
+                    "text": "[28]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Endothelial Tube Formation Assay and Wound Healing Assay"
+        },
+        {
+            "text": "SPSS (SPSS, Inc.) and Microsoft Excel were used for statistical analysis of data. The two-tailed Student t-test was used to determine statistical significance in experiments comparing protein-treated cells versus untreated cells, with a Pvalue of less than 0.05 as a cutoff. One-way ANOVA was used to determine statistical significance of dose-response assays, with a P-value of less than 0.01 as a cutoff. All data are representative of at least three independent experiments.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistics"
+        },
+        {
+            "text": "The human PSG family has 11 members, and PSG1 is the most abundant family member [29] . We generated recombinant PSG1-FLAG, which consists of the leader peptide, followed by the N, A2, and B2 domains of PSG1 and then a FLAG, V5, and six His tags. The recombinant protein has an approximate molecular mass of 55 kDa and was harvested from the supernatant of stably transfected CHO cells, as described in Materials and Methods. Recombinant PSG1-FLAG protein was sequentially purified on a HisTrap column followed by an anti-FLAG affinity column. These two purification steps rendered a glycoprotein that was more than 90% pure based on Coomassie blue staining (Fig. 1, lane 1) .",
+            "cite_spans": [
+                {
+                    "start": 81,
+                    "end": 85,
+                    "text": "[29]",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 658,
+                    "end": 674,
+                    "text": "(Fig. 1, lane 1)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Generation of Recombinant PSG1, PSG1 Mutants, and the Control Protein FLAG-Fc"
+        },
+        {
+            "text": "We generated recombinant PSG1-Fc, which contains the same PSG1 domains as PSG1-FLAG but has a different tag at the C-terminus. The FLAG, V5, and His tags of PSG1-FLAG were replaced by the Fc tag, which consists of the mutated human IgG hinge domains, CH2 and CH3, from the pFuse-hIgG1e3-Fc1 vector. The recombinant protein has an approximate molecular mass of 70 kDa (Fig. 1, lane 2) . The FLAG-Fc protein (Fig. 1, lane 3) secreted from CHO was used as the control protein, as described in Materials and Methods.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 367,
+                    "end": 383,
+                    "text": "(Fig. 1, lane 2)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 406,
+                    "end": 422,
+                    "text": "(Fig. 1, lane 3)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Generation of Recombinant PSG1, PSG1 Mutants, and the Control Protein FLAG-Fc"
+        },
+        {
+            "text": "Two different PSG1 mutants were generated. We mutated two residues at positions 93 and 95 within the N-domain of PSG1 to generate PSG1GDD!SDL-FC and three amino acids in positions 64, 70, and 77 to generate PSG1RNN!AAA-FC (see Fig. 6A, lanes 2 and 3, respectively) . The level of purity achieved after protein A purification of all proteins was more than 90%.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 227,
+                    "end": 264,
+                    "text": "Fig. 6A, lanes 2 and 3, respectively)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Generation of Recombinant PSG1, PSG1 Mutants, and the Control Protein FLAG-Fc"
+        },
+        {
+            "text": "We have previously reported that recombinant GST-PSG1 purified from insect cells induces TGFB1 in human monocytes and in murine macrophages [9] . Human monocytes secreted PSG1 AND ANGIOGENESIS 29 TGFB1 in response to PSG1-Fc treatment, starting at a concentration of 10 lg/ml and up to the highest concentration tested (50 lg/ml) compared to FLAG-Fc-treated cells ( Fig.  2A) . We also observed a significant induction of TGFB1 in human monocytes (between two-and threefold the amount of TGFB1 secreted over the control protein-treated cells, depending on the donor) at a PSG1-FLAG concentration of 10 lg/ml.",
+            "cite_spans": [
+                {
+                    "start": 140,
+                    "end": 143,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 366,
+                    "end": 375,
+                    "text": "Fig.  2A)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Recombinant PSG1 Induces VEGFA in Monocytes and Macrophages"
+        },
+        {
+            "text": "In macrophages, TGFB1 has been shown to induce the proangiogenic factor VEGFA [14] . Therefore, we investigated the possibility that in addition to inducing TGFB1, PSG1 might regulate VEGFA expression in monocytes and macrophages. Human monocytes were treated with PSG1-Fc or control protein starting at a concentration of 10 lg/ml. Induction of VEGFA was seen in human monocytes at 50 lg/ml of PSG1-Fc over FLAG-Fc control (Fig. 2B) . In some experiments, significance was observed at PSG1 concentrations of 30 lg/ml (data not shown). When PSG1-FLAG was used to treat a mouse macrophage cell line (RAW 264.7), concentrations of 30 lg/ml were sufficient to observe induction of VEGFA over controls (data not shown).",
+            "cite_spans": [
+                {
+                    "start": 78,
+                    "end": 82,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 424,
+                    "end": 433,
+                    "text": "(Fig. 2B)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Recombinant PSG1 Induces VEGFA in Monocytes and Macrophages"
+        },
+        {
+            "text": "Treatment of human macrophages derived from blood monocytes required concentrations of PSG1-Fc of 50 lg/ml to observe a significant induction of VEGF-A over FLAG-Fc (data not shown). While we found that monocyte-derived dendritic cells secreted TGFB1 in response to PSG1 treatment, VEGFA secretion was not induced by PSG1-Fc even at the highest concentration tested (80 lg/ml; data not shown).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Recombinant PSG1 Induces VEGFA in Monocytes and Macrophages"
+        },
+        {
+            "text": "Based on our recent observations that murine PSG23 induces TGFB1 and VEGFA in mouse and human trophoblast cell lines [30] , we explored the possibility that human trophoblasts could also respond to PSG1 treatment. Because we cannot obtain material to perform these experiments with primary first-trimester human trophoblast cells, we relied on the well-characterized, first-trimester extravillous trophoblast (EVT) cell lines HTR-8/SVneo [24] and SGHPL-4 [31] . These cell lines were derived from first-trimester chorionic villous tissue and, after immortalization, have been shown to retain many features of normal EVT and to behave in the same manner as primary cells [32, 33] . HTR-8/SVneo and SGHPL-4 cells were treated with increasing concentrations of PSG1, starting at 1 lg/ml and increasing up to 50 lg/ml. Upregulation of TGFB1 was observed at 10 lg/ml for both cell lines (Fig. 3, A and D) . Significant up-regulation of VEGFA was observed at 30 lg/ml in HTR-8/SVneo (Fig. 3B ) and 10 lg/ml in SGHPL-4 cells (Fig. 3E) .",
+            "cite_spans": [
+                {
+                    "start": 117,
+                    "end": 121,
+                    "text": "[30]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 438,
+                    "end": 442,
+                    "text": "[24]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 455,
+                    "end": 459,
+                    "text": "[31]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 670,
+                    "end": 674,
+                    "text": "[32,",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 675,
+                    "end": 678,
+                    "text": "33]",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 882,
+                    "end": 899,
+                    "text": "(Fig. 3, A and D)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 977,
+                    "end": 985,
+                    "text": "(Fig. 3B",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1018,
+                    "end": 1027,
+                    "text": "(Fig. 3E)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Human Trophoblasts as Novel Targets for PSG1"
+        },
+        {
+            "text": "Chung et al. [13] showed that culturing HTR-8/SVneo cells in the presence of TGFB1 resulted in an increase in the expression of VEGFA. Figure 3C shows that neutralization of TGFB1 affected the increase in VEGFA expression by HTR-8/ SVneo cells after treatment with PSG1. Therefore, the induction of VEGFA was TGFB1 dependent.",
+            "cite_spans": [
+                {
+                    "start": 13,
+                    "end": 17,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 135,
+                    "end": 144,
+                    "text": "Figure 3C",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Human Trophoblasts as Novel Targets for PSG1"
+        },
+        {
+            "text": "To investigate the possible interaction of PSG1 with endothelial cells, we treated primary human myometrial UtMVECs, which have been previously used in coculture experiments to mimic the uterine endothelial lining [34] , with 1, 10, 25, and 50 lg/ml of PSG1 or control protein. In addition, PSG1 and FLAG-Fc were added at the same concentrations to HUVECs and HEEC, immortalized by telomerase-mediated transformation. Significant PSG1-induced secretion of TGFB1 in UtMVECs (Fig. 4A) , HEEC (Fig. 4B ), and HUVEC (not shown) was observed starting at concentrations of 25 lg/ml. When testing the ability of PSG1 to induce VEGFA in these cells, we did not observe a significant induction of VEGFA with concentrations of PSG1 from 1 to 80 lg/ml (data not shown).",
+            "cite_spans": [
+                {
+                    "start": 214,
+                    "end": 218,
+                    "text": "[34]",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 473,
+                    "end": 482,
+                    "text": "(Fig. 4A)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 490,
+                    "end": 498,
+                    "text": "(Fig. 4B",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Human PSG1 Targets Endothelial Cells"
+        },
+        {
+            "text": "The experiments described above strongly suggest that at least some endothelial cells express receptors for PSG1. Therefore, we hypothesized that PSG1 could play a role in uterine angiogenesis and capillary morphogenesis. To investigate this further, we performed in vitro endothelial tube formation assays. HDMECs were cultured and seeded onto a collagen gel at passage 3 or 4 and then cultured until confluence. Afterward, they were stimulated with PSG1-Fc or the control protein (FLAG-Fc) alone or in combination with VEGFA. HDMECs exposed only to VEGFA were used as a positive control and formed tubes as expected (Fig. 5A) . Cells cultured in basal medium, the negative control, showed no tube formation (Fig. 5B ). PSG1 alone, applied at concentrations of 100 and 500 ng/ml, induced tube formation as shown in Figure  5C (100 ng/ml of PSG1). Simultaneous application of PSG1 at 25 and 100 ng/ml of VEGFA increased the network of VEGFA-induced endothelial tubes (Fig. 5D) as assessed semiquantitatively under microscopic evaluation. When the control protein FLAG-Fc was used instead of PSG1, we could not observe the formation of tubes or the increase in VEGFAmediated tube formation (data not shown). Neither PSG1-Fc nor FLAG-Fc applied at concentrations 100 and 500 ng/ml had an effect on wound distance in comparison to the negative control, in which the cells were exposed to basal medium only (data not shown). In contrast, VEGFA treatment of the cells, which was used as positive control, reduced the wounding distance within 12 h after wound induction (not shown).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 618,
+                    "end": 627,
+                    "text": "(Fig. 5A)",
+                    "ref_id": null
+                },
+                {
+                    "start": 709,
+                    "end": 717,
+                    "text": "(Fig. 5B",
+                    "ref_id": null
+                },
+                {
+                    "start": 816,
+                    "end": 826,
+                    "text": "Figure  5C",
+                    "ref_id": null
+                },
+                {
+                    "start": 967,
+                    "end": 976,
+                    "text": "(Fig. 5D)",
+                    "ref_id": null
+                }
+            ],
+            "section": "PSG1 Induces Endothelial Tube Formation"
+        },
+        {
+            "text": "Two other members of the VEGF family, VEGFC and PGF, have been shown to be important for normal placental development [35] [36] [37] [38] . We tested whether PSG1 induced VEGFC and PGF in different cell types. Expression of PGF has previously been reported in trophoblasts and endothelial cells [39] . Our results showed that PSG1 did not induce PGF in HEEC (Fig. 6A) , HUVECs (Fig. 6B) , and UtMVECs (data not shown). The choriocarcinoma cell line BeWo secreted high basal levels of PGF, and no significant difference in control protein and PSG1-treated wells was found (Fig. 6C) . On the other hand, the basal level of PGF secretion by HTR-8 SVneo cells was low-at the level of the lowest ELISA standard-but as for BeWo cells, no induction by PSG1 could be detected (data not shown).",
+            "cite_spans": [
+                {
+                    "start": 118,
+                    "end": 122,
+                    "text": "[35]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 123,
+                    "end": 127,
+                    "text": "[36]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 128,
+                    "end": 132,
+                    "text": "[37]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 133,
+                    "end": 137,
+                    "text": "[38]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 295,
+                    "end": 299,
+                    "text": "[39]",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 358,
+                    "end": 367,
+                    "text": "(Fig. 6A)",
+                    "ref_id": null
+                },
+                {
+                    "start": 377,
+                    "end": 386,
+                    "text": "(Fig. 6B)",
+                    "ref_id": null
+                },
+                {
+                    "start": 571,
+                    "end": 580,
+                    "text": "(Fig. 6C)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Recombinant PSG1 Did Not Induce PGF and VEGFC"
+        },
+        {
+            "text": "The major source of VEGFC during pregnancy has been postulated to be the uterine natural killer (uNK) cells, but some positive staining for VEGFC in the extravillous trophoblast has also been observed [40] . We saw significant induction of VEGFC by PSG1 in HTR-8/SVneo cells, which express high basal levels of this growth factor, but this was not reproducible in four other independent experiments (Fig. 6D ).",
+            "cite_spans": [
+                {
+                    "start": 201,
+                    "end": 205,
+                    "text": "[40]",
+                    "ref_id": "BIBREF40"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 399,
+                    "end": 407,
+                    "text": "(Fig. 6D",
+                    "ref_id": null
+                }
+            ],
+            "section": "Recombinant PSG1 Did Not Induce PGF and VEGFC"
+        },
+        {
+            "text": "The availability of the crystal structure of the murine CEArelated cell adhesion molecule CEACAM1 has made it possible to model the structure of other members of the CEA family [41] . The N-terminal domain of most human PSGs, with the exception of PSG1, PSG4, and PSG8, contain an Arg-Gly-Asp (RGD) motif [18] . This motif is on the FG loop, which is solvent exposed and considered to be a biologically important element in CEACAM1. PSG1 has the sequence GDD rather than RGD, but the importance of this region for receptor binding and activity for all PSGs has been frequently cited [19, 20] . To investigate the possible importance of this region of the PSG1 protein, we mutated the G at position 93 and the D at position 95 to S and L, respectively. We selected the amino acids S and L based on their presence in the corresponding position in human CEACAM3. These changes are not expected to affect the folding of the protein while being substantially different from the amino acids present in wild-type PSG1. Like wild-type PSG1-Fc, the resulting protein has an approximate molecular mass of 70 kDa (Fig. 7A) . The PSG1GDD!SDL mutant was compared to the wild-type protein for its ability to induce TGFB1 in HTR-8/SVneo, monocytes, and HEEC. Our In C, HTR-8/SVneo cells were pre-treated with 10 lg/ml of anti-TGFB1 antibody or isotype-matched control antibody (IM) 1 h before addition of 50 lg/ml of PSG1-Fc or FLAG-Fc. After 24 h, VEGFA in the supernatants was analyzed by ELISA. All cells were treated in triplicate, and data are representative of at least three independent experiments. For A, B, D, and E, statistical significance was determined by one-way ANOVA, and the Pvalue between doses was less than 0.01. For C, statistical significance between the PSG1-Fc-treated and FLAG-Fc-treated samples was determined by two-tailed Student t-test (*P , 0.05). Error bars represent the SEM. results show that the PSG1GDD!SDL mutant induced TGFB1 over control protein (Fig. 7B) .",
+            "cite_spans": [
+                {
+                    "start": 177,
+                    "end": 181,
+                    "text": "[41]",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 305,
+                    "end": 309,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 583,
+                    "end": 587,
+                    "text": "[19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 588,
+                    "end": 591,
+                    "text": "20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1102,
+                    "end": 1111,
+                    "text": "(Fig. 7A)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 1970,
+                    "end": 1979,
+                    "text": "(Fig. 7B)",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Induction of TGFB1 by PSG1 Mutants"
+        },
+        {
+            "text": "Comparison of the PSG family members in human, baboon, mouse, and rat show some conserved elements. For example, an arginine at position 64 and an aspartic acid at position 82 are believed to form a salt bridge [18] . Between the amino acids forming the putative salt bridge are two (out of a total of three) potential N-linked glycosylation sites in the N-domain of all human PSGs. These potential N-linked glycosylation sites are also conserved in all mouse PSGs and in the majority of baboon and rat PSGs. Because the importance of N-linked glycosylation and the putative salt bridge has never been explored, we introduced three mutations that render a protein without the conserved N-linked glycosylation sites and the ability to form the salt bridge. As expected, this protein has a lower molecular weight than wild-type PSG1 (Fig. 7A, lane 3) . The PSG1RNN!AAA mutant did not induce TGFB1 in any of the cells tested, as shown in Figure 7B for HTR-8/SVneo cells.",
+            "cite_spans": [
+                {
+                    "start": 211,
+                    "end": 215,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 831,
+                    "end": 848,
+                    "text": "(Fig. 7A, lane 3)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 935,
+                    "end": 944,
+                    "text": "Figure 7B",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Induction of TGFB1 by PSG1 Mutants"
+        },
+        {
+            "text": "Angiogenesis is required for embryonic development and growth for successful hemochorial placentation (for recent reviews, see [23, 42] ). Distinct vascular processes occur during pregnancy, starting with adaptations of the endometrial vasculature to support blastocyst implantation, followed by expansion and de novo formation of blood vessels to support embryo growth and development. Even at later stages of pregnancy, the placental vasculature continues to be remodeled to enable blood flow to the increasing metabolic demands of the fetus. Sufficient uteroplacental blood flow requires remodeling of the spiral arteries by the extravillous trophoblasts [43] . Failure of spiral artery remodeling has been associated with complications of pregnancy, such as preeclampsia and fetal growth restriction [44] [45] [46] . Therefore, a better understanding of the stimuli needed for cell production of angiogenic growth factors during the processes of uteroplacental vascular remodeling and the generation of the placental vascular network is of major clinical interest.",
+            "cite_spans": [
+                {
+                    "start": 127,
+                    "end": 131,
+                    "text": "[23,",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 132,
+                    "end": 135,
+                    "text": "42]",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 658,
+                    "end": 662,
+                    "text": "[43]",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 804,
+                    "end": 808,
+                    "text": "[44]",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 809,
+                    "end": 813,
+                    "text": "[45]",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 814,
+                    "end": 818,
+                    "text": "[46]",
+                    "ref_id": "BIBREF46"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Trophoblasts play an important role in the physiological changes of the spiral arteries as well in other processes during establishment of the placental vasculature, but together with trophoblasts, other cell types clearly are involved in the regulation of angiogenesis during pregnancy. Among them are decidual and placental macrophages as well as dendritic, endothelial, uNK, and mesenchymal cells. Many of these cells secrete or respond to angiogenic factors, such as members of the VEGF family [40, [47] [48] [49] [50] .",
+            "cite_spans": [
+                {
+                    "start": 498,
+                    "end": 502,
+                    "text": "[40,",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 503,
+                    "end": 507,
+                    "text": "[47]",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 508,
+                    "end": 512,
+                    "text": "[48]",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 513,
+                    "end": 517,
+                    "text": "[49]",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 518,
+                    "end": 522,
+                    "text": "[50]",
+                    "ref_id": "BIBREF50"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Besides its well known role in angiogenesis, VEGFA has been suggested to regulate trophoblast behavior in an autocrine manner [51] . Other members of the VEGF family, such as PGF and VEGFC, promote endothelial survival and vascular remodeling [38] . In addition, PGF was shown to play an important role in successful uNK cell proliferation and/or differentiation [37] and VEGFC to facilitate immune tolerance and endovascular activity of uNK cells [35] . Therefore, we decided to investigate whether PSG1 induces the expression of different members of the VEGF family. When exploring the possible induction by PSG1 of VEGFC in HTR-8/SVneo cells and of PGF in BeWo cells, we found that these cells express very high basal levels of these growth factors and that whereas we saw significant induction in some experiments, this induction was not reproducible in others. Therefore, at this time, we are unable to reach a definite conclusion.",
+            "cite_spans": [
+                {
+                    "start": 126,
+                    "end": 130,
+                    "text": "[51]",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 243,
+                    "end": 247,
+                    "text": "[38]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 363,
+                    "end": 367,
+                    "text": "[37]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 448,
+                    "end": 452,
+                    "text": "[35]",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Expression of VEGFA by placental macrophages has been documented [52] , and whereas macrophages have been shown to be involved in angiogenesis, they require stimulation by activating factors [53] . We observed that PSG1 induced significant secretion of VEGFA and TGFB1 in primary monocyte/macrophages, with a small variation in the concentration of PSG1 required depending on the donor. The cells used in our in vitro studies most likely do not exactly replicate the phenotype of placental macrophages, but we propose that PSGs could be one of the placental products, which increases FIG. 5. In vitro endothelial tube formation assay on three-dimensional collagen gel in the presence or absence of PSG1 and VEGFA. Human dermal microvascular endothelial cells were seeded on the top of polymerized collagen gel and cultured until they achieved subconfluence. The cells were then stimulated with PSG1 alone or in combination with VEGF. VEGF induces endothelial tubes (A, arrows) as expected, whereas no tubes were seen in the control when the cells were exposed to basal medium only (B). Addition of PSG1-Fc to basal media induces endothelial tubes (C, arrows) and also supports VEGF-induced tube formation (D, arrows). Original magnification 3450.",
+            "cite_spans": [
+                {
+                    "start": 65,
+                    "end": 69,
+                    "text": "[52]",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 191,
+                    "end": 195,
+                    "text": "[53]",
+                    "ref_id": "BIBREF53"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "HA ET AL. the secretion of VEGFA by these cells. Whereas we found that monocyte-derived dendritic cells secreted TGFB1 in response to PSG1 treatment, VEGFA secretion was not induced. Recent reports indicate that uterine dendritic cells fine-tune decidual angiogenesis by producing TGFB1 and secreted FLT1 and that they have an important role in vascular development [49, 54] . Interestingly, only alternative activation-not TGFB1 treatment-was reported to lead to VEGFA production by dendritic cells [55] . Therefore, it remains to be investigated whether, in the decidual microenvironment, PSG1 may induce dendritic cells to secrete VEGFA.",
+            "cite_spans": [
+                {
+                    "start": 366,
+                    "end": 370,
+                    "text": "[49,",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 371,
+                    "end": 374,
+                    "text": "54]",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 500,
+                    "end": 504,
+                    "text": "[55]",
+                    "ref_id": "BIBREF55"
+                }
+            ],
+            "ref_spans": [],
+            "section": "32"
+        },
+        {
+            "text": "When exploring the potential interaction of PSG1 with nonimmune cells, we found that PSG1 induced the proangiogenic factor TGFB1 in different primary endothelial cells, HEEC, the choriocarcinoma cell line BeWo, and two firsttrimester extravillous trophoblast cell lines, HTR-8/SVneo and SGHPL-4. Of the cells listed above, VEGFA induction was only observed in the HTR-8/SVneo and SGHPL-4. Therefore, PSG1 could potentially play a role in trophoblast invasion, migration, and differentiation through its ability to regulate VEGFA secretion in EVT.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "32"
+        },
+        {
+            "text": "Our data show that PSG1 is involved in capillary morphogenesis and that it also influences vascular morphogenetic processes induced by VEGFA. PSG1 induced endothelial cell tube formation in the presence and absence of VEGFA. When VEGFA was added to the cells together with PSG1, we observed that the network was enhanced over the cells in which PSG1 or VEGFA was added alone. Further experiments are required to determine the molecular and signaling mechanisms by which PSG1 induces endothelial tube formation. Tube formation likely is not the result of induction of VEGFA by PSG1, because we did not observe significant PSG1-mediated VEGFA secretion in endothelial cells at PSG1 concentrations employed in the tube assays. Additionally, we did not observe an increase in endothelial cell migration upon PSG1 treatment, which would be expected as a result of up-regulation of VEGFA. Therefore, while PSG1 may increase the availability of VEGFA in the placenta, the effect on endothelial cells, because of its ability to induce VEGFA secretion from other cell types, may be of a paracrine nature or could be mediated by the observed up-regulation of TGFB1. PSGs belong to the CEA family, and it is interesting to note that other members of this family, which are membrane bound, have been implicated in the processes of immunoregulation, human trophoblast invasion, and angiogenesis [27, [56] [57] [58] [59] [60] [61] .",
+            "cite_spans": [
+                {
+                    "start": 1382,
+                    "end": 1386,
+                    "text": "[27,",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1387,
+                    "end": 1391,
+                    "text": "[56]",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 1392,
+                    "end": 1396,
+                    "text": "[57]",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 1397,
+                    "end": 1401,
+                    "text": "[58]",
+                    "ref_id": "BIBREF58"
+                },
+                {
+                    "start": 1402,
+                    "end": 1406,
+                    "text": "[59]",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 1407,
+                    "end": 1411,
+                    "text": "[60]",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 1412,
+                    "end": 1416,
+                    "text": "[61]",
+                    "ref_id": "BIBREF61"
+                }
+            ],
+            "ref_spans": [],
+            "section": "32"
+        },
+        {
+            "text": "The PSG concentration increases progressively to reach a plateau in the last 4 wk of pregnancy. At 200 lg/ml, PSGs are the most abundant fetal proteins in the maternal bloodstream during late pregnancy [62] . At this time, and to our knowledge, no specific antibodies can distinguish the different members of the human PSG family, but splice variants for most of them have been reported to be expressed, with most of these including the N-domain [19] . Recently, transcripts for PSG1 were found in sperm, and PSG1 protein was detected during zygotic development, suggesting a possible role for this protein in the early stages of embryogenesis and/or implantation [63] . Within the N-domain, most PSGs have an RGD or an RGDlike sequence. The RGD motif forms the minimal functional binding unit in some integrin ligands [64] , and its presence in one of the solvent-exposed loops of most PSGs was assumed to be required for PSG function [20] . Within this sequence, the conservation of the aspartic acid (D) at position 95 has been cited as essential for function [18, 19] . Our results indicate that at least for some functions of PSGs, the G in position 93 and the D at position 95 are not essential. Binding assays showed that although the PSG1GDD!SDL mutant binds to target cells, such as HTR-8/SVneo, significantly over the control protein, the binding (measured as mean fluorescence intensity) was approximately half that of the wild-type protein. Whether other, as-yet-unknown functions of this protein could be mediated by these amino acids, or how the mutation affects the affinity of the interaction with the receptor, remains to be determined.",
+            "cite_spans": [
+                {
+                    "start": 202,
+                    "end": 206,
+                    "text": "[62]",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 446,
+                    "end": 450,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 664,
+                    "end": 668,
+                    "text": "[63]",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 819,
+                    "end": 823,
+                    "text": "[64]",
+                    "ref_id": null
+                },
+                {
+                    "start": 936,
+                    "end": 940,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1063,
+                    "end": 1067,
+                    "text": "[18,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1068,
+                    "end": 1071,
+                    "text": "19]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "32"
+        },
+        {
+            "text": "Mutations of the two conserved potential N-linked glycosylation sites and of one of the amino acids (R64) involved in the formation of a salt bridge rendered a protein with no activity. The introduced mutations very likely resulted in major conformational changes in the protein. Preliminary data from our laboratory indicates that enzymatic removal of N-linked carbohydrates with peptide-N-glycosidase F results in a significant reduction of the activity of the protein. In addition, we have previously established that N-linked glycosylation is required for interaction of murine PSG17 with CD9 [65] . It remains to be determined whether the removal of the carbohydrates just in the N-domain is enough to destroy the activity of the protein.",
+            "cite_spans": [
+                {
+                    "start": 597,
+                    "end": 601,
+                    "text": "[65]",
+                    "ref_id": "BIBREF65"
+                }
+            ],
+            "ref_spans": [],
+            "section": "32"
+        },
+        {
+            "text": "At present, the receptor for human PSGs remains unknown. Because human PSGs share 80% identity at the amino acid level, it is worth exploring whether all 11 members of the family bind to the same receptor to perform these functions. We performed our studies with two recombinant PSG1 proteins, which differ in the nature of the tag at the Cterminus. Both proteins had the same activity in target cells with small variations in the concentration of protein required to observe the effects reported.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "32"
+        },
+        {
+            "text": "In the present study, we show that different cell types can respond to PSG1, secreting growth factors known to regulate vascular development and trophoblast behavior. In addition, the in vitro studies described here indicate that the interaction of PSG1 with endothelial cells can have functional consequences. Therefore, we propose that besides their ability to regulate the immune response, PSGs may have the previously unrecognized ability to contribute to the establishment of the vasculature during pregnancy. The precise processes during angiogenesis in the maternal-fetal unit that could be modulated by this family of proteins require further investigation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "32"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Detection and characterization of pregnancy proteins in the human placenta and their quantitative immunochemical determination in sera from pregnant women",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Bohn",
+                    "suffix": ""
+                }
+            ],
+            "year": 1971,
+            "venue": "Arch Gynakol",
+            "volume": "210",
+            "issn": "",
+            "pages": "440--457",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Discordant secretion of pregnancy specific beta 1-glycoprotein and human chorionic gonadotropin by human pre-embryos cultured in vitro",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Dimitriadou",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Phocas",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Mantzavinos",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sarandakou",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Rizos",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Zourlas",
+                    "suffix": ""
+                }
+            ],
+            "year": 1992,
+            "venue": "Fertil Steril",
+            "volume": "57",
+            "issn": "",
+            "pages": "631--636",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Identification of high-risk pregnancy by the routine measurement of pregnancy-specific beta 1-glycoprotein",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Grudzinskas",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Gordon",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Menabawey",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wadsworth",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Chard",
+                    "suffix": ""
+                }
+            ],
+            "year": 1983,
+            "venue": "Am J Obstet Gynecol",
+            "volume": "147",
+            "issn": "",
+            "pages": "10--12",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The human pregnancy-specific glycoprotein genes are tightly linked on the long arm of chromosome 19 and are coordinately expressed",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Thompson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Koumari",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wagner",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Barnert",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Schleussner",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Schrewe",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zimmermann",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Muller",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Schempp",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zaninetta",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ammaturo",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Hardman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "Biochem Biophys Res Commun",
+            "volume": "167",
+            "issn": "",
+            "pages": "848--859",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Characterization of cDNAs of the human pregnancy-specific beta 1-glycoprotein family, a new subfamily of the immunoglobulin gene superfamily",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Tease",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Shupert",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "Biochemistry",
+            "volume": "29",
+            "issn": "",
+            "pages": "2845--2852",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Conservation of pregnancyspecific glycoprotein (PSG) N domains following independent expansions of the gene families in rodents and primates",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mclellan",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zimmermann",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Moore",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "BMC Evol Biol",
+            "volume": "5",
+            "issn": "",
+            "pages": "39--57",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Binding of pregnancy-specific glycoprotein 17 to CD9 on macrophages induces secretion of IL-10, IL-6, PGE2, and TGF-beta1",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Ha",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Waterhouse",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wessells",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Dveksler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J Leukoc Biol",
+            "volume": "77",
+            "issn": "",
+            "pages": "948--957",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "In vivo expression of recombinant pregnancy-specific glycoprotein 1a induces alternative activation of monocytes and enhances Th2-type immune response",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Motran",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Diaz",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Montes",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Bocco",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gruppi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Eur J Immunol",
+            "volume": "33",
+            "issn": "",
+            "pages": "3007--3016",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Pregnancy-specific glycoproteins function as immunomodulators by inducing secretion of IL-10, IL-6 and TGF-beta1 by human monocytes",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Snyder",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Wessner",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wessells",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Waterhouse",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Wahl",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zimmermann",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Dveksler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Am J Reprod Immunol",
+            "volume": "45",
+            "issn": "",
+            "pages": "205--216",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Pregnancy specific glycoprotein 18 induces IL-10 expression in murine macrophages",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wessells",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wessner",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Parsells",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "White",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Finkenzeller",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zimmermann",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Dveksler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Eur J Immunol",
+            "volume": "30",
+            "issn": "",
+            "pages": "1830--1840",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Functional role of cell surface integrins on human trophoblast cell migration: regulation by TGF-beta, IGF-II, and IGFBP-1",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Irving",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lala",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Exp Cell Res",
+            "volume": "217",
+            "issn": "",
+            "pages": "419--427",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Cell type-specific expression of transforming growth factor-beta 1 in the mouse uterus during the peri-implantation period",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Tamada",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Mcmaster",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Flanders",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Andrews",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Dey",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "Mol Endocrinol",
+            "volume": "4",
+            "issn": "",
+            "pages": "965--972",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Expression and regulation of vascular endothelial growth factor in a first trimester trophoblast cell line",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Chung",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Yelian",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Zaher",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Gonik",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Evans",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Diamond",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Svinarich",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Placenta",
+            "volume": "21",
+            "issn": "",
+            "pages": "320--324",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Mechanisms underlying TGF-beta1-induced expression of VEGF and Flk-1 in mouse macrophages and their implications for angiogenesis",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Jeon",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Chae",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Seo",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Seo",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Chun",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Yie",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Byeon",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Eom",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Ha",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J Leukoc Biol",
+            "volume": "81",
+            "issn": "",
+            "pages": "557--566",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Vascular endothelial growth factor is induced in response to transforming growth factor-beta in fibroblastic and epithelial cells",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Pertovaara",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kaipainen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Mustonen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Orpana",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ferrara",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Saksela",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Alitalo",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "J Biol Chem",
+            "volume": "269",
+            "issn": "",
+            "pages": "6271--6274",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Synergistic cooperation between hypoxia and transforming growth factor-beta pathways on human vascular endothelial growth factor gene expression",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Sanchez-Elsner",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Botella",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Velasco",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Corbi",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Attisano",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Bernabeu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "J Biol Chem",
+            "volume": "276",
+            "issn": "",
+            "pages": "38527--38535",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Murine CD9 is the receptor for pregnancy-specific glycoprotein 17",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Waterhouse",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ha",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Dveksler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "J Exp Med",
+            "volume": "195",
+            "issn": "",
+            "pages": "277--282",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Pregnancy-specific glycoprotein (PSG) in baboon (Papio hamadryas): family size, domain structure, and prediction of a functional region in primate PSGs",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hammarstrom",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Biol Reprod",
+            "volume": "64",
+            "issn": "",
+            "pages": "90--99",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Evolutionary analysis of the multigene pregnancy-specific beta 1-glycoprotein family: separation of historical and nonhistorical signals",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mclenachan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lockhart",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Faber",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Mansfield",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "J Mol Evol",
+            "volume": "42",
+            "issn": "",
+            "pages": "273--280",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "A motif in PSG11s mediates binding to a receptor on the surface of the promonocyte cell line THP-1",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rutherfurd",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Chou",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Mansfield",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Mol Endocrinol",
+            "volume": "9",
+            "issn": "",
+            "pages": "1297--1305",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Evidence for altered placental blood flow and vascularity in compromised pregnancies",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Reynolds",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Caton",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Redmer",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Grazul-Bilska",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Vonnahme",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Borowicz",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Luther",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Wallace",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Spencer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J Physiol",
+            "volume": "572",
+            "issn": "",
+            "pages": "51--58",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Fetoplacental angiogenesis during gestation is biphasic, longitudinal and occurs by proliferation and remodeling of vascular endothelial cells",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mayhew",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Placenta",
+            "volume": "23",
+            "issn": "",
+            "pages": "742--750",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Regulation of vascular 34",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Burton",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Charnock-Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Jauniaux",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Downloaded from www.biolreprod.org. growth and function in the human placenta",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Ha",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Al",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Reproduction",
+            "volume": "138",
+            "issn": "",
+            "pages": "895--902",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Establishment and characterization of first trimester human trophoblast cells with extended lifespan",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Graham",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hawley",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Hawley",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Macdougall",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kerbel",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Khoo",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lala",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "Exp Cell Res",
+            "volume": "206",
+            "issn": "",
+            "pages": "204--211",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "A novel three-dimensional in vitro system to study trophoblast-endothelium cell interactions",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Aldo",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Krikun",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Visintin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lockwood",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Romero",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Mor",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Am J Reprod Immunol",
+            "volume": "58",
+            "issn": "",
+            "pages": "98--110",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Metalloproteinase expression by control and telomerase immortalized human endometrial endothelial cells",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Krikun",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Mor",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Schatz",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lockwood",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Histol Histopathol",
+            "volume": "20",
+            "issn": "",
+            "pages": "719--724",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "CEA-related cell adhesion molecule 1: a potent angiogenic factor and a major effector of vascular endothelial growth factor",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ergun",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kilik",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Ziegeler",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hansen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Nollau",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gotze",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Wurmbach",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Horst",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Weil",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Fernando",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wagener",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Mol Cell",
+            "volume": "5",
+            "issn": "",
+            "pages": "311--320",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "CEA-related cell adhesion molecule-1 is involved in angiogenic switch in prostate cancer",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Tilki",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Irmak",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Oliveira-Ferrer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hauschild",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Miethe",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Atakaya",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Hammerer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Friedrich",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Schuch",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Galalae",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Stief",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Kilic",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Oncogene",
+            "volume": "25",
+            "issn": "",
+            "pages": "4965--4974",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Highly specific monoclonal antibody demonstrates that pregnancy-specific glycoprotein (PSG) is limited to syncytiotrophoblast in human early and term placenta",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Baranov",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zimmermann",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Grunert",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Erhard",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Mincheva-Nilsson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hammarstrom",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Thompson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Placenta",
+            "volume": "18",
+            "issn": "",
+            "pages": "491--501",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Murine pregnancyspecific glycoprotein 23 induces the proangiogenic factors transforminggrowth factor beta 1 and vascular endothelial growth factor a in cell types involved in vascular remodeling in pregnancy",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Ha",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Dveksler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Biol Reprod",
+            "volume": "79",
+            "issn": "",
+            "pages": "1054--1061",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Hepatocyte growth factor regulates human trophoblast motility and invasion: a role for nitric oxide",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Cartwright",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Holden",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Whitley",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Br J Pharmacol",
+            "volume": "128",
+            "issn": "",
+            "pages": "181--189",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Decorin-mediated inhibition of proliferation and migration of the human trophoblast via different tyrosine kinase receptors",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Iacob",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tsonis",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Babwah",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Chakraborty",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Bhattacharjee",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lala",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Endocrinology",
+            "volume": "149",
+            "issn": "",
+            "pages": "6187--6197",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Trophoblast interactions with endothelial cells are increased by interleukin-1beta and tumor necrosis factor alpha and involve vascular cell adhesion molecule-1 and alpha4beta1",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Cartwright",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Balarajah",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Exp Cell Res",
+            "volume": "304",
+            "issn": "",
+            "pages": "328--336",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Trophoblast migration under flow is regulated by endothelial cells",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Soghomonians",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Barakat",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Thirkill",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Douglas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Biol Reprod",
+            "volume": "73",
+            "issn": "",
+            "pages": "14--19",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Vascular endothelial growth factor C facilitates immune tolerance and endovascular activity of human uterine NK cells at the maternal-fetal interface",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kalkunte",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Mselle",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Norris",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Wira",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Sentman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sharma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J Immunol",
+            "volume": "182",
+            "issn": "",
+            "pages": "4085--4092",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Preeclampsia is associated with reduced serum levels of placenta growth factor",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Torry",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Caudle",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Torry",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Am J Obstet Gynecol",
+            "volume": "179",
+            "issn": "",
+            "pages": "1539--1544",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Genetic deletion of placenta growth factor in mice alters uterine NK cells",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Tayade",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Hilchie",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Moons",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Carmeliet",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Foster",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Croy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J Immunol",
+            "volume": "178",
+            "issn": "",
+            "pages": "4267--4275",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Human cytotrophoblasts promote endothelial survival and vascular remodeling through secretion of Ang2, PlGF, and VEGF-C",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Bellingard",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mcmaster",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Fisher",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Dev Biol",
+            "volume": "263",
+            "issn": "",
+            "pages": "114--125",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Evidence of a novel isoform of placenta growth factor (PlGF-4) expressed in human trophoblast and endothelial cells",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ahn",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hinrichs",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Torry",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Torry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "J Reprod Immunol",
+            "volume": "60",
+            "issn": "",
+            "pages": "53--60",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Expression of angiogenic growth factors by uterine natural killer cells during early pregnancy",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Lash",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Schiessl",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kirkley",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Innes",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cooper",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Searle",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Robson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Bulmer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J Leukoc Biol",
+            "volume": "80",
+            "issn": "",
+            "pages": "572--580",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Crystal structure of murine sCEACAM1a[1,4]: a coronavirus receptor in the CEA family",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Zelus",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Meijers",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Bergelson",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Duke",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Joachimiak",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Holmes",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "EMBO J",
+            "volume": "21",
+            "issn": "",
+            "pages": "2076--2086",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Angiogenesis in implantation",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Torry",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Leavenworth",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Maheshwari",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Groesch",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Ball",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Torry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J Assist Reprod Genet",
+            "volume": "24",
+            "issn": "",
+            "pages": "303--315",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "The uterine spiral arteries in human pregnancy: facts and controversies",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Pijnenborg",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Vercruysse",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hanssens",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Placenta",
+            "volume": "27",
+            "issn": "",
+            "pages": "939--958",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Inadequate maternal vascular response to placentation in pregnancies complicated by preeclampsia and by small-for-gestational age infants",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Khong",
+                    "suffix": ""
+                },
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Wolf",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Robertson",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Brosens",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "Br J Obstet Gynaecol",
+            "volume": "93",
+            "issn": "",
+            "pages": "1049--1059",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Placental bed spiral arteries in the hypertensive disorders of pregnancy",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Pijnenborg",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Anthony",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Davey",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rees",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tiltman",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Vercruysse",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Van Assche",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "Br J Obstet Gynaecol",
+            "volume": "98",
+            "issn": "",
+            "pages": "648--655",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Pathogenesis and genetics of pre-eclampsia",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Roberts",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Cooper",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Lancet",
+            "volume": "357",
+            "issn": "",
+            "pages": "53--56",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Decidual natural killer cells: key regulators of placental development (a review)",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Croy",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chantakru",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Esadeg",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ashkar",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "J Reprod Immunol",
+            "volume": "57",
+            "issn": "",
+            "pages": "151--168",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Decidual NK cells regulate key developmental processes at the human fetal-maternal interface",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hanna",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Goldman-Wohl",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hamani",
+                    "suffix": ""
+                },
+                {
+                    "first": "Avraham",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Greenfield",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Natanson-Yaron",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Prus",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Cohen-Daniel",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Arnon",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Manaster",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Gazit",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Yutkin",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Nat Med",
+            "volume": "12",
+            "issn": "",
+            "pages": "1065--1074",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "In vivo dendritic cell depletion reduces breeding efficiency, affecting implantation and early placental development in mice",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Krey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "J Mol Med",
+            "volume": "86",
+            "issn": "",
+            "pages": "999--1011",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Comparison of expression patterns for placenta growth factor, vascular endothelial growth factor (VEGF), VEGF-B and VEGF-C in the human placenta throughout gestation",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Clark",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Licence",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Evans",
+                    "suffix": ""
+                },
+                {
+                    "first": "Charnock-Jones",
+                    "middle": [],
+                    "last": "Ds",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "J Endocrinol",
+            "volume": "159",
+            "issn": "",
+            "pages": "459--467",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "The human placenta remodels the uterus by using a combination of molecules that govern vasculogenesis or leukocyte extravasation",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Genbacev",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Fisher",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Ann N Y Acad Sci",
+            "volume": "995",
+            "issn": "",
+            "pages": "73--83",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Colocalization of vascular endothelial growth factor and its Flt-1 receptor in human placenta",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ahmed",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Dunk",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Whittle",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Rushton",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Rollason",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Growth Factors",
+            "volume": "12",
+            "issn": "",
+            "pages": "235--243",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Macrophages and angiogenesis",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sunderkotter",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Steinbrink",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Goebeler",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Bhardwaj",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sorg",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "J Leukoc Biol",
+            "volume": "55",
+            "issn": "",
+            "pages": "410--422",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Uterine DCs are crucial for decidua formation during embryo implantation in mice",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Plaks",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Birnberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Berkutzki",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sela",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Benyashar",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Kalchenko",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Mor",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Keshet",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Dekel",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Neeman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "J Clin Invest",
+            "volume": "118",
+            "issn": "",
+            "pages": "3954--3965",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Cutting edge: proangiogenic properties of alternatively activated dendritic cells",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Riboldi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Musso",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Moroni",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Urbinati",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bernasconi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rusnati",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Adorini",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Presta",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sozzani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J Immunol",
+            "volume": "175",
+            "issn": "",
+            "pages": "2788--2792",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "The cell-cell adhesion molecule carcinoembryonic antigen-related cellular adhesion molecule 1 inhibits IL-2 production and proliferation in human T cells by association with Src homology protein-1 and down-regulates IL-2 receptor",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Shively",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J Immunol",
+            "volume": "172",
+            "issn": "",
+            "pages": "3544--3552",
+            "other_ids": {}
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Immunomodulatory roles of the carcinoembryonic antigen family of glycoproteins",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Shao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Allez",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Mayer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Ann N Y Acad Sci",
+            "volume": "1072",
+            "issn": "",
+            "pages": "194--209",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Angiogenic properties of the carcinoembryonic antigen-related cell adhesion molecule 1",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wagener",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ergun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Exp Cell Res",
+            "volume": "261",
+            "issn": "",
+            "pages": "19--24",
+            "other_ids": {}
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "CEACAM1/VEGF cross-talk during neuroblastic tumor differentiation",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Poliani",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mitola",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ravanini",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Ferrari-Toninelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ippolito",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Notarangelo",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Bercich",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wagener",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Memo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Presta",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Facchetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J Pathol",
+            "volume": "211",
+            "issn": "",
+            "pages": "541--549",
+            "other_ids": {}
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "Carcinoembryonic antigen-related cell adhesion molecule 1 modulates vascular remodeling in vitro and in vivo",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Horst",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Ito",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dabelstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Schumacher",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Sander",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Turbide",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Brummer",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Meinertz",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Beauchemin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wagener",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J Clin Invest",
+            "volume": "116",
+            "issn": "",
+            "pages": "1596--1605",
+            "other_ids": {}
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "Corticotropin-releasing hormone modulates human trophoblast invasion through carcinoembryonic antigen-related cell adhesion molecule-1 regulation",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Bamberger",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Minas",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Kalantaridou",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Radde",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Sadeghian",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "L\u00f6ning",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Charalampopoulos",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Br\u00fcmmer",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wagener",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Bamberger",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Schulte",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Chrousos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Am J Pathol",
+            "volume": "168",
+            "issn": "",
+            "pages": "141--150",
+            "other_ids": {}
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Pregnancy-specific beta1-glycoprotein: a review",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Horne",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Towler",
+                    "suffix": ""
+                }
+            ],
+            "year": 1978,
+            "venue": "Obstet Gynecol Surv",
+            "volume": "33",
+            "issn": "",
+            "pages": "761--768",
+            "other_ids": {}
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Pregnancy-specific fbetag-1-glycoprotein 1 and human leukocyte antigen-E mRNA in human sperm: differential expression in fertile and infertile men and evidence of a possible functional role during early development",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Avendano",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Franchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Oehninger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Hum Reprod",
+            "volume": "24",
+            "issn": "",
+            "pages": "270--277",
+            "other_ids": {}
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "Nglycosylation is required for binding of murine pregnancy-specific glycoproteins 17 and 19 to the receptor CD9",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Ha",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Waterhouse",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Warren",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zimmermann",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Dveksler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Am J Reprod Immunol",
+            "volume": "59",
+            "issn": "",
+            "pages": "251--258",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Recombinant PSG1 produced in CHO cells. PSG1-FLAG secreted by CHO cells was purified using two rounds of purificationfirst a HisTrap column, followed by an anti-FLAG affinity column (lane 1). PSG1-Fc and control protein (FLAG-Fc) were purified on a protein A column (lanes 2 and 3, respectively). Purified proteins were run on SDS-PAGE and stained with GelCode Blue.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "(B)  in the supernatants were analyzed by ELISA. All cells were treated in triplicate, and data are representative of at least three independent experiments. Statistical significance was determined by oneway ANOVA (*P , 0.01). Error bars the SEM.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "PSG1 induces TGFB1 and VEGFA in human extravillous trophoblast cell lines. HTR-8/SVneo and SGHPL-4 cells were treated with different concentrations of PSG1-Fc (A and C-E) or PSG1-FLAG (B) for 24 h. TGFB1 and VEGFA in the supernatants were analyzed by ELISA.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "PSG1 induces TGFB1 in human endothelial cells. UtMVECs (A) and HEEC (B) were treated with different concentrations of PSG1-Fc or FLAG-Fc. TGFB1 in the supernatants was measured by ELISA. All cells were treated in triplicate, and data are representative of at least three independent experiments. Statistical significance was determined by oneway ANOVA (*P , 0.01). Error bars represent the SEM.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "The GDD residues of PSG1 are not required for activity while Nlinked glycosylation of the N-domain is essential. A) PSG1-Fc (lane 1), PSG1GDD!SDL Fc (lane 2), and PSG1RNN!AAA (lane 3) secreted by CHO cells were purified on a protein A column, separated on SDS-PAGE, and stained with GelCode Blue. B) HTR-8/SVneo cells were treated with 30 lg/ml of PSG1-Fc, PSG1GDD!SDL Fc, PSG1RNN!AAA, and FLAG-Fc for 24 h. TGFB1 in the supernatants was analyzed by ELISA. All cells were treated in triplicate, and data are representative of at least three independent experiments. Statistical significance between the proteintreated and control-treated samples was determined by two-tailed Student t-test (*P , 0.05). Error bars represent the SEM. FIG. 6. PSG1 does not induce PGF or VEGFC. The human endometrial endothelial cell line (A), HUVEC (B), the BeWo cell line (C), and HTR-8 SVneo cells (D) were treated with the indicated concentrations of PSG1-Fc or FLAG-Fc. Twenty-four hours posttreatment, PGF in the supernatant (A-C) or VEGFC (D)were measured with the specific ELISA. All cells were treated in triplicate, and data are representative of three independent experiments. Error bars represent the SEM. No statistical significance was found between treatments as determined by one-way ANOVA or twotailed Student t-test.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We would like to thank Dr. Larry Wahl (National Institute of Dental and Craniofacial Research, National Institutes of Health, Bethesda, MD) for providing us with elutriated human monocytes from healthy donors and Drs. Gil Mor, G.S. Whitley, G. Kaplan, and Charles Graham for providing the cell lines indicated in Material and Methods.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACKNOWLEDGMENTS"
+        }
+    ]
+}

@@ -1,0 +1,1235 @@
+{
+    "paper_id": "7afdf9319b1c8c4d1a5d5ab86bff147b03840c8d",
+    "metadata": {
+        "title": "Commentary on Ferguson, et al., \"Impact of Non-pharmaceutical Interventions (NPIs) to Reduce COVID-19 Mortality and Healthcare Demand\"",
+        "authors": [
+            {
+                "first": "S",
+                "middle": [],
+                "last": "Eubank",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Virginia",
+                    "location": {
+                        "settlement": "Charlottesville",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "\u00b7",
+                "middle": [
+                    "I"
+                ],
+                "last": "Eckstrand",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Virginia",
+                    "location": {
+                        "settlement": "Charlottesville",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "\u00b7",
+                "middle": [
+                    "B"
+                ],
+                "last": "Lewis",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Virginia",
+                    "location": {
+                        "settlement": "Charlottesville",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "\u00b7",
+                "middle": [
+                    "S"
+                ],
+                "last": "Venkatramanan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Virginia",
+                    "location": {
+                        "settlement": "Charlottesville",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "\u00b7",
+                "middle": [
+                    "M"
+                ],
+                "last": "Marathe",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Virginia",
+                    "location": {
+                        "settlement": "Charlottesville",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "\u00b7",
+                "middle": [
+                    "C L"
+                ],
+                "last": "Barrett",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Virginia",
+                    "location": {
+                        "settlement": "Charlottesville",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "A recent manuscript (Ferguson et al. in Impact of non-pharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand, Imperial College COVID-19 Response Team, London, 2020. https://www.imperial.ac.uk/media/ imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf) from Imperial College modelers examining ways to mitigate and control the spread of COVID-19 has attracted much attention. In this paper, we will discuss a coarse taxonomy of models and explore the context and significance of the Imperial College and other models in contributing to the analysis of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "\u2022 The overall growth in infections is proportional to the ratio of these transition rates.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Compartmental models reproduce observed features of outbreaks, such as a selflimiting period of nearly exponential growth to a single peak followed by gradual decrease as the pool of susceptibles (S) in the population is depleted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The simplest compartmental models have only a few parameters, and general characteristics of an outbreak are amenable to straightforward mathematical analysis. For example, consider the so-called S-I-R model: dS/dt \u2212\u03b2 S I ; dI /dt \u03b2 S I \u2212 \u03b3 I ; dR/dt \u03b3 I .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Because the product S \u00b7 I vanishes when either S or I vanishes, these are fixed points of the dynamics. That is, when there are no susceptible or infectious people, the outbreak is over. However, the fixed point at S 0 is stable, while the one at I 0 is unstable. For a disease in which infected people may become immune, a perturbation out of the state with nobody infected (I 0) leads eventually to the state with no susceptibles remaining (S 0). Deterministic compartmental models have stochastic cousins such as the Reed-Frost model (Abbey 1952) , which allow for the possibility of stochastic outbreak extinction. In stochastic models, the outbreak may reach the I 0 fixed point in finite time without completely exhausting susceptibles (S > 0). Infectious disease outbreaks are essentially chain reactions in which each infectious person turns susceptibles into infecteds. The rate at which new infections occur is determined by a dimensionless combination of model parameters known as the reproductive number, R. The reproductive number can be interpreted as the mean number of people who will be directly infected by a typical infectious person over the course of illness. When R > 1, disease prevalence increases exponentially. For example, in the S-I-R model, the equation for I can be rewritten as",
+            "cite_spans": [
+                {
+                    "start": 537,
+                    "end": 549,
+                    "text": "(Abbey 1952)",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "At any instant, I is increasing or decreasing exponentially fast, depending on whether R \u03b2 S/\u03b3 is greater or less than one. Typically, as in this simple model, there are three ways to reduce R:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "1. Reduce S, the number of susceptibles, usually through prophylaxis; 2. Reduce \u03b3 \u22121 , the duration of the infectious period, through treatment; 3. Reduce \u03b2, the rate of transmission, through physical or behavioral barriers.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The basic reproductive number, R 0 , is the reproductive number in a situation in which the entire population is susceptible and no mitigating interventions are in place. Although the basic reproductive number is often treated as a biologically determined characteristic of the pathogen's transmissibility, it is actually a combination of biological, environmental, behavioral, and social characteristics, including relative transmissibility via different pathways (e.g., transmission by airborne droplets vs. transmission via surfaces or body fluids); local weather's effects on the ability of the virus to survive and/or infect new hosts; and the host's contacts with other potential hosts. Usually, only a few of these factors are included explicitly in compartmental models, limiting their ability to represent mitigating interventions. In particular, social distancing aims to reduce \u03b2 by limiting the number of contacts between infectious and susceptible people in which transmission can occur.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "It is important to distinguish between \"flattening\" the epidemic curve, i.e., reducing I at all times, and \"moving the curve to the right,\" i.e., delaying the peak of I. The impact of the epidemic can be substantially mitigated if the demand for health care resources does not outstrip the supply. In analogy with firefighting, flattening the curve accomplishes this by slowing the rate of burn as in a controlled burn. Delaying the peak works by temporarily extinguishing the flames, perhaps leaving the embers glowing. Both reduce the effective R, sometimes through the same measures, and the fire will re-ignite in both when those measures are lifted. The difference lies in the shape of the epidemic curve afterward. Controlling, but not extinguishing, the burn reduces S and hence the reproductive number when the fire re-ignites. The overall infection attack rate AR-the fraction of the population that eventually becomes infected-is typically a sigmoidal function of R that is not very sensitive to R as long as it is above 1. For example, in the S-I-R model, R 0 \u2212ln(1 \u2212 AR)/AR (Ball 1983) . Hence, flattening the curve does not significantly reduce the total number of people infected unless medical countermeasures can be developed during the delay it affords. In contrast, suppression works by driving infections to the (unstable) I 0 fixed point. The reproductive number when control measures are lifted in this case will be the same as before they were imposed. Suppression may reduce morbidity and mortality substantially, but only if it is global and simultaneous or continues long enough for pharmaceutical interventions to be developed. When illness severity depends on demographics, mitigation measures are most efficient when they are demographically targeted; suppression measures are most efficient when they are spatially and temporally targeted.",
+            "cite_spans": [
+                {
+                    "start": 1086,
+                    "end": 1097,
+                    "text": "(Ball 1983)",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Compartmental models can be elaborated (Hethcote 1994 ) by expanding the number of disease states (e.g., by adding compartments for exposed (E) or vaccinated (V )) or by partitioning the population by demographics such as age or location. Such models are well suited for representing demographically related heterogeneity in the course of illness or contact rates. The number of transition rates required to specify the model increases as the square of the number of partitions. At some point, depending on the modeler, it becomes natural to represent the model as a network of interacting partitions. Taken to the extreme, each host is in its own partition and the model is known as an individual-based model (Eubank 2004) .",
+            "cite_spans": [
+                {
+                    "start": 39,
+                    "end": 53,
+                    "text": "(Hethcote 1994",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 710,
+                    "end": 723,
+                    "text": "(Eubank 2004)",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Individual-based models trade off the power to represent heterogeneity against computational complexity and the need for data to calibrate person-person contact rates as well as etiological parameters. Modelers have generally been slow to adopt individualbased models because of these challenges; rather, they felt that capturing individual heterogeneities was unnecessary. However, driven by important heterogeneities in the risk of HIV infection and the targeting of interventions, network models and individualbased models of small populations started to become popular around the turn of the century (Morris and Kretzschmar 1997; Black and Singer 1987) . Individual-based models can represent not only biological, but also social heterogeneities, which are increasingly important aspects of pandemics. It is difficult to draw clear conclusions without such methods because individuals' circumstances, perceptions, deliberations, and social conventions are rather centrally causal. Even a single individual's behavior can carry out very important consequences. Hence, due to management of information and policies affecting individuals' responses, biologically similar diseases and circumstances can have different outcomes that will not be captured by aggregate models.",
+            "cite_spans": [
+                {
+                    "start": 604,
+                    "end": 633,
+                    "text": "(Morris and Kretzschmar 1997;",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 634,
+                    "end": 656,
+                    "text": "Black and Singer 1987)",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The importance of developing useful models of infectious disease dynamics became abundantly clear in 2001 when five anthrax-laced letters were mailed to prominent senators and to media outlets, killing five people. Worries about bioterrorism led to increased federal spending and the expansion of federal agencies focused on protecting the public. The 9/11 attacks prompted then Vice President Cheney to propose vaccinating the entire population of the USA against smallpox. An NIH-sponsored forum held in 2001 concluded that models could be of great value in assessing the outcomes of Cheney's and other strategies to reduce the threat of a smallpox attack (Kaplan et al. 2002; Halloran et al. 2002; Ferguson et al. 2003; Eubank 2004; Gani and Leach 2001) .There was both optimism and skepticism about how, when, and whether modeling could be a useful tool for informing policy decisions.",
+            "cite_spans": [
+                {
+                    "start": 658,
+                    "end": 678,
+                    "text": "(Kaplan et al. 2002;",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 679,
+                    "end": 700,
+                    "text": "Halloran et al. 2002;",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 701,
+                    "end": 722,
+                    "text": "Ferguson et al. 2003;",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 723,
+                    "end": 735,
+                    "text": "Eubank 2004;",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 736,
+                    "end": 756,
+                    "text": "Gani and Leach 2001)",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "As a result, the NIH National Institute for General Medical Sciences launched, in 2004, the Models of Infectious Disease Agent Study (MIDAS) to develop computational and mathematical models. An unusual clause in the MIDAS cooperative agreements stipulated that in the event of a national infectious disease emergency, the researchers would devote their attention to providing decision support to the Department of Health and Human Services. Then, as now, the emergence of a novel, highly lethal strain of influenza was perceived to be an imminent threat. MIDAS researchers prepared for their possible roles in an emergency by studying two questions of interest to pandemic preparedness planners:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "1. In the event of an outbreak in, for example, Southeast Asia, should we commit our resources to containing the outbreak there, or should we reserve them to mitigate its eventual spread to the USA? (Ferguson et al. 2005; Longini et al. 2005 ). 2. Given limited supplies of antivirals, how effective would a strategy of targeted, layered containment (TLC) be in controlling an epidemic in the USA until a vaccine could be developed? (Halloran et al. 2008) . Targeted, layered containment refers to implementation of several interventions that are individually ineffective, but potentially effective together.",
+            "cite_spans": [
+                {
+                    "start": 199,
+                    "end": 221,
+                    "text": "(Ferguson et al. 2005;",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 222,
+                    "end": 241,
+                    "text": "Longini et al. 2005",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 433,
+                    "end": 455,
+                    "text": "(Halloran et al. 2008)",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Three modeling groups examined these questions and came to similar conclusions. The model that Imperial College developed was used as the basis for the recent analysis of the dynamics of SARS-CoV-2, the viral agent that causes COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The results of these two studies were promising, but somewhat controversial at the time. The first study indicated that containment at the source was likely to succeed if outbreaks were detected early enough. Although the necessary global surveillance system did not exist, it seemed feasible. The TLC study indicated that a combination of thorough case detection and quarantine with isolation of contacts, careful targeting of antivirals, and aggressive social distancing measures adopted sufficiently early in an outbreak could, with high probability, slow the spread of disease enough so that health care resources would not be overwhelmed before sufficient quantities of pharmaceuticals could be manufactured and distributed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Controversy centered on the feasibility of implementing aggressive social distancing measures, which included self-isolation, quarantine, and liberal leave policies at work. A 2004 Institute of Medicine panel considered the question, reaching equivocal conclusions, including that existing models were very promising but inadequate, at that time, to determine the impact of widespread social distancing measures (Mahmoud 2006; Hatchett et al. 2007; Markel et al. 2008) .",
+            "cite_spans": [
+                {
+                    "start": 412,
+                    "end": 426,
+                    "text": "(Mahmoud 2006;",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 427,
+                    "end": 448,
+                    "text": "Hatchett et al. 2007;",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 449,
+                    "end": 468,
+                    "text": "Markel et al. 2008)",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "What's different now? Significantly, models have become more sophisticated, both computationally and in their relevance to policy decisions. The TLC models and results are certainly applicable to the current COVID-19 outbreak, although there are important differences:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "\u2022 Not only is no vaccine available for SARS-CoV-2, but also no existing antivirals are known to be effective in treating illness or reducing transmissibility. The social distancing part of TLC is the only part relevant to the current COVID-19 epidemic. \u2022 Unlike the influenza virus, SARS-CoV-2 is an emerging pathogen, not a novel variant of a well-known human pathogen. This has implications for public perceptions, development of diagnostic tests, and medical countermeasures. Moreover, the demographics of the illness, such as variations in the severity of illness, from asymptomatic to those requiring ventilator support, are almost unknown. \u2022 The organization of society is rapidly changing due to near-universal access to high-bandwidth telecommunications and social media, affecting both the ability to communicate how to implement social distancing correctly and the dissemination of false information.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "A beneficial result of these differences is that social distancing measures whose practicality was suspect then have been widely adopted today even in the absence of-or sometimes in opposition to-official guidance. School closings, community programs to support vulnerable people, state and county policies to require social distancing, as well as business and government support for telecommuting are widespread around the world.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Unfortunately, the lack of testing capacity and our poor understanding of variations in the severity of illness have made early case detection, isolation of infectious people, and quarantine of their contacts impossible. Thus, the brunt of suppressing COVID-19 falls on social distancing and the associated efforts to manage and control individual and population behaviors. There is no doubt that sufficient social distancing can suppress an outbreak of a droplet-borne respiratory disease. However, there is also no doubt that society could not continue to function if everyone withdrew to the home for the several weeks necessary for complete suppression. Indeed, the very notion of a society assumes that personal survival does not depend solely on individual decisions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The Imperial College study addresses the question: If complete suppression is not feasible, what is the best strategy combining incomplete suppression and control that is feasible and leads to acceptable outcomes? The authors consider a strategy which cycles between maximum and minimum social distancing. Their most important assumptions are about the effectiveness of social distancing for reducing the reproductive number, the rate of case ascertainment, and the amount of infection before detection. The Imperial team, as usual, has taken great care to calibrate parameters of the disease model. To be sure, calibration has been hampered by the lack of testing, especially our poor understanding of the prevalence of asymptomatic infection, but the Imperial College team makes reasonable assumptions. However, the model's reliance on a simplified picture of social interactions limits its extensibility to counterfactuals. The general nature of conclusions based on such a model can be expected to be similar to those of a simple compartmental model.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The Imperial team's results are bleak, but they are consistent with other models that make similar assumptions (medRxiv 2020). The TLC study did not consider how and when to lift intervention measures, so the questions addressed by this study demonstrate important progress. They appear to have been influential in convincing policy-makers in the UK and the USA of the threat posed by COVID-19. They have stimulated discussion of novel mitigation strategies, although, once again, there is skepticism about the feasibility of on-again and off-again interventions. Such strategies not only depend on effective communication and adherence, but also on the premise of zero delay between sensing (e.g., ICU occupancy) and reacting (social distancing). The natural delay between imposing restrictions and seeing a drop in confirmed cases (as seen in Wuhan) will create social hysteresis loops. Also, it will be difficult for most officials to relax controls in the certain knowledge that many people will be infected.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Despite the progress, one must ask: Why we are still using models developed 15-20 years ago?",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The timely nexus of the MIDAS program, commodity high-performance computing, the development of network science as a recognizable discipline, and the widespread adoption of distributed sensors like mobile GPS devices (a.k.a. smart phones) led to a burgeoning interest in epidemiological modeling. Individual-based models provide a high-resolution, mechanistic explanation of the reproductive number that can support principled modeling of the impacts of hypothetical social distancing strategies. However, marshalling the available evidence into a scalable, customizable model that is easy for non-computer specialists to use and that addresses a wide range of questions about a variety of strategies remains a challenge. Only a few of the existing efforts in this area have so far been able to bring the most powerful models to bear on COVID-19, but there are indications that more will be available in the coming days.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "MIDAS is still in existence as of this writing, though the emergency clause has been dropped from its charter. The program has successfully nucleated a consortium of collaborating epidemiological modelers accustomed to playing an active role in decision support (Lofgren et al. 2014 ). CDC has now reached out to a stable of modelers to develop well-characterized models that inform CDC's policy decisions. Contagions of all sorts-economic, social, and infectious disease-are among the most urgent issues of our time. The government should re-emphasize research into contagion in its sociotechnical context in a renewed, invigorated, and broadened MIDAS-style thrust for the future.",
+            "cite_spans": [
+                {
+                    "start": 262,
+                    "end": 282,
+                    "text": "(Lofgren et al. 2014",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "An examination of the Reed-Frost theory of epidemics",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Abbey",
+                    "suffix": ""
+                }
+            ],
+            "year": 1952,
+            "venue": "Hum Biol",
+            "volume": "24",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "A threshold theorem for the Reed-Frost chain-binomial epidemic",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ball",
+                    "suffix": ""
+                }
+            ],
+            "year": 1983,
+            "venue": "J Appl Probab",
+            "volume": "20",
+            "issn": "1",
+            "pages": "153--157",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Elaboration versus simplification in refining mathematical models of infectious disease",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Black",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Singer",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "Annu Rev Microbiol",
+            "volume": "41",
+            "issn": "1",
+            "pages": "677--701",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Modelling disease outbreaks in realistic urban social networks",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Eubank",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Guclu",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Kumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Marathe",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Srinivasan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Toroczkai",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Nature",
+            "volume": "429",
+            "issn": "6988",
+            "pages": "180--184",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Planning for smallpox outbreaks",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ferguson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Keeling",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Edmunds",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gani",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Grenfell",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Leach",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Nature",
+            "volume": "425",
+            "issn": "6959",
+            "pages": "681--685",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Strategies for containing an emerging influenza pandemic in Southeast Asia",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ferguson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Cummings",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cauchemez",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fraser",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Riley",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Meeyai",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Iamsirithaworn",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Burke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Nature",
+            "volume": "437",
+            "issn": "7056",
+            "pages": "209--214",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Impact of non-pharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ferguson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Laydon",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Nedjati-Gilani",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Imai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ainslie",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Baguelin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bhatia",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Boonyasiri",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cucunub\u00e1",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Cuomo-Dannenburg",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Dighe",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Response Team",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Transmission potential of smallpox in contemporary populations",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gani",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Leach",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Nature",
+            "volume": "414",
+            "issn": "6865",
+            "pages": "748--751",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Containing bioterrorist smallpox",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Halloran",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Longini",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nizam",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Science",
+            "volume": "298",
+            "issn": "5597",
+            "pages": "1428--1432",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Modeling targeted layered containment of an influenza pandemic in the United States",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Halloran",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ferguson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Eubank",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Longini",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Cummings",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Lewis",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fraser",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vullikanti",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Germann",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wagener",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Proc Natl Acad Sci",
+            "volume": "105",
+            "issn": "12",
+            "pages": "4639--4644",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Public health interventions and epidemic intensity during the 1918 influenza pandemic",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hatchett",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Mecher",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lipsitch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Proc Natl Acad Sci",
+            "volume": "104",
+            "issn": "18",
+            "pages": "7582--7587",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "ed) Frontiers in mathematical biology",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Hethcote",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "504--515",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Emergency response to a smallpox attack: the case for mass vaccination",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kaplan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Craft",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Wein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Proc Natl Acad Sci",
+            "volume": "99",
+            "issn": "16",
+            "pages": "10935--10940",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Opinion: mathematical models: a key tool for outbreak response",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Lofgren",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Halloran",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rivers",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Drake",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Porco",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Lewis",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vespignani",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shaman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Eisenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Eisenberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Proc Natl Acad Sci",
+            "volume": "111",
+            "issn": "51",
+            "pages": "18095--18096",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Containing pandemic influenza at the source",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Longini",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nizam",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Ungchusak",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Hanshaoworakul",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Cummings",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Halloran",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Science",
+            "volume": "309",
+            "issn": "5737",
+            "pages": "1083--1087",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Modeling community containment for pandemic influenza: a letter report. Committee on modeling community containment for pandemic influenza",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mahmoud",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Woodward award: non-pharmaceutical interventions employed by major American cities during the 1918-19 influenza pandemic",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Markel",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Stern",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Cetron",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Theodore",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Trans Am Clin Climatol Assoc",
+            "volume": "119",
+            "issn": "",
+            "pages": "138--142",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "medRxiv, the preprint server for health sciences (2020) COVID-19 SARS-CoV-2 preprints from medRxiv and bioRxiv",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Concurrent partnerships and the spread of HIV",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Morris",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kretzschmar",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Aids",
+            "volume": "11",
+            "issn": "5",
+            "pages": "641--648",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {},
+    "back_matter": []
+}
